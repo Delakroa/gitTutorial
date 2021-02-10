@@ -161,5 +161,15 @@
 # • Внимательно просмотрите результаты. Убедитесь в том, что вы понимаете, почему
 # результат каждой строки равен True или False.
 # • Создайте как минимум 10 условий. Не менее 5 должны давать результат True,
-# а не менее
-# 5 других — результат False.
+# а не менее 5 других — результат False.
+
+# car = 'subaru'
+# print("Is car == 'subaru'? I predict True.")
+# print(car == 'subaru')
+# print("\nIs car == 'audi'? I predict False.")
+# print(car == 'audi')
+
+
+cars = 'mazda'
+print("car == 'mazda'? Я предсказываю True.")
+print("\nIs car == 'audi'? Я предсказываю False.")
