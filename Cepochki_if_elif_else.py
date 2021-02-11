@@ -310,14 +310,24 @@
 # имя 'John’ уже используется, в регистрации имени ‘JOHN’ следует отказать.
 # стр. 99
 
-current_users = ['Denis', 'Mark', 'Admin', 'Abraham', 'Oleg']
-new_users = ['Denis', 'Mark', 'Alex', 'Oleg', 'Admin', 'Marina']
-for new_user in new_users:
-    if new_user in current_users:
-        print('Необходимо выбрать новое имя ' + new_user + '.')
-else:
-    print('имя доступно ' + new_user + '.')
-print('\nВы авторизованны ' + new_user + '.')
+# current_users = ['Denis', 'Mark', 'Admin', 'Abraham', 'Oleg']
+# new_users = ['Denis', 'Mark', 'Alex', 'Oleg', 'Admin', 'Marina']
+# for new_user in new_users:
+#     if new_user in current_users:
+#         print('Необходимо выбрать новое имя ' + new_user + '.')
+# else:
+#     print('имя доступно ' + new_user + '.')
+# print('\nВы авторизованны ' + new_user + '.')
 
 
 # разобратся почему не проходит имя Alex
+
+
+# 5-11. Порядковые числительные: порядковые числительные в английском языке заканчива-
+# ются суффиксом th (кроме 1st, 2nd и 3rd).
+# • Сохраните числа от 1 до 9 в списке.
+# • Переберите элементы списка.
+# • Используйте цепочку if-elif-else в цикле для вывода правильного окончания числи-
+# тельного для каждого числа. Программа должна выводить числительные «1st 2nd 3rd
+# 4th 5th 6th 7th 8th 9th», причем каждый результат должен располагаться в отдельной
+# строке.
