@@ -332,13 +332,13 @@
 # 4th 5th 6th 7th 8th 9th», причем каждый результат должен располагаться в отдельной
 # строке.
 
-list_of_numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
-for list_of_number in list_of_numbers:
-    if list_of_number == '1':
-        print(list_of_number + 'st')
-    elif list_of_number == '2':
-        print(list_of_number + 'nd')
-    elif list_of_number == '3':
-        print(list_of_number + 'rd')
-    else:
-        print(list_of_number + 'th')
+# list_of_numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+# for list_of_number in list_of_numbers:
+#     if list_of_number == '1':
+#         print(list_of_number + 'st')
+#     elif list_of_number == '2':
+#         print(list_of_number + 'nd')
+#     elif list_of_number == '3':
+#         print(list_of_number + 'rd')
+#     else:
+#         print(list_of_number + 'th')
