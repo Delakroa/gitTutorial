@@ -222,8 +222,7 @@
 # }
 # for name in favorite_languages.keys():  # На самом деле перебор ключей используется по умолчанию при переборе
 #     print(name.title())                 # словаря,так что этот код будет работать точно так же,
-                                        # как если бы вы написали for name in favorite_languages:
-
+# как если бы вы написали for name in favorite_languages:
 
 
 # favorite_languages = {
@@ -237,4 +236,35 @@
 #     print(name.title())
 #     if name in friends:
 #         print(" Хай " + name.title() + ", я вижу твой любимый язык " + favorite_languages[name].title() + "!")
+
+# Метод keys() также может использоваться для проверки того, участвовал ли кон-
+# кретный человек в опросе:
+
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'ruby',
+#     'phil': 'python',
+# }
+# if 'erin' not in favorite_languages.keys():  # строка 
+#     print("Erin, пожалуйста примите участие в нашем опросе!")
+# Метод keys() не ограничивается перебором: он возвращает список всех ключей,
+# и строка  просто проверяет, входит ли ключ 'erin' в список. Так как ключ в спи-
+# ске отсутствует, программа выводит сообщение:
+# Erin, please take our poll!
+
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'ruby',
+#     'phil': 'python',
+# }
+# for name in sorted(favorite_languages.keys()):
+#     print(name.title() + ", спасибо что учавствовали в опросе.")
+#
+# Эта команда for не отличается от других команд for, если не считать того, что
+# метод dictionary.keys() заключен в вызов функции sorted(). Эта конструкция
+# приказывает Python выдать список всех ключей в словаре и отсортировать его
+# перед тем, как перебирать элементы. В выводе перечислены все пользователи,
+# участвовавшие в опросе, а их имена упорядочены по алфавиту:
 
