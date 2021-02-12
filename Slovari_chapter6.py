@@ -195,3 +195,46 @@
 #     print("Value " + value)
 #     print(key, ":", value)
 
+# Ещё один пример:
+
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'ruby',
+#     'phil': 'python'
+# }
+# for name, language in favorite_languages.items():
+#     print(name.title() + " любимый язык " + language.title() + ".")
+
+# ------------------------------------------------------------------------------------------------------------------
+
+# Перебор всех ключей в словаре:
+
+# Метод keys() удобен в тех случаях, когда вы не собираетесь работать со всеми
+# значениями в словаре. Переберем словарь favorite_languages и выведем имена
+# всех людей, участвовавших в опросе:
+
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'ruby',
+#     'phil': 'python',
+# }
+# for name in favorite_languages.keys():  # На самом деле перебор ключей используется по умолчанию при переборе
+#     print(name.title())                 # словаря,так что этот код будет работать точно так же,
+                                        # как если бы вы написали for name in favorite_languages:
+
+
+
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'ruby',
+#     'phil': 'python',
+# }
+# friends = ['phil', 'sarah']
+# for name in favorite_languages.keys():
+#     print(name.title())
+#     if name in friends:
+#         print(" Хай " + name.title() + ", я вижу твой любимый язык " + favorite_languages[name].title() + "!")
+
