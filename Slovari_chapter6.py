@@ -344,4 +344,3 @@ rivers = {
 }
 for key, value in rivers.items():
     print(key.title() + ":" + ' протекает через ' + value.title() + ".")
-# print('Нил проходит через Египет')
