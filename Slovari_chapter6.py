@@ -352,3 +352,15 @@
 # • Переберите список людей, которые должны участвовать в опросе. Если они уже прош-
 # ли опрос, выведите сообщение с благодарностью за участие. Если они еще не про-
 # ходили опрос, выведите сообщение с предложением принять участие.
+
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+}
+favorite_language = ['dmitry', 'oleg', 'andriu']
+
+for name in favorite_languages:
+    if name =['jen': 'python', 'sarah': 'c', 'edward': 'ruby', 'phil': 'python']:
+    print('спасибо за участие ' + favorite_language + '.')
