@@ -353,14 +353,15 @@
 # ли опрос, выведите сообщение с благодарностью за участие. Если они еще не про-
 # ходили опрос, выведите сообщение с предложением принять участие.
 
-favorite_languages = {
-    'jen': 'python',
-    'sarah': 'c',
-    'edward': 'ruby',
-    'phil': 'python',
-}
-favorite_language = ['dmitry', 'oleg', 'andriu']
 
-for name in favorite_languages:
-    if name =['jen': 'python', 'sarah': 'c', 'edward': 'ruby', 'phil': 'python']:
-    print('спасибо за участие ' + favorite_language + '.')
+favorite_languages = ['jen', 'sarah', 'edward', 'phil']
+list_of_names = ['dmitry', 'volodia', 'oleg', 'denchik']
+for favorite_language in favorite_languages:
+    if favorite_language:
+        print('спасибо за участие ' + favorite_language.title() + '.')
+else:
+    for list_of_name in list_of_names:  # никогда так не делал, не знаю правилно ли
+        print('не хотели бы вы принять участие ' + str(list_of_name) + '.')
+
+# ХЗ ПРАВИЛЬНО ЛИ. ВЫГЛЯДИТ СТРАННО, НО РАБОТАЕТ
+# НУЖНО ПРОКОНСУЛЬТИРОВАТЬСЯ У СПЕЦОВ.

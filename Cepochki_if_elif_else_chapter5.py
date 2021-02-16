@@ -310,14 +310,14 @@
 # имя 'John’ уже используется, в регистрации имени ‘JOHN’ следует отказать.
 # стр. 99
 
-# current_users = ['Denis', 'Mark', 'Admin', 'Abraham', 'Oleg']
-# new_users = ['Denis', 'Mark', 'Alex', 'Oleg', 'Admin', 'Marina']
-# for new_user in new_users:
-#     if new_user in current_users:
-#         print('Необходимо выбрать новое имя ' + new_user + '.')
-# else:
-#     print('имя доступно ' + new_user + '.')
-# print('\nВы авторизованны ' + new_user + '.')
+current_users = ['Denis', 'Mark', 'Admin', 'Abraham', 'Oleg']
+new_users = ['Denis', 'Mark', 'Alex', 'Oleg', 'Admin', 'Marina']
+for new_user in new_users:
+    if new_user in current_users:
+        print('Необходимо выбрать новое имя ' + new_user + '.')
+else:
+    print('имя доступно ' + new_user + '.')
+print('\nВы авторизованны ' + new_user + '.')
 
 
 # разобратся почему не проходит имя Alex
