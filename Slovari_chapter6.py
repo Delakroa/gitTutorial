@@ -424,3 +424,20 @@
 # выводится длина списка (для демонстрации того, что программа действительно
 # сгенерировала весь флот из 30 пришельцев):
 
+aliens = []
+for vrem_alien in range(30):
+    new_alien = {'color': 'green', 'point': 5, 'speed': 'slow'}
+    aliens.append(new_alien)
+for alien in aliens[3:6]:
+    if alien['color'] == 'green':
+        alien['color'] = 'yellow',
+        alien['speed'] = 'medium',
+        alien['point'] = 10
+    elif alien['color'] == 'yellow':  # не понятно почему не заменяется на красный?
+        alien['color'] = 'red',
+        alien['speed'] = 'fast',
+        alien['point'] = 15
+for alien in aliens[0:11]:
+    print(alien)
+print("...")
+print('\nобщее \nколичество \nпришельцев \n' + str(len(aliens)))
