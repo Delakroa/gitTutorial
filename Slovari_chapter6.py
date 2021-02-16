@@ -424,20 +424,42 @@
 # выводится длина списка (для демонстрации того, что программа действительно
 # сгенерировала весь флот из 30 пришельцев):
 
-aliens = []
-for vrem_alien in range(30):
-    new_alien = {'color': 'green', 'point': 5, 'speed': 'slow'}
-    aliens.append(new_alien)
-for alien in aliens[3:6]:
-    if alien['color'] == 'green':
-        alien['color'] = 'yellow',
-        alien['speed'] = 'medium',
-        alien['point'] = 10
-    elif alien['color'] == 'yellow':  # не понятно почему не заменяется на красный?
-        alien['color'] = 'red',
-        alien['speed'] = 'fast',
-        alien['point'] = 15
-for alien in aliens[0:11]:
-    print(alien)
-print("...")
-print('\nобщее \nколичество \nпришельцев \n' + str(len(aliens)))
+# aliens = []
+# for vrem_alien in range(30):
+#     new_alien = {'color': 'green', 'point': 5, 'speed': 'slow'}
+#     aliens.append(new_alien)
+# for alien in aliens[3:6]:
+#     if alien['color'] == 'green':
+#         alien['color'] = 'yellow',
+#         alien['speed'] = 'medium',
+#         alien['point'] = 10
+#     elif alien['color'] == 'yellow':  # не понятно почему не заменяется на красный?
+#         alien['color'] = 'red',
+#         alien['speed'] = 'fast',
+#         alien['point'] = 15
+# for alien in aliens[0:11]:
+#     print(alien)
+# print("...")
+# print('\nобщее \nколичество \nпришельцев \n' + str(len(aliens)))
+
+# --------------------------------------------------------------------------------------------------------------------
+
+# СПИСОК В СЛОВАРЕ:
+
+# pizza = {  # сохраним информацию о заказе
+#     'crust': 'thick',
+#     'toppings': ['mushrooms', 'extra cheese'],
+# }
+# print('вы заказали ' + pizza['crust'] + '-crust pizza ' + 'со следующими начинками:')  # Описание заказа.
+# for topping in pizza['toppings']:
+#     print('\t' + topping)
+
+
+# Вложение списка в словарь может применяться каждый раз, когда с одним ключом
+# словаря должно быть связано более одного значения. Если бы в предыдущем при-
+# мере с языками программирования ответы сохранялись в списке, один участник
+# опроса мог бы выбрать сразу несколько любимых языков. При переборе словаря
+# значение, связанное с каждым человеком, представляло бы собой список языков
+# (вместо одного языка.) В цикле for словаря создается другой цикл для перебора
+# списка языков, связанных с каждым участником:
+
