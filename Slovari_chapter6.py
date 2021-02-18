@@ -621,7 +621,7 @@ favorite_places = {
 }
 for favorite_place, discription in favorite_places.items():
     names = discription['имя'] + ' ' + discription['фамилия']
-    print("\nданные: " + names.title())
+    print("\nданные друзей: " + names.title())
     print("любимое место: " + str(discription['любимое место']))
 
 
