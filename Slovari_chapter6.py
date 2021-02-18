@@ -590,6 +590,6 @@ pets = {
     },
 }
 for name_pets, name_owner in pets.items():
-    print('\nкличка животного: ' + name_pets.title())
-    print('вид животного: ' + name_owner['вид животного'].title() + '\nвладелец зверюги: ' +
+    print('\nКличка животного: ' + name_pets.title())
+    print('Вид животного: ' + name_owner['вид животного'].title() + '\nВладелец зверюги: ' +
           name_owner['имя владельца'].title())
