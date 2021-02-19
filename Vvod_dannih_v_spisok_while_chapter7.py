@@ -218,4 +218,13 @@
 
 # Команда break и выход из цикла
 
+prompt = "\nПожалуйста, введите название города, который бы вы хотели посетили: "
+prompt += "\n(Когда закончите, введите 'quit'.)"
 
+while True:
+    city = input(prompt)
+
+    if city == 'quit':
+        break
+    else:
+        print("Я бы хотел пойти в " + city.title() + '!')
