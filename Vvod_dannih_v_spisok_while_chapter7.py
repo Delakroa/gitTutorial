@@ -405,11 +405,11 @@ polling_activate = True  # установить флаг продолжения 
 
 while polling_activate:
     name = input("\nКак твоё имя? ")  # Запрос имени и ответа пользователя.
-    responses = input("На какую гору ты когда-нибудь захочешь подняться? ")
-    responses[name] = responses  # Ответ сохраняется в словаре:
+    response = input("На какую гору ты когда-нибудь захочешь подняться? ")
+    responses[name] = response  # Ответ сохраняется в словаре:
     repeat = input("Вы бы хотели, чтобы другой человек ответил? (yes/no) ")
     if repeat == 'no':  # Проверка продолжения опроса.
         polling_activate = False
-    print("\n---Poll Results---")  # Опрос завершён, вывести результат.
-    for name, response in responses:
-        print(name + " would like to climb " + responses + ".")
+    print("\n---Результаты опроса---")  # Опрос завершён, вывести результат.
+    for name, response in responses.items():
+        print(name + " хотел бы подняться " + response + ".")
