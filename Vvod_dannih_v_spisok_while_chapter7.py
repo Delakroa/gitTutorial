@@ -305,13 +305,12 @@ ages = "\t\tВведите ваш возраст:\n "
 ages += "(Для выхода из программы, введите 'quit')"
 
 
-active = True
-while active:
+while True:
 
     age = input(ages)
 
     if str(age) == 'quit':
-        active = False
+        break
     elif int(age) < 3:
         print("\nДля " + str(age) + " лет. Стоимость прохода бесплатная \n")
     elif int(age) <= 12:
