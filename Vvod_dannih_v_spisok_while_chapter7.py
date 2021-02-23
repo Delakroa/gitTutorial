@@ -427,10 +427,9 @@
 sandwich_orders = ['колбасой', 'сыром', 'панини', 'крок-мадам']
 finished_sandwiches = []
 
-# sandwiches = True
-
 while sandwich_orders:
-    print(sandwich_orders)
+    sandwiches = sandwich_orders.pop()
+    print('Я сделал твой бутерброд с ' + sandwiches.title())
+    finished_sandwiches.append(sandwiches.title())
 
-
-    # Я сделал твой бутерброд с
+print('Мы приготовили сэндвичи: ' + str(finished_sandwiches).title())
