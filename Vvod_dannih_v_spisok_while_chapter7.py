@@ -432,4 +432,7 @@ while sandwich_orders:
     print('Я сделал твой бутерброд с ' + sandwiches.title())
     finished_sandwiches.append(sandwiches.title())
 
-print('Мы приготовили сэндвичи: ' + str(finished_sandwiches).title())
+print('\n')
+
+for finished_sandwiche in finished_sandwiches:
+    print('Мы приготовили сэндвичи: ' + finished_sandwiche)
