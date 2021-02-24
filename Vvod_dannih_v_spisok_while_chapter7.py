@@ -424,15 +424,35 @@
 # мещается в список finished_sandwiches. После того как все элементы первого списка будут
 # обработаны, выведите сообщение с перечислением всех изготовленных сэндвичей.
 
-sandwich_orders = ['колбасой', 'сыром', 'панини', 'крок-мадам']
+# sandwich_orders = ['колбасой', 'сыром', 'панини', 'крок-мадам']
+# finished_sandwiches = []
+#
+# while sandwich_orders:
+#     sandwiches = sandwich_orders.pop()
+#     print('Я сделал твой бутерброд с ' + sandwiches.title())
+#     finished_sandwiches.append(sandwiches.title())
+#
+# print('\n')
+#
+# for finished_sandwiche in finished_sandwiches:
+#     print('Мы приготовили сэндвичи: ' + finished_sandwiche)
+
+# -------------------------------------------------------------------------------------------------------------------
+
+# 7-9. Без пастрами: используя список sandwich_orders из упражнения 7-8, проследите за
+# тем, чтобы значение ‘pastrami’ встречалось в списке как минимум три раза. Добавьте в на-
+# чало программы код для вывода сообщения о том, что пастрами больше нет, и напишите
+# цикл while для удаления всех вхождений ‘pastrami’ из sandwich_orders. Убедитесь в том, что
+# в finished_sandwiches значение ‘pastrami’ не встречается ни одного раза.
+
+sandwich_orders = ['колбасой', 'pastrami', 'сыром', 'pastrami', 'панини', 'крок-мадам', 'pastrami']
 finished_sandwiches = []
+print('Показываем что список полный: ' + '\n' + str(sandwich_orders) + '\n')
 
-while sandwich_orders:
-    sandwiches = sandwich_orders.pop()
-    print('Я сделал твой бутерброд с ' + sandwiches.title())
-    finished_sandwiches.append(sandwiches.title())
+while 'pastrami' in sandwich_orders:
+    sandwich_orders.remove('pastrami')
+print('Смотрим что мы удалили слово по условию:' + '\n' + str(sandwich_orders) + '\n')
 
-print('\n')
-
-for finished_sandwiche in finished_sandwiches:
-    print('Мы приготовили сэндвичи: ' + finished_sandwiche)
+for sandwich in sandwich_orders:
+    finished_sandwiches.append(sandwich)
+print('Проверяем что переложили в другой список: ' + '\n' + str(finished_sandwiches))
