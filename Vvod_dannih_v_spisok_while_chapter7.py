@@ -462,3 +462,24 @@
 
 # 7-10. Отпуск мечты: напишите программу, которая опрашивает пользователей, где бы они
 # хотели провести отпуск. Включите блок кода для вывода результатов опроса.
+
+users = {}
+
+vacation = True
+
+while vacation:
+    name = input("Как ваше имя? ")
+    user = input(str(name).title() + " где бы вы хотели провести свой отпуск? ")
+    users[name] = user
+    repeat = input("Вы хотели задать вопрос кому то ещё? (yes/no) ")
+    if repeat == "no":
+        vacation = False
+print("\n\t---Результат Опроса---")
+
+for key, value in users.items():
+    print(str(key).title() + " хотел проверсти отпуск в " + str(value).title() + ".")
+
+
+
+
+
