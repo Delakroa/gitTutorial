@@ -228,10 +228,18 @@
 # и текстом. Вызовите функцию с использованием позиционных аргументов. Вызовите функ-
 # цию во второй раз с использованием именованных аргументов.
 
-def make_shirt(size, text):
-    """описание футболки"""
+# def make_shirt(size, text):
+#     """описание футболки"""
 
+# print('Размер моей футболки ' + size.title() + " с красивым текстом на ней " + text.title())
+
+
+# make_shirt('xxl', 'hello world')
+
+
+def make_shirt(size, text):
+    """именованный агрумент"""
     print('Размер моей футболки ' + size.title() + " с красивым текстом на ней " + text.title())
 
 
-make_shirt('xxl', 'helloy world')
+make_shirt(size='XXL', text='hello world')
