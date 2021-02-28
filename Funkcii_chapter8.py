@@ -237,9 +237,9 @@
 # make_shirt('xxl', 'hello world')
 
 
-def make_shirt(size, text):
-    """именованный агрумент"""
-    print('Размер моей футболки ' + size.title() + " с красивым текстом на ней " + text.title())
+# def make_shirt(size, text):
+#     """именованный агрумент"""
+#     print('Размер моей футболки ' + size.title() + " с красивым текстом на ней " + text.title())
 
 
-make_shirt(size='XXL', text='hello world')
+# make_shirt(size='XXL', text='hello world')
