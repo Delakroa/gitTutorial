@@ -449,7 +449,7 @@ def get_formatted_name(first_name, last_name):
 
 while True:
     print("\nПожалуйста скажи мне своё имя: ")
-    print("(Введите 'q'в любое время что бы выйти ")
+    print("(Введите 'q'в любое время что бы выйти) ")
 
     f_name = input("Имя: ")
     if f_name == "q":
