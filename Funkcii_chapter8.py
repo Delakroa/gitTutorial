@@ -266,12 +266,24 @@
 # дайте параметру страны значение по умолчанию. Вызовите свою функцию для трех разных
 # городов, по крайней мере один из которых не находится в стране по умолчанию.
 
-def discribe_city(city, country):
-    """описание города"""
-    print('Город ' + city.title() + ' находится в ' + country.title() + ';')
+# def discribe_city(city, country):
+#     """описание города"""
+#     print('Город ' + city.title() + ' находится в ' + country.title() + ';')
 
 
-discribe_city(city='тверь', country='россии')
-discribe_city(city='берлин', country='германии')
-discribe_city(city='рим', country='италии')
+# discribe_city(city='тверь', country='россии')
+# discribe_city(city='берлин', country='германии')
+# discribe_city(city='рим', country='италии')
 
+# -------------------------------------------------------------------------------------------------------------------
+
+# Возвращаемое значение
+
+def get_formatted_name(first_name, last_name):
+    """Возвращает аккуратно отформатированныое имя."""
+    full_name = first_name + ' ' + last_name
+    return full_name.title()
+
+
+musician = get_formatted_name('jimi', 'hendrix')
+print(musician)
