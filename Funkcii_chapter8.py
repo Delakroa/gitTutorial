@@ -470,13 +470,10 @@
 # свою функцию по крайней мере для трех пар «город—страна» и выведите возвращенное
 # значение.
 
-def city_country(city, country, cico_1="",cico_2=""):
+def city_country(city, country, cico_1=""):
     """Вывод возвращённого значения"""
     if cico_1:
         description = city + " " + country + " " + cico_1
-        return description.title()
-    elif cico_2:
-        description = city + " " + country + " " + cico_2
         return description.title()
     else:
         description = city + " " + country
