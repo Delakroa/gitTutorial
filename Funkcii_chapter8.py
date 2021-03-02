@@ -523,6 +523,22 @@
 # словарь. Не забудьте предусмотреть признак завершения в цикле while.
 
 
-def make_album(artist, album_title, number_of_lines=""):
+def make_album(artist, album_title):
     """Цикл while"""
-    description_of_the_artis =
+    description_of_the_artis = {"Имя исполнителя": artist, "Название альбома": album_title}
+    return description_of_the_artis
+
+
+while True:
+    print("\nПожалуйста введите имя исполнителя и название альбома:")
+    print("(Для выхода в любое время нажмите 'q')\n")
+
+    name = input("Введите имя испольнителя: ")
+    if name == 'q':
+        break
+
+    name_album = input("Введите название альбома: ")
+    if name_album == 'q':
+        break
+    formatted_name = make_album(name, name_album)
+    print(formatted_name)
