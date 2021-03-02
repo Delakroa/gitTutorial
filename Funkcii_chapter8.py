@@ -470,21 +470,59 @@
 # свою функцию по крайней мере для трех пар «город—страна» и выведите возвращенное
 # значение.
 
-def city_country(city, country, cico_1=""):
-    """Вывод возвращённого значения"""
-    if cico_1:
-        description = city + " " + country + " " + cico_1
-        return description.title()
-    else:
-        description = city + " " + country
-        return description.title()
+# def city_country(city, country, ):
+#     """Вывод возвращённого значения"""
+#     description = city + " " + country
+#     return description.title()
 
 
-full_description = city_country('santiago', 'chile')
-print(full_description)
+# full_description = city_country('santiago', 'chile')
+# print(full_description)
 
-full_description = city_country('moscow', 'russia',)
-print(full_description)
+# full_description = city_country('moscow', 'russia', )
+# print(full_description)
 
-full_description = city_country('wroclav', 'poland')
-print(full_description)
+# full_description = city_country('wroclav', 'poland')
+# print(full_description)
+
+# -------------------------------------------------------------------------------------------------------------------
+
+# 8-7. Альбом: напишите функцию make_album(), которая строит словарь с описанием му-
+# зыкального альбома. Функция должна получать имя исполнителя и название альбома
+# и возвращать словарь, содержащий эти два вида информации. Используйте функцию
+# для создания трех словарей, представляющих разные альбомы. Выведите все возвраща-
+# емые значения, чтобы показать, что информация правильно сохраняется во всех трех
+# словарях.
+# Добавьте в make_album() дополнительный параметр для сохранения количества дорожек
+# в альбоме. Если в строку вызова включено значение количества дорожек, добавьте это зна-
+# чение в словарь альбома. Создайте как минимум один новый вызов функции с передачей
+# количества дорожек в альбоме.
+
+# def make_album(artist, album_title, number_of_lines=""):
+#     """Возвращение словаря"""
+#     if number_of_lines:
+#         description_of_the_artis = {'Имя': artist, 'Название альбома': album_title, 'Кол-во дорожек': number_of_lines}
+#         return description_of_the_artis
+#     else:
+#         description_of_the_artis = {'Имя': artist, 'Название альбома': album_title,}
+#         return description_of_the_artis
+
+
+# full_info = make_album('кипелов', 'колизей')
+# print(full_info)
+# full_info = make_album('зизитоп', 'ад')
+# print(full_info)
+# full_info = make_album('филип', 'фиолетовый', 16)
+# print(full_info)
+
+# --------------------------------------------------------------------------------------------------------------------
+
+# 8-8. Пользовательские альбомы: начните с программы из упражнения 8-7. Напишите цикл
+# while, в котором пользователь вводит исполнителя и название альбома. Затем в цикле вы-
+# зывается функция make_album() для введенных пользователей и выводится созданный
+# словарь. Не забудьте предусмотреть признак завершения в цикле while.
+
+
+def make_album(artist, album_title, number_of_lines=""):
+    """Цикл while"""
+    description_of_the_artis =
