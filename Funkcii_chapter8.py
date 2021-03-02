@@ -441,26 +441,53 @@
 # ше, так что в приглашении должен содержаться способ завершения. Команда break
 # позволяет немедленно прервать цикл при запросе любого из компонентов:
 
-def get_formatted_name(first_name, last_name):
-    """Возвращает аккуратно отформатированное полное имя."""
-    full_name = first_name + " " + last_name
-    return full_name.title()
+# def get_formatted_name(first_name, last_name):
+#     """Возвращает аккуратно отформатированное полное имя."""
+#     full_name = first_name + " " + last_name
+#     return full_name.title()
 
 
-while True:
-    print("\nПожалуйста скажи мне своё имя: ")
-    print("(Введите 'q'в любое время что бы выйти) ")
+# while True:
+#     print("\nПожалуйста скажи мне своё имя: ")
+#     print("(Введите 'q'в любое время что бы выйти) ")
+#
+#     f_name = input("Имя: ")
+#     if f_name == "q":
+#         break
 
-    f_name = input("Имя: ")
-    if f_name == "q":
-        break
+# l_name = input("Фамилия: ")
+# if l_name == "q":
+#     break
 
-    l_name = input("Фамилия: ")
-    if l_name == "q":
-        break
+# formatted_name = get_formatted_name(f_name, l_name)
+# print("\nПривет, " + formatted_name + "!")
 
-    formatted_name = get_formatted_name(f_name, l_name)
-    print("\nПривет, " + formatted_name + "!")
+# ---------------------------------------------------------------------------------------------------------------------
+
+# УПРАЖНЕНИЯ
+# 8-6. Названия городов: напишите функцию city_country(), которая получает название го-
+# рода и страну. Функция должна возвращать строку в формате “Santiago, Chile”. Вызовите
+# свою функцию по крайней мере для трех пар «город—страна» и выведите возвращенное
+# значение.
+
+def city_country(city, country, cico_1="",cico_2=""):
+    """Вывод возвращённого значения"""
+    if cico_1:
+        description = city + " " + country + " " + cico_1
+        return description.title()
+    elif cico_2:
+        description = city + " " + country + " " + cico_2
+        return description.title()
+    else:
+        description = city + " " + country
+        return description.title()
 
 
-# стр 146
+full_description = city_country('santiago', 'chile')
+print(full_description)
+
+full_description = city_country('moscow', 'russia',)
+print(full_description)
+
+full_description = city_country('wroclav', 'poland')
+print(full_description)
