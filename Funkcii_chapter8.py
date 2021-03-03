@@ -768,3 +768,5 @@ fokusniki = ["goodiny", "merlin", "walock"]
 pokazat_volshebnikov(fokusniki)
 print("\n")
 make_great(fokusniki)
+
+стр 151
