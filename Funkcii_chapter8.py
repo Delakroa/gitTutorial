@@ -722,25 +722,25 @@
 # фокусника приставку «Great». Вызовите функцию show_magicians() и убедитесь в том, что
 # список был успешно изменен.
 
-def show_magician(names):
-    """создание списка с фокусниками"""
-    for name in names:
-        fokus = name.title()
-        print(fokus)
+# def show_magician(names):
+#     """создание списка с фокусниками"""
+#     for name in names:
+#         fokus = name.title()
+#         print(fokus)
 
 
-def make_great(names_two):
-    """изменение списка фокусников"""
-    for name_three in names_two:
-        name_four = "Great " + name_three
-        print(name_four.title())
+# def make_great(names_two):
+#     """изменение списка фокусников"""
+#     for name_three in names_two:
+#         name_four = "Great " + name_three
+#         print(name_four.title())
 
 
-name_magicia = ["goodiny", "merlin", "walock"]
-print("Создание списка фокусников:")
-show_magician(name_magicia)
-print("\nИзменение списока фокусников:")
-make_great(name_magicia)
+# name_magicia = ["goodiny", "merlin", "walock"]
+# print("Создание списка фокусников:")
+# show_magician(name_magicia)
+# print("\nИзменение списока фокусников:")
+# make_great(name_magicia)
 
 # -------------------------------------------------------------------------------------------------------------------
 
@@ -751,7 +751,27 @@ make_great(name_magicia)
 # ске остались исходные имена, а в другом к имени каждого фокусника добавилась приставка
 # «Great».
 
-# def make_great(copy_names):
-#     """фокусники без изменений"""
-#
-# fokusniki = ["goodiny", "merlin", "walock"]
+def show_magician(names):
+    """создание списка с фокусниками"""
+    for name in names:
+        print(name.title())
+
+def make_great(names_magician):
+    """изменение списка фокусников"""
+    while names_magician:
+        great_name = name_magicia.pop()
+        name_1 = "Great " + great_name
+        new_magician.append(name_1)
+
+name_magicia = ["goodiny", "merlin", "walock"]
+new_magician = []
+print("Создание списка магов:")
+show_magician(name_magicia)
+print("\nГретуем магов: ")
+make_great(name_magicia)
+# print("Создание списка фокусников:")
+print("\nСоздаём новый список магов: ")
+show_magician(new_magician)
+# print("\nИзменение списока фокусников:")
+
+
