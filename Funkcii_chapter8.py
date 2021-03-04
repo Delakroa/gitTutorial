@@ -282,7 +282,6 @@
 # def get_formatted_name(first_name, last_name):  #1
 """Возвращает аккуратно отформатированныое имя."""
 
-
 # full_name = first_name + ' ' + last_name   #2
 # return full_name.title()  #3
 
@@ -537,11 +536,11 @@
 #     if name == 'q':
 #         break
 
-    # name_album = input("Введите название альбома: ")
-    # if name_album == 'q':
-    #     break
-    # formatted_name = make_album(name.title(), name_album.title())
-    # print(formatted_name)
+# name_album = input("Введите название альбома: ")
+# if name_album == 'q':
+#     break
+# formatted_name = make_album(name.title(), name_album.title())
+# print(formatted_name)
 
 
 # -------------------------------------------------------------------------------------------------------------------
@@ -595,9 +594,9 @@
 # После печати каждая модель перемещается в список completed_models.
 # while unprinted_designs:
 #     current_design = unprinted_designs.pop()
-    # печатает модель на 3D принтере
-    # print("Печатает модель: " + current_design.title())
-    # completed_models.append(current_design)
+# печатает модель на 3D принтере
+# print("Печатает модель: " + current_design.title())
+# completed_models.append(current_design)
 
 # Вывод всех готовых моделей.
 # print("\nБыли напечатаны следующие модели:")
@@ -616,9 +615,9 @@
 #     while napechatannii_dizain:
 #         tekushii_dizain = napechatannii_dizain.pop()
 
-        # Имитация печати модели на 3D-принтере.
-        # print("Печатает модель: " + tekushii_dizain.title())
-        # gotovie_modeli.append(tekushii_dizain)
+# Имитация печати модели на 3D-принтере.
+# print("Печатает модель: " + tekushii_dizain.title())
+# gotovie_modeli.append(tekushii_dizain)
 
 # def pokazat_gotovie_modeli(gotovie_modeli):   # 2
 #     """Выводит информацию обо всех напечатанных моделях."""
@@ -706,15 +705,15 @@
 # 8-9. Фокусники: создайте список с именами фокусников. Передайте список функции show_
 # magicians(), которая выводит имя каждого фокусника в списке.
 
-# def pokazat_volshebnikov (names):
+# def show_magician(names):
 #     """создание списка с фокусниками"""
 #     for name in names:
 #         fok = name.title()
 #         print(fok)
 
 
-# fokusniki = ["goodiny", "merlin", "walock"]
-# pokazat_volshebnikov(fokusniki)
+# name_magicia = ["goodiny", "merlin", "walock"]
+# show_magician(name_magicia)
 
 # --------------------------------------------------------------------------------------------------------------------
 
@@ -723,23 +722,25 @@
 # фокусника приставку «Great». Вызовите функцию show_magicians() и убедитесь в том, что
 # список был успешно изменен.
 
-# def pokazat_volshebnikov (names):
-#     """создание списка с фокусниками"""
-#     for name in names:
-#         fok = name.title()
-#         print(fok)
+def show_magician(names):
+    """создание списка с фокусниками"""
+    for name in names:
+        fokus = name.title()
+        print(fokus)
 
 
-# def make_great(names):
-#     """изменение списка фокусников"""
-#     for name in names:
-#         name_1 = "Great " + name
-#         print(name_1.title())
+def make_great(names_two):
+    """изменение списка фокусников"""
+    for name_three in names_two:
+        name_four = "Great " + name_three
+        print(name_four.title())
 
 
-# fokusniki = ["goodiny", "merlin", "walock"]
-# pokazat_volshebnikov(fokusniki)
-# make_great(fokusniki)
+name_magicia = ["goodiny", "merlin", "walock"]
+print("Создание списка фокусников:")
+show_magician(name_magicia)
+print("\nИзменение списока фокусников:")
+make_great(name_magicia)
 
 # -------------------------------------------------------------------------------------------------------------------
 
@@ -750,23 +751,7 @@
 # ске остались исходные имена, а в другом к имени каждого фокусника добавилась приставка
 # «Great».
 
-def pokazat_volshebnikov (names):
-    """создание списка с фокусниками"""
-    for name in names:
-        fok = name.title()
-        print(fok)
-
-
-def make_great(names):
-    """изменение списка фокусников"""
-    for name in names:
-        name_1 = "Great " + name
-        print(name_1.title())
-
-
-fokusniki = ["goodiny", "merlin", "walock"]
-pokazat_volshebnikov(fokusniki)
-print("\n")
-make_great(fokusniki)
-
-стр 151
+# def make_great(copy_names):
+#     """фокусники без изменений"""
+#
+# fokusniki = ["goodiny", "merlin", "walock"]
