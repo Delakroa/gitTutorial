@@ -282,6 +282,7 @@
 # def get_formatted_name(first_name, last_name):  #1
 """Возвращает аккуратно отформатированныое имя."""
 
+
 # full_name = first_name + ' ' + last_name   #2
 # return full_name.title()  #3
 
@@ -751,27 +752,26 @@
 # ске остались исходные имена, а в другом к имени каждого фокусника добавилась приставка
 # «Great».
 
-def show_magician(names):
-    """создание списка с фокусниками"""
-    for name in names:
-        print(name.title())
+# def show_magician(names):
+#     """создание списка с фокусниками"""
+#     for name in names:
+#         print(name.title())
 
-def make_great(names_magician):
-    """изменение списка фокусников"""
-    while names_magician:
-        great_name = name_magicia.pop()
-        name_1 = "Great " + great_name
-        new_magician.append(name_1)
+# def make_great(names_magician):
+#     """изменение списка фокусников"""
+#     while names_magician:
+#         great_name = name_magicia.pop()
+#         name_1 = ("Great " + great_name + "!")
+#         new_magician.append(name_1)
 
-name_magicia = ["goodiny", "merlin", "walock"]
-new_magician = []
-print("Создание списка магов:")
-show_magician(name_magicia)
-print("\nГретуем магов: ")
-make_great(name_magicia)
-# print("Создание списка фокусников:")
-print("\nСоздаём новый список магов: ")
-show_magician(new_magician)
-# print("\nИзменение списока фокусников:")
+# name_magicia = ["goodiny", "merlin", "walock"]
+# new_magician = []
+# print("Создание списка магов:")
+# print("\nГретуем магов: ")
+# print(make_great(name_magicia))
+# print("\nСоздаём новый список магов: ")
+# def show_magician(name_magicia)
 
+# Плохая задача, толком недоделал/ есть методы с которыми проще это сделать
+# --------------------------------------------------------------------------------------------------------------------
 
