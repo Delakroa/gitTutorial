@@ -230,9 +230,7 @@
 
 # def make_shirt(size, text):
 #     """описание футболки"""
-
 # print('Размер моей футболки ' + size.title() + " с красивым текстом на ней " + text.title())
-
 
 # make_shirt('xxl', 'hello world')
 
@@ -944,6 +942,7 @@
 #     return profile
 
 
+
 # user_profile = build_profile('slavik', 'bausman', location='tver', field='naladchik')
 # print(user_profile)
 
@@ -958,4 +957,22 @@
 # Выведите возвращаемый словарь и убедитесь в том, что вся информация была сохранена
 # правильно.
 
-def make_car(model_name,manufacturer, options)
+# def make_car(model_name,manufacturer, options)
+
+
+# c помощью команды update мы обьединяем два списка вместе
+
+names = {
+    'dmitry': 'khalikov',
+    'vova': 'rakhmanov',
+    'oleg': 'evseev',
+}
+
+new_names = {
+    'alex': 'latishev',
+    'nikola': 'novotorcev',
+}
+
+names.update(new_names)
+
+print(names)
