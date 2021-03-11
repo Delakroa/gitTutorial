@@ -960,19 +960,4 @@
 # def make_car(model_name,manufacturer, options)
 
 
-# c помощью команды update мы обьединяем два списка вместе
 
-names = {
-    'dmitry': 'khalikov',
-    'vova': 'rakhmanov',
-    'oleg': 'evseev',
-}
-
-new_names = {
-    'alex': 'latishev',
-    'nikola': 'novotorcev',
-}
-
-names.update(new_names)
-
-print(names)
