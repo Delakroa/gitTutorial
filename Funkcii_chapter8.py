@@ -942,7 +942,6 @@
 #     return profile
 
 
-
 # user_profile = build_profile('slavik', 'bausman', location='tver', field='naladchik')
 # print(user_profile)
 
@@ -957,7 +956,15 @@
 # Выведите возвращаемый словарь и убедитесь в том, что вся информация была сохранена
 # правильно.
 
-# def make_car(model_name,manufacturer, options)
+def make_car(model_name, manufacturer, **options):
+    """информация для автомобиля"""
+    machine_description = {}
+    machine_description['название машины'] = model_name
+    machine_description['производитель'] = manufacturer
+    for key, value in options.items():
+        machine_description[key] = value
+        return machine_description
 
 
-
+car = make_car('audi', 'внедорожник', options='печка', options_01='кондишен')
+print(car)
