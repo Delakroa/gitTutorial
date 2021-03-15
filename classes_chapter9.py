@@ -199,24 +199,60 @@
 # Создайте на основе своего класса экземпляр с именем restaurant. Выведите два атрибута по
 # отдельности, затем вызовите оба метода.
 
+# class Restaurant():
+#     """Создание ресторана."""
+
+# def __init__(self, restaurant_name, cuisine_type):
+#     """Инициализация атрибута restaurant_name, cuisine_type """
+#     self.restaurant_name = restaurant_name
+#     self.cuisine_type = cuisine_type
+
+# def describe_restaurant(self):
+#     """Описание ресторана."""
+#     print(self.cuisine_type.title() + " типичная кухня.")
+
+# def open_restaurant(self):
+#     """Открытие ресторана"""
+#     print(self.restaurant_name.title() + " ресторан открылся!")
+
+
+# restaurant = Restaurant("дикая роза", "русская народная кухня")
+# print("Название ресторана: " + restaurant.restaurant_name.title() + ".")
+# print("Очень вкусная " + restaurant.cuisine_type.title() + ".")
+# print(restaurant.restaurant_name.title() + " : " + restaurant.cuisine_type.title() + ".")
+
+# --------------------------------------------------------------------------------------------------------------------
+
+# 9-2. Три ресторана: начните с класса из упражнения 9-1. Создайте три разных экземпляра,
+# вызовите для каждого экземпляра метод describe_restaurant().
+
 class Restaurant():
     """Создание ресторана."""
 
-    def __init__(self, restaurant_name, cuisine_type):
+    def __init__(self, restaurant_name, cuisine_type, stile, attendance):
         """Инициализация атрибута restaurant_name, cuisine_type """
         self.restaurant_name = restaurant_name
         self.cuisine_type = cuisine_type
+        self.stile = stile
+        self.attendance = attendance
 
     def describe_restaurant(self):
         """Описание ресторана."""
-        print(self.cuisine_type.title() + " типичная кухня.")
+
+        print(self.cuisine_type.title() + " " + self.stile + " кол - во людей за день " + str(self.attendance))
 
     def open_restaurant(self):
         """Открытие ресторана"""
         print(self.restaurant_name.title() + " ресторан открылся!")
 
 
-restaurant = Restaurant("дикая роза", "русская народная кухня")
+restaurant = Restaurant("дикая роза", "типичная кухня", "стил итальянской ", 3000)
 print("Название ресторана: " + restaurant.restaurant_name.title() + ".")
 print("Очень вкусная " + restaurant.cuisine_type.title() + ".")
-print(restaurant.restaurant_name.title() + " : " + restaurant.cuisine_type.title() + ".")
+
+# class Restaurant():
+#     ...
+
+
+restaurant.describe_restaurant()
+restaurant.open_restaurant()
