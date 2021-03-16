@@ -238,21 +238,16 @@ class Restaurant():
 
     def describe_restaurant(self):
         """Описание ресторана."""
-
-        print(self.cuisine_type.title() + " " + self.stile + " кол - во людей за день " + str(self.attendance))
+        print(self.cuisine_type.title() + " " + self.stile + ", кол - во людей за день: " + str(self.attendance))
 
     def open_restaurant(self):
         """Открытие ресторана"""
-        print(self.restaurant_name.title() + " ресторан открылся!")
+        print("Добро пожаловать! Ресторан " + self.restaurant_name.title() + " открылся!")
 
 
-restaurant = Restaurant("дикая роза", "типичная кухня", "стил итальянской ", 3000)
+restaurant = Restaurant("дикая роза", "типичная кухня", "итальянской стилистики", 3000)
 print("Название ресторана: " + restaurant.restaurant_name.title() + ".")
 print("Очень вкусная " + restaurant.cuisine_type.title() + ".")
-
-# class Restaurant():
-#     ...
-
 
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
