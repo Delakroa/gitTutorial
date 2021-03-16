@@ -262,37 +262,116 @@
 # Создайте несколько экземпляров, представляющих разных пользователей. Вызовите оба
 # метода для каждого пользователя.
 
-class User():
-    """sozdanie polzovatelia"""
+# class User():
+#     """sozdanie polzovatelia"""
 
-    def __init__(self, first_name, last_name, age, sex):
-        """Инициализируем пользователя."""
-        self.first_name = first_name
-        self.last_name = last_name
-        self.age = age
-        self.sex = sex
+# def __init__(self, first_name, last_name, age, sex):
+#     """Инициализируем пользователя."""
+#     self.first_name = first_name
+#     self.last_name = last_name
+#     self.age = age
+#     self.sex = sex
 
-    def describe_user(self):
-        """Описание пользователя"""
-        summary_of_informations = ("Имя: " + self.first_name + "," + " Фамилия: " + self.last_name + "," + " Возраст: " +
-                                   str(self.age) + "," + " Пол: " + self.sex).title()
-        print(summary_of_informations)
+# def describe_user(self):
+#     """Описание пользователя"""
+#     summary_of_informations = ("Имя: " + self.first_name + "," + " Фамилия: " + self.last_name + "," + " Возраст: " +
+#                                str(self.age) + "," + " Пол: " + self.sex).title()
+#     print(summary_of_informations)
 
-    def greet_user(self):
-        """Приветствие пользователя"""
-        print("Приветствую вас! " + self.first_name.title() + " " + self.last_name.title())
+# def greet_user(self):
+#     """Приветствие пользователя"""
+#     print("Приветствую вас! " + self.first_name.title() + " " + self.last_name.title())
 
 
-print("\t****Описание пользователя:****")
-user_1 = User("vladimer", "rahmano", 32, "man")
-user_2 = User("dmitry", "halikov", 34, "man")
-user_3 = User("oleg", "evseev", 37, "man")
+# print("\t****Описание пользователя:****")
+# user_1 = User("vladimir", "rahmano", 32, "man")
+# user_2 = User("dmitry", "halikov", 34, "man")
+# user_3 = User("oleg", "evseev", 37, "man")
 
-user_1.describe_user()
-user_2.describe_user()
-user_3.describe_user()
-print("----------------------------------------------------------")
-print("\t****Приветствие пользователя:****")
-user_1.greet_user()
-user_2.greet_user()
-user_3.greet_user()
+# user_1.describe_user()
+# user_2.describe_user()
+# user_3.describe_user()
+# print("----------------------------------------------------------")
+# print("\t****Приветствие пользователя:****")
+# user_1.greet_user()
+# user_2.greet_user()
+# user_3.greet_user()
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+# Работа с классами и экземплярами
+
+# Классы могут использоваться для моделирования многих реальных ситуаций. По-
+# сле того как класс будет написан, разработчик проводит бульшую часть времени
+# за работой с экземплярами, созданными на основе этого класса. Одной из первых
+# задач станет изменение атрибутов, связанных с конкретным экземпляром. Атрибу-
+# ты экземпляра можно изменять напрямую или же написать методы, изменяющие
+# атрибуты по особым правилам.
+
+# --------------------------------------------------------------------------------------------------------------------
+
+# Класс Car
+
+# Напишем класс, представляющий автомобиль. Этот класс будет содержать инфор-
+# мацию о типе машины, а также метод для вывода краткого описания:
+
+class Car():
+    """Простая модель автомобиля"""
+
+    def __init__(self, make, model, year):  # 1
+        """Инициализация атрибута и описание автомобиля."""
+        self.make = make
+        self.model = model
+        self.year = year
+
+    def get_descriptive_name(self):  # 2
+        """Возвращает аккуратно отформатированное описание."""
+        long_name = (self.make + " " + self.model + " " + str(self.year))
+        return long_name.title()
+
+
+my_new_car = Car('audi', 'a4', 2016)  # 3
+print(my_new_car.get_descriptive_name())
+
+
+# В точке  в классе Car определяется метод __init__(); его список параметров на-
+# чинается с self, как и в классе Dog. За ним следуют еще три параметра: make, model
+# и year. Метод __init__() получает эти параметры и сохраняет их в атрибутах, ко-
+# торые будут связаны с экземплярами, созданными на основе класса. При создании
+# нового экземпляра Car необходимо указать фирму-производителя, модель и год
+# выпуска для данного экземпляра.
+# В точке  определяется метод get_descriptive_name(), который объединяет год
+# выпуска, фирму-производителя и модель в одну строку с описанием. Это избавит
+# вас от необходимости выводить значение каждого атрибута по отдельности. Для
+# работы со значениями атрибутов в этом методе используется синтаксис self.make,
+# self.model и self.year.
+# В точке  создается экземпляр класса Car, который сохраняется в переменной
+# my_new_car. Затем вызов метода get_descriptive_name() показывает, с какой ма-
+# шиной работает программа:
+# 2016 Audi A4
+# Чтобы класс был более интересным, добавим атрибут, изменяющийся со време-
+# нем, — в нем будет храниться пробег машины в милях.
+
+# --------------------------------------------------------------------------------------------------------------------
+
+class Car():
+    """Описание автомобиля."""
+
+    def __init__(self, make, model, year):
+        """Инициализация атрибутов автомобиля."""
+        self.make = make
+        self.model = model
+        self.year = year
+        self.odometer_reading = 0  # 1
+
+    def get_descriptive_name(self):
+        ...
+
+    def read_odometer(self):  # 2
+        """Выводит пробег машины в милях"""
+        print("This car has " + str(self.odometer_reading) + " miles on it.")
+
+
+my_new_car = Car("audi", "a4", 2016)
+print(my_new_car.get_descriptive_name())
+my_new_car.read_odometer()
