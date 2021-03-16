@@ -226,28 +226,73 @@
 # 9-2. Три ресторана: начните с класса из упражнения 9-1. Создайте три разных экземпляра,
 # вызовите для каждого экземпляра метод describe_restaurant().
 
-class Restaurant():
-    """Создание ресторана."""
+# class Restaurant():
+#     """Создание ресторана."""
 
-    def __init__(self, restaurant_name, cuisine_type, stile, attendance):
-        """Инициализация атрибута restaurant_name, cuisine_type """
-        self.restaurant_name = restaurant_name
-        self.cuisine_type = cuisine_type
-        self.stile = stile
-        self.attendance = attendance
+# def __init__(self, restaurant_name, cuisine_type, stile, attendance):
+#     """Инициализация атрибута restaurant_name, cuisine_type """
+#     self.restaurant_name = restaurant_name
+#     self.cuisine_type = cuisine_type
+#     self.stile = stile
+#     self.attendance = attendance
 
-    def describe_restaurant(self):
-        """Описание ресторана."""
-        print(self.cuisine_type.title() + " " + self.stile + ", кол - во людей за день: " + str(self.attendance))
+# def describe_restaurant(self):
+#     """Описание ресторана."""
+#     print(self.cuisine_type.title() + " " + self.stile + ", кол - во людей за день: " + str(self.attendance))
 
-    def open_restaurant(self):
-        """Открытие ресторана"""
-        print("Добро пожаловать! Ресторан " + self.restaurant_name.title() + " открылся!")
+# def open_restaurant(self):
+#     """Открытие ресторана"""
+#     print("Добро пожаловать! Ресторан " + self.restaurant_name.title() + " открылся!")
 
 
-restaurant = Restaurant("дикая роза", "типичная кухня", "итальянской стилистики", 3000)
-print("Название ресторана: " + restaurant.restaurant_name.title() + ".")
-print("Очень вкусная " + restaurant.cuisine_type.title() + ".")
+# restaurant = Restaurant("дикая роза", "типичная кухня", "итальянской стилистики", 3000)
+# print("Название ресторана: " + restaurant.restaurant_name.title() + ".")
+# print("Очень вкусная " + restaurant.cuisine_type.title() + ".")
 
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
+# restaurant.describe_restaurant()
+# restaurant.open_restaurant()
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+# 9-3. Пользователи: создайте класс с именем User. Создайте два атрибута first_name и last_
+# name, а затем еще несколько атрибутов, которые обычно хранятся в профиле пользова-
+# теля. Напишите метод describe_user(), который выводит сводку с информацией о пользо-
+# вателе. Создайте еще один метод greet_user() для вывода персонального приветствия для
+# пользователя.
+# Создайте несколько экземпляров, представляющих разных пользователей. Вызовите оба
+# метода для каждого пользователя.
+
+class User():
+    """sozdanie polzovatelia"""
+
+    def __init__(self, first_name, last_name, age, sex):
+        """Инициализируем пользователя."""
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+        self.sex = sex
+
+    def describe_user(self):
+        """Описание пользователя"""
+        summary_of_informations = ("Имя: " + self.first_name + "," + " Фамилия: " + self.last_name + "," + " Возраст: " +
+                                   str(self.age) + "," + " Пол: " + self.sex).title()
+        print(summary_of_informations)
+
+    def greet_user(self):
+        """Приветствие пользователя"""
+        print("Приветствую вас! " + self.first_name.title() + " " + self.last_name.title())
+
+
+print("\t****Описание пользователя:****")
+user_1 = User("vladimer", "rahmano", 32, "man")
+user_2 = User("dmitry", "halikov", 34, "man")
+user_3 = User("oleg", "evseev", 37, "man")
+
+user_1.describe_user()
+user_2.describe_user()
+user_3.describe_user()
+print("----------------------------------------------------------")
+print("\t****Приветствие пользователя:****")
+user_1.greet_user()
+user_2.greet_user()
+user_3.greet_user()
