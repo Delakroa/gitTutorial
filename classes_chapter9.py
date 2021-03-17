@@ -318,16 +318,16 @@
 # class Car():
 #     """Простая модель автомобиля"""
 
-    # def __init__(self, make, model, year):  # 1
-    #     """Инициализация атрибута и описание автомобиля."""
-    #     self.make = make
-    #     self.model = model
-    #     self.year = year
+# def __init__(self, make, model, year):  # 1
+#     """Инициализация атрибута и описание автомобиля."""
+#     self.make = make
+#     self.model = model
+#     self.year = year
 
-    # def get_descriptive_name(self):  # 2
-    #     """Возвращает аккуратно отформатированное описание."""
-    #     long_name = (self.make + " " + self.model + " " + str(self.year))
-    #     return long_name.title()
+# def get_descriptive_name(self):  # 2
+#     """Возвращает аккуратно отформатированное описание."""
+#     long_name = (self.make + " " + self.model + " " + str(self.year))
+#     return long_name.title()
 
 
 # my_new_car = Car('audi', 'a4', 2016)  # 3
@@ -421,30 +421,30 @@
 # Чтобы изменить значение атрибута, проще всего обратиться к нему прямо через эк-
 # земпляр. В следующем примере на одометре напрямую выставляется значение 23:
 
-class Car():
-    """Простая модель автомобиля"""
+# class Car():
+#     """Простая модель автомобиля"""
+#
+#     def __init__(self, make, model, year):
+#         """Инициализация атрибута и описание автомобиля."""
+#         self.make = make
+#         self.model = model
+#         self.year = year
+#         self.odometer_read = 0
+#
+#     def get_descriptive_name(self):
+#         """Возвращает аккуратно отформатированное описание."""
+#         long_name = (self.make.title() + " " + self.model.title() + " " + str(self.year) + " года")
+#         return long_name
+#
+#     def read_odometer(self):
+#         """Выводит пробег машины в милях"""
+#         print("На этой машине пробег " + str(self.odometer_read) + " мили. ")
 
-    def __init__(self, make, model, year):
-        """Инициализация атрибута и описание автомобиля."""
-        self.make = make
-        self.model = model
-        self.year = year
-        self.odometer_read = 0
 
-    def get_descriptive_name(self):
-        """Возвращает аккуратно отформатированное описание."""
-        long_name = (self.make + " " + self.model + " " + str(self.year))
-        return long_name.title()
-
-    def read_odometer(self):
-        """Выводит пробег машины в милях"""
-        print("На этой машине пробег " + str(self.odometer_read) + " мили. ")
-
-
-my_new_car = Car('audi', 'a4', 2016)
-print(my_new_car.get_descriptive_name())
-my_new_car.odometer_read = 23   #1
-my_new_car.read_odometer()
+# my_new_car = Car('audi', 'a4', 2016)
+# print(my_new_car.get_descriptive_name())
+# my_new_car.odometer_read = 23   #1
+# my_new_car.read_odometer()
 
 # В точке  точечная запись используется для обращения к атрибуту odometer_
 # reading экземпляра и прямого присваивания его значения. Эта строка приказывает
@@ -461,4 +461,32 @@ my_new_car.read_odometer()
 # Вместо того чтобы изменять атрибут напрямую, вы передаете новое значение ме-
 # тоду, который берет обновление атрибута на себя.
 # В следующем примере в класс включается метод update_odometer() для изменения
-# показаний одометра:
+
+
+class Car():
+    """Простая модель автомобиля"""
+
+    def __init__(self, make, model, year):
+        """Инициализация атрибута и описание автомобиля."""
+        self.make = make
+        self.model = model
+        self.year = year
+        self.odometer_read = 0
+
+    def get_descriptive_name(self):
+        """Возвращает аккуратно отформатированное описание."""
+        long_name = (self.make.title() + " " + self.model.title() + " " + str(self.year) + " года")
+        return long_name
+
+    def read_odometer(self):
+        """Выводит пробег машины в милях"""
+        print("На этой машине пробег " + str(self.odometer_read) + " мили. ")
+
+    def update_odometer(self):
+        pass
+
+
+my_new_car = Car('audi', 'a4', 2016)
+print(my_new_car.get_descriptive_name())
+my_new_car.odometer_read = 23  # 1
+my_new_car.read_odometer()
