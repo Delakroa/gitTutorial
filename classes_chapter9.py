@@ -471,7 +471,7 @@ class Car():
         self.make = make
         self.model = model
         self.year = year
-        self.odometer_read = 0
+        self.odometer_read = 100
 
     def get_descriptive_name(self):
         """Возвращает аккуратно отформатированное описание."""
@@ -482,11 +482,31 @@ class Car():
         """Выводит пробег машины в милях"""
         print("На этой машине пробег " + str(self.odometer_read) + " мили. ")
 
-    def update_odometer(self):
-        pass
+    def update_odometer(self, mileage):        # 1
+        """Установить заданное значение на одометре.
+        При попытке обратной прокрутки изменени отклоняются."""
+        # self.odometer_read = mileage
+        if mileage >= self.odometer_read:
+            self.odometer_read = mileage
+        else:
+            print("Вы не можете скрутить одометр")
 
 
 my_new_car = Car('audi', 'a4', 2016)
 print(my_new_car.get_descriptive_name())
-my_new_car.odometer_read = 23  # 1
+
+my_new_car.update_odometer(50)    # 2
 my_new_car.read_odometer()
+
+
+# Класс Car почти не изменился, в нем только добавился метод update_odometer().
+# Этот метод получает пробег в милях и сохраняет его в self.odometer_reading.
+# В точке  мы вызываем метод update_odometer() и передаем ему значение 23
+# в аргументе (соответствующем параметру mileage в определении метода). Метод
+# устанавливает на одометре значение 23, а метод read_odometer() выводит текущие
+# показания:
+
+# Метод update_odometer() можно расширить так, чтобы при каждом изменении
+# показаний одометра выполнялась некоторая дополнительная работа. Добавим
+# проверку, которая гарантирует, что никто не будет пытаться сбрасывать показания
+# одометра:
