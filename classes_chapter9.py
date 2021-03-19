@@ -526,52 +526,52 @@
 # вы купили подержанную машину и проехали на ней 100 миль. Следующий метод
 # получает величину приращения и прибавляет ее к текущим показаниям одометра:
 
-class Car():
-    """Простая модель автомобиля"""
-
-    def __init__(self, make, model, year):
-        """Инициализация атрибута и описание автомобиля."""
-        self.make = make
-        self.model = model
-        self.year = year
-        self.odometer_read = 100
-
-    def get_descriptive_name(self):
-        """Возвращает аккуратно отформатированное описание."""
-        long_name = (self.make.title() + " " + self.model.title() + " " + str(self.year) + " года")
-        return long_name
-
-    def read_odometer(self):
-        """Выводит пробег машины в милях"""
-        print("На этой машине пробег " + str(self.odometer_read) + " мили. ")
-
-    def update_odometer(self, mileage):
-        """Установить заданное значение на одометре.
-        При попытке обратной прокрутки изменени отклоняются."""
-        if mileage >= self.odometer_read:
-            self.odometer_read = mileage
-        else:
-            print("Вы не можете скрутить одометр")
-
-    def increment_odometer(self, miles):  # 1
-        """Увеличивает показания одометра с заданным приращением."""
-        self.odometer_read += miles
-
-
-my_new_car = Car('audi', 'a4', 2016)
-print(my_new_car.get_descriptive_name())
-
-my_new_car.update_odometer(50)  # 2
-my_new_car.read_odometer()
-print("\t********************")          # нужн понять и исправить работу
-my_used_car = Car('subaru', 'outback', 2013)  # 2
-print(my_used_car.get_descriptive_name())
-
-my_used_car.update_odometer(23500)  # 3
-my_used_car.read_odometer()
-
-my_used_car.increment_odometer(100)  # 4
-my_used_car.read_odometer()
+# class Car():
+#     """Простая модель автомобиля"""
+#
+#     def __init__(self, make, model, year):
+#         """Инициализация атрибута и описание автомобиля."""
+#         self.make = make
+#         self.model = model
+#         self.year = year
+#         self.odometer_read = 100
+#
+#     def get_descriptive_name(self):
+#         """Возвращает аккуратно отформатированное описание."""
+#         long_name = (self.make.title() + " " + self.model.title() + " " + str(self.year) + " года")
+#         return long_name
+#
+#     def read_odometer(self):
+#         """Выводит пробег машины в милях"""
+#         print("На этой машине пробег " + str(self.odometer_read) + " мили. ")
+#
+#     def update_odometer(self, mileage):
+#         """Установить заданное значение на одометре.
+#         При попытке обратной прокрутки изменени отклоняются."""
+#         if mileage >= self.odometer_read:
+#             self.odometer_read = mileage
+#         else:
+#             print("Вы не можете скрутить одометр")
+#
+#     def increment_odometer(self, miles):  # 1
+#         """Увеличивает показания одометра с заданным приращением."""
+#         self.odometer_read += miles
+#
+#
+# my_new_car = Car('audi', 'a4', 2016)
+# print(my_new_car.get_descriptive_name())
+#
+# my_new_car.update_odometer(50)  # 2
+# my_new_car.read_odometer()
+# print("\t********************")          # нужн понять и исправить работу
+# my_used_car = Car('subaru', 'outback', 2013)  # 2
+# print(my_used_car.get_descriptive_name())
+#
+# my_used_car.update_odometer(23500)  # 3
+# my_used_car.read_odometer()
+#
+# my_used_car.increment_odometer(100)  # 4
+# my_used_car.read_odometer()
 
 
 # Новый метод increment_odometer() в точке  получает расстояние в милях
@@ -581,3 +581,54 @@ my_used_car.read_odometer()
 # 23500 . В точке  вызывается метод increment_odometer(), которому передает-
 # ся значение 100, чтобы увеличить показания одометра на 100 миль, пройденные
 # с момента покупки:
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+# 9-4. Посетители: начните с программы из упражнения 9-1 (с. 165). Добавьте атрибут
+# number_served со значением по умолчанию 0; он представляет количество обслуженных
+# посетителей. Создайте экземпляр с именем restaurant. Выведите значение number_served,
+# потом измените и выведите снова.
+# Добавьте метод с именем set_number_served(), позволяющий задать количество обслужен-
+# ных посетителей. Вызовите метод с новым числом, снова выведите значение.
+# 170 Глава 9 • Классы
+# Добавьте метод с именем increment_number_served(), который увеличивает количество
+# обслуженных посетителей на заданную величину. Вызовите этот метод с любым числом,
+# которое могло бы представлять количество обслуженных клиентов — скажем, за один день.
+
+
+# class Restaurant():
+#     """Создание ресторана."""
+#
+#     def __init__(self, restaurant_name, cuisine_type, ):
+#         """Инициализация атрибута restaurant_name, cuisine_type """
+#         self.restaurant_name = restaurant_name
+#         self.cuisine_type = cuisine_type
+#         self.number_served = 100
+#
+#     def describe_restaurant(self):
+#         """Описание ресторана."""
+#         print(self.cuisine_type.title() + " типичная кухня.")
+#
+#     def open_restaurant(self):
+#         """Открытие ресторана"""
+#         print(self.restaurant_name.title() + " ресторан открылся!")
+#
+#     def set_number_served(self, quantity):
+#         """Вывод количества посетителей"""
+#         self.number_served = quantity
+#
+#     def increment_number_served(self, quantit):
+#         """Увеличение количества посетителей на заданную величину."""
+#         self.number_served += quantit
+#
+#
+#
+# restaurant = Restaurant("дикая роза", "русская народная кухня")
+# print("Название ресторана: " + restaurant.restaurant_name.title() + ".")
+# print("Очень вкусная " + restaurant.cuisine_type.title() + ".")
+# print(restaurant.restaurant_name.title() + " : " + restaurant.cuisine_type.title() + ".")
+#
+# restaurant.set_number_served(1000)
+# restaurant.increment_number_served(2000)
+# print("Количество обслуженных посетителей: " + str(restaurant.number_served))
+
