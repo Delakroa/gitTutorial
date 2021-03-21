@@ -641,62 +641,63 @@
 # чтобы убедиться в том, что значение было изменено правильно, а затем вызовите reset_login_attempts()
 # Снова выведите login_attempts и убедитесь в том, что значение обнулилось
 
-class User():
-    """sozdanie polzovatelia"""
+# class User():
+#     """sozdanie polzovatelia"""
+#
+#     def __init__(self, first_name, last_name, age, sex):
+#         """Инициализируем пользователя."""
+#         self.first_name = first_name
+#         self.last_name = last_name
+#         self.age = age
+#         self.sex = sex
+#         self.login_attempts = 0
+#
+#     def describe_user(self):
+#         """Сводка с информацией о пользрвателе."""
+#         summary_of_informations = ("Имя: " + self.first_name + "," + " Фамилия: " + self.last_name
+#                                    + "," + " Возраст: " + str(self.age) + "," + " Пол: " + self.sex).title()
+#         print(summary_of_informations)
+#
+#     def greet_user(self):
+#         """Приветствие пользователя"""
+#         print("Приветствую вас! " + self.first_name.title() + " " + self.last_name.title())
+#
+#     def read_user(self):
+#         """Выводит пользователей"""
+#         print("Количество пользователей: " + str(self.login_attempts))
+#
+#     def increment_login_attempts(self, count):
+#         """Подсчёт пользователей."""
+#         self.login_attempts += count
+#         print("Количество пользователй: " + str(self.login_attempts))
+#
+#     def reset_login_attempts(self):
+#         pass
+#
+#
+# print("\t****Описание пользователя:****")
+# user_1 = User("vladimir", "rahmano", 32, "man")
+# user_2 = User("dmitry", "halikov", 34, "man")
+# user_3 = User("oleg", "evseev", 37, "man")
+#
+# user_1.describe_user()
+# user_2.describe_user()
+# user_3.describe_user()
+#
+# print("----------------------------------------------------------")
+# print("\t****Приветствие пользователя:****")
+#
+# user_1.greet_user()
+# user_2.greet_user()
+# user_3.greet_user()
+#
+# print("----------------------------------------------------------")
+# user_1.increment_login_attempts = 1
+# user_2.increment_login_attempts = 1
+# user_3.increment_login_attempts = 1
+# all_user = (user_1, user_2, user_3)
+# user_1.read_user()
+# user_2.read_user()
+# user_3.read_user()
 
-    def __init__(self, first_name, last_name, age, sex):
-        """Инициализируем пользователя."""
-        self.first_name = first_name
-        self.last_name = last_name
-        self.age = age
-        self.sex = sex
-        self.login_attempts = 0
-
-    def describe_user(self):
-        """Сводка с информацией о пользрвателе."""
-        summary_of_informations = ("Имя: " + self.first_name + "," + " Фамилия: " + self.last_name
-                                   + "," + " Возраст: " + str(self.age) + "," + " Пол: " + self.sex).title()
-        print(summary_of_informations)
-
-    def greet_user(self):
-        """Приветствие пользователя"""
-        print("Приветствую вас! " + self.first_name.title() + " " + self.last_name.title())
-
-    def read_user(self):
-        """Выводит пользователей"""
-        print("Количество пользователей: " + str(self.login_attempts))
-
-    def increment_login_attempts(self, count):
-        """Подсчёт пользователей."""
-        self.login_attempts += count
-        print("Количество пользователй: " + str(self.login_attempts))
-
-    def reset_login_attempts(self):
-        pass
-
-
-print("\t****Описание пользователя:****")
-user_1 = User("vladimir", "rahmano", 32, "man")
-user_2 = User("dmitry", "halikov", 34, "man")
-user_3 = User("oleg", "evseev", 37, "man")
-
-user_1.describe_user()
-user_2.describe_user()
-user_3.describe_user()
-
-print("----------------------------------------------------------")
-print("\t****Приветствие пользователя:****")
-
-user_1.greet_user()
-user_2.greet_user()
-user_3.greet_user()
-
-print("----------------------------------------------------------")
-user_1.increment_login_attempts = 1
-user_2.increment_login_attempts = 1
-user_3.increment_login_attempts = 1
-all_user = (user_1, user_2, user_3)
-user_1.read_user()
-user_2.read_user()
-user_3.read_user()
-
+# --------------------------------------------------------------------------------------------------------------------
