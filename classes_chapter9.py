@@ -1237,13 +1237,47 @@
 
 # ---------------------------------------------------------------------------------------------------------------------
 
-УПРАЖНЕНИЯ
+# УПРАЖНЕНИЯ
 
-9-6. Киоск с мороженым: киоск с мороженым — особая разновидность ресторана. Напишите
-класс IceCreamStand, наследующий от класса Restaurant из упражнения 9-1 (с. 165) или
-упражнения 9-4 (с. 169). Подойдет любая версия класса; просто выберите ту, которая вам
-больше нравится. Добавьте атрибут с именем flavors для хранения списка сортов мороже-
-ного. Напишите метод, который выводит этот список. Создайте экземпляр IceCreamStand
-и вызовите этот метод.
+# 9-6. Киоск с мороженым: киоск с мороженым — особая разновидность ресторана. Напишите
+# класс IceCreamStand, наследующий от класса Restaurant из упражнения 9-1 (с.165) или
+# упражнения 9-4 (с. 169). Подойдет любая версия класса; просто выберите ту, которая вам
+# больше нравится. Добавьте атрибут с именем flavors для хранения списка сортов мороже-
+# ного. Напишите метод, который выводит этот список. Создайте экземпляр IceCreamStand
+# и вызовите этот метод.
 
 
+class Restaurant():
+    """Создание ресторана."""
+
+    def __init__(self, restaurant_name, cuisine_type, stile, attendance):
+        """Инициализация атрибута restaurant_name, cuisine_type """
+        self.restaurant_name = restaurant_name
+        self.cuisine_type = cuisine_type
+        self.stile = stile
+        self.attendance = attendance
+
+    def describe_restaurant(self):
+        """Описание ресторана."""
+        print(self.cuisine_type.title() + " " + self.stile + ", кол - во людей за день: " + str(self.attendance))
+
+    def open_restaurant(self):
+        """Открытие ресторана"""
+        print("Добро пожаловать! Ресторан " + self.restaurant_name.title() + " открылся!")
+
+
+restaurant = Restaurant("дикая роза", "типичная кухня", "итальянской стилистики", 3000)
+print("Название ресторана: " + restaurant.restaurant_name.title() + ".")
+print("Очень вкусная " + restaurant.cuisine_type.title() + ".")
+
+restaurant.describe_restaurant()
+restaurant.open_restaurant()
+
+
+class IceCreamStand(Restaurant):
+    """Описание киоска с мороженным"""
+    def __init__(self, restaurant_name, cuisine_type, stile, attendance):
+        """Инициализация атрибутов класса родителя, затем инициализация атрибутов
+        специфических для киоска с мороженным"""
+
+        self.flavors = flavors()
