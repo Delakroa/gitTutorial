@@ -917,6 +917,220 @@
 # правка бензином бессмысленна, поэтому этот метод логично переопределить. На-
 # пример, это можно сделать так:
 
+# class Car():
+#     """Простая модель автомобиля"""
+#
+#     def __init__(self, make, model, year):
+#         """Инициализация атрибута и описание автомобиля."""
+#         self.make = make
+#         self.model = model
+#         self.year = year
+#         self.odometer_read = 100
+#
+#     def get_descriptive_name(self):
+#         """Возвращает аккуратно отформатированное описание."""
+#         long_name = (self.make.title() + " " + self.model.title() + " " + str(self.year) + " года")
+#         return long_name
+#
+#     def read_odometer(self):
+#         """Выводит пробег машины в милях"""
+#         print("На этой машине пробег " + str(self.odometer_read) + " мили. ")
+#
+#     def update_odometer(self, mileage):
+#         """Установить заданное значение на одометре.
+#         При попытке обратной прокрутки изменени отклоняются."""
+#         if mileage >= self.odometer_read:
+#             self.odometer_read = mileage
+#         else:
+#             print("Вы не можете скрутить одометр")
+#
+#     def increment_odometer(self, miles):
+#         """Увеличивает показания одометра с заданным приращением."""
+#         self.odometer_read += miles
+#
+#     def fill_gas_tank(self):
+#         """Обьём бензобака."""
+#         print("Обьём бензобака:" + " 120 литров")
+#
+#
+# my_new_car = Car('audi', 'a4', 2016)
+# print(my_new_car.get_descriptive_name())
+#
+# my_new_car.update_odometer(50)
+# my_new_car.read_odometer()
+# my_new_car.fill_gas_tank()
+# print("\t********************")
+# my_used_car = Car('subaru', 'outback', 2013)
+# print(my_used_car.get_descriptive_name())
+#
+# my_used_car.update_odometer(23500)
+# my_used_car.read_odometer()
+#
+# my_used_car.increment_odometer(100)
+# my_used_car.read_odometer()
+# my_used_car.fill_gas_tank()
+#
+#
+# class ElectricCar(Car):
+#     """Представляет аспекты машины, специфические для электромобилей."""
+#
+#     def __init__(self, make, model, year):
+#         """Инициализирует атрибуты класса-родителя.
+#         Затем инициализируем атрибуты, специфические для электромобиля."""
+#         super().__init__(make, model, year)
+#         self.battery_size = 70
+#
+#     def describe_battery(self):
+#         """Выводит информацию о мощности аккумулятора."""
+#         print("У этой машины есть " + "аккумулятор мощностью: " + str(self.battery_size) + "Кв/ч.")
+#
+#     def fill_gas_tank(self):
+#         """У электромобиля нет бензобака."""
+#         print("Этой машине не нужен бензобак!")
+#
+#
+# my_tesla = ElectricCar('tesla', 'model s', 2016)  # 5
+# print("\t********************")
+# print(my_tesla.get_descriptive_name())
+# my_tesla.describe_battery()
+# my_tesla.fill_gas_tank()
+
+
+# И если кто-то попытается вызвать метод fill_gas_tank() для электромобиля,
+# Python игнорирует метод fill_gas_tank() класса Car и выполнит вместо него этот
+# код. С применением наследования потомок сохраняет те аспекты родителя, которые
+# вам нужны, и переопределяет все ненужное.
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+# Экземпляры как атрибуты
+
+# При моделировании явлений реального мира в программах классы нередко до-
+# полняются все большим количеством подробностей. Списки атрибутов и мето-
+# дов растут, и через какое-то время файлы становятся длинными и громоздкими.
+# В такой ситуации часть одного класса нередко можно записать в виде отдельного
+# класса. Большой код разбивается на меньшие классы, которые работают во взаи-
+# модействии друг с другом.
+# Например, при дальнейшей доработке класса ElectricCar может оказаться, что
+# в нем появилось слишком много атрибутов и методов, относящихся к аккумулято-
+# ру. В таком случае можно остановиться и переместить все эти атрибуты и методы
+# в отдельный класс с именем Battery. Затем экземпляр Battery становится атрибу-
+# том класса ElectricCar:
+
+
+# class Car():
+#     """Простая модель автомобиля"""
+#
+#     def __init__(self, make, model, year):
+#         """Инициализация атрибута и описание автомобиля."""
+#         self.make = make
+#         self.model = model
+#         self.year = year
+#         self.odometer_read = 100
+#
+#     def get_descriptive_name(self):
+#         """Возвращает аккуратно отформатированное описание."""
+#         long_name = (self.make.title() + " " + self.model.title() + " " + str(self.year) + " года")
+#         return long_name
+#
+#     def read_odometer(self):
+#         """Выводит пробег машины в милях"""
+#         print("На этой машине пробег " + str(self.odometer_read) + " мили. ")
+#
+#     def update_odometer(self, mileage):
+#         """Установить заданное значение на одометре.
+#         При попытке обратной прокрутки изменени отклоняются."""
+#         if mileage >= self.odometer_read:
+#             self.odometer_read = mileage
+#         else:
+#             print("Вы не можете скрутить одометр")
+#
+#     def increment_odometer(self, miles):
+#         """Увеличивает показания одометра с заданным приращением."""
+#         self.odometer_read += miles
+#
+#     def fill_gas_tank(self):
+#         """Обьём бензобака."""
+#         print("Обьём бензобака:" + " 120 литров")
+#
+#
+# my_new_car = Car('audi', 'a4', 2016)
+# print(my_new_car.get_descriptive_name())
+#
+# my_new_car.update_odometer(50)
+# my_new_car.read_odometer()
+# my_new_car.fill_gas_tank()
+# print("\t********************")
+# my_used_car = Car('subaru', 'outback', 2013)
+# print(my_used_car.get_descriptive_name())
+#
+# my_used_car.update_odometer(23500)
+# my_used_car.read_odometer()
+#
+# my_used_car.increment_odometer(100)
+# my_used_car.read_odometer()
+# my_used_car.fill_gas_tank()
+#
+#
+# class Battery():   # 1
+#     """Простая модель аккумулятора электромобиля."""
+#
+#     def __init__(self, battery_size=70):   # 2
+#         """Инициализирует атрибуты аккумулятора"""
+#         self.battery_size = battery_size
+#
+#     def describe_battery(self):   # 3
+#         """Выводит информацию о мощности аккумулятора."""
+#         print("У этой машины есть " + "аккумулятор мощностью: " + str(self.battery_size) + "Кв/ч.")
+#
+#
+# class ElectricCar(Car):
+#     """Представляет аспекты машины, специфические для электромобилей."""
+#
+#     def __init__(self, make, model, year):
+#         """Инициализирует атрибуты класса-родителя.
+#         Затем инициализируем атрибуты, специфические для электромобиля."""
+#         super().__init__(make, model, year)
+#         self.battery = Battery()    # 4
+#
+#     def fill_gas_tank(self):
+#         """У электромобиля нет бензобака."""
+#         print("Этой машине не нужен бензобак!")
+#
+#
+# my_tesla = ElectricCar('tesla', 'model s', 2016)
+# print("\t********************")
+# print(my_tesla.get_descriptive_name())
+# my_tesla.battery.describe_battery()
+# my_tesla.fill_gas_tank()
+
+# В точке  определяется новый класс с именем Battery, который не наследует
+# ни от одного из других классов. Метод __init__() в точке  получает один пара-
+# метр battery_size, кроме self. Если значение не предоставлено, этот необязатель-
+# ный параметр задает battery_size значение 70. Метод describe_battery() также
+# перемещен в этот класс .
+# Затем в класс ElectricCar добавляется атрибут с именем self.battery . Эта стро-
+# ка приказывает Python создать новый экземпляр Battery (со значением battery_
+# size по умолчанию, равным 70, потому что значение не задано) и сохранить его
+# в атрибуте self.battery. Это будет происходить при каждом вызове __init__();
+# теперь любой экземпляр ElectricCar будет иметь автоматически создаваемый
+# экземпляр Battery.
+# Программа создает экземпляр электромобиля и сохраняет его в переменной my_
+# tesla. Когда потребуется вывести описание аккумулятора, необходимо обратиться
+# к атрибуту battery:
+# my_tesla.battery.describe_battery()
+# Эта строка приказывает Python обратиться к экземпляру my_tesla, найти его
+# атрибут battery и вызвать метод describe_battery(), связанный с экземпляром
+# Battery из атрибута.
+# Результат выглядит так же, как и в предыдущей версии:
+
+# --------------------------------------------------------------------------------------------------------------------
+
+# Казалось бы, новый вариант требует большой дополнительной работы, но теперь
+# аккумулятор можно моделировать с любой степенью детализации без загромож-
+# дения класса ElectricCar. Добавим в Battery еще один метод, который выводит
+# запас хода на основании мощности аккумулятора:
+
 class Car():
     """Простая модель автомобиля"""
 
@@ -949,7 +1163,7 @@ class Car():
         self.odometer_read += miles
 
     def fill_gas_tank(self):
-        """У электромобиля нет бензобака."""
+        """Обьём бензобака."""
         print("Обьём бензобака:" + " 120 литров")
 
 
@@ -971,6 +1185,28 @@ my_used_car.read_odometer()
 my_used_car.fill_gas_tank()
 
 
+class Battery():
+    """Простая модель аккумулятора электромобиля."""
+
+    def __init__(self, battery_size=85):
+        """Инициализирует атрибуты аккумулятора"""
+        self.battery_size = battery_size
+
+    def describe_battery(self):
+        """Выводит информацию о мощности аккумулятора."""
+        print("У этой машины есть " + "аккумулятор мощностью: " + str(self.battery_size) + "Кв/ч.")
+
+    def get_range(self):    # 1
+        """Выводит приблизительный запас хода для аккумулятора."""
+        if self.battery_size == 70:
+            range = 240
+        elif self.battery_size == 85:
+            range = 270
+
+        message = ("Эта машина может ехать примерно " + str(range))
+        message += (" миль при полной зарядке.")
+        print(message)
+
 class ElectricCar(Car):
     """Представляет аспекты машины, специфические для электромобилей."""
 
@@ -978,19 +1214,23 @@ class ElectricCar(Car):
         """Инициализирует атрибуты класса-родителя.
         Затем инициализируем атрибуты, специфические для электромобиля."""
         super().__init__(make, model, year)
-        self.battery_size = 70
-
-    def describe_battery(self):
-        """Выводит информацию о мощности аккумулятора."""
-        print("У этой машины есть " + "аккумулятор мощностью: " + str(self.battery_size) + "Кв/ч.")
+        self.battery = Battery()  # 4
 
     def fill_gas_tank(self):
         """У электромобиля нет бензобака."""
         print("Этой машине не нужен бензобак!")
 
 
-my_tesla = ElectricCar('tesla', 'model s', 2016)  # 5
+my_tesla = ElectricCar('tesla', 'model s', 2016)
 print("\t********************")
 print(my_tesla.get_descriptive_name())
-my_tesla.describe_battery()
+my_tesla.battery.describe_battery()
 my_tesla.fill_gas_tank()
+my_tesla.battery.get_range()   # 2
+
+# Новый метод get_range() в точке  проводит простой анализ. Если мощность рав-
+# на 70, то get_range() устанавливает запас хода 240 миль, а при мощности 85 kWh
+# запас хода равен 270 милям. Затем программа выводит это значение. Когда вы
+# захотите использовать этот метод, его придется вызывать через атрибут battery
+# в точке .
+# Результат сообщает запас хода машины в зависимости от мощности аккумулятора:
