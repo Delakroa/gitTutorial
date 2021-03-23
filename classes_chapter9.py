@@ -1248,59 +1248,145 @@
 # и вызовите этот метод.
 
 
-class Restaurant():
-    """Создание ресторана."""
+# class Restaurant():
+#     """Создание ресторана."""
+#
+#     def __init__(self, restaurant_name, cuisine_type, stile, attendance):
+#         """Инициализация атрибута restaurant_name, cuisine_type """
+#         self.restaurant_name = restaurant_name
+#         self.cuisine_type = cuisine_type
+#         self.stile = stile
+#         self.attendance = attendance
+#
+#     def describe_restaurant(self):
+#         """Описание ресторана."""
+#         print(self.cuisine_type.title() + " " + self.stile + ", кол - во людей за день: " + str(self.attendance))
+#
+#     def open_restaurant(self):
+#         """Открытие ресторана"""
+#         print("Добро пожаловать! Ресторан " + self.restaurant_name.title() + ", мы открылся!")
+#
+#
+# restaurant = Restaurant("дикая роза", "типичная кухня", "итальянской стилистики", 3000)
+# print("Название ресторана: " + restaurant.restaurant_name.title() + ".")
+# print("Очень вкусная " + restaurant.cuisine_type.title() + ".")
+#
+# restaurant.describe_restaurant()
+# restaurant.open_restaurant()
+#
+#
+# class IceCreamStand(Restaurant):
+#     """Описание киоска с мороженным"""
+#
+#     def __init__(self, restaurant_name, cuisine_type, stile, attendance):
+#         """Инициализация атрибутов класса родителя, затем инициализация атрибутов
+#         специфических для киоска с мороженным"""
+#         super().__init__(restaurant_name, cuisine_type, stile, attendance)
+#
+#
+#     def ice_flavors(self):
+#         """Описание мороженого."""
+#         print("Ванильное " + morojenoe.cuisine_type.title())
+#
+#     def open_restaurant(self):
+#         """Открытие ресторана"""
+#         print("Добро пожаловать! Ларёк " + self.restaurant_name.title() + ", мы открылись!")
+#
+#
+# morojenoe = IceCreamStand("алёнка", "мороженое", "небольшой ларёк", 300)
+#
+# print("\t-----------------------------------")
+# print("Название ларька: " + morojenoe.restaurant_name.title() + ".")
+# print("Очень вкусное " + morojenoe.cuisine_type.title() + ".")
+# morojenoe.ice_flavors()
+# morojenoe.describe_restaurant()
+# morojenoe.open_restaurant()
 
-    def __init__(self, restaurant_name, cuisine_type, stile, attendance):
-        """Инициализация атрибута restaurant_name, cuisine_type """
-        self.restaurant_name = restaurant_name
-        self.cuisine_type = cuisine_type
-        self.stile = stile
-        self.attendance = attendance
+# ---------------------------------------------------------------------------------------------------------------------
 
-    def describe_restaurant(self):
-        """Описание ресторана."""
-        print(self.cuisine_type.title() + " " + self.stile + ", кол - во людей за день: " + str(self.attendance))
+# 9-7. Администратор: администратор — особая разновидность пользователя. Напишите
+# класс с именем Admin, наследующий от класса User из упражнения 9-3 (с.165) или
+# упражнения 9-5 (с. 170). Добавьте атрибут privileges для хранения списка строк вида
+# «разрешено добавлять сообщения», «разрешено удалять пользователей», «разрешено
+# банить пользователей» и т.д. Напишите метод show_privileges() для вывода набора
+# привилегий администратора. Создайте экземпляр Admin и вызовите свой метод.
 
-    def open_restaurant(self):
-        """Открытие ресторана"""
-        print("Добро пожаловать! Ресторан " + self.restaurant_name.title() + ", мы открылся!")
+class User():
+    """sozdanie polzovatelia"""
 
+    def __init__(self, first_name, last_name, age, sex):
+        """Инициализируем пользователя."""
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+        self.sex = sex
 
-restaurant = Restaurant("дикая роза", "типичная кухня", "итальянской стилистики", 3000)
-print("Название ресторана: " + restaurant.restaurant_name.title() + ".")
-print("Очень вкусная " + restaurant.cuisine_type.title() + ".")
+    def describe_user(self):
+        """Описание пользователя"""
 
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
+        summary_of_informations = ("Имя: " + self.first_name + "," + " Фамилия: " + self.last_name + "," + " Возраст: "
+                                   + str(self.age) + "," + " Пол: " + self.sex).title()
+        print(summary_of_informations)
 
-
-class IceCreamStand(Restaurant):
-    """Описание киоска с мороженным"""
-
-    def __init__(self, restaurant_name, cuisine_type, stile, attendance):
-        """Инициализация атрибутов класса родителя, затем инициализация атрибутов
-        специфических для киоска с мороженным"""
-        super().__init__(restaurant_name, cuisine_type, stile, attendance)
+    def greet_user(self):
+        """Приветствие пользователя"""
+        print("Приветствую вас! " + self.first_name.title() + " " + self.last_name.title())
 
 
-    def ice_flavors(self):
-        """Описание мороженого."""
-        print("Ванильное " + morojenoe.cuisine_type.title())
+print("\t****Описание пользователя:****")
+user_1 = User("vladimir", "rahmano", 32, "man")
+user_2 = User("dmitry", "halikov", 34, "man")
+user_3 = User("oleg", "evseev", 37, "man")
 
-    def open_restaurant(self):
-        """Открытие ресторана"""
-        print("Добро пожаловать! Ларёк " + self.restaurant_name.title() + ", мы открылись!")
-
-
-morojenoe = IceCreamStand("алёнка", "мороженое", "небольшой ларёк", 300)
-
-print("\t-----------------------------------")
-print("Название ларька: " + morojenoe.restaurant_name.title() + ".")
-print("Очень вкусное " + morojenoe.cuisine_type.title() + ".")
-morojenoe.ice_flavors()
-morojenoe.describe_restaurant()
-morojenoe.open_restaurant()
+user_1.describe_user()
+user_2.describe_user()
+user_3.describe_user()
+print("----------------------------------------------------------")
+print("\t****Приветствие пользователя:****")
+user_1.greet_user()
+user_2.greet_user()
+user_3.greet_user()
 
 
+class Admin(User):
+    """Описание администратора"""
+    def __init__(self, first_name, last_name, age, sex):
+        """Инициализирует атрибуты класса-родителя.
+        Затем инициализируем атрибуты, специфические для электромобиля."""
+        super().__init__(first_name, last_name, age, sex, privileges)
 
+
+
+
+# class User():
+#     def __init__(self, first_name, last_name, age):
+#         self.first_name = first_name
+#         self.last_name = last_name
+#         self.age = age
+#
+#     def greeting(self):
+#         self.long_name = self.first_name + ' ' + self.last_name
+#         print('Hello, ' + self.long_name.title() + '!')
+#
+#
+# class Privileges():
+#     def __init__(self, rules):
+#         self.rules = ['add user', 'edit user info', 'block user']
+#
+#     def privilege(self):
+#         print('Admin can:')
+#         i = 1
+#         for name in self.rules:
+#             print(str(i) + ')' + name.title())
+#             i += 1
+#
+#
+# class Admin(User):
+#     def __init__(self, first_name, last_name, age):
+#         super().__init__(first_name, last_name, age)
+#         self.rules = Privileges()
+#
+#
+# new_user = Admin('dan', 'smir', 21)
+# new_user.privileges.privilege()
+# new_user.greeting()
