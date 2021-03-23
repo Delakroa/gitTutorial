@@ -1283,13 +1283,14 @@ class IceCreamStand(Restaurant):
         специфических для киоска с мороженным"""
         super().__init__(restaurant_name, cuisine_type, stile, attendance)
 
-    def flavors(self):
+
+    def ice_flavors(self):
         """Описание мороженого."""
         print("Ванильное " + morojenoe.cuisine_type.title())
 
     def open_restaurant(self):
         """Открытие ресторана"""
-        print("Добро пожаловать! Ларёк " + self.restaurant_name.title() + ", мы открылся!")
+        print("Добро пожаловать! Ларёк " + self.restaurant_name.title() + ", мы открылись!")
 
 
 morojenoe = IceCreamStand("алёнка", "мороженое", "небольшой ларёк", 300)
@@ -1297,6 +1298,9 @@ morojenoe = IceCreamStand("алёнка", "мороженое", "небольш�
 print("\t-----------------------------------")
 print("Название ларька: " + morojenoe.restaurant_name.title() + ".")
 print("Очень вкусное " + morojenoe.cuisine_type.title() + ".")
-morojenoe.flavors()
+morojenoe.ice_flavors()
 morojenoe.describe_restaurant()
 morojenoe.open_restaurant()
+
+
+
