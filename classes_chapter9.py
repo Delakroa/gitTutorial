@@ -1072,14 +1072,14 @@
 # my_used_car.fill_gas_tank()
 #
 #
-# class Battery():   # 1
+# class Battery():  # 1
 #     """Простая модель аккумулятора электромобиля."""
 #
-#     def __init__(self, battery_size=70):   # 2
+#     def __init__(self, battery_size=70):  # 2
 #         """Инициализирует атрибуты аккумулятора"""
 #         self.battery_size = battery_size
 #
-#     def describe_battery(self):   # 3
+#     def describe_battery(self):  # 3
 #         """Выводит информацию о мощности аккумулятора."""
 #         print("У этой машины есть " + "аккумулятор мощностью: " + str(self.battery_size) + "Кв/ч.")
 #
@@ -1091,7 +1091,7 @@
 #         """Инициализирует атрибуты класса-родителя.
 #         Затем инициализируем атрибуты, специфические для электромобиля."""
 #         super().__init__(make, model, year)
-#         self.battery = Battery()    # 4
+#         self.battery = Battery()  # 4
 #
 #     def fill_gas_tank(self):
 #         """У электромобиля нет бензобака."""
@@ -1103,6 +1103,7 @@
 # print(my_tesla.get_descriptive_name())
 # my_tesla.battery.describe_battery()
 # my_tesla.fill_gas_tank()
+
 
 # В точке  определяется новый класс с именем Battery, который не наследует
 # ни от одного из других классов. Метод __init__() в точке  получает один пара-
@@ -1263,7 +1264,7 @@ class Restaurant():
 
     def open_restaurant(self):
         """Открытие ресторана"""
-        print("Добро пожаловать! Ресторан " + self.restaurant_name.title() + " открылся!")
+        print("Добро пожаловать! Ресторан " + self.restaurant_name.title() + ", мы открылся!")
 
 
 restaurant = Restaurant("дикая роза", "типичная кухня", "итальянской стилистики", 3000)
@@ -1276,8 +1277,26 @@ restaurant.open_restaurant()
 
 class IceCreamStand(Restaurant):
     """Описание киоска с мороженным"""
+
     def __init__(self, restaurant_name, cuisine_type, stile, attendance):
         """Инициализация атрибутов класса родителя, затем инициализация атрибутов
         специфических для киоска с мороженным"""
+        super().__init__(restaurant_name, cuisine_type, stile, attendance)
 
-        self.flavors = flavors()
+    def flavors(self):
+        """Описание мороженого."""
+        print("Ванильное " + morojenoe.cuisine_type.title())
+
+    def open_restaurant(self):
+        """Открытие ресторана"""
+        print("Добро пожаловать! Ларёк " + self.restaurant_name.title() + ", мы открылся!")
+
+
+morojenoe = IceCreamStand("алёнка", "мороженое", "небольшой ларёк", 300)
+
+print("\t-----------------------------------")
+print("Название ларька: " + morojenoe.restaurant_name.title() + ".")
+print("Очень вкусное " + morojenoe.cuisine_type.title() + ".")
+morojenoe.flavors()
+morojenoe.describe_restaurant()
+morojenoe.open_restaurant()
