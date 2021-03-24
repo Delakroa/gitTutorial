@@ -1311,6 +1311,11 @@
 # банить пользователей» и т.д. Напишите метод show_privileges() для вывода набора
 # привилегий администратора. Создайте экземпляр Admin и вызовите свой метод.
 
+# 9-8. Привилегии: напишите класс Privileges. Класс должен содержать всего один атрибут
+# privileges со списком строк из упражнения 9-7. Переместите метод show_privileges() в этот
+# класс. Создайте экземпляр Privileges как атрибут класса Admin. Создайте новый экземпляр
+# Admin и используйте свой метод для вывода списка привилегий.
+
 class User():
     """sozdanie polzovatelia"""
     the_number_of_employees = 0
@@ -1364,13 +1369,13 @@ class Admin(User):
         """Инициализирует атрибуты класса-родителя.
         Затем инициализируем атрибуты, специфические для электромобиля."""
         super().__init__(first_name, last_name, age)
-        self.privilegis = Privilegis()
+        self.privileges = Privileges(Admin)
 
 
-class Privilegis():
-    def __init__(self, privilegis_type=None):
-        self.privilegis_type_01 = privilegis_type
-        self.privilegis_type_01 = ['Разрешить удалять пользователей', 'Разрешить переименовывать пользователей',
+class Privileges():
+    def __init__(self, privileges):
+        self.privilegis_type = privileges
+        self.privilegis_type = ['Разрешить удалять пользователей', 'Разрешить переименовывать пользователей',
                                 'Разрешить банить пользователей']
 
     def show_privilegis(self):
@@ -1381,6 +1386,6 @@ class Privilegis():
 user_admin = Admin("dmitry", "halikov", 34)
 print("---------------------------------------------------")
 user_admin.describe_user()
-user_admin.privilegis.privilegis.show_privileges()
+user_admin.Privileges.show_privileges()
 
-
+# 176
