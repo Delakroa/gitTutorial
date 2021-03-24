@@ -1313,30 +1313,35 @@
 
 class User():
     """sozdanie polzovatelia"""
+    the_number_of_employees = 0
 
-    def __init__(self, first_name, last_name, age, sex):
+    def __init__(self, first_name, last_name, age):
         """Инициализируем пользователя."""
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
-        self.sex = sex
+        User.the_number_of_employees += 1  # подсчитывает рабочих
 
     def describe_user(self):
         """Описание пользователя"""
 
         summary_of_informations = ("Имя: " + self.first_name + "," + " Фамилия: " + self.last_name + "," + " Возраст: "
-                                   + str(self.age) + "," + " Пол: " + self.sex).title()
+                                   + str(self.age) + ".").title()
         print(summary_of_informations)
 
     def greet_user(self):
         """Приветствие пользователя"""
         print("Приветствую вас! " + self.first_name.title() + " " + self.last_name.title())
 
+    # def reset_login_attempts(self):
+    #     """Обнуление пользователей."""
+    #     self.login_attempts = 0
+
 
 print("\t****Описание пользователя:****")
-user_1 = User("vladimir", "rahmano", 32, "man")
-user_2 = User("dmitry", "halikov", 34, "man")
-user_3 = User("oleg", "evseev", 37, "man")
+user_1 = User("vladimir", "rahmano", 32)
+user_2 = User("dmitry", "halikov", 34)
+user_3 = User("oleg", "evseev", 37)
 
 user_1.describe_user()
 user_2.describe_user()
@@ -1346,47 +1351,36 @@ print("\t****Приветствие пользователя:****")
 user_1.greet_user()
 user_2.greet_user()
 user_3.greet_user()
+print("Всего сотрудников: %d" % User.the_number_of_employees)
+
+
+# print("Сброс пользователей: " + str(users.reset_login_attempts()))
 
 
 class Admin(User):
     """Описание администратора"""
-    def __init__(self, first_name, last_name, age, sex):
+
+    def __init__(self, first_name, last_name, age):
         """Инициализирует атрибуты класса-родителя.
         Затем инициализируем атрибуты, специфические для электромобиля."""
-        super().__init__(first_name, last_name, age, sex, privileges)
+        super().__init__(first_name, last_name, age)
+        self.privilegis = Privilegis()
 
 
+class Privilegis():
+    def __init__(self, privilegis_type=None):
+        self.privilegis_type_01 = privilegis_type
+        self.privilegis_type_01 = ['Разрешить удалять пользователей', 'Разрешить переименовывать пользователей',
+                                'Разрешить банить пользователей']
+
+    def show_privilegis(self):
+        """Описание набора привелегий."""
+        print('Специальные права администратора: ' ', '.join(self.privilegis_type))
 
 
-# class User():
-#     def __init__(self, first_name, last_name, age):
-#         self.first_name = first_name
-#         self.last_name = last_name
-#         self.age = age
-#
-#     def greeting(self):
-#         self.long_name = self.first_name + ' ' + self.last_name
-#         print('Hello, ' + self.long_name.title() + '!')
-#
-#
-# class Privileges():
-#     def __init__(self, rules):
-#         self.rules = ['add user', 'edit user info', 'block user']
-#
-#     def privilege(self):
-#         print('Admin can:')
-#         i = 1
-#         for name in self.rules:
-#             print(str(i) + ')' + name.title())
-#             i += 1
-#
-#
-# class Admin(User):
-#     def __init__(self, first_name, last_name, age):
-#         super().__init__(first_name, last_name, age)
-#         self.rules = Privileges()
-#
-#
-# new_user = Admin('dan', 'smir', 21)
-# new_user.privileges.privilege()
-# new_user.greeting()
+user_admin = Admin("dmitry", "halikov", 34)
+print("---------------------------------------------------")
+user_admin.describe_user()
+user_admin.privilegis.privilegis.show_privileges()
+
+
