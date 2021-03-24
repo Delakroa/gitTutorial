@@ -1266,6 +1266,14 @@
 #         """Открытие ресторана"""
 #         print("Добро пожаловать! Ресторан " + self.restaurant_name.title() + ", мы открылся!")
 #
+#     def set_number_served(self, number_served):
+#         """Разрешить пользователю устанавливать количество обслуживаемых клиентов."""
+#         self.number_served = number_served
+#
+#     def increment_number_served(self, additional_served):
+#         """Разрешить пользователю увеличивать количество обслуживаемых клиентов."""
+#         self.number_served += additional_served
+#
 #
 # restaurant = Restaurant("дикая роза", "типичная кухня", "итальянской стилистики", 3000)
 # print("Название ресторана: " + restaurant.restaurant_name.title() + ".")
@@ -1273,20 +1281,22 @@
 #
 # restaurant.describe_restaurant()
 # restaurant.open_restaurant()
-#
-#
+
+
 # class IceCreamStand(Restaurant):
 #     """Описание киоска с мороженным"""
 #
-#     def __init__(self, restaurant_name, cuisine_type, stile, attendance):
+#     def __init__(self, restaurant_name, cuisine_type='ice_cream', stile, attendance):
 #         """Инициализация атрибутов класса родителя, затем инициализация атрибутов
 #         специфических для киоска с мороженным"""
 #         super().__init__(restaurant_name, cuisine_type, stile, attendance)
+#         self.flavors = []
 #
-#
-#     def ice_flavors(self):
-#         """Описание мороженого."""
-#         print("Ванильное " + morojenoe.cuisine_type.title())
+#     def show_flavors(self):
+#         """Показать доступные вкусы."""
+#         print("\nУ нас есть следующие вкусы:")
+#         for flavor in self.flavors:
+#             print("- " + flavor.title())
 #
 #     def open_restaurant(self):
 #         """Открытие ресторана"""
@@ -1298,94 +1308,206 @@
 # print("\t-----------------------------------")
 # print("Название ларька: " + morojenoe.restaurant_name.title() + ".")
 # print("Очень вкусное " + morojenoe.cuisine_type.title() + ".")
-# morojenoe.ice_flavors()
+# morojenoe.flavors = ['vanilla', 'chocolate', 'black cherry']
+# morojenoe.show_flavors()
 # morojenoe.describe_restaurant()
 # morojenoe.open_restaurant()
-
+#
 # ---------------------------------------------------------------------------------------------------------------------
-
+#
 # 9-7. Администратор: администратор — особая разновидность пользователя. Напишите
 # класс с именем Admin, наследующий от класса User из упражнения 9-3 (с.165) или
 # упражнения 9-5 (с. 170). Добавьте атрибут privileges для хранения списка строк вида
 # «разрешено добавлять сообщения», «разрешено удалять пользователей», «разрешено
 # банить пользователей» и т.д. Напишите метод show_privileges() для вывода набора
 # привилегий администратора. Создайте экземпляр Admin и вызовите свой метод.
-
+#
 # 9-8. Привилегии: напишите класс Privileges. Класс должен содержать всего один атрибут
 # privileges со списком строк из упражнения 9-7. Переместите метод show_privileges() в этот
 # класс. Создайте экземпляр Privileges как атрибут класса Admin. Создайте новый экземпляр
 # Admin и используйте свой метод для вывода списка привилегий.
+#
+# class User():
+#     """sozdanie polzovatelia"""
+#     the_number_of_employees = 0
+#
+#     def __init__(self, first_name, last_name, age):
+#         """Инициализируем пользователя."""
+#         self.first_name = first_name
+#         self.last_name = last_name
+#         self.age = age
+#         User.the_number_of_employees += 1  # подсчитывает рабочих
+#
+#     def describe_user(self):
+#         """Описание пользователя"""
+#
+#         summary_of_informations = ("Имя: " + self.first_name + "," + " Фамилия: " + self.last_name + "," + " Возраст: "
+#                                    + str(self.age) + ".").title()
+#         print(summary_of_informations)
+#
+#     def greet_user(self):
+#         """Приветствие пользователя"""
+#         print("Приветствую вас! " + self.first_name.title() + " " + self.last_name.title())
+#
+#     # def reset_login_attempts(self):
+#     #     """Обнуление пользователей."""
+#     #     self.login_attempts = 0
+#
+#
+# print("\t****Описание пользователя:****")
+# user_1 = User("vladimir", "rahmano", 32)
+# user_2 = User("dmitry", "halikov", 34)
+# user_3 = User("oleg", "evseev", 37)
+#
+# user_1.describe_user()
+# user_2.describe_user()
+# user_3.describe_user()
+# print("----------------------------------------------------------")
+# print("\t****Приветствие пользователя:****")
+# user_1.greet_user()
+# user_2.greet_user()
+# user_3.greet_user()
+# print("Всего сотрудников: %d" % User.the_number_of_employees)
+#
+#
+# # print("Сброс пользователей: " + str(users.reset_login_attempts()))
+#
+#
+# class Admin(User):
+#     """Описание администратора"""
+#
+#     def __init__(self, first_name, last_name, age):
+#         """Инициализирует атрибуты класса-родителя.
+#         Затем инициализируем атрибуты, специфические для электромобиля."""
+#         super().__init__(first_name, last_name, age)
+#         self.privileges = Privileges(Admin)
+#
+#
+# class Privileges():
+#     def __init__(self, privileges):
+#         self.privilegis_type = privileges
+#         self.privilegis_type = ['Разрешить удалять пользователей', 'Разрешить переименовывать пользователей',
+#                                 'Разрешить банить пользователей']
+#
+#     def show_privilegis(self):
+#         """Описание набора привелегий."""
+#         print('Специальные права администратора: ' ', '.join(self.privilegis_type))
+#
+#
+# user_admin = Admin("dmitry", "halikov", 34)
+# print("---------------------------------------------------")
+# user_admin.describe_user()
+# user_admin.Privileges.show_privileges()
 
-class User():
-    """sozdanie polzovatelia"""
-    the_number_of_employees = 0
+# ---------------------------------------------------------------------------------------------------------------------
 
-    def __init__(self, first_name, last_name, age):
-        """Инициализируем пользователя."""
-        self.first_name = first_name
-        self.last_name = last_name
-        self.age = age
-        User.the_number_of_employees += 1  # подсчитывает рабочих
-
-    def describe_user(self):
-        """Описание пользователя"""
-
-        summary_of_informations = ("Имя: " + self.first_name + "," + " Фамилия: " + self.last_name + "," + " Возраст: "
-                                   + str(self.age) + ".").title()
-        print(summary_of_informations)
-
-    def greet_user(self):
-        """Приветствие пользователя"""
-        print("Приветствую вас! " + self.first_name.title() + " " + self.last_name.title())
-
-    # def reset_login_attempts(self):
-    #     """Обнуление пользователей."""
-    #     self.login_attempts = 0
-
-
-print("\t****Описание пользователя:****")
-user_1 = User("vladimir", "rahmano", 32)
-user_2 = User("dmitry", "halikov", 34)
-user_3 = User("oleg", "evseev", 37)
-
-user_1.describe_user()
-user_2.describe_user()
-user_3.describe_user()
-print("----------------------------------------------------------")
-print("\t****Приветствие пользователя:****")
-user_1.greet_user()
-user_2.greet_user()
-user_3.greet_user()
-print("Всего сотрудников: %d" % User.the_number_of_employees)
-
-
-# print("Сброс пользователей: " + str(users.reset_login_attempts()))
-
-
-class Admin(User):
-    """Описание администратора"""
-
-    def __init__(self, first_name, last_name, age):
-        """Инициализирует атрибуты класса-родителя.
-        Затем инициализируем атрибуты, специфические для электромобиля."""
-        super().__init__(first_name, last_name, age)
-        self.privileges = Privileges(Admin)
-
-
-class Privileges():
-    def __init__(self, privileges):
-        self.privilegis_type = privileges
-        self.privilegis_type = ['Разрешить удалять пользователей', 'Разрешить переименовывать пользователей',
-                                'Разрешить банить пользователей']
-
-    def show_privilegis(self):
-        """Описание набора привелегий."""
-        print('Специальные права администратора: ' ', '.join(self.privilegis_type))
-
-
-user_admin = Admin("dmitry", "halikov", 34)
-print("---------------------------------------------------")
-user_admin.describe_user()
-user_admin.Privileges.show_privileges()
+# 9-9. Обновление аккумулятора: используйте окончательную версию программы
+# electric_car.py из этого раздела. Добавьте в класс Battery метод с именем upgrade_battery().
+# Этот метод должен проверять размер аккумулятора и устанавливать мощность равной 85,
+# если она имеет другое значение. Создайте экземпляр электромобиля с аккумулятором
+# по умолчанию, вызовите get_range(), а затем вызовите get_range() во второй раз после
+# вызова upgrade_battery(). Убедитесь в том, что запас хода увеличился.
 
 # 176
+# class Car():
+#     """Простая модель автомобиля"""
+#
+#     def __init__(self, make, model, year):
+#         """Инициализация атрибута и описание автомобиля."""
+#         self.make = make
+#         self.model = model
+#         self.year = year
+#         self.odometer_read = 100
+#
+#     def get_descriptive_name(self):
+#         """Возвращает аккуратно отформатированное описание."""
+#         long_name = (self.make.title() + " " + self.model.title() + " " + str(self.year) + " года")
+#         return long_name
+#
+#     def read_odometer(self):
+#         """Выводит пробег машины в милях"""
+#         print("На этой машине пробег " + str(self.odometer_read) + " мили. ")
+#
+#     def update_odometer(self, mileage):
+#         """Установить заданное значение на одометре.
+#         При попытке обратной прокрутки изменени отклоняются."""
+#         if mileage >= self.odometer_read:
+#             self.odometer_read = mileage
+#         else:
+#             print("Вы не можете скрутить одометр")
+#
+#     def increment_odometer(self, miles):
+#         """Увеличивает показания одометра с заданным приращением."""
+#         self.odometer_read += miles
+#
+#     def fill_gas_tank(self):
+#         """Обьём бензобака."""
+#         print("Обьём бензобака:" + " 120 литров")
+#
+#
+# my_new_car = Car('audi', 'a4', 2016)
+# print(my_new_car.get_descriptive_name())
+#
+# my_new_car.update_odometer(50)
+# my_new_car.read_odometer()
+# my_new_car.fill_gas_tank()
+# print("\t********************")
+# my_used_car = Car('subaru', 'outback', 2013)
+# print(my_used_car.get_descriptive_name())
+#
+# my_used_car.update_odometer(23500)
+# my_used_car.read_odometer()
+#
+# my_used_car.increment_odometer(100)
+# my_used_car.read_odometer()
+# my_used_car.fill_gas_tank()
+#
+#
+# class Battery():
+#     """Простая модель аккумулятора электромобиля."""
+#
+#     def __init__(self, battery_size=85):
+#         """Инициализирует атрибуты аккумулятора"""
+#         self.battery_size = battery_size
+#
+#     def describe_battery(self):
+#         """Выводит информацию о мощности аккумулятора."""
+#         print("У этой машины есть " + "аккумулятор мощностью: " + str(self.battery_size) + "Кв/ч.")
+#
+#     def get_range(self):  # 1
+#         """Выводит приблизительный запас хода для аккумулятора."""
+#         if self.battery_size == 70:
+#             range = 240
+#         elif self.battery_size == 85:
+#             range = 270
+#
+#         message = ("Эта машина может ехать примерно " + str(range))
+#         message += (" миль при полной зарядке.")
+#         print(message)
+#
+#     def upgrade_battery(self):
+#         """Улучшение батареи."""
+#         if self.battery_size != 85:
+#
+#
+#
+# class ElectricCar(Car):
+#     """Представляет аспекты машины, специфические для электромобилей."""
+#
+#     def __init__(self, make, model, year):
+#         """Инициализирует атрибуты класса-родителя.
+#         Затем инициализируем атрибуты, специфические для электромобиля."""
+#         super().__init__(make, model, year)
+#         self.battery = Battery()  # 4
+#
+#     def fill_gas_tank(self):
+#         """У электромобиля нет бензобака."""
+#         print("Этой машине не нужен бензобак!")
+#
+#
+# my_tesla = ElectricCar('tesla', 'model s', 2016)
+# print("\t********************")
+# print(my_tesla.get_descriptive_name())
+# my_tesla.battery.describe_battery()
+# my_tesla.fill_gas_tank()
+# my_tesla.battery.get_range()  # 2
