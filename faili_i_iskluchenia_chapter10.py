@@ -231,7 +231,7 @@
 
 # Большие файлы: миллион цифр
 
-# filename = ('D:\Python library\pi_digits.txt')
+# filename = ('D:\Python library\pi_million_digits.txt')
 #
 # with open(filename) as file_object:
 #     lines = file_object.readlines()
@@ -253,3 +253,37 @@
 # записать день рождения в виде строки из цифр и посмотреть, присутствует ли эта
 # строка в pi_string:
 
+# filename = ('D:\Python library\pi_million_digits.txt')
+
+# with open(filename) as file_object:
+#     lines = file_object.readlines()
+#
+#     pi_string = ""
+#     for line in lines:
+#         pi_string += line.rstrip()
+#
+# birthday = input("Введите свой день рождения в форму ddmmyy:")
+# if birthday in pi_string:
+#     print("Ваш день рождения отображается в первом миллионе цифр числа Пи.")
+# else:
+#     print("Ваш день рождения не появляется в первом миллионе цифр числа Пи.")
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+# 10-1. Изучение Python: откройте пустой файл в текстовом редакторе и напишите несколько
+# строк текста о возможностях Python. Каждая строка должна начинаться с фразы: «In Python
+# you can…» Сохраните файл под именем learning_python.txt в каталоге, использованном для
+# примеров этой главы. Напишите программу, которая читает файл и выводит текст три раза:
+# с чтением всего файла, с перебором строк объекта файла и с сохранением строк в списке
+# с последующим выводом списка вне блока with.
+
+file = ("D:\Python library\learning_python.txt")
+
+with open(file) as file_object:
+    files = file_object.readlines()
+
+    python_string = ""
+    for file in files:
+        python_string += file.rstrip()
+
+print(python_string + "\n")
