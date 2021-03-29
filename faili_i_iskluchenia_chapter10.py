@@ -61,7 +61,6 @@
 # После того как в программе появится объект, представляющий файл pi_digits.txt, во
 # второй строке программы используется метод read(), который читает все содер-
 # жимое файла и сохраняет его содержимое в одной длинной строке в переменной
-# Чтение из файла 187
 # contents. При выводе значения contents на экране появляется все содержимое
 # файла :
 
@@ -277,13 +276,31 @@
 # с чтением всего файла, с перебором строк объекта файла и с сохранением строк в списке
 # с последующим выводом списка вне блока with.
 
-file = ("D:\Python library\learning_python.txt")
+# file = ("D:\Python library\learning_python.txt")
+#
+# print("--- Чтение всего файла:")
+# with open(file) as file_object:
+#     text = file_object.read()
+#     print(text.rstrip())
+#
+# print("\n--- Сохранение строк в списке:")
+# with open(file) as file_object:
+#     lines = file_object.readlines()
+#     for line in lines:
+#         print(file.rstrip())
 
-with open(file) as file_object:
-    files = file_object.readlines()
+# print("\n--- Цикл по линиям:")
+# with open(file) as file_object:
+#     for file in file_object:
+#         print(file.rstrip())
 
-    python_string = ""
-    for file in files:
-        python_string += file.rstrip()
+# --------------------------------------------------------------------------------------------------------------------
 
-print(python_string + "\n")
+# 10-2. Изучение C: метод replace() может использоваться для замены любого слова в строке
+# другим словом. В следующем примере слово ‘dog’ заменяется словом ‘cat’:
+# >>> message = "I really like dogs."
+# >>> message.replace('dog', 'cat')
+# 'I really like cats.'
+# Прочитайте каждую строку из только что созданного файла learning_python.txt и замените
+# слово Python названием другого языка, например C. Выведите каждую измененную строку
+# на экран.
