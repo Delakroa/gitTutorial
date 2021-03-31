@@ -548,16 +548,18 @@
 # ма правильно среагировала на некорректный ввод, она может запросить новые
 # данные после сбоя.
 # Создадим простой калькулятор, который выполняет только операцию деления:
-# 197
 
-print("Дай мне два числа, и я разделю их.")
-print("Введите 'q' чтобы выйти.")
-while True:
-    first_number = input("\nFirst number: ")
-    if first_number == 'q':
-        break
-    second_number = input("Second number: ")
-    if second_number == 'q':
-        break
-answer = int(first_number) / int(second_number)
-print(answer)
+
+# print("Дай мне два числа, и я разделю их.")
+# print("Введите 'q' чтобы выйти.")
+# while True:
+#     print("Дай мне два числа, и я разделю их.")
+#     print("Введите 'q' чтобы выйти.")
+#     first_number = input("\nПервый номер: ")
+#     if first_number == 'q':
+#         break
+#     second_number = input("Второй номер: ")
+#     if second_number == 'q':
+#         break
+#     answer = int(first_number) / int(second_number)
+#     print("Ответ: " + str(answer) + "\n")
