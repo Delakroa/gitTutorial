@@ -642,13 +642,13 @@
 # Прочитать данные из несуществующего файла нельзя, поэтому Python выдает
 # исключение:
 
-filename = ("alice.txt")
-try:
-    with open(filename) as f_obj:
-        contents = f_obj.read()
-except FileNotFoundError:
-    msg = ("Извините, файл " + filename + " не существует.")
-    print(msg)
+# filename = ("alice.txt")
+# try:
+#     with open(filename) as f_obj:
+#         contents = f_obj.read()
+# except FileNotFoundError:
+#     msg = ("Извините, файл " + filename + " не существует.")
+#     print(msg)
 
 
 
@@ -688,3 +688,26 @@ except FileNotFoundError:
 
 # 199
 
+# >>> title = "Alice in Wonderland"
+# >>> title.split()
+# ['Alice', 'in', 'Wonderland']
+
+# Метод split() разделяет строку на части по всем позициям, в которых обнаружит
+# пробел, и сохраняет все части строки в элементах списка. В результате создается
+# список слов, входящих в строку (впрочем, вместе с некоторыми словами могут
+# храниться знаки препинания). Для подсчета слов в книге мы воспользуемся вызо-
+# вом split() для всего текста, а затем подсчитаем элементы списка, чтобы получить
+# примерное количество слов в тексте:
+
+filename = ("d:\Python library\Alice_in_Wonderland.txt")
+try:
+    with open(filename) as f_obj:
+        contents = f_obj.read()
+except FileNotFoundError:
+    msg = ("Извините, файл " + filename + " не существует.")
+    print(msg)
+else:
+    # Подсчёт приблизительного количества строк в файле.
+    words = contents.split()
+    num_words = len(words)
+    print("Файл " + filename + " имеет около " + str(num_words) + " строк.")
