@@ -928,6 +928,19 @@
 # свой код в блок try-except для перехвата исключения FileNotFoundError и вывода понятного
 # сообщения об отсутствии файла. Переместите один из файлов в другое место файловой
 # системы; убедитесь в том, что код блока except выполняется, как и положено.
+try:
+    with open("D:\Python library\cat.txt") as files_object:
+        cat = files_object.read()
+except FileExistsError:
+    print("Этого файла нет в данной директории")
 
-with open("pass") as files_object:
-    pass
+else:
+    print(cat.title())
+
+try:
+    with open("D:\Python library\dog.txt") as files_object:
+        dog = files_object.read()
+except FileExistsError:
+
+else:
+    print(dog.title())
