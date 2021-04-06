@@ -928,21 +928,73 @@
 # свой код в блок try-except для перехвата исключения FileNotFoundError и вывода понятного
 # сообщения об отсутствии файла. Переместите один из файлов в другое место файловой
 # системы; убедитесь в том, что код блока except выполняется, как и положено.
+# try:
+#     with open("D:\Python library\cat.txt") as files_object:
+#         cat = files_object.read()
+# except FileNotFoundError:
+#     print("\nЭтого файла нет в данной директории")
+#
+# else:
+#     print(cat.title())
+#
+# try:
+#     with open("D:\Python library\dog.txt") as files_object:
+#         dog = files_object.read()
+# except FileNotFoundError:
+#         print("\nФайла dog.txt нет в данной директории")
+# else:
+#     print(dog.title())
+
+# --------------------------------------------------------------------------------------------------------------------
+
+# 10-9. Ошибки без уведомления: измените блок except из упражнения 10-8 так, чтобы при
+# отсутствии файла программа продолжала работу, не уведомляя пользователя о проблеме.
+
+# try:
+#     with open("D:\Python library\cat.txt") as files_object:
+#         cat = files_object.read()
+# except FileNotFoundError:
+#     print("\nЭтого файла нет в данной директории")
+#
+# else:
+#     print(cat.title())
+#
+# try:
+#     with open("D:\Python library\dog.txt") as files_object:
+#         dog = files_object.read()
+# except FileNotFoundError:
+#     pass
+# else:
+#     print(dog.title())
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+# 10-10. Частые слова: зайдите на сайт проекта «Гутенберг» (http://gutenberg.org/) и найдите
+# несколько книг для анализа. Загрузите текстовые файлы этих произведений или скопируй-
+# те текст из браузера в текстовый файл на вашем компьютере.
+# Для подсчета количества вхождений слова или выражения в строку можно воспользовать-
+# ся методом count(). Например, следующий код подсчитывает количество вхождений ‘row’
+# в строке:
+
+# >>> line = "Row, row, row your boat"
+# >>> line.count('row')
+# 2
+# >>> line.lower().count('row')
+# 3
+# Обратите внимание: преобразование строки к нижнему регистру функцией lower() позволя-
+# ет найти все вхождения искомого слова независимо от регистра.
+# Напишите программу, которая читает файлы из проекта «Гутенберг» и определяет количе-
+# ство вхождений слова ‘the’ в каждом тексте.
+
 try:
-    with open("D:\Python library\cat.txt") as files_object:
-        cat = files_object.read()
-except FileNotFoundError:
-    print("\nЭтого файла нет в данной директории")
-
+    with open("D:\Python library\The Joss A Reversion by Richard Marsh.txt") as file_object:
+        file = file_object.read().lower()
+except UnicodeDecodeError:
+    print("Неверная кодировка в файле")
 else:
-    print(cat.title())
+    file_count = file.count("the")
+    print("Файл " + "The Joss A Reversion by Richard Marsh.txt" + " имеет около " + str(file_count) + " строк.\n")
+
+# --------------------------------------------------------------------------------------------------------------------
 
 
-
-try:
-    with open("D:\Python library\dog.txt") as files_object:
-        dog = files_object.read()
-except FileNotFoundError:
-    print("\nЭтого файла нет в данной директории")
-else:
-    print(dog.title())
