@@ -931,16 +931,18 @@
 try:
     with open("D:\Python library\cat.txt") as files_object:
         cat = files_object.read()
-except FileExistsError:
-    print("Этого файла нет в данной директории")
+except FileNotFoundError:
+    print("\nЭтого файла нет в данной директории")
 
 else:
     print(cat.title())
 
+
+
 try:
     with open("D:\Python library\dog.txt") as files_object:
         dog = files_object.read()
-except FileExistsError:
-
+except FileNotFoundError:
+    print("\nЭтого файла нет в данной директории")
 else:
     print(dog.title())
