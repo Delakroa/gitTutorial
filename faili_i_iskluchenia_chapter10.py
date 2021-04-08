@@ -1206,11 +1206,14 @@
 
 import json
 
+
 def get_stored_username():
     """Получает хранимое имя пользователя. если оно существует."""
+
+
 filename = "username.json"
 try:
     with open(filename) as f_obj:
         username = json.load(f_obj)
 except FileNotFoundError:
-
+    pass
