@@ -1204,16 +1204,40 @@
 
 # 208 Глава 10 • Файлы и исключения
 
+# странный нерабочий пример
+
 import json
 
 
-def get_stored_username():
-    """Получает хранимое имя пользователя. если оно существует."""
+# def get_stored_username():
+#     """Получает хранимое имя пользователя. если оно существует."""
 
 
-filename = "username.json"
-try:
-    with open(filename) as f_obj:
-        username = json.load(f_obj)
-except FileNotFoundError:
-    pass
+# filename = "username.json"
+# try:
+#     with open(filename) as f_obj:
+#         username = json.load(f_obj)
+# except FileNotFoundError:
+#     pass
+# else:
+#     return username
+#
+#
+# def greet_user():
+#     """Приветствие пользователя по имени"""
+#     username = get_stored_username()
+#     if username:
+#         print("С возвращением, " + username + "!")
+#     else:
+#
+#
+# username = input("Ваше имя? ")
+# filename = 'username.json'
+# with open(filename, 'w') as f_obj:
+#     json.dump(username, f_obj)
+#     print("заопмнили вас до возвращения " + username + "!")
+#
+# greet_user()
+
+
+
