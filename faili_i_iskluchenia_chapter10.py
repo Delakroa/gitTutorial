@@ -1284,3 +1284,17 @@ import json
 # json dump() для сохранения этого числа в файле
 # Напишите другую программу, которая читает это значение и выводит сообщение: «Я знаю
 # ваше любимое число! Это _____»
+
+import json
+
+filename = 'username.json'
+try:
+    with open(filename) as f_obj:
+        username = json.load(f_obj)
+except FileNotFoundError:
+    username = input("Какое ваше любимое число? ")
+    with open(filename, 'w') as f_obj:
+        json.dump(username, f_obj)
+        print("Я запомнил ваше любимое число до следующего раза")
+else:
+    print("Ваше любимое число, " + username + "!")
