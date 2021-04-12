@@ -1206,7 +1206,7 @@
 
 # странный нерабочий пример
 
-import json
+# import json
 
 # def get_stored_username():
 #     """Получает хранимое имя пользователя. если оно существует."""
@@ -1297,4 +1297,4 @@ except FileNotFoundError:
         json.dump(username, f_obj)
         print("Я запомнил ваше любимое число до следующего раза")
 else:
-    print("Ваше любимое число, " + username + "!")
+    print("Я знаю ваше любимое число! Это " + username + "!")
