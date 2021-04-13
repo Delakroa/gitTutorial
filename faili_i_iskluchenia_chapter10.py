@@ -1318,7 +1318,7 @@ try:
         username = json.load(f_obj)
 except FileNotFoundError:
     print("Данный файл отсутствует. Введём новые данные\n")
-    favorite_number = input("Введите ваше любимое число ")
+    username = input("Введите ваше любимое число ")
     with open(filename, 'w') as f_obj:
         json.dump(username, f_obj)
         print("Я запомнил ваше любимое число до следующего раза")
