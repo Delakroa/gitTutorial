@@ -1206,19 +1206,19 @@
 # странный нерабочий пример
 
 # import json
-
+#
+#
 # def get_stored_username():
 #     """Получает хранимое имя пользователя. если оно существует."""
-
-
-# filename = "username.json"
-# try:
-#     with open(filename) as f_obj:
-#         username = json.load(f_obj)
-# except FileNotFoundError:
-#     pass
-# else:
-#     return username
+#
+#     filename = "username.json"
+#     try:
+#         with open(filename) as f_obj:
+#             username = json.load(f_obj)
+#     except FileNotFoundError:
+#         return None
+#     else:
+#         return username
 #
 #
 # def greet_user():
@@ -1227,13 +1227,12 @@
 #     if username:
 #         print("С возвращением, " + username + "!")
 #     else:
+#         username = input("Ваше имя? ")
+#         filename = 'username.json'
+#     with open(filename, 'w') as f_obj:
+#         json.dump(username, f_obj)
+#         print("заопмнили вас до возвращения " + username + "!")
 #
-#
-# username = input("Ваше имя? ")
-# filename = 'username.json'
-# with open(filename, 'w') as f_obj:
-#     json.dump(username, f_obj)
-#     print("заопмнили вас до возвращения " + username + "!")
 #
 # greet_user()
 
@@ -1245,19 +1244,23 @@
 # возвращаемого значения функции. В точке  программа выводит приветствие
 # для пользователя, если попытка получения имени пользователя была успешной;
 # в противном случае программа запрашивает новое имя пользователя.
-# Из функции greet_user() стоит вынести еще один блок кода. Если имя пользователя не существует, то код запроса нового имени должен размещаться в функции,
+# Из функции greet_user() стоит вынести еще один блок кода. Если имя пользователя не существует, то код запроса нового
+# имени должен размещаться в функции,
 # специализирующейся на решении этой задачи:
+
 # import json
 # def get_stored_username():
 # """Получает хранимое имя пользователя, если оно существует."""
 # ...
+
 # def get_new_username():
 # """Запрашивает новое имя пользователя."""
 # username = input("What is your name? ")
 # filename = 'username.json'
 # with open(filename, 'w') as f_obj:
 # json.dump(username, f_obj)
-# return usernameИтоги 209
+#     return username
+
 # def greet_user():
 # """Приветствует пользователя по имени."""
 # username = get_stored_username()
@@ -1267,6 +1270,7 @@
 # username = get_new_username()
 # print("We'll remember you when you come back, " + username + "!")
 # greet_user()
+
 # Каждая функция в окончательной версии remember_me py имеет четкое, конкретное
 # предназначение. Мы вызываем greet_user(), и эта функция выводит нужное приветствие: либо для уже знакомого, либо для
 # нового пользователя. Для этого функция вызывает функцию get_stored_username(), которая отвечает только за чтение
@@ -1305,24 +1309,74 @@
 # сите любимое число пользователя и сохраните в файле. Выполните программу дважды,
 # чтобы убедиться в том, что она работает.
 
-import json
+# import json
+#
+#
+# def favorite_number():
+#     """Получаем любимое число если оно существует"""
+#
+#
+# filename = "username.json"
+# try:
+#     with open(filename) as f_obj:
+#         username = json.load(f_obj)
+# except FileNotFoundError:
+#     print("Данный файл отсутствует. Введём новые данные\n")
+#     username = input("Введите ваше любимое число ")
+#     with open(filename, 'w') as f_obj:
+#         json.dump(username, f_obj)
+#         print("Я запомнил ваше любимое число до следующего раза")
+#
+#
+# else:
+#     print("Я знаю ваше любимое число! Это " + username + "!")
 
+# --------------------------------------------------------------------------------------------------------------------
 
-def favorite_number():
-    """Получаем любимое число если оно существует"""
+# 10-13. Проверка пользователя: последняя версия remember_me.py предполагает, что поль-
+# зователь либо уже ввел свое имя, либо программа выполняется впервые. Ее нужно из-
+# менить на тот случай, если текущий пользователь не является тем человеком, который
+# последним использовал программу.
+# Прежде чем выводить приветствие в greet_user(), спросите пользователя, правильно
+# ли определено имя пользователя. Если ответ будет отрицательным, вызовите get_new_
+# username() для получения правильного имени пользователя.
 
-
-filename = "username.json"
-try:
-    with open(filename) as f_obj:
-        username = json.load(f_obj)
-except FileNotFoundError:
-    print("Данный файл отсутствует. Введём новые данные\n")
-    username = input("Введите ваше любимое число ")
-    with open(filename, 'w') as f_obj:
-        json.dump(username, f_obj)
-        print("Я запомнил ваше любимое число до следующего раза")
-
-
-else:
-    print("Я знаю ваше любимое число! Это " + username + "!")
+# import json
+#
+#
+# def get_stored_username():
+#     """Получает хранимое имя пользователя, если оно существует."""
+#     filename = 'username.json'
+#     try:
+#         with open(filename) as f_obj:
+#             username = json.load(f_obj)
+#     except FileNotFoundError:
+#         return None
+#     else:
+#         return username
+#
+#
+# def get_new_username():
+#     """Запрашивает новое имя пользователя."""
+#     username = input("Ваше имя? ")
+#     filename = 'username.json'
+#     with open(filename, 'w') as f_obj:
+#         json.dump(username, f_obj)
+#         return username
+#
+#
+# def greet_user():
+#     """Приветствует пользователя по имени."""
+#     username = get_stored_username()
+#     if username:
+#         print(f"С возвращением, {username}!")
+#     else:
+#         username = get_new_username()
+#     print(f"Запомнил вас до следующего возвращения, {username}!")
+#
+#
+# greet_user()
+# get_stored_username()
+# print("")
+# get_new_username()
+# -----------------------------------------------------------------------------------------------
