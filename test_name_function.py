@@ -19,7 +19,7 @@ from Testirovanie_chapter11 import get_formatted_name
 
 
 class NamesTestCase(unittest.TestCase):  # 1
-    """Тесты дял 'Testirovanie_chapter11.py'."""
+    """Тесты для 'Testirovanie_chapter11.py'."""
 
     def test_first_last_name(self):
         """Имена вида 'Janis Joplin' работают правильно?"""
@@ -27,4 +27,5 @@ class NamesTestCase(unittest.TestCase):  # 1
         self.assertEqual(formatted_name, 'Janis Joplin')  # 3
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
