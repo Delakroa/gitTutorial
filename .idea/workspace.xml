@@ -3,16 +3,11 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="AutoTestManager">
-    <enabled-run-configurations>
-      <run-configuration type="tests" name="Unittests in test_name_function.py" />
-    </enabled-run-configurations>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="031847a2-b5fc-4d0c-a881-7e6ee7eeb200" name="Default Changelist" comment="упражняемся в тестирование">
-      <change afterPath="$PROJECT_DIR$/test_cities.py" afterDir="false" />
+    <list default="true" id="031847a2-b5fc-4d0c-a881-7e6ee7eeb200" name="Default Changelist" comment="фаил для создания теста">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testirovanie_chapter11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testirovanie_chapter11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cities.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,29 +44,8 @@
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Testirovanie_chapter11">
-    <configuration name="Testirovanie_chapter11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="gitTutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testirovanie_chapter11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_name_function" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_cities.CityCountryTestCase.test_city_country">
+    <configuration name="Unittests for test_cities.CityCountryTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +55,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_name_function&quot;" />
+      <option name="_new_target" value="&quot;test_cities.CityCountryTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_name_function.NamesTestCase.test_first_last_middle_name" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_cities.CityCountryTestCase.test_city_country" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,11 +69,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_name_function.NamesTestCase.test_first_last_middle_name&quot;" />
+      <option name="_new_target" value="&quot;test_cities.CityCountryTestCase.test_city_country&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_name_function.NamesTestCase.test_first_last_name" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_cities.CityCountryTestCase.test_city_country_population" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +83,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_name_function.NamesTestCase.test_first_last_name&quot;" />
+      <option name="_new_target" value="&quot;test_cities.CityCountryTestCase.test_city_country_population&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_name_function.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_cities.CityCountryTestCase.test_population" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,17 +97,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_name_function.py&quot;" />
+      <option name="_new_target" value="&quot;test_cities.CityCountryTestCase.test_population&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_cities.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="gitTutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cities.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Testirovanie_chapter11" />
-        <item itemvalue="Python tests.Unittests in test_name_function.py" />
-        <item itemvalue="Python tests.Unittests for test_name_function.NamesTestCase.test_first_last_middle_name" />
-        <item itemvalue="Python tests.Unittests for test_name_function.NamesTestCase.test_first_last_name" />
-        <item itemvalue="Python tests.Unittests for test_name_function" />
+        <item itemvalue="Python tests.Unittests for test_cities.CityCountryTestCase.test_city_country" />
+        <item itemvalue="Python tests.Unittests for test_cities.CityCountryTestCase.test_city_country_population" />
+        <item itemvalue="Python tests.Unittests for test_cities.CityCountryTestCase.test_population" />
+        <item itemvalue="Python tests.Unittests for test_cities.CityCountryTestCase" />
+        <item itemvalue="Python tests.Unittests in test_cities.py" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618482707804</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="фаил для создания теста">
+      <created>1618545947605</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1618545947605</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +266,7 @@
     <MESSAGE value="новая тема" />
     <MESSAGE value="обучение тестирования" />
     <MESSAGE value="упражняемся в тестирование" />
-    <option name="LAST_COMMIT_MESSAGE" value="упражняемся в тестирование" />
+    <MESSAGE value="фаил для создания теста" />
+    <option name="LAST_COMMIT_MESSAGE" value="фаил для создания теста" />
   </component>
 </project>
