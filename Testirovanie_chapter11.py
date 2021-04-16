@@ -316,3 +316,11 @@
 # вильную строку. Запустите test_cities.py и убедитесь в том, что тест test_city_country() про-
 # ходит успешно.
 
+def description_cities(country, city):
+    """Название страны и города"""
+    full_description = country + ' ' + city
+    # print(full_description)
+    return full_description
+
+
+# description_cities("Santiago", "Chile")

@@ -9,9 +9,10 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="031847a2-b5fc-4d0c-a881-7e6ee7eeb200" name="Default Changelist" comment="обучение тестирования">
+    <list default="true" id="031847a2-b5fc-4d0c-a881-7e6ee7eeb200" name="Default Changelist" comment="упражняемся в тестирование">
+      <change afterPath="$PROJECT_DIR$/test_cities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testirovanie_chapter11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testirovanie_chapter11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_name_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_name_function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_name_function.py">
+  <component name="RunManager" selected="Python.Testirovanie_chapter11">
     <configuration name="Testirovanie_chapter11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Testirovanie_chapter11" />
         <item itemvalue="Python tests.Unittests in test_name_function.py" />
         <item itemvalue="Python tests.Unittests for test_name_function.NamesTestCase.test_first_last_middle_name" />
-        <item itemvalue="Python.Testirovanie_chapter11" />
         <item itemvalue="Python tests.Unittests for test_name_function.NamesTestCase.test_first_last_name" />
         <item itemvalue="Python tests.Unittests for test_name_function" />
       </list>
@@ -236,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618481871955</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="упражняемся в тестирование">
+      <created>1618482707804</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1618482707804</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +270,7 @@
     <MESSAGE value="исправил" />
     <MESSAGE value="новая тема" />
     <MESSAGE value="обучение тестирования" />
-    <option name="LAST_COMMIT_MESSAGE" value="обучение тестирования" />
+    <MESSAGE value="упражняемся в тестирование" />
+    <option name="LAST_COMMIT_MESSAGE" value="упражняемся в тестирование" />
   </component>
 </project>
