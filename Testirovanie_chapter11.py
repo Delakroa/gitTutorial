@@ -655,4 +655,18 @@
 # ходилось заново создавать экземпляр Employee в каждом тестовом методе. Запустите свой
 # тестовый сценарий и убедитесь в том, что оба теста прошли успешно.
 
+# стр. 222
 
+class Employee():
+    """Описание работаника"""
+
+    def __init__(self, first_name, last_name, annual_salary):
+        """Иниуиализация атрибутов работника."""
+        self.first_name = first_name
+        self.last_name = last_name
+        self.annual_salary = annual_salary
+
+    def give_raise(self):
+        """Увеличение ежигодного оклада."""
+
+    pass
