@@ -392,27 +392,27 @@
 # Возьмем класс для управления проведением анонимных опросов:
 
 
-class AnonymousSurvey():
-    """Сбор анонимных ответов на порос."""
-
-    def __init__(self, question):  # 1
-        """Сохраняет вопрос и готовится к сохранению ответа."""
-        self.question = question
-        self.responses = []
-
-    def show_question(self):  # 2
-        """Выводит вопрос."""
-        print(self.question)
-
-    def store_response(self, new_response):  # 3
-        """Сохраняет один ответ на вопрос."""
-        self.responses.append(new_response)
-
-    def show_results(self):  # 4
-        """Выводит все полученные ответы. """
-        print("Результаты опроса:")
-        for self.response in self.responses:
-            print("- " + self.response)
+# class AnonymousSurvey():
+#     """Сбор анонимных ответов на порос."""
+#
+#     def __init__(self, question):  # 1
+#         """Сохраняет вопрос и готовится к сохранению ответа."""
+#         self.question = question
+#         self.responses = []
+#
+#     def show_question(self):  # 2
+#         """Выводит вопрос."""
+#         print(self.question)
+#
+#     def store_response(self, new_response):  # 3
+#         """Сохраняет один ответ на вопрос."""
+#         self.responses.append(new_response)
+#
+#     def show_results(self):  # 4
+#         """Выводит все полученные ответы. """
+#         print("Результаты опроса:")
+#         for self.response in self.responses:
+#             print("- " + self.response)
 
 # Класс начинается с вопроса, предоставленного администратором , и включает
 # пустой список для хранения ответов. Класс содержит методы для вывода вопроса , добавления нового ответа в список
