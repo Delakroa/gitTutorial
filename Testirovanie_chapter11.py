@@ -685,8 +685,8 @@ class Employee():
         print("\nсмотрим сохранился ли доход " + str(self.income))
 
 
-annual_income = Employee("Volodia", "Rahmanov", 5000)
+# annual_income = Employee("Volodia", "Rahmanov", 5000)
 # print("Узнаем имя и фамилию: " + str(annual_income))  # пишет не на человеческом....
 # <__main__.Employee object at 0x016C2460>
-annual_income.give_raise()
-annual_income.save_income()
+# annual_income.give_raise()
+# annual_income.save_income()
