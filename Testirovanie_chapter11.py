@@ -660,6 +660,8 @@
 class Employee():
     """Описание работаника"""
 
+    income = []
+
     def __init__(self, first_name, last_name, annual_salary):
         """Иниуиализация атрибутов работника."""
         self.first_name = first_name
@@ -668,5 +670,23 @@ class Employee():
 
     def give_raise(self):
         """Увеличение ежигодного оклада."""
+        print("Для выхода из опроса введите 'q'")
+        print(str(self.annual_salary) + " изначальный доход")
+        while True:
+            raise_01 = input("\nВведите годовой доход: ")
+            if raise_01 == 'q':
+                break
+            self.annual_salary += int(raise_01)
+            print("смотрим на увеличение дохода работает ли: " + str(self.annual_salary))
 
-    pass
+    def save_income(self):
+        """Сохранить доход"""
+        self.income.append(str(self.annual_salary))
+        print("\nсмотрим сохранился ли доход " + str(self.income))
+
+
+annual_income = Employee("Volodia", "Rahmanov", 5000)
+# print("Узнаем имя и фамилию: " + str(annual_income))  # пишет не на человеческом....
+# <__main__.Employee object at 0x016C2460>
+annual_income.give_raise()
+annual_income.save_income()

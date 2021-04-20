@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="упражнения">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="нужно закончить задание">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testirovanie_chapter11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testirovanie_chapter11.py" afterDir="false" />
     </list>
@@ -28,10 +28,17 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProjectId" id="1rR14r5sMkF8N9PIlDN30CtOtQN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_survey.TestAnonymousSurvey">
+  <component name="RunManager" selected="Python.Testirovanie_chapter11">
     <configuration name="Testirovanie_chapter11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,13 +104,14 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Testirovanie_chapter11" />
         <item itemvalue="Python tests.Unittests for test_survey.TestAnonymousSurvey" />
         <item itemvalue="Python tests.Unittests for test_survey.TestAnonymousSurvey.test_store_three_responses" />
         <item itemvalue="Python tests.Unittests in test_survey.py" />
-        <item itemvalue="Python.Testirovanie_chapter11" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="новый тест">
       <created>1618838824539</created>
@@ -133,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618860465333</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="нужно закончить задание">
+      <created>1618861787269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618861787269</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="нужно закончить задание" />
+      <created>1618923934700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618923934700</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +174,7 @@
     <MESSAGE value="новый тест" />
     <MESSAGE value="новая тема" />
     <MESSAGE value="упражнения" />
-    <option name="LAST_COMMIT_MESSAGE" value="упражнения" />
+    <MESSAGE value="нужно закончить задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="нужно закончить задание" />
   </component>
 </project>
