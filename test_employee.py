@@ -7,14 +7,18 @@ class TestEmployee(unittest.TestCase):
 
     def setUp(self):
         """Создание опроса и набора ответов для всех тестовых методов"""
-        self.annual_income = Employee("Volodia", "Rahmanov", 5000)
-        self.annual_income.give_raise()
-        self.annual_income.save_income()
+        self.volodia = Employee("Volodia", "Rahmanov", 65000)
 
     def test_give_default_raise(self):
-        """Тест на ежегодное повышение в размере 5000"""
-        pass
+        """Проверить правильность работы повышения"""
+        self.volodia.give_raise()
+        self.assertEqual(self.volodia.annual_salary, 70000)
 
     def test_give_custom_raise(self):
-        """Тест на индивидуалное повышение"""
-        pass
+        """Проверить правильность работы индивидуального повышения"""
+        self.volodia.give_raise(10000)
+        self.assertEqual(self.volodia.annual_salary, 75000)
+
+
+if __name__ == '__main__':
+    unittest.main()

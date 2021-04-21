@@ -658,35 +658,14 @@
 # стр. 222
 
 class Employee():
-    """Описание работаника"""
+    """A class to represent an employee."""
 
-    income = []
-
-    def __init__(self, first_name, last_name, annual_salary):
-        """Иниуиализация атрибутов работника."""
-        self.first_name = first_name
-        self.last_name = last_name
+    def __init__(self, f_name, l_name, annual_salary):
+        """Initialize the employee."""
+        self.first = f_name.title()
+        self.last = l_name.title()
         self.annual_salary = annual_salary
 
-    def give_raise(self):
-        """Увеличение ежигодного оклада."""
-        print("Для выхода из опроса введите 'q'")
-        print(str(self.annual_salary) + " изначальный доход")
-        while True:
-            raise_01 = input("\nВведите годовой доход: ")
-            if raise_01 == 'q':
-                break
-            self.annual_salary += int(raise_01)
-            print("смотрим на увеличение дохода работает ли: " + str(self.annual_salary))
-
-    def save_income(self):
-        """Сохранить доход"""
-        self.income.append(str(self.annual_salary))
-        print("\nсмотрим сохранился ли доход " + str(self.income))
-
-
-# annual_income = Employee("Volodia", "Rahmanov", 5000)
-# print("Узнаем имя и фамилию: " + str(annual_income))  # пишет не на человеческом....
-# <__main__.Employee object at 0x016C2460>
-# annual_income.give_raise()
-# annual_income.save_income()
+    def give_raise(self, amount=5000):
+        """Give the employee a raise."""
+        self.annual_salary += amount
