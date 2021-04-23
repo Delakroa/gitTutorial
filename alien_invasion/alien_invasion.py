@@ -1,8 +1,8 @@
 import pygame
-
+import sys
+import game_functions as gf
 from settings import Settings
 from ship import Ship
-import game_functions as gf
 
 
 def run_game():
@@ -14,8 +14,6 @@ def run_game():
     pygame.display.set_caption("Alien Invasion")
     # Создание коробля.
     ship = Ship(ai_settings, screen)
-    # Назначение цвета фона.
-    bg_color = (230, 230, 230)
     # Запуск основного цикла игры.
     while True:
         gf.check_events(ship)
