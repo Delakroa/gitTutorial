@@ -1,4 +1,5 @@
 import pygame
+from pygame.sprite import Group
 import sys
 import game_functions as gf
 from settings import Settings
@@ -14,11 +15,14 @@ def run_game():
     pygame.display.set_caption("Alien Invasion")
     # Создание коробля.
     ship = Ship(ai_settings, screen)
+    # Создание группы для хранения пуль.
+    bullet = Group()
     # Запуск основного цикла игры.
     while True:
-        gf.check_events(ship)
+        gf.check_events(ai_settings, screen, ship, bullet)
         ship.update()
-        gf.update_screen(ai_settings, screen, ship)
+        bullet.update()
+        gf.update_screen(ai_settings, screen, ship, bullet)
 
 
 run_game()
