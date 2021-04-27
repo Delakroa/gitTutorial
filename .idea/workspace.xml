@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Продолжение обучения">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Убрал скобки у класса">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/Sozdanie_igri_chapter12.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/Sozdanie_igri_chapter12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,8 +132,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.alien_invasion" />
-        <item itemvalue="Python.Sozdanie_igri_chapter12" />
         <item itemvalue="Python.ship" />
+        <item itemvalue="Python.Sozdanie_igri_chapter12" />
         <item itemvalue="Python tests.Unittests for test_employee.TestEmployee" />
         <item itemvalue="Python tests.Unittests for test_employee.TestEmployee.test_give_custom_raise" />
       </list>
@@ -325,7 +323,35 @@
       <option name="project" value="LOCAL" />
       <updated>1619504050037</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Устранил ошибки">
+      <created>1619505250746</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1619505250746</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Учимс адльше">
+      <created>1619505273066</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1619505273066</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Установил скобки">
+      <created>1619521371692</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1619521371692</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Убрал скобки у класса">
+      <created>1619521401384</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1619521401384</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,6 +388,21 @@
     <MESSAGE value="удаление пуль вышедших за край экрана" />
     <MESSAGE value="добавление количества пуль" />
     <MESSAGE value="Продолжение обучения" />
-    <option name="LAST_COMMIT_MESSAGE" value="Продолжение обучения" />
+    <MESSAGE value="Устранил ошибки" />
+    <MESSAGE value="Учимс адльше" />
+    <MESSAGE value="Установил скобки" />
+    <MESSAGE value="Убрал скобки у класса" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрал скобки у класса" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alien_invasion/alien_invasion.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
