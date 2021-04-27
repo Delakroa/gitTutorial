@@ -16,19 +16,21 @@ def run_game():
     # Создание коробля.
     ship = Ship(ai_settings, screen)
     # Создание группы для хранения пуль.
-    bullet = Group()
+    bullets = Group()
     # Запуск основного цикла игры.
     while True:
-        gf.check_events(ai_settings, screen, ship, bullet)
+        gf.check_events(ai_settings, screen, ship, bullets)
         ship.update()
-        bullet.update()
+        bullets.update()
         # Удаление пуль вышедших за экран
-        for bullet in bullet.copy():
+        for bullet in bullets.copy():
             if bullet.rect.bottom <= 0:
-                bullet.remove(bullet)
-        print(len(bullet))
+                bullets.remove(bullet)
+        # print(len(bullets))
 
-        gf.update_screen(ai_settings, screen, ship, bullet)
+        gf.update_screen(ai_settings, screen, ship, bullets)
 
 
 run_game()
+
+ # 253
