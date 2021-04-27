@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="исправить ошибку в файле ship в методе def update(self):">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Продолжение обучения">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/Sozdanie_igri_chapter12.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/Sozdanie_igri_chapter12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +290,42 @@
       <option name="project" value="LOCAL" />
       <updated>1619208728583</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="ограничение количества пуль">
+      <created>1619503984793</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1619503984793</updated>
+    </task>
+    <task id="LOCAL-00022" summary="удаление пуль вышедших за край экрана">
+      <created>1619504007283</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1619504007283</updated>
+    </task>
+    <task id="LOCAL-00023" summary="добавление количества пуль">
+      <created>1619504028910</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1619504028910</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Продолжение обучения">
+      <created>1619504046631</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1619504046631</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Продолжение обучения">
+      <created>1619504050037</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1619504050037</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,6 +358,10 @@
     <MESSAGE value="полный фарш" />
     <MESSAGE value="обучалка" />
     <MESSAGE value="исправить ошибку в файле ship в методе def update(self):" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправить ошибку в файле ship в методе def update(self):" />
+    <MESSAGE value="ограничение количества пуль" />
+    <MESSAGE value="удаление пуль вышедших за край экрана" />
+    <MESSAGE value="добавление количества пуль" />
+    <MESSAGE value="Продолжение обучения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Продолжение обучения" />
   </component>
 </project>
