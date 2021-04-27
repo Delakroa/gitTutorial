@@ -1,6 +1,6 @@
 import pygame
 from pygame.sprite import Group
-import sys
+# import sys
 import game_functions as gf
 from settings import Settings
 from ship import Ship
@@ -22,6 +22,12 @@ def run_game():
         gf.check_events(ai_settings, screen, ship, bullet)
         ship.update()
         bullet.update()
+        # Удаление пуль вышедших за экран
+        for bullet in bullet.copy():
+            if bullet.rect.bottom <= 0:
+                bullet.remove(bullet)
+        print(len(bullet))
+
         gf.update_screen(ai_settings, screen, ship, bullet)
 
 
