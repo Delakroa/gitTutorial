@@ -21,16 +21,10 @@ def run_game():
     while True:
         gf.check_events(ai_settings, screen, ship, bullets)
         ship.update()
-        bullets.update()
-        # Удаление пуль вышедших за экран
-        for bullet in bullets.copy():
-            if bullet.rect.bottom <= 0:
-                bullets.remove(bullet)
-        # print(len(bullets))
-
+        gf.update_bullets(bullets)
         gf.update_screen(ai_settings, screen, ship, bullets)
 
 
 run_game()
 
- # 253
+# 253
