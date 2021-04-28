@@ -1176,5 +1176,19 @@
 # стройка будет использоваться в game_functions.py для проверки количества суще-
 # ствующих пуль перед созданием новой пули в check_keydown_events():
 
+# game_functions.py
 
+# def check_keydown_events(event, ai_settings, screen, ship, bullets):
+# ...
+# elif event.key == pygame.K_SPACE:
+# # Создание новой пули и включение ее в группу bullets.
+# if len(bullets) < ai_settings.bullets_allowed:
+# new_bullet = Bullet(ai_settings, screen, ship)
+# bullets.add(new_bullet)
+#
+# При нажатии клавиши «пробел» программа проверяет длину bullets. Если
+# значение len(bullets) меньше трех, создается новая пуля. Но, если на экране
+# уже находятся три активные пули, при нажатии пробела ничего не происходит.
+# Если вызапустите игру сейчас, вы сможете выпускать пули только группами
+# по три.
 
