@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Описание работы">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Ограничение количества пуль">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/Sozdanie_igri_chapter12.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/Sozdanie_igri_chapter12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,7 +386,28 @@
       <option name="project" value="LOCAL" />
       <updated>1619591997861</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Добавленна функция update_bullets(bullets):">
+      <created>1619592907793</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1619592907793</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Рефакторинг bullets.update()">
+      <created>1619592967264</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1619592967264</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Ограничение количества пуль">
+      <created>1619592983213</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1619592983213</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,9 +423,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="выполнение упражнения" />
-    <MESSAGE value="новый тест" />
-    <MESSAGE value="новый тест, продолжаем задание" />
     <MESSAGE value="задание выполненно." />
     <MESSAGE value="глава 12" />
     <MESSAGE value="код окна игры" />
@@ -430,6 +445,9 @@
     <MESSAGE value="Немного подкорректировал" />
     <MESSAGE value="Изменил supper" />
     <MESSAGE value="Описание работы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Описание работы" />
+    <MESSAGE value="Добавленна функция update_bullets(bullets):" />
+    <MESSAGE value="Рефакторинг bullets.update()" />
+    <MESSAGE value="Ограничение количества пуль" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ограничение количества пуль" />
   </component>
 </project>

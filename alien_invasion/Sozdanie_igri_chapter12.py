@@ -1201,3 +1201,60 @@
 # код можно переместить в модуль game_functions. Мы создадим новую функцию
 # update_bullets() и добавим ее в конец game_functions.py:
 
+# game_functions.py
+# def update_bullets(bullets):
+# """Обновляет позиции пуль и уничтожает старые пули."""
+# # Обновление позиций пуль.
+# bullets.update()
+# # Удаление пуль, вышедших за край экрана.
+# for bullet in bullets.copy():
+# if bullet.rect.bottom <= 0:
+# bullets.remove(bullet)
+
+# Код update_bullets() вырезается и вставляется из alien_invasion.py; единственным
+# необходимым параметром функции является группа bullets.
+# Цикл while в alien_invasion.py снова выглядит просто:
+
+# alien_invasion.py
+#
+# # Запуск основного цикла игры.
+# while True:
+#  gf.check_events(ai_settings, screen, ship, bullets)
+#  ship.update()
+#  gf.update_bullets(bullets)
+#  gf.update_screen(ai_settings, screen, ship, bullets)
+# В результате преобразования основной цикл содержит минимум кода, чтобы
+# можно было легко прочитать имена функций и понять, что происходит в игре.
+# Основной цикл проверяет ввод, полученный от игрока , а затем обновляет пози-
+# цию корабля
+#  и всех выпущенных пуль . Затем обновленные позиции игровых
+# элементов используются для вывода нового экрана в точке .
+
+# --------------------------------------------------------------------------------------------------------------------
+
+# Создание функции fire_bullet()
+
+# Переместим код стрельбы в отдельную функцию, чтобы выстрел выполнялся всего
+# одной строкой кода, а блок elif в check_keydown_events() оставался простым:
+#
+# game_functions.py
+#
+# def check_keydown_events(event, ai_settings, screen, ship, bullets):
+# """Реагирует на нажатия клавиш."""
+# ...
+# elif event.key == pygame.K_SPACE:
+# fire_bullet(ai_settings, screen, ship, bullets)
+# def fire_bullet(ai_settings, screen, ship, bullets):
+# """Выпускает пулю, если максимум еще не достигнут."""
+# # Создание новой пули и включение ее в группу bullets.
+# if len(bullets) < ai_settings.bullets_allowed:
+# new_bullet = Bullet(ai_settings, screen, ship)
+# bullets.add(new_bullet)
+#
+# Функция fire_bullet() просто содержит код, который использовался для выстрела
+# при нажатии клавиши «пробел»; вызов fire_bullet() добавляется в check_keydown_
+# events() при нажатии клавиши «пробел».
+# Запустите alien_invasion.py еще раз и убедитесь в том, что стрельба проходит без
+# ошибок.
+
+# стр. 255 нужно ещё сделать
