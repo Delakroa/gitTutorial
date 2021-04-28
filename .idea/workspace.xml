@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Немного подкорректировал">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Описание работы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/bullet.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/bullet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/Sozdanie_igri_chapter12.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/Sozdanie_igri_chapter12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager" selected="Python.ship">
+  <component name="RunManager" selected="Python.alien_invasion">
     <configuration name="Sozdanie_igri_chapter12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,9 +141,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.alien_invasion" />
         <item itemvalue="Python.ship" />
         <item itemvalue="Python.ship (1)" />
-        <item itemvalue="Python.alien_invasion" />
         <item itemvalue="Python.Sozdanie_igri_chapter12" />
         <item itemvalue="Python tests.Unittests for test_employee.TestEmployee" />
       </list>
@@ -366,7 +368,28 @@
       <option name="project" value="LOCAL" />
       <updated>1619522865749</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Изменил supper">
+      <created>1619523287090</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1619523287090</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Изменил supper">
+      <created>1619523292014</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1619523292014</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Описание работы">
+      <created>1619591997861</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1619591997861</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,8 +405,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="упражнения" />
-    <MESSAGE value="нужно закончить задание" />
     <MESSAGE value="выполнение упражнения" />
     <MESSAGE value="новый тест" />
     <MESSAGE value="новый тест, продолжаем задание" />
@@ -407,6 +428,8 @@
     <MESSAGE value="Установил скобки" />
     <MESSAGE value="Убрал скобки у класса" />
     <MESSAGE value="Немного подкорректировал" />
-    <option name="LAST_COMMIT_MESSAGE" value="Немного подкорректировал" />
+    <MESSAGE value="Изменил supper" />
+    <MESSAGE value="Описание работы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Описание работы" />
   </component>
 </project>
