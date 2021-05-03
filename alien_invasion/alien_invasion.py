@@ -76,6 +76,12 @@ class AlienInvasion:
             if bullets.rect.bottom <= 0:
                 self.bullets.remove(bullets)
 
+    def _create_fleet(self):
+        """Создайте флот инопланетян."""
+        # Сделайте инопланетянина.
+        alien = Alien(self)
+        self.aliens.add(alien)
+
     def _update_screen(self):
         """Обновите изображения на экране и перейдите на новый экран."""
         self.screen.fill(self.settings.bg_color)
