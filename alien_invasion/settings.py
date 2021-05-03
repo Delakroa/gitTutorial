@@ -7,8 +7,10 @@ class Settings:
         self.screen_width = 1200
         self.screen_height = 800
         self.bg_color = (230, 230, 230)  # Назначение цвета фона.
+
         # Настройка корабля
         self.ship_speed = 1.5
+
         # Параметры пули
         self.bullet_speed_factor = 1
         self.bullet_width = 3
