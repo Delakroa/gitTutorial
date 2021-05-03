@@ -24,9 +24,9 @@ class Ship:
         """Обновляет позицию корабля с учётом флага."""
         # Обновляется атрибуты center, не rect.
         if self.moving_right and self.rect.right < self.screen_rect.right:
-            self.center += self.ai_settings.ship_speed_factor
+            self.center += self.ai_settings.ship_speed
         if self.moving_left and self.rect.left > 0:
-            self.center -= self.ai_settings.ship_speed_factor
+            self.center -= self.ai_settings.ship_speed
 
             # Обновление обьекта rect на self.center.
             self.rect.centerx = self.center
