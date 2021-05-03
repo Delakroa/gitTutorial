@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="нужно искать решение проблеммы">
-      <change beforePath="$PROJECT_DIR$/alien_invasion/Sozdanie_igri_chapter12.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/Sozdanie_igri_chapter12.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="конец главы">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/bullet.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/bullet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -449,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620031852748</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="конец главы">
+      <created>1620032197334</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1620032197334</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -475,7 +485,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="изучаем" />
     <MESSAGE value="найти ошибку" />
     <MESSAGE value="пишем игру" />
     <MESSAGE value="полный фарш" />
@@ -500,6 +509,7 @@
     <MESSAGE value="Исправил" />
     <MESSAGE value="Конец главы 12" />
     <MESSAGE value="нужно искать решение проблеммы" />
-    <option name="LAST_COMMIT_MESSAGE" value="нужно искать решение проблеммы" />
+    <MESSAGE value="конец главы" />
+    <option name="LAST_COMMIT_MESSAGE" value="конец главы" />
   </component>
 </project>
