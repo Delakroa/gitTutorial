@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="конец главы">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="исправил">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/bullet.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/bullet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -459,7 +460,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620032197334</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="исправил">
+      <created>1620034589668</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1620034589668</updated>
+    </task>
+    <task id="LOCAL-00045" summary="исправил">
+      <created>1620034711652</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1620034711652</updated>
+    </task>
+    <task id="LOCAL-00046" summary="исправил">
+      <created>1620034720842</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1620034720842</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -485,7 +507,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="найти ошибку" />
     <MESSAGE value="пишем игру" />
     <MESSAGE value="полный фарш" />
     <MESSAGE value="обучалка" />
@@ -510,6 +531,7 @@
     <MESSAGE value="Конец главы 12" />
     <MESSAGE value="нужно искать решение проблеммы" />
     <MESSAGE value="конец главы" />
-    <option name="LAST_COMMIT_MESSAGE" value="конец главы" />
+    <MESSAGE value="исправил" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправил" />
   </component>
 </project>

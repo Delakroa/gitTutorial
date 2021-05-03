@@ -3,14 +3,14 @@ from bullet import Bullet
 import pygame
 
 
-def chek_keydown_events(event, ai_settings, screen, ship, bullets):
+def chek_keydown_events(event, settings, screen, ship, bullets):
     """Реагирует на нажатие клавиш."""
     if event.key == pygame.K_RIGHT:
         ship.moving_right = True
     elif event.key == pygame.K_LEFT:
         ship.moving_left = True
     elif event.key == pygame.K_SPACE:
-        fire_bullet(ai_settings, screen, ship, bullets)
+        fire_bullet(settings, screen, ship, bullets)
 
 
 def fire_bullet(ai_settings, screen, ship, bullets):
