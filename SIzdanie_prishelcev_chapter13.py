@@ -86,7 +86,32 @@
 # def blitme(self):
 # """Выводит пришельца в текущем положении."""
 # self.screen.blit(self.image, self.rect)
+
 # В основном этот класс похож на класс Ship (если не считать размещения пришельца).
 # Изначально каждый пришелец размещается в левом верхнем углу экрана, при
 # этом слева от него добавляется интервал, равный ширине пришельца, а над ним —
 # интервал, равный высоте 
+
+# -------------------------------------------------------------------------------------------------------------------
+
+# Создание экземпляра Alien
+
+# Создадим экземпляр Alien в alien_invasion py:
+# alien_invasion.py
+# ...
+# from ship import Ship
+# from alien import Alien
+# import game_functions as gf
+
+# def run_game():
+# ...
+# # Создание пришельца.
+# alien = Alien(ai_settings, screen)
+# # Запуск основного цикла игры.
+# while True:
+# gf.check_events(ai_settings, screen, ship, bullets)
+# ship.update()
+# gf.update_bullets(bullets)
+# gf.update_screen(ai_settings, screen, ship, alien, bullets)
+# run_game()
+
