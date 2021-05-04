@@ -5,16 +5,16 @@ from pygame.sprite import Sprite
 class Bullet(Sprite):
     """Класс для управления пулями, выпущенными кораблём"""
 
-    def __init__(self, ai_game):
+    def __init__(self, ai_settings, screen, ship):
         """Создаёт обьект пули в текущей позиции корабля."""
         super().__init__()
-        self.screen = ai_game.screen
-        self.settings = ai_game.settings
-        self.color = self.settings.bullet_color
+        self.screen = screen
+        # self.settings = settings
+        # self.color = self.color
 
         # Создание пули в позиции (0,0) и назначение правильной позиции.
-        self.rect = pygame.Rect(0, 0, self.settings.bullet_width, self.settings.bullet_height)
-        self.rect.midtop = ai_game.ship.rect.midtop
+        self.rect = pygame.Rect(0, 0, ai_settings.bullet_width, ai_settings.bullet_height)
+        self.rect.top = ship.rect.top
 
         # Позиция пули хранится в вещественном формате.
         self.y = float(self.rect.y)
@@ -22,7 +22,7 @@ class Bullet(Sprite):
     def update(self):
         """Перемещает пулю вверх по экрану."""
         # Обновление позиции пули в вещественном формате.
-        self.y -= self.settings.bullet_speed
+        self.y -= self.speed_factor
         # Обновление пзиции прямоугольника.
         self.rect.y = self.y
 

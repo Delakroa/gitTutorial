@@ -4,20 +4,22 @@ import pygame
 class Ship:
     """Класс для управления кораблем."""
 
-    def __init__(self, ai_game):
+    def __init__(self, ai_settings, screen):
         """Инициализирует корабль и задает его начальную позицию."""
-        self.screen = ai_game.screen
-        self.ai_settings = ai_game.settings
-        self.screen_rect = ai_game.screen.get_rect()
+        self.screen = screen
+        self.ai_settings = ai_settings
+        self.screen_rect = screen.get_rect()
 
         # Загрузка изображения корабля и получение прямоугольника.
         self.image = pygame.image.load('images/ship.bmp')
         self.rect = self.image.get_rect()
+        self.screen_rect = screen.get_rect()
 
         # Каждый новый корабль появляется в центре нижнего края экрана.
-        self.rect.midbottom = self.screen_rect.midbottom
+        self.rect.centerx = self.screen_rect.centerx
+        self.rect.bottom = self.screen_rect.bottom
 
-        # Сохранение вещественной координаты цунтра коробля.
+        # Сохранение вещественной координаты центра коробля.
         self.x = float(self.rect.x)
 
         # Флаг перемещения
