@@ -60,5 +60,3 @@ def update_bullets(bullets):
     # print(len(bullets))
     # Отображение последнего прорисованного экрана.
     pygame.display.flip()
-
-# Для переделки

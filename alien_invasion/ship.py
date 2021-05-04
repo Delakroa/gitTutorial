@@ -4,11 +4,11 @@ import pygame
 class Ship:
     """Класс для управления кораблем."""
 
-    def __init__(self, ai_settings, screen):
+    def __init__(self,ai_settings, screen):
         """Инициализирует корабль и задает его начальную позицию."""
         self.screen = screen
         self.ai_settings = ai_settings
-        self.screen_rect = screen.get_rect()
+        # self.screen_rect = screen.get_rect()
 
         # Загрузка изображения корабля и получение прямоугольника.
         self.image = pygame.image.load('images/ship.bmp')
@@ -20,7 +20,7 @@ class Ship:
         self.rect.bottom = self.screen_rect.bottom
 
         # Сохранение вещественной координаты центра коробля.
-        self.x = float(self.rect.x)
+        self.center = float(self.rect.centerx)
 
         # Флаг перемещения
         self.moving_right = False
@@ -30,15 +30,23 @@ class Ship:
         """Обновляет позицию корабля с учётом флага."""
         # Обновляется атрибуты center, не rect.
         if self.moving_right and self.rect.right < self.screen_rect.right:
-            self.x += self.ai_settings.ship_speed
+            self.center += self.ai_settings.ship_speed_factor
         if self.moving_left and self.rect.left > 0:
-            self.x -= self.ai_settings.ship_speed
+            self.center -= self.ai_settings.ship_speed_factor
 
             # Обновление обьекта rect на self.center.
-            self.rect.x = self.x
+            self.rect.centerx = self.center
 
     def blitme(self):
         """Рисует корабль в текущей позиции."""
         self.screen.blit(self.image, self.rect)
 
-# Для переделки
+
+# Пример:
+
+# def update(self):
+# """Обновляет позицию корабля с учетом флагов."""
+# if self.moving_right:
+# self.rect.centerx += 1
+# if self.moving_left:
+# self.rect.centerx -= 1

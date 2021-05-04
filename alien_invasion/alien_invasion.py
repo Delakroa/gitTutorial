@@ -1,6 +1,5 @@
 import pygame
 from pygame.sprite import Group
-# import sys
 import game_functions as gf
 from settings import Settings
 from ship import Ship
