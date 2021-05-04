@@ -27,4 +27,4 @@ def run_game():
 
 run_game()
 
-# Для переделки
+
