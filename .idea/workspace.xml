@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Переделка">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="исправил буллет">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/bullet.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/bullet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -453,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620101694337</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="исправил буллет">
+      <created>1620133853134</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1620133853134</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -469,7 +475,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Класс для хранения настроек игры Alien Invasion." />
     <MESSAGE value="изучаем" />
     <MESSAGE value="найти ошибку" />
     <MESSAGE value="пишем игру" />
@@ -494,6 +499,7 @@
     <MESSAGE value="Переместили код игры в функцию fire_bullets" />
     <MESSAGE value="Исправил" />
     <MESSAGE value="Переделка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переделка" />
+    <MESSAGE value="исправил буллет" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправил буллет" />
   </component>
 </project>
