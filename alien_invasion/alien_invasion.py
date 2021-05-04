@@ -1,98 +1,30 @@
-import sys
-
 import pygame
-
+from pygame.sprite import Group
+# import sys
+import game_functions as gf
 from settings import Settings
 from ship import Ship
-from bullet import Bullet
 
 
-class AlienInvasion:
-    """Общий класс для управления игровыми активами и поведением."""
-
-    def __init__(self):
-        """Инициализируйте игру и создайте игровые ресурсы."""
-        pygame.init()
-        self.settings = Settings()
-
-        self.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
-        self.settings.screen_width = self.screen.get_rect().width
-        self.settings.bullet_height = self.screen.get_rect().height
-        pygame.display.set_caption("Alien Invasion")
-
-        self.ship = Ship(self)  # Создание коробля.
-        self.bullets = pygame.sprite.Group()  # Создание группы для хранения пуль.
-
-    def run_game(self):
-        """Инициализирует игру и создаёт объект экрана."""
-        # Запуск основного цикла игры.
-        while True:
-            self._check_events()
-            self.ship.update()
-            self._update_bullets()
-            self._update_screen()
-
-    def _check_events(self):
-        """Реагируйте на нажатия клавиш и события мыши."""
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                sys.exit()
-            elif event.type == pygame.KEYDOWN:
-                self._check_keydown_events(event)
-            elif event.type == pygame.KEYUP:
-                self._check_keyup_events(event)
-
-    def _check_keydown_events(self, event):
-        """Отвечайте на нажатия клавиш."""
-        if event.key == pygame.K_RIGHT:
-            self.ship.moving_right = True
-        elif event.key == pygame.K_LEFT:
-            self.ship.moving_left = True
-        elif event.key == pygame.K_q:
-            sys.exit()
-        elif event.key == pygame.K_SPACE:
-            self._fire_bullet()
-
-    def _check_keyup_events(self, event):
-        """Отвечайте на ключевые релизы."""
-        if event.key == pygame.K_RIGHT:
-            self.ship.moving_right = False
-        elif event.key == pygame.K_LEFT:
-            self.ship.moving_left = False
-
-    def _fire_bullet(self):
-        """Создайте новую марку и добавьте ее в группу маркеров"""
-        if len(self.bullets) < self.settings.bullet_allowed:
-            new_bullet = Bullet(self)
-            self.bullets.add(new_bullet)
-
-    def _update_bullets(self):
-        """Обновите положение пуль и избавьтесь от старых пуль."""
-        # Обновите позиции маркеров
-        self.bullets.update()
-
-        # Избавьтесь от исчезнувших пуль.
-        for bullets in self.bullets.copy():
-            if bullets.rect.bottom <= 0:
-                self.bullets.remove(bullets)
-
-    def _create_fleet(self):
-        """Создайте флот инопланетян."""
-        # Сделайте инопланетянина.
-        alien = Alien(self)
-        self.aliens.add(alien)
-
-    def _update_screen(self):
-        """Обновите изображения на экране и перейдите на новый экран."""
-        self.screen.fill(self.settings.bg_color)
-        self.ship.blitme()
-        for bullet in self.bullets.sprites():
-            bullet.draw_bullet()
-
-        pygame.display.flip()
+def run_game():
+    """Инициализирует игру и создаёт объект экрана."""
+    # Инициализирует pygame, settings и обьект экрана.
+    pygame.init()
+    ai_settings = Settings()
+    screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
+    pygame.display.set_caption("Alien Invasion")
+    # Создание коробля.
+    ship = Ship(ai_settings, screen)
+    # Создание группы для хранения пуль.
+    bullets = Group()
+    # Запуск основного цикла игры.
+    while True:
+        gf.check_events(ai_settings, screen, ship, bullets)
+        ship.update()
+        gf.update_bullets(bullets)
+        gf.update_screen(ai_settings, screen, ship, bullets)
 
 
-if __name__ == '__main__':
-    # Создайте экземпляр игры и запустите игру
-    ai = AlienInvasion()
-    ai.run_game()
+run_game()
+
+# Для переделки
