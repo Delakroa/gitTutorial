@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="созданна Флота">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Рефакторинг">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,27 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00011" summary="код окна игры">
-      <created>1619030713150</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1619030713150</updated>
-    </task>
-    <task id="LOCAL-00012" summary="урок код окна игры">
-      <created>1619030729210</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1619030729210</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Класс для хранения настроек игры Alien Invasion.">
-      <created>1619031946510</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1619031946510</updated>
     </task>
     <task id="LOCAL-00014" summary="изучаем">
       <created>1619031972755</created>
@@ -508,7 +487,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620196552673</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="сгруппировал экземпляры">
+      <created>1620197691491</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1620197691491</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Исправил ошибки">
+      <created>1620197715908</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1620197715908</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Рефакторинг">
+      <created>1620197853519</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1620197853519</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,9 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Убрал скобки у класса" />
-    <MESSAGE value="Немного подкорректировал" />
-    <MESSAGE value="Изменил supper" />
     <MESSAGE value="Описание работы" />
     <MESSAGE value="Добавленна функция update_bullets(bullets):" />
     <MESSAGE value="Рефакторинг bullets.update()" />
@@ -549,6 +546,9 @@
     <MESSAGE value="Создали экземпляр для создания группы пришельцев, на флот пришельцев" />
     <MESSAGE value="созданна def create_fleet" />
     <MESSAGE value="созданна Флота" />
-    <option name="LAST_COMMIT_MESSAGE" value="созданна Флота" />
+    <MESSAGE value="сгруппировал экземпляры" />
+    <MESSAGE value="Исправил ошибки" />
+    <MESSAGE value="Рефакторинг" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг" />
   </component>
 </project>
