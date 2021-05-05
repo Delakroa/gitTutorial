@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Создали экземпляр для создания группы пришельцев, на флот пришельцев">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="созданна def create_fleet">
+      <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,13 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00009" summary="задание выполненно.">
-      <created>1619024846007</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1619024846007</updated>
     </task>
     <task id="LOCAL-00010" summary="глава 12">
       <created>1619028794828</created>
@@ -507,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620195466312</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="созданна def create_fleet">
+      <created>1620196323737</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1620196323737</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +522,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Учимс адльше" />
     <MESSAGE value="Установил скобки" />
     <MESSAGE value="Убрал скобки у класса" />
     <MESSAGE value="Немного подкорректировал" />
@@ -548,6 +546,7 @@
     <MESSAGE value="вписал пришельца для, при каждом прохождение цикла перерисовывание экрана с пришельцем" />
     <MESSAGE value="Построение флота. Вычисление кол-во пришельцев в одном ряду.&#10;Создание ряда." />
     <MESSAGE value="Создали экземпляр для создания группы пришельцев, на флот пришельцев" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создали экземпляр для создания группы пришельцев, на флот пришельцев" />
+    <MESSAGE value="созданна def create_fleet" />
+    <option name="LAST_COMMIT_MESSAGE" value="созданна def create_fleet" />
   </component>
 </project>
