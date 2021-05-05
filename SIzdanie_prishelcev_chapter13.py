@@ -297,3 +297,47 @@
 # системе может выглядеть немного иначе.
 
 # ---------------------------------------------------------------------------------------------------------------------
+
+# Рефакторинг create_fleet()
+
+# Если бы создание флота на этом было завершено, то функцию create_fleet(),
+# пожалуй, можно было бы оставить в таком виде, но работа еще не закончена, по-
+# этому мы немного подчистим код функции. Ниже приведена версия create_fleet()
+# с двумя новыми функциями: get_number_aliens_x() и create_alien():
+
+# game_functions.py
+
+#  def get_number_aliens_x(ai_settings, alien_width):
+# """Вычисляет количество пришельцев в ряду."""
+# available_space_x = ai_settings.screen_width - 2 * alien_width
+# number_aliens_x = int(available_space_x / (2 * alien_width))
+# return number_aliens_x
+# def create_alien(ai_settings, screen, aliens, alien_number):
+# """Создает пришельца и размещает его в ряду."""
+# alien = Alien(ai_settings, screen)
+#  alien_width = alien.rect.width
+# alien.x = alien_width + 2 * alien_width * alien_number
+# alien.rect.x = alien.x
+# aliens.add(alien)
+#
+# def create_fleet(ai_settings, screen, aliens):
+# """Создает флот пришельцев."""
+# # Создание пришельца и вычисление количества пришельцев в ряду.
+# alien = Alien(ai_settings, screen)
+#  number_aliens_x = get_number_aliens_x(ai_settings, alien.rect.width)
+#
+# # Создание первого ряда пришельцев.
+# for alien_number in range(number_aliens_x):
+#  create_alien(ai_settings, screen, aliens, alien_number)
+
+# Код get_number_aliens_x() нисколько не изменился по сравнению с create_
+# fleet() . Код create_alien() почти не изменился, разве что для определения ши-
+# рины используется только что созданный пришелец . В точке  код вычисления
+# горизонтальных интервалов заменяется вызовом get_number_aliens_x(), а строка
+# с alien_width удалена, потому что теперь задача решается в create_alien(). В точ-
+# ке  вызывается функция create_alien(). Рефакторинг упрощает добавление
+# новых строк и создание всего флота.
+
+# --------------------------------------------------------------------------------------------------------------------
+
+# Добавление рядов
