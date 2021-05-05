@@ -42,10 +42,12 @@ def check_events(ai_settings, screen, ship, bullets):
             chek_keydown_events(event, ai_settings, screen, ship, bullets)
 
 
-def update_screen(ai_settings, screen, ship, bullets):
-    # При каждом прохождение цикла перерисовывается экран.
+def update_screen(ai_settings, screen, ship, alien, bullets):
+    """При каждом прохождение цикла перерисовывается экран."""
     screen.fill(ai_settings.bg_color)
     ship.blitme()
+    alien.blitme()
+
     # Все пули выводятся позади изображения корабля и пришельцев.
     for bullet in bullets.sprites():
         bullet.draw_bullet()
@@ -55,10 +57,12 @@ def update_bullets(bullets):
     """Обновляет позиции пуль и удаляет старые пули."""
     # Обновление позиции пуль
     bullets.update()
+
     # Удаление пуль вышедших за экран
     for bullet in bullets.copy():
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
     # print(len(bullets))
+
     # Отображение последнего прорисованного экрана.
     pygame.display.flip()
