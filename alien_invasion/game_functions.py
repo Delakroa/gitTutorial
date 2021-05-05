@@ -1,6 +1,7 @@
 import sys
 from bullet import Bullet
 import pygame
+from alien import Alien
 
 
 def chek_keydown_events(event, settings, screen, ship, bullets):
@@ -46,6 +47,8 @@ def update_screen(ai_settings, screen, ship, alien, bullets):
     """При каждом прохождение цикла перерисовывается экран."""
     screen.fill(ai_settings.bg_color)
     ship.blitme()
+    alien.draw(screen)  # Когда вы вызываете метод draw() для группы, Pygame автоматически выводит каждый элемент группы
+    # в позиции, определяемой его атрибутом rect
     alien.blitme()
 
     # Все пули выводятся позади изображения корабля и пришельцев.
@@ -62,7 +65,26 @@ def update_bullets(bullets):
     for bullet in bullets.copy():
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
-    # print(len(bullets))
+    # print(len(bullets)) # Проверка на кол-во пуль
 
     # Отображение последнего прорисованного экрана.
     pygame.display.flip()
+
+
+def create_fleet(ai_settings, screen, aliens):
+    """Создание флота пришельцев."""
+    # Создание пришельцев и вычисление ко-ва пришельцев в ряду.
+    # Интервал между соседними пришельцами равен одной ширине пришельца.
+
+    alien = Alien(ai_settings, screen)
+    alien_width = alien.rect.width
+    available_space_x = ai_settings.screen_width - 2 * alien_width
+    number_aliens_x = int(available_space_x / (2 * alien_width))
+
+    # Создание первого ряда пришельцев.
+    for alien_number in range(number_aliens_x):
+        alien = Alien(ai_settings, screen)  # Создание пришельцев и размер его ряда.
+        alien.x = alien_width + 2 * alien_width * alien_number
+        alien.rect.x = alien.x
+        aliens.add(alien)
+
