@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="созданна def create_fleet">
-      <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="созданна Флота">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00010" summary="глава 12">
-      <created>1619028794828</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1619028794828</updated>
     </task>
     <task id="LOCAL-00011" summary="код окна игры">
       <created>1619030713150</created>
@@ -506,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620196323737</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="созданна Флота">
+      <created>1620196552673</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1620196552673</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,7 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Установил скобки" />
     <MESSAGE value="Убрал скобки у класса" />
     <MESSAGE value="Немного подкорректировал" />
     <MESSAGE value="Изменил supper" />
@@ -547,6 +548,7 @@
     <MESSAGE value="Построение флота. Вычисление кол-во пришельцев в одном ряду.&#10;Создание ряда." />
     <MESSAGE value="Создали экземпляр для создания группы пришельцев, на флот пришельцев" />
     <MESSAGE value="созданна def create_fleet" />
-    <option name="LAST_COMMIT_MESSAGE" value="созданна def create_fleet" />
+    <MESSAGE value="созданна Флота" />
+    <option name="LAST_COMMIT_MESSAGE" value="созданна Флота" />
   </component>
 </project>

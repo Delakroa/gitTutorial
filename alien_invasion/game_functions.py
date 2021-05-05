@@ -43,13 +43,13 @@ def check_events(ai_settings, screen, ship, bullets):
             chek_keydown_events(event, ai_settings, screen, ship, bullets)
 
 
-def update_screen(ai_settings, screen, ship, alien, bullets):
+def update_screen(ai_settings, screen, ship, aliens, bullets):
     """При каждом прохождение цикла перерисовывается экран."""
     screen.fill(ai_settings.bg_color)
     ship.blitme()
-    alien.draw(screen)  # Когда вы вызываете метод draw() для группы, Pygame автоматически выводит каждый элемент группы
-    # в позиции, определяемой его атрибутом rect
-    alien.blitme()
+    # Когда вы вызываете метод draw() для группы, Pygame автоматически выводит каждый
+    # элемент группы в позиции, определяемой его атрибутом rect
+    aliens.draw(screen)
 
     # Все пули выводятся позади изображения корабля и пришельцев.
     for bullet in bullets.sprites():
