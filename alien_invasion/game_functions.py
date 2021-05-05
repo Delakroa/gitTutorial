@@ -71,20 +71,28 @@ def update_bullets(bullets):
     pygame.display.flip()
 
 
-def create_fleet(ai_settings, screen, aliens):
-    """Создание флота пришельцев."""
-    # Создание пришельцев и вычисление ко-ва пришельцев в ряду.
-    # Интервал между соседними пришельцами равен одной ширине пришельца.
-
-    alien = Alien(ai_settings, screen)
-    alien_width = alien.rect.width
+def get_number_aliens(ai_settings, alien_width):
+    """Вычисление пришельцев"""
     available_space_x = ai_settings.screen_width - 2 * alien_width
     number_aliens_x = int(available_space_x / (2 * alien_width))
+    return number_aliens_x
+
+
+def create_alien(ai_settings, screen, aliens, alien_number):
+    """Создание пришельца и размещает его в ряду."""
+    alien = Alien(ai_settings, screen)  # Создание пришельцев и размер его ряда.
+    alien_width = alien.rect.width
+    alien.x = alien_width + 2 * alien_width * alien_number
+    alien.rect.x = alien.x
+    aliens.add(alien)
+
+
+def create_fleet(ai_settings, screen, aliens):
+    """Создаёт флот пришельцев."""
+    # Создаёт пришельцев и вычисление количества пришельцев в ряду
+    alien = Alien(ai_settings, screen)
+    number_aliens_x = get_number_aliens(ai_settings, alien.rect.width)
 
     # Создание первого ряда пришельцев.
     for alien_number in range(number_aliens_x):
-        alien = Alien(ai_settings, screen)  # Создание пришельцев и размер его ряда.
-        alien.x = alien_width + 2 * alien_width * alien_number
-        alien.rect.x = alien.x
-        aliens.add(alien)
-
+        create_alien(ai_settings, screen, aliens, alien_number)
