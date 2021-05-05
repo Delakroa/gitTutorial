@@ -23,8 +23,15 @@ class Alien(Sprite):
         self.x = float(self.rect.x)
 
     def blitme(self):
-        """Выводит пришельца"""                  # Отрисовка выполняется с помощью метода blit
-        self.screen.blit(self.image, self.rect)  # (можно создавать дополнительные поверхности)
+        """"Выводит пришельца"""
+        # Отрисовка выполняется с помощью метода blit
+        # (можно создавать дополнительные поверхности)
+        self.screen.blit(self.image, self.rect)
+
+    def update(self):
+        """Переместите пришельца вправо."""
+        self.x += self.ai_settings.alien_speed_factor
+        self.rect.x = self.x
 
     # def check_edges(self):
     #     """Верните True, если пришелец находится на краю экрана."""
@@ -32,7 +39,3 @@ class Alien(Sprite):
     #     if self.rect.right >= screen_rect.right or self.rect.left <= 0:
     #         return True
     #
-    # def update(self):
-    #     """Переместите инопланетянина вправо или влево."""
-    #     self.x += (self.settings.alien_speed * self.settings.fleet_direction)
-    #     self.rect.x = self.x

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Исправление ошибок">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Добавление рядов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,27 +167,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00017" summary="пишем игру">
-      <created>1619115871183</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1619115871183</updated>
-    </task>
-    <task id="LOCAL-00018" summary="полный фарш">
-      <created>1619122087441</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1619122087441</updated>
-    </task>
-    <task id="LOCAL-00019" summary="обучалка">
-      <created>1619205737402</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1619205737402</updated>
     </task>
     <task id="LOCAL-00020" summary="исправить ошибку в файле ship в методе def update(self):">
       <created>1619208728583</created>
@@ -508,7 +490,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620207576964</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="gf.create_fleet(ai_settings, screen, ship, aliens) добавил аргумент">
+      <created>1620211885186</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1620211885186</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Добавление рядов  def get_number_rows">
+      <created>1620211937686</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1620211937686</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Добавление рядов">
+      <created>1620211959005</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1620211959005</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,9 +527,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавленна функция update_bullets(bullets):" />
-    <MESSAGE value="Рефакторинг bullets.update()" />
-    <MESSAGE value="Ограничение количества пуль" />
     <MESSAGE value="Создание функции faer_bullet" />
     <MESSAGE value="Переместили код игры в функцию fire_bullets" />
     <MESSAGE value="Исправил" />
@@ -549,6 +549,9 @@
     <MESSAGE value="Исправил ошибки" />
     <MESSAGE value="Рефакторинг" />
     <MESSAGE value="Исправление ошибок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправление ошибок" />
+    <MESSAGE value="gf.create_fleet(ai_settings, screen, ship, aliens) добавил аргумент" />
+    <MESSAGE value="Добавление рядов  def get_number_rows" />
+    <MESSAGE value="Добавление рядов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление рядов" />
   </component>
 </project>
