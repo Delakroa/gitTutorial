@@ -71,8 +71,8 @@ def update_bullets(bullets):
     pygame.display.flip()
 
 
-def get_number_aliens(ai_settings, alien_width):
-    """Вычисление пришельцев"""
+def get_number_aliens_x(ai_settings, alien_width):
+    """Вычисляет количество пришельцев в ряду."""
     available_space_x = ai_settings.screen_width - 2 * alien_width
     number_aliens_x = int(available_space_x / (2 * alien_width))
     return number_aliens_x
@@ -91,7 +91,7 @@ def create_fleet(ai_settings, screen, aliens):
     """Создаёт флот пришельцев."""
     # Создаёт пришельцев и вычисление количества пришельцев в ряду
     alien = Alien(ai_settings, screen)
-    number_aliens_x = get_number_aliens(ai_settings, alien.rect.width)
+    number_aliens_x = get_number_aliens_x(ai_settings, alien.rect.width)
 
     # Создание первого ряда пришельцев.
     for alien_number in range(number_aliens_x):
