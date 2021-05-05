@@ -23,6 +23,12 @@ def run_game():
     # Создание группы для хранения пуль.
     bullets = Group()
 
+    # Создание групп пришельцев
+    alien = Group()
+
+    # Создание флота пришельцев
+    gf.update_screen(ai_settings, screen, ship, alien, bullets)
+
     # Запуск основного цикла игры.
     while True:
         gf.check_events(ai_settings, screen, ship, bullets)
