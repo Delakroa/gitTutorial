@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Рефакторинг">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Исправление ошибок">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +41,7 @@
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
   <component name="RunManager" selected="Python.alien_invasion">
-    <configuration name="Sozdanie_igri_chapter12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SIzdanie_prishelcev_chapter13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -47,11 +49,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion/Sozdanie_igri_chapter12.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.alien_invasion" />
+        <item itemvalue="Python.SIzdanie_prishelcev_chapter13" />
         <item itemvalue="Python.alien" />
         <item itemvalue="Python.ship" />
         <item itemvalue="Python.ship (1)" />
-        <item itemvalue="Python.Sozdanie_igri_chapter12" />
       </list>
     </recent_temporary>
   </component>
@@ -162,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00016" summary="пишем игру">
-      <created>1619115859658</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1619115859658</updated>
     </task>
     <task id="LOCAL-00017" summary="пишем игру">
       <created>1619115871183</created>
@@ -506,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620200261179</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Исправление ошибок">
+      <created>1620207576964</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1620207576964</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,7 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Описание работы" />
     <MESSAGE value="Добавленна функция update_bullets(bullets):" />
     <MESSAGE value="Рефакторинг bullets.update()" />
     <MESSAGE value="Ограничение количества пуль" />
@@ -547,6 +548,7 @@
     <MESSAGE value="сгруппировал экземпляры" />
     <MESSAGE value="Исправил ошибки" />
     <MESSAGE value="Рефакторинг" />
-    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг" />
+    <MESSAGE value="Исправление ошибок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправление ошибок" />
   </component>
 </project>
