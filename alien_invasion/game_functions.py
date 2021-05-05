@@ -11,6 +11,8 @@ def chek_keydown_events(event, settings, screen, ship, bullets):
         ship.moving_left = True
     elif event.key == pygame.K_SPACE:
         fire_bullet(settings, screen, ship, bullets)
+    elif event.key == pygame.K_q:
+        sys.exit()
 
 
 def fire_bullet(ai_settings, screen, ship, bullets):
@@ -23,7 +25,7 @@ def fire_bullet(ai_settings, screen, ship, bullets):
 
 def chek_keyup_events(event, ship):
     """Реагирует на отпускание клавиш."""
-    if event.key == pygame.K_RIGHT:
+    if event.key == pygame.K_RIGHT:  # Модуль event для обработки очереди событий
         ship.moving_right = False
     elif event.key == pygame.K_LEFT:
         ship.moving_left = False
