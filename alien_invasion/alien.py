@@ -23,7 +23,7 @@ class Alien(Sprite):
         self.x = float(self.rect.x)
 
     def blitme(self):
-        """Выводит пришельца"""  # Отрисовка выполняется с помощью метода blit
+        """Выводит пришельца"""                  # Отрисовка выполняется с помощью метода blit
         self.screen.blit(self.image, self.rect)  # (можно создавать дополнительные поверхности)
 
     # def check_edges(self):
