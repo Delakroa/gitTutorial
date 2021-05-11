@@ -34,4 +34,3 @@ class Bullet(Sprite):
         """Вывод пули на экран"""
         pygame.draw.rect(self.screen, self.color, self.rect)
 
-# Для переделки
