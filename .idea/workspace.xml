@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="работает неверно, нужно иправить">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Проверка попадания в пришельца">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ship.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,27 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Продолжение обучения">
-      <created>1619504050037</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1619504050037</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Устранил ошибки">
-      <created>1619505250746</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1619505250746</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Учимс адльше">
-      <created>1619505273066</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1619505273066</updated>
     </task>
     <task id="LOCAL-00028" summary="Установил скобки">
       <created>1619521371692</created>
@@ -507,7 +486,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620233838118</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="выявление коллизий">
+      <created>1620711175288</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1620711175288</updated>
+    </task>
+    <task id="LOCAL-00075" summary="изменил коментарий">
+      <created>1620711189333</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1620711189333</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Проверка попадания в пришельца">
+      <created>1620711420931</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1620711420931</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,9 +523,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="исправил bullet_speed_factor" />
-    <MESSAGE value="Создание экземпляра Alien" />
-    <MESSAGE value="кое как рабочий варинат" />
     <MESSAGE value="Добавил выход на кнопку Q" />
     <MESSAGE value="Создали пришельца и отрисовали его" />
     <MESSAGE value="Исправил недочёты" />
@@ -548,6 +545,9 @@
     <MESSAGE value="Проверка достижения края" />
     <MESSAGE value="снижение флота и направления" />
     <MESSAGE value="Переместите пришельца влево или вправо." />
-    <option name="LAST_COMMIT_MESSAGE" value="Переместите пришельца влево или вправо." />
+    <MESSAGE value="выявление коллизий" />
+    <MESSAGE value="изменил коментарий" />
+    <MESSAGE value="Проверка попадания в пришельца" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проверка попадания в пришельца" />
   </component>
 </project>
