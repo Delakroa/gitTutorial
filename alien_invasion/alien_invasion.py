@@ -3,6 +3,8 @@ from pygame.sprite import Group
 import game_functions as gf
 from settings import Settings
 from ship import Ship
+
+
 # from alien import Alien
 
 
@@ -33,5 +35,6 @@ def run_game():
         gf.update_aliens(ai_settings, aliens)
         gf.update_screen(ai_settings, screen, ship, aliens, bullets)
         gf.check_bullet_alien_collisions(ai_settings, screen, ship, aliens, bullets)
+
 
 run_game()
