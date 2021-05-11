@@ -15,11 +15,11 @@ class Ship:
         self.rect = self.image.get_rect()
         # self.screen_rect = screen.get_rect()
 
-        # Каждый новый корабль появляется в центре нижнего края экрана.
+        # Загрузите изображение корабля и получите его прямоугольник.
         self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
 
-        # Сохранение вещественной координаты центра коробля.
+        # Каждый новый корабль появляется в центре нижнего края экрана.
         self.center = float(self.rect.centerx)
 
         # Флаг перемещения
