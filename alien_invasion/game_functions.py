@@ -56,14 +56,17 @@ def update_screen(ai_settings, screen, ship, aliens, bullets):
         bullet.draw_bullet()
 
 
-def update_bullets(alien, bullets):
+def update_bullets(ai_settings, screen, ship, aliens, bullets):
     """Обновляет позиции пуль и удаляет старые пули."""
     # Обновление позиции пуль
     bullets.update()
 
     # Проверка попадания в пришельца
     # При обнаружения попадания, удалить пулю и пришельца
-    collisions = pygame.sprite.groupcollide(bullets, alien, True, True)
+    collisions = pygame.sprite.groupcollide(bullets, aliens, True, True)
+    if len(aliens) == 0:
+        bullets.empty()   # Уничтожение существующих пуль и создание нового флота.
+        create_fleet(ai_settings, screen, ship, aliens)
 
     # Удаление пуль вышедших за экран
     for bullet in bullets.copy():
