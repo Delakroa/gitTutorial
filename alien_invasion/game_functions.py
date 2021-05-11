@@ -134,7 +134,7 @@ def change_fleet_direction(ai_settings, aliens):
     ai_settings.fleet_direction *= -1
 
 
-def update_aliens(ai_settings, ship, aliens):
+def update_aliens(ai_settings, stats, screen, ship, aliens, bullets):
     """Проверяет, достиг ли флот края экрана,
 после чего обновляет позиции всех пришельцев во флоте."""
     check_fleet_edges(ai_settings, aliens)
