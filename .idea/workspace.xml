@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Рефакторинг update_bullets()">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="ai_settings.fleet_direction *= -1&#10;не должна была быть в цикле">
+      <change afterPath="$PROJECT_DIR$/alien_invasion/game_stats.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,27 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Исправил">
-      <created>1619762986145</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1619762986145</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Переделка">
-      <created>1620100358240</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1620100358240</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Переделка">
-      <created>1620101694337</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1620101694337</updated>
     </task>
     <task id="LOCAL-00043" summary="исправил буллет">
       <created>1620133853134</created>
@@ -508,7 +488,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620723523768</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Обнаружение коллизий с кораблем">
+      <created>1620724039523</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1620724039523</updated>
+    </task>
+    <task id="LOCAL-00090" summary="gf.update_aliens(ai_settings, ship, aliens)">
+      <created>1620724067473</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1620724067473</updated>
+    </task>
+    <task id="LOCAL-00091" summary="ai_settings.fleet_direction *= -1&#10;не должна была быть в цикле">
+      <created>1620724177576</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1620724177576</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,9 +525,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Исправил ошибки" />
-    <MESSAGE value="Рефакторинг" />
-    <MESSAGE value="Исправление ошибок" />
     <MESSAGE value="gf.create_fleet(ai_settings, screen, ship, aliens) добавил аргумент" />
     <MESSAGE value="Добавление рядов  def get_number_rows" />
     <MESSAGE value="Добавление рядов" />
@@ -549,6 +547,9 @@
     <MESSAGE value="убрал лишний комент" />
     <MESSAGE value="дописал экземпляр" />
     <MESSAGE value="Рефакторинг update_bullets()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг update_bullets()" />
+    <MESSAGE value="Обнаружение коллизий с кораблем" />
+    <MESSAGE value="gf.update_aliens(ai_settings, ship, aliens)" />
+    <MESSAGE value="ai_settings.fleet_direction *= -1&#10;не должна была быть в цикле" />
+    <option name="LAST_COMMIT_MESSAGE" value="ai_settings.fleet_direction *= -1&#10;не должна была быть в цикле" />
   </component>
 </project>
