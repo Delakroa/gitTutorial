@@ -748,3 +748,33 @@
 
 # --------------------------------------------------------------------------------------------------------------------
 
+# Рефакторинг update_bullets()
+
+# Переработаем функцию update_bullets(), чтобы она не решала такое количество
+# разных задач. Код обработки коллизий будет выделен в отдельную функцию:
+
+# game_functions.py
+#
+# def update_bullets(ai_settings, screen, ship, aliens, bullets):
+# ...
+# # Уничтожение исчезнувших пуль.
+# for bullet in bullets.copy():
+# if bullet.rect.bottom <= 0:
+# bullets.remove(bullet)
+# check_bullet_alien_collisions(ai_settings, screen, ship, aliens, bullets)
+# def check_bullet_alien_collisions(ai_settings, screen, ship, aliens, bullets):
+# """Обработка коллизий пуль с пришельцами."""
+# # Удаление пуль и пришельцев, участвующих в коллизиях.
+# collisions = pygame.sprite.groupcollide(bullets, aliens, True, True)
+# if len(aliens) == 0:
+# # Уничтожение существующих пуль и создание нового флота.
+# bullets.empty()
+# create_fleet(ai_settings, screen, ship, aliens)
+
+# Мы создали новую функцию check_bullet_alien_collisions() для выявления
+# коллизий между пулями и пришельцами и для реакции на уничтожение всего
+# флота. Это сделано для того, чтобы сократить длину функции update_bullets()
+# и упростить дальнейшую разработку.
+
+# ------------------------------------------------------------------------
+

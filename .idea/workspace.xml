@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="update_bullets рефакторинг">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="дописал экземпляр">
       <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,20 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Создание функции faer_bullet">
-      <created>1619594053670</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1619594053670</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Переместили код игры в функцию fire_bullets">
-      <created>1619608578353</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1619608578353</updated>
     </task>
     <task id="LOCAL-00039" summary="Исправил">
       <created>1619610143178</created>
@@ -508,7 +492,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620721431469</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="убрал лишний комент">
+      <created>1620723250248</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1620723250248</updated>
+    </task>
+    <task id="LOCAL-00087" summary="дописал экземпляр">
+      <created>1620723271773</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1620723271773</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,8 +522,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="созданна def create_fleet" />
-    <MESSAGE value="созданна Флота" />
     <MESSAGE value="сгруппировал экземпляры" />
     <MESSAGE value="Исправил ошибки" />
     <MESSAGE value="Рефакторинг" />
@@ -549,6 +545,8 @@
     <MESSAGE value="Ускорение пуль" />
     <MESSAGE value="gf.check_bullet_alien_collisions(ai_settings, screen, ship, aliens, bullets)" />
     <MESSAGE value="update_bullets рефакторинг" />
-    <option name="LAST_COMMIT_MESSAGE" value="update_bullets рефакторинг" />
+    <MESSAGE value="убрал лишний комент" />
+    <MESSAGE value="дописал экземпляр" />
+    <option name="LAST_COMMIT_MESSAGE" value="дописал экземпляр" />
   </component>
 </project>
