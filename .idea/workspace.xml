@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="ai_settings.fleet_direction *= -1&#10;не должна была быть в цикле">
-      <change afterPath="$PROJECT_DIR$/alien_invasion/game_stats.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="self.ship_limit = 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,41 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00043" summary="исправил буллет">
-      <created>1620133853134</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1620133853134</updated>
-    </task>
-    <task id="LOCAL-00044" summary="исправил bullet_speed_factor">
-      <created>1620134084584</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1620134084584</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Создание экземпляра Alien">
-      <created>1620134127442</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1620134127442</updated>
-    </task>
-    <task id="LOCAL-00046" summary="кое как рабочий варинат">
-      <created>1620137380032</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1620137380032</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Добавил выход на кнопку Q">
-      <created>1620189698155</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1620189698155</updated>
     </task>
     <task id="LOCAL-00048" summary="Добавил выход на кнопку Q">
       <created>1620189755310</created>
@@ -509,7 +473,42 @@
       <option name="project" value="LOCAL" />
       <updated>1620724177576</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Отслеживание статистики">
+      <created>1620728002290</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1620728002290</updated>
+    </task>
+    <task id="LOCAL-00093" summary="update_aliens дописал атрибуты">
+      <created>1620728029179</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1620728029179</updated>
+    </task>
+    <task id="LOCAL-00094" summary="update_aliens дописал атрибуты">
+      <created>1620728061927</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1620728061927</updated>
+    </task>
+    <task id="LOCAL-00095" summary="добавил self.ship_limit = 3">
+      <created>1620728091277</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1620728091277</updated>
+    </task>
+    <task id="LOCAL-00096" summary="self.ship_limit = 3">
+      <created>1620728110831</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1620728110831</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,10 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gf.create_fleet(ai_settings, screen, ship, aliens) добавил аргумент" />
-    <MESSAGE value="Добавление рядов  def get_number_rows" />
-    <MESSAGE value="Добавление рядов" />
-    <MESSAGE value="перемещение флота" />
     <MESSAGE value="Создание настроек для направления флота" />
     <MESSAGE value="Проверка достижения края" />
     <MESSAGE value="снижение флота и направления" />
@@ -550,6 +545,10 @@
     <MESSAGE value="Обнаружение коллизий с кораблем" />
     <MESSAGE value="gf.update_aliens(ai_settings, ship, aliens)" />
     <MESSAGE value="ai_settings.fleet_direction *= -1&#10;не должна была быть в цикле" />
-    <option name="LAST_COMMIT_MESSAGE" value="ai_settings.fleet_direction *= -1&#10;не должна была быть в цикле" />
+    <MESSAGE value="Отслеживание статистики" />
+    <MESSAGE value="update_aliens дописал атрибуты" />
+    <MESSAGE value="добавил self.ship_limit = 3" />
+    <MESSAGE value="self.ship_limit = 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="self.ship_limit = 3" />
   </component>
 </project>
