@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="gf.update_bullets(ai_settings, screen, ship, aliens, bullets)">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Ускорение пуль">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Описание работы">
-      <created>1619591997861</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1619591997861</updated>
     </task>
     <task id="LOCAL-00034" summary="Добавленна функция update_bullets(bullets):">
       <created>1619592907793</created>
@@ -505,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620715542414</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Ускорение пуль">
+      <created>1620715664429</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1620715664429</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,7 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="вписал пришельца для, при каждом прохождение цикла перерисовывание экрана с пришельцем" />
     <MESSAGE value="Построение флота. Вычисление кол-во пришельцев в одном ряду.&#10;Создание ряда." />
     <MESSAGE value="Создали экземпляр для создания группы пришельцев, на флот пришельцев" />
     <MESSAGE value="созданна def create_fleet" />
@@ -546,6 +548,7 @@
     <MESSAGE value="# Восстановление флота" />
     <MESSAGE value="Уничтожение существующих пуль и создание нового флота." />
     <MESSAGE value="gf.update_bullets(ai_settings, screen, ship, aliens, bullets)" />
-    <option name="LAST_COMMIT_MESSAGE" value="gf.update_bullets(ai_settings, screen, ship, aliens, bullets)" />
+    <MESSAGE value="Ускорение пуль" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ускорение пуль" />
   </component>
 </project>
