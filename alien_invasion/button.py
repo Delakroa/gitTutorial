@@ -1,7 +1,7 @@
 import pygame.font
 
 
-class Button():
+class Button:
     """Создание кнопки"""
 
     def __init__(self, ai_settings, screen, msg):
