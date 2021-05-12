@@ -162,3 +162,52 @@
 # Play (рис. 14.1).
 
 # --------------------------------------------------------------------------------------------------------------------
+
+# Запуск игры
+#
+# Чтобы при нажатии кнопки Play запускалась новая игра, добавьте в файл game_
+# functions.py следующий код для отслеживания событий мыши над кнопкой:
+#
+# game_functions.py
+#
+# def check_events(ai_settings, screen, stats, play_button, ship, bullets):
+# """Обрабатывает нажатия клавиш и события мыши."""
+# for event in pygame.event.get():
+# if event.type == pygame.QUIT:
+# ...
+#  elif event.type == pygame.MOUSEBUTTONDOWN:
+#  mouse_x, mouse_y = pygame.mouse.get_pos()
+#  check_play_button(stats, play_button, mouse_x, mouse_y)
+# def check_play_button(stats, play_button, mouse_x, mouse_y):
+# """Запускает новую игру при нажатии кнопки Play."""
+#  if play_button.rect.collidepoint(mouse_x, mouse_y):
+# stats.game_active = True
+
+# Обновленное определение check_events() получает параметры stats и play_button.
+# Параметр stats будет использоваться для обращения к флагу game_active, а play_
+# button — для проверки того, была ли нажата кнопка Play.
+# Pygame обнаруживает событие MOUSEBUTTONDOWN, когда игрок щелкает в любой точке
+# экрана , но мы хотим ограничить игру, чтобы она реагировала только на щелчки
+# на кнопке Play. Для этого будет использоваться метод pygame.mouse.get_pos(),
+# возвращающий кортеж с координатами x и y точки щелчка . Эти значения пере-
+# даются функции check_play_button() , которая использует метод collidepoint()
+# для проверки того, находится ли точка щелчка в пределах области, определяемой
+# прямоугольником кнопки Play . Если точка находится в пределах кнопки, флаг
+# game_active переводится в состояние True, и игра начинается!
+# При вызове check_events() в alien_invasion.py должны передаваться два дополни-
+# тельных аргумента, stats и play_button:
+
+# alien_invasion.py
+#
+# # Запуск основного цикла игры.
+# while True:
+# gf.check_events(ai_settings, screen, stats, play_button, ship,
+# bullets)
+# ...
+#
+# К этому моменту вы сможете запустить и сыграть полноценную игру. После за-
+# вершения игры значение game_active становится равным False, а кнопка Play снова
+# появится на экране.
+
+# -------------------------------------------------------------------
+
