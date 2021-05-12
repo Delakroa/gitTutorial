@@ -137,19 +137,24 @@ def change_fleet_direction(ai_settings, aliens):
 
 def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
     """Обрабатывает столкновение корабля с пришельцем"""
-    # Уменьшение ship_left.
-    stats.ships_left -= 1
 
-    # Очистка списков пришельцев и пуль.
-    aliens.empty()
-    bullets.empty()
+    if stats.ships_left > 0:
+        # Уменьшение ship_left.
+        stats.ships_left -= 1
 
-    # Создание нового флота и размещение корабля в центре.
-    create_fleet(ai_settings, screen, ship, aliens)
-    ship.center_ship()
+        # Очистка списков пришельцев и пуль.
+        aliens.empty()
+        bullets.empty()
 
-    # Пауза
-    sleep(0.5)
+        # Создание нового флота и размещение корабля в центре.
+        create_fleet(ai_settings, screen, ship, aliens)
+        ship.center_ship()
+
+        # Пауза
+        sleep(0.5)
+
+    else:
+        stats.game_active = False
 
 
 def check_aliens_bottom(ai_settings, stats, screen, ship, aliens, bullets):
