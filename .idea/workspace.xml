@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="работает">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Добавил def check_aliens_bottom">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/game_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_stats.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,27 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Импорт пришельца и создание экземпляра, дописание в основной цикл пришельца">
-      <created>1620192062369</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1620192062369</updated>
-    </task>
-    <task id="LOCAL-00053" summary="вписал пришельца для, при каждом прохождение цикла перерисовывание экрана с пришельцем">
-      <created>1620192135402</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1620192135402</updated>
-    </task>
-    <task id="LOCAL-00054" summary="вписал пришельца для, при каждом прохождение цикла перерисовывание экрана с пришельцем">
-      <created>1620192139325</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1620192139325</updated>
     </task>
     <task id="LOCAL-00055" summary="Построение флота. Вычисление кол-во пришельцев в одном ряду.&#10;Создание ряда.">
       <created>1620194908925</created>
@@ -508,7 +487,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620732993737</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Достижение нижнего края экрана">
+      <created>1620795153585</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1620795153585</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Изменил коментарии">
+      <created>1620795174412</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1620795174412</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Добавил def check_aliens_bottom">
+      <created>1620795203475</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1620795203475</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,9 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Переместите пришельца влево или вправо." />
-    <MESSAGE value="выявление коллизий" />
-    <MESSAGE value="изменил коментарий" />
     <MESSAGE value="Проверка попадания в пришельца" />
     <MESSAGE value="Выявление коллизий" />
     <MESSAGE value="gf.update_bullets(aliens, bullets)" />
@@ -549,6 +546,9 @@
     <MESSAGE value="Обработка столкновений с кораблем" />
     <MESSAGE value="    def center_ship(self):&#10;       Размещение корабля в центре нижней стороны" />
     <MESSAGE value="работает" />
-    <option name="LAST_COMMIT_MESSAGE" value="работает" />
+    <MESSAGE value="Достижение нижнего края экрана" />
+    <MESSAGE value="Изменил коментарии" />
+    <MESSAGE value="Добавил def check_aliens_bottom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил def check_aliens_bottom" />
   </component>
 </project>
