@@ -13,7 +13,7 @@ class Settings:
 
         # Параметры пули.
         self.bullet_speed_factor = 1.0
-        self.bullet_width = 3000
+        self.bullet_width = 300
         self.bullet_height = 15
         self.bullet_color = (60, 60, 60)
         self.bullet_allowed = 3
@@ -22,5 +22,4 @@ class Settings:
         self.alien_speed_factor = 1
         self.ship_limit = 3
         self.fleet_drop_speed = 10
-        # fleet_direction = 1 обозначает движение вправо; а - 1 - в лево.
-        self.fleet_direction = 1
+        self.fleet_direction = 1   # fleet_direction = 1 обозначает движение вправо; а - 1 - в лево.
