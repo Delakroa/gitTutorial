@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Добавил def check_aliens_bottom">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Игра Alien Invasion запускается в активном состоянии.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/game_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,27 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Построение флота. Вычисление кол-во пришельцев в одном ряду.&#10;Создание ряда.">
-      <created>1620194908925</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1620194908925</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Создали экземпляр для создания группы пришельцев, на флот пришельцев">
-      <created>1620195463014</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1620195463014</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Создали экземпляр для создания группы пришельцев, на флот пришельцев">
-      <created>1620195466312</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1620195466312</updated>
     </task>
     <task id="LOCAL-00058" summary="созданна def create_fleet">
       <created>1620196323737</created>
@@ -508,7 +486,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620795203475</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Конец игры">
+      <created>1620798179462</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1620798179462</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Добавим в ship_hit() код, который сбрасывает флаг game_active в состояние False&#10;# при потере игроком последнего корабля:">
+      <created>1620798199509</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1620798199509</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Игра Alien Invasion запускается в активном состоянии.">
+      <created>1620798217786</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1620798217786</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,9 +523,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Проверка попадания в пришельца" />
-    <MESSAGE value="Выявление коллизий" />
-    <MESSAGE value="gf.update_bullets(aliens, bullets)" />
     <MESSAGE value="# Восстановление флота" />
     <MESSAGE value="Уничтожение существующих пуль и создание нового флота." />
     <MESSAGE value="gf.update_bullets(ai_settings, screen, ship, aliens, bullets)" />
@@ -549,6 +545,9 @@
     <MESSAGE value="Достижение нижнего края экрана" />
     <MESSAGE value="Изменил коментарии" />
     <MESSAGE value="Добавил def check_aliens_bottom" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил def check_aliens_bottom" />
+    <MESSAGE value="Конец игры" />
+    <MESSAGE value="Добавим в ship_hit() код, который сбрасывает флаг game_active в состояние False&#10;# при потере игроком последнего корабля:" />
+    <MESSAGE value="Игра Alien Invasion запускается в активном состоянии." />
+    <option name="LAST_COMMIT_MESSAGE" value="Игра Alien Invasion запускается в активном состоянии." />
   </component>
 </project>
