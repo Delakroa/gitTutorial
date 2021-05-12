@@ -33,18 +33,27 @@ def chek_keyup_events(event, ship):
         ship.moving_left = False
 
 
-def check_events(ai_settings, screen, ship, bullets):
+def check_events(ai_settings, screen, stats, play_button, ship, bullets):
     """Обрабатывает нажатия клавиш и события мыши."""
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            mouse_x, mouse_y = pygame.mouse.get_pos()
+            check_play_button(stats, play_button, mouse_x, mouse_y)
         elif event.type == pygame.KEYDOWN:
             chek_keydown_events(event, ai_settings, screen, ship, bullets)
         elif event.type == pygame.KEYUP:
             chek_keydown_events(event, ai_settings, screen, ship, bullets)
 
 
-def update_screen(ai_settings, screen, ship, aliens, bullets):
+def check_play_button(stats, play_button, mose_x, mouse_y):
+    """Запускает новую игру при нажатие кнопки Play"""
+    if play_button.rect.collidepoint(mose_x, mouse_y):
+        stats.game_active = True
+
+
+def update_screen(ai_settings, screen, stats, ship, aliens, bullets, play_button):
     """При каждом прохождение цикла перерисовывается экран."""
     screen.fill(ai_settings.bg_color)
     ship.blitme()
@@ -55,6 +64,13 @@ def update_screen(ai_settings, screen, ship, aliens, bullets):
     # Все пули выводятся позади изображения корабля и пришельцев.
     for bullet in bullets.sprites():
         bullet.draw_bullet()
+
+    # Кнопка Play отображается в том случае, если игра неактивна.
+    if not stats.game_active:
+        play_button.draw_button()
+
+    # Отображение последнего прорисованного экрана.
+    pygame.display.flip()
 
 
 def update_bullets(ai_settings, screen, ship, aliens, bullets):
@@ -67,9 +83,6 @@ def update_bullets(ai_settings, screen, ship, aliens, bullets):
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
     # print(len(bullets)) # Проверка на кол-во пуль
-
-    # Отображение последнего прорисованного экрана.
-    pygame.display.flip()
 
 
 def check_bullet_alien_collisions(ai_settings, screen, ship, aliens, bullets):
