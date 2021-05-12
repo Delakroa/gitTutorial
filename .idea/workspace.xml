@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="self.ship_limit = 3">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="работает">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ship.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.alien_invasion" />
+        <item itemvalue="Python.ship" />
         <item itemvalue="Python.alien" />
         <item itemvalue="Python.SIzdanie_prishelcev_chapter13" />
         <item itemvalue="Python.game_functions" />
-        <item itemvalue="Python.ship" />
       </list>
     </recent_temporary>
   </component>
@@ -164,34 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Добавил выход на кнопку Q">
-      <created>1620189755310</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1620189755310</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Создали пришельца и отрисовали его">
-      <created>1620190353950</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1620190353950</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Исправил недочёты">
-      <created>1620190395709</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1620190395709</updated>
-    </task>
-    <task id="LOCAL-00051" summary="рабочий вариант">
-      <created>1620192011986</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1620192011986</updated>
     </task>
     <task id="LOCAL-00052" summary="Импорт пришельца и создание экземпляра, дописание в основной цикл пришельца">
       <created>1620192062369</created>
@@ -508,7 +480,35 @@
       <option name="project" value="LOCAL" />
       <updated>1620728110831</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Обработка столкновений с кораблем">
+      <created>1620732111529</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1620732111529</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Обработка столкновений с кораблем">
+      <created>1620732115622</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1620732115622</updated>
+    </task>
+    <task id="LOCAL-00099" summary="    def center_ship(self):&#10;       Размещение корабля в центре нижней стороны">
+      <created>1620732136540</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1620732136540</updated>
+    </task>
+    <task id="LOCAL-00100" summary="работает">
+      <created>1620732993737</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1620732993737</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,9 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создание настроек для направления флота" />
-    <MESSAGE value="Проверка достижения края" />
-    <MESSAGE value="снижение флота и направления" />
     <MESSAGE value="Переместите пришельца влево или вправо." />
     <MESSAGE value="выявление коллизий" />
     <MESSAGE value="изменил коментарий" />
@@ -549,6 +546,9 @@
     <MESSAGE value="update_aliens дописал атрибуты" />
     <MESSAGE value="добавил self.ship_limit = 3" />
     <MESSAGE value="self.ship_limit = 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="self.ship_limit = 3" />
+    <MESSAGE value="Обработка столкновений с кораблем" />
+    <MESSAGE value="    def center_ship(self):&#10;       Размещение корабля в центре нижней стороны" />
+    <MESSAGE value="работает" />
+    <option name="LAST_COMMIT_MESSAGE" value="работает" />
   </component>
 </project>
