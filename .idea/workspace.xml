@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Изменил цикл While">
-      <change afterPath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Создание кнопки">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,27 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00060" summary="сгруппировал экземпляры">
-      <created>1620197691491</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1620197691491</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Исправил ошибки">
-      <created>1620197715908</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1620197715908</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Рефакторинг">
-      <created>1620197853519</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1620197853519</updated>
     </task>
     <task id="LOCAL-00063" summary="Рефакторинг">
       <created>1620200249188</created>
@@ -505,7 +485,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620799004877</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Добавление кнопки Play">
+      <created>1620799232873</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1620799232873</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Изменили на неактивную игру">
+      <created>1620799251478</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1620799251478</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Создание кнопки">
+      <created>1620800752210</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1620800752210</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,9 +522,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gf.update_bullets(ai_settings, screen, ship, aliens, bullets)" />
-    <MESSAGE value="Ускорение пуль" />
-    <MESSAGE value="gf.check_bullet_alien_collisions(ai_settings, screen, ship, aliens, bullets)" />
     <MESSAGE value="update_bullets рефакторинг" />
     <MESSAGE value="убрал лишний комент" />
     <MESSAGE value="дописал экземпляр" />
@@ -546,6 +544,9 @@
     <MESSAGE value="Игра Alien Invasion запускается в активном состоянии." />
     <MESSAGE value="Определение исполняемых частей игры" />
     <MESSAGE value="Изменил цикл While" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменил цикл While" />
+    <MESSAGE value="Добавление кнопки Play" />
+    <MESSAGE value="Изменили на неактивную игру" />
+    <MESSAGE value="Создание кнопки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание кнопки" />
   </component>
 </project>
