@@ -211,3 +211,74 @@
 
 # -------------------------------------------------------------------
 
+# Сброс игры
+#
+# Только что написанный нами код работает при первом нажатии кнопки Play,
+# но не работает после завершения первой игры, потому что условия, приводящие
+# к окончанию игры, еще не были сброшены.
+# Чтобы игра сбрасывалась при каждом нажатии кнопки Play, необходимо сбросить
+# игровую статистику, стереть старых пришельцев и пули, построить новый флот
+# и вернуть корабль в центр нижней стороны:
+
+# game_functions.py
+# def check_play_button(ai_settings, screen, stats, play_button, ship, aliens,
+#                      bullets, mouse_x, mouse_y):
+#     """Запускает новую игру при нажатии кнопки Play."""
+#     if play_button.rect.collidepoint(mouse_x, mouse_y):
+#         # Сброс игровой статистики.
+#          stats.reset_stats()
+#         stats.game_active = True
+#
+#       # Очистка списков пришельцев и пуль.
+#          aliens.empty()
+#         bullets.empty()
+#         # Создание нового флота и размещение корабля в центре.
+#          create_fleet(ai_settings, screen, ship, aliens)
+#         ship.center_ship()
+
+# Мы обновляем определение check_play_button(), чтобы в нем были доступны
+# объекты ai_settings, stats, ship, aliens и bullets. Эти объекты необходимы для
+# сброса настроек, изменившихся в ходе игры, и для обновления визуальных эле-
+# ментов игры.
+# В точке  обновляется игровая статистика, вследствие чего игрок получает
+# три новых корабля. После этого флаг game_active переводится в состояние
+# True (чтобы игра началась сразу же после выполнения кода функции), группы
+# aliens и bullets очищаются , создается новый флот, а корабль выравнивается
+# по центру
+# .
+# Для этого необходимо изменить определение check_events(), как и вызов check_
+# play_button():
+
+# game_functions.py
+#
+# def check_events(ai_settings, screen, stats, play_button, ship, aliens,
+# bullets):
+# """Обрабатывает нажатия клавиш и события мыши."""
+# for event in pygame.event.get():
+# if event.type == pygame.QUIT:
+# ...
+# elif event.type == pygame.MOUSEBUTTONDOWN:
+# mouse_x, mouse_y = pygame.mouse.get_pos()
+#  check_play_button(ai_settings, screen, stats, play_
+# button, ship,
+# aliens, bullets, mouse_x, mouse_y)
+
+# Определению check_events() необходим параметр aliens, который будет пере-
+# даваться check_play_button(). Также обновляется вызов check_play_button()
+# с включением соответствующих аргументов .
+# Теперь обновите вызов check_events() в alien_invasion.py, чтобы в нем передавался
+# аргумент aliens:
+
+# alien_invasion.py
+#
+# # Запуск основного цикла игры.
+# while True:
+# gf.check_events(ai_settings, screen, stats, play_button, ship,
+# aliens, bullets)
+# ...
+#
+# После этих изменений игра будет правильно переходить в исходное состояние при
+# каждом нажатии Play, и вы сможете сыграть столько раз, сколько вам захочется!
+
+# --------------------------------------------------------------------------------------------------------------------
+

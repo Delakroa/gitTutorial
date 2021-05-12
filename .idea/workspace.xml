@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Создали кнопку">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Запуск игры">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,8 +149,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.alien_invasion" />
-        <item itemvalue="Python.button" />
         <item itemvalue="Python.game_functions" />
+        <item itemvalue="Python.button" />
         <item itemvalue="Python.ship" />
         <item itemvalue="Python.alien" />
       </list>
@@ -162,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00069" summary="перемещение флота">
-      <created>1620213087915</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1620213087915</updated>
     </task>
     <task id="LOCAL-00070" summary="Создание настроек для направления флота">
       <created>1620213307026</created>
@@ -506,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620803977977</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Запуск игры">
+      <created>1620807966265</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1620807966265</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -514,7 +516,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -522,7 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ai_settings.fleet_direction *= -1&#10;не должна была быть в цикле" />
     <MESSAGE value="Отслеживание статистики" />
     <MESSAGE value="update_aliens дописал атрибуты" />
     <MESSAGE value="добавил self.ship_limit = 3" />
@@ -547,6 +560,7 @@
     <MESSAGE value="Кнопка Play отображается в том случае, если игра неактивна." />
     <MESSAGE value="Игра Alien Invasion запускается в неактивном состоянии" />
     <MESSAGE value="Создали кнопку" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создали кнопку" />
+    <MESSAGE value="Запуск игры" />
+    <option name="LAST_COMMIT_MESSAGE" value="Запуск игры" />
   </component>
 </project>
