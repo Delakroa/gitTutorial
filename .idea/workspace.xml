@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Запуск игры">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Добавление атрибутов gf.update_aliens">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,8 +149,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.alien_invasion" />
-        <item itemvalue="Python.game_functions" />
         <item itemvalue="Python.button" />
+        <item itemvalue="Python.game_functions" />
         <item itemvalue="Python.ship" />
         <item itemvalue="Python.alien" />
       </list>
@@ -164,27 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Создание настроек для направления флота">
-      <created>1620213307026</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1620213307026</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Проверка достижения края">
-      <created>1620213613852</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1620213613852</updated>
-    </task>
-    <task id="LOCAL-00072" summary="снижение флота и направления">
-      <created>1620214973349</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1620214973349</updated>
     </task>
     <task id="LOCAL-00073" summary="Переместите пришельца влево или вправо.">
       <created>1620233838118</created>
@@ -508,7 +487,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620807966265</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Сброс игры">
+      <created>1620813908006</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1620813908006</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Запускает новую игру при нажатии кнопки Play">
+      <created>1620813947748</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1620813947748</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Добавление атрибутов gf.update_aliens">
+      <created>1620813973279</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1620813973279</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,9 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Отслеживание статистики" />
-    <MESSAGE value="update_aliens дописал атрибуты" />
-    <MESSAGE value="добавил self.ship_limit = 3" />
     <MESSAGE value="self.ship_limit = 3" />
     <MESSAGE value="Обработка столкновений с кораблем" />
     <MESSAGE value="    def center_ship(self):&#10;       Размещение корабля в центре нижней стороны" />
@@ -561,6 +558,9 @@
     <MESSAGE value="Игра Alien Invasion запускается в неактивном состоянии" />
     <MESSAGE value="Создали кнопку" />
     <MESSAGE value="Запуск игры" />
-    <option name="LAST_COMMIT_MESSAGE" value="Запуск игры" />
+    <MESSAGE value="Сброс игры" />
+    <MESSAGE value="Запускает новую игру при нажатии кнопки Play" />
+    <MESSAGE value="Добавление атрибутов gf.update_aliens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление атрибутов gf.update_aliens" />
   </component>
 </project>

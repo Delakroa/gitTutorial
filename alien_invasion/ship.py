@@ -13,7 +13,6 @@ class Ship:
         # Загрузка изображения корабля и получение прямоугольника.
         self.image = pygame.image.load('images/ship.bmp')
         self.rect = self.image.get_rect()
-        # self.screen_rect = screen.get_rect()
 
         # Загрузите изображение корабля и получите его прямоугольник.
         self.rect.centerx = self.screen_rect.centerx
