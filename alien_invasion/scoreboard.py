@@ -1,7 +1,7 @@
 import pygame.font
 
 
-class Scoreboard():
+class Scoreboard:
     """Класс для вывода игровой информации."""
 
     def __init__(self, ai_settings, screen, stats):

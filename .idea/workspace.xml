@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Подсчет очков self.score = 0">
-      <change afterPath="$PROJECT_DIR$/alien_invasion/scoreboard.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="from scoreboard import Scoreboard&#10;Создание экземпляров GameStats и Scoreboard.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/scoreboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,34 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00082" summary="Ускорение пуль">
-      <created>1620715664429</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1620715664429</updated>
-    </task>
-    <task id="LOCAL-00083" summary="gf.check_bullet_alien_collisions(ai_settings, screen, ship, aliens, bullets)">
-      <created>1620721380258</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1620721380258</updated>
-    </task>
-    <task id="LOCAL-00084" summary="update_bullets рефакторинг">
-      <created>1620721414744</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1620721414744</updated>
-    </task>
-    <task id="LOCAL-00085" summary="update_bullets рефакторинг">
-      <created>1620721431469</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1620721431469</updated>
     </task>
     <task id="LOCAL-00086" summary="убрал лишний комент">
       <created>1620723250248</created>
@@ -507,7 +479,35 @@
       <option name="project" value="LOCAL" />
       <updated>1621277399843</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Вывод счета">
+      <created>1621278667908</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1621278667908</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Класс для вывода игровой информации.">
+      <created>1621278731865</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1621278731865</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Создание экземпляра Scoreboard">
+      <created>1621279564327</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1621279564327</updated>
+    </task>
+    <task id="LOCAL-00134" summary="from scoreboard import Scoreboard&#10;Создание экземпляров GameStats и Scoreboard.">
+      <created>1621279598210</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1621279598210</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,10 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Игра Alien Invasion запускается в активном состоянии." />
-    <MESSAGE value="Определение исполняемых частей игры" />
-    <MESSAGE value="Изменил цикл While" />
-    <MESSAGE value="Добавление кнопки Play" />
     <MESSAGE value="Изменили на неактивную игру" />
     <MESSAGE value="Создание кнопки" />
     <MESSAGE value="Создание класса Button" />
@@ -560,6 +556,10 @@
     <MESSAGE value="Сброс игровых настроек" />
     <MESSAGE value="Подсчет очков" />
     <MESSAGE value="Подсчет очков self.score = 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подсчет очков self.score = 0" />
+    <MESSAGE value="Вывод счета" />
+    <MESSAGE value="Класс для вывода игровой информации." />
+    <MESSAGE value="Создание экземпляра Scoreboard" />
+    <MESSAGE value="from scoreboard import Scoreboard&#10;Создание экземпляров GameStats и Scoreboard." />
+    <option name="LAST_COMMIT_MESSAGE" value="from scoreboard import Scoreboard&#10;Создание экземпляров GameStats и Scoreboard." />
   </component>
 </project>
