@@ -21,7 +21,7 @@ class Scoreboard:
     def prep_score(self):
         """Преобразует текущий счёт в графическое изображение."""
         score_str = str(self.stats.score)
-        self.score_image = self.font.render(score_str, True, self, text_color, self.ai_settings.bg_color)
+        self.score_image = self.font.render(score_str, True, self.text_color, self.ai_settings.bg_color)
 
         # Выводит счёт в правой верхней части экрана.
         self.score_rect = self.score_image.get_rect()
