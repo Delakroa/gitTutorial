@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Сброс игровых настроек" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Подсчет очков self.score = 0">
+      <change afterPath="$PROJECT_DIR$/alien_invasion/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,20 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Уничтожение существующих пуль и создание нового флота.">
-      <created>1620715506629</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1620715506629</updated>
-    </task>
-    <task id="LOCAL-00081" summary="gf.update_bullets(ai_settings, screen, ship, aliens, bullets)">
-      <created>1620715542414</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1620715542414</updated>
     </task>
     <task id="LOCAL-00082" summary="Ускорение пуль">
       <created>1620715664429</created>
@@ -503,7 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621277205923</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Подсчет очков">
+      <created>1621277385499</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1621277385499</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Подсчет очков self.score = 0">
+      <created>1621277399843</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1621277399843</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -531,8 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Конец игры" />
-    <MESSAGE value="Добавим в ship_hit() код, который сбрасывает флаг game_active в состояние False&#10;# при потере игроком последнего корабля:" />
     <MESSAGE value="Игра Alien Invasion запускается в активном состоянии." />
     <MESSAGE value="Определение исполняемых частей игры" />
     <MESSAGE value="Изменил цикл While" />
@@ -556,6 +558,8 @@
     <MESSAGE value="Изменение настроек скорости" />
     <MESSAGE value="Сброс скорости" />
     <MESSAGE value="Сброс игровых настроек" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сброс игровых настроек" />
+    <MESSAGE value="Подсчет очков" />
+    <MESSAGE value="Подсчет очков self.score = 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подсчет очков self.score = 0" />
   </component>
 </project>
