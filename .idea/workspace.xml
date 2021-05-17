@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Добавление атрибутов gf.update_aliens">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Увеличение скорости игры">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,8 +147,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.alien_invasion" />
-        <item itemvalue="Python.button" />
         <item itemvalue="Python.game_functions" />
+        <item itemvalue="Python.button" />
         <item itemvalue="Python.ship" />
         <item itemvalue="Python.alien" />
       </list>
@@ -164,27 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Переместите пришельца влево или вправо.">
-      <created>1620233838118</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1620233838118</updated>
-    </task>
-    <task id="LOCAL-00074" summary="выявление коллизий">
-      <created>1620711175288</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1620711175288</updated>
-    </task>
-    <task id="LOCAL-00075" summary="изменил коментарий">
-      <created>1620711189333</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1620711189333</updated>
     </task>
     <task id="LOCAL-00076" summary="Проверка попадания в пришельца">
       <created>1620711420931</created>
@@ -508,7 +485,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620813973279</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Изменение атрибутов">
+      <created>1620904539487</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1620904539487</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Скрыть указатель мыши, повышение сложности, изменение скорости игры">
+      <created>1621270425260</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1621270425260</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Увеличение скорости игры">
+      <created>1621270452318</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1621270452318</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,9 +534,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="self.ship_limit = 3" />
-    <MESSAGE value="Обработка столкновений с кораблем" />
-    <MESSAGE value="    def center_ship(self):&#10;       Размещение корабля в центре нижней стороны" />
     <MESSAGE value="работает" />
     <MESSAGE value="Достижение нижнего края экрана" />
     <MESSAGE value="Изменил коментарии" />
@@ -561,6 +556,9 @@
     <MESSAGE value="Сброс игры" />
     <MESSAGE value="Запускает новую игру при нажатии кнопки Play" />
     <MESSAGE value="Добавление атрибутов gf.update_aliens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление атрибутов gf.update_aliens" />
+    <MESSAGE value="Изменение атрибутов" />
+    <MESSAGE value="Скрыть указатель мыши, повышение сложности, изменение скорости игры" />
+    <MESSAGE value="Увеличение скорости игры" />
+    <option name="LAST_COMMIT_MESSAGE" value="Увеличение скорости игры" />
   </component>
 </project>

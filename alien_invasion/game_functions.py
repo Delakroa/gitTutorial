@@ -49,7 +49,11 @@ def check_events(ai_settings, screen, stats, play_button, ship, aliens, bullets)
 
 def check_play_button(ai_settings, screen, stats, play_button, ship, aliens, bullets, mouse_x, mouse_y):
     """Запускает новую игру при нажатие кнопки Play"""
-    if play_button.rect.collidepoint(mouse_x, mouse_y):
+    button_clicked = play_button.rect.collidepoint(mouse_x, mouse_y)
+    if button_clicked and not stats.game_active:
+        # Указатель мыши скрывается.
+        pygame.mouse.set_visible(False)
+
         # Сброс игровой статистики.
         stats.reset_stat()
         stats.game_active = True
@@ -101,7 +105,9 @@ def check_bullet_alien_collisions(ai_settings, screen, ship, aliens, bullets):
     collisions = pygame.sprite.groupcollide(bullets, aliens, True, True)
 
     if len(aliens) == 0:
+        # Уничтожение пуль, повышение скорости и создание нового флота.
         bullets.empty()  # Уничтожение существующих пуль и создание нового флота.
+        ai_settings.increase_speed()
         create_fleet(ai_settings, screen, ship, aliens)
 
 
@@ -178,6 +184,7 @@ def ship_hit(ai_settings, screen, stats, ship, aliens, bullets):
 
     else:
         stats.game_active = False
+        pygame.mouse.set_visible(True)
 
 
 def check_aliens_bottom(ai_settings, screen, stats, ship, aliens, bullets):
