@@ -70,7 +70,7 @@ def check_play_button(ai_settings, screen, stats, play_button, ship, aliens, bul
         ship.center_ship()
 
 
-def update_screen(ai_settings, screen, stats, ship, aliens, bullets, play_button):
+def update_screen(ai_settings, screen, stats, sb, ship, aliens, bullets, play_button):
     """При каждом прохождение цикла перерисовывается экран."""
     screen.fill(ai_settings.bg_color)
     ship.blitme()
@@ -81,6 +81,9 @@ def update_screen(ai_settings, screen, stats, ship, aliens, bullets, play_button
     # Все пули выводятся позади изображения корабля и пришельцев.
     for bullet in bullets.sprites():
         bullet.draw_bullet()
+
+    # Вывод счёта.
+    sb.show_score()
 
     # Кнопка Play отображается в том случае, если игра неактивна.
     if not stats.game_active:
