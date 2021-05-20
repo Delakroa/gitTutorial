@@ -8,6 +8,7 @@ class Button:
         """Инициализирует атрибуты кнопки"""
         self.screen = screen
         self.screen_rect = screen.get_rect()
+        self.ai_settings = ai_settings
 
         # Назначение размеров и свойства кнопки.
         self.width, self.height = 200, 50

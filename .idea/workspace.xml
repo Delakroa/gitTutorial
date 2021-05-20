@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Выводит счёт на экран.">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Исправил ошибку">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/button.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Рефакторинг update_bullets()">
-      <created>1620723523768</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1620723523768</updated>
     </task>
     <task id="LOCAL-00089" summary="Обнаружение коллизий с кораблем">
       <created>1620724039523</created>
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621279626275</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Исправил ошибку">
+      <created>1621281920194</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1621281920194</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создание класса Button" />
     <MESSAGE value="Вывод кнопки на экран" />
     <MESSAGE value="создаём кнопку прямо в файле alien_invasion" />
     <MESSAGE value="Кнопка Play отображается в том случае, если игра неактивна." />
@@ -560,6 +559,17 @@
     <MESSAGE value="from scoreboard import Scoreboard&#10;Создание экземпляров GameStats и Scoreboard." />
     <MESSAGE value="Вывод счета." />
     <MESSAGE value="Выводит счёт на экран." />
-    <option name="LAST_COMMIT_MESSAGE" value="Выводит счёт на экран." />
+    <MESSAGE value="Исправил ошибку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил ошибку" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="ship" />
+      </configuration>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/alien_invasion/alien_invasion.py" line="24">
+        <watch expression="stats" language="Python" />
+      </inline-watch>
+    </watches-manager>
   </component>
 </project>
