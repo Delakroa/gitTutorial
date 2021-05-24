@@ -6,6 +6,9 @@ class GameStats:
         self.ai_settings = ai_settings
         self.reset_stats()
 
+        # Рекорд не должен сбрасываться.
+        self.high_score = 0
+
         # Игра Alien Invasion запускается в неактивном состоянии.
         self.game_active = False
 

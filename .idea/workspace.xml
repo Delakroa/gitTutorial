@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Установка стоимости пришельцев">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="rounded_score = int(round(self.stats.score, -1))&#10;        score_str = &quot;{:,}&quot;.format(rounded_score)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/game_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/scoreboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,20 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00097" summary="Обработка столкновений с кораблем">
-      <created>1620732111529</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1620732111529</updated>
-    </task>
-    <task id="LOCAL-00098" summary="Обработка столкновений с кораблем">
-      <created>1620732115622</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1620732115622</updated>
     </task>
     <task id="LOCAL-00099" summary="    def center_ship(self):&#10;       Размещение корабля в центре нижней стороны">
       <created>1620732136540</created>
@@ -505,7 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621849250841</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Округление счета">
+      <created>1621849514164</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1621849514164</updated>
+    </task>
+    <task id="LOCAL-00147" summary="rounded_score = int(round(self.stats.score, -1))&#10;        score_str = &quot;{:,}&quot;.format(rounded_score)">
+      <created>1621849528909</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1621849528909</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,8 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Запускает новую игру при нажатии кнопки Play" />
-    <MESSAGE value="Добавление атрибутов gf.update_aliens" />
     <MESSAGE value="Изменение атрибутов" />
     <MESSAGE value="Скрыть указатель мыши, повышение сложности, изменение скорости игры" />
     <MESSAGE value="Увеличение скорости игры" />
@@ -558,7 +560,9 @@
     <MESSAGE value="        for aliens in collisions.values():&#10;            stats.score += ai_settings.alien_points * len(aliens)&#10;        sb.prep_score()" />
     <MESSAGE value="Увеличение стоимости пришельцев" />
     <MESSAGE value="Установка стоимости пришельцев" />
-    <option name="LAST_COMMIT_MESSAGE" value="Установка стоимости пришельцев" />
+    <MESSAGE value="Округление счета" />
+    <MESSAGE value="rounded_score = int(round(self.stats.score, -1))&#10;        score_str = &quot;{:,}&quot;.format(rounded_score)" />
+    <option name="LAST_COMMIT_MESSAGE" value="rounded_score = int(round(self.stats.score, -1))&#10;        score_str = &quot;{:,}&quot;.format(rounded_score)" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
