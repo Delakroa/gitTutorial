@@ -606,3 +606,74 @@
 # А теперь нужно организовать начисление очков за каждого пришельца!
 
 # --------------------------------------------------------------------------------------------------------------------
+
+# Обновление счета при уничтожении пришельцев
+#
+# Чтобы на экране выводился оперативно обновляемый счет, мы будем обновлять
+# значение stats.score при каждом попадании в пришельца, а затем вызывать
+# prep_score() для обновления изображения счета. Но сначала нужно определить,
+# сколько очков игрок будет получать за каждого пришельца:
+
+# settings.py
+#
+# def initialize_dynamic_settings(self):
+# ...
+# # Подсчет очков
+# self.alien_points = 50
+
+# Стоимость каждого пришельца в очках будет увеличиваться по ходу игры. Что-
+# бы значение сбрасывалось в начале каждой новой игры, мы задаем значение
+# в initialize_dynamic_settings().
+# Счет будет обновляться за каждого сбитого пришельца в check_bullet_alien_
+# collisions():
+
+# game_functions.py
+#
+# def check_bullet_alien_collisions(ai_settings, screen, stats, sb, ship,
+# aliens, bullets):
+# """Обработка коллизий пуль с пришельцами."""
+# # Удаление пуль и пришельцев, участвующих в коллизиях.
+# collisions = pygame.sprite.groupcollide(bullets, aliens, True, True)
+# if collisions:
+#  stats.score += ai_settings.alien_points
+# sb.prep_score()
+# ...
+
+# Мы обновляем определение check_bullet_alien_collisions() и включаем пара-
+# метры stats и sb, чтобы функция могла обновлять счет и рекорд. При попадании
+# пули в пришельца Pygame возвращает словарь collisions. Программа проверяет,
+# существует ли словарь, и если существует — стоимость пришельца добавляется
+# к счету . Затем вызов prep_score() создает новое изображение для обновлен-
+# ного счета.
+# Также необходимо обновить определение update_bullets(), чтобы соответствую-
+# щие аргументы передавались между функциями:
+#
+# game_functions.py
+#
+# def update_bullets(ai_settings, screen, stats, sb, ship, aliens, bullets):
+# """Обновляет позиции пуль и удаляет старые пули."""
+# ...
+# check_bullet_alien_collisions(ai_settings, screen, stats, sb, ship,
+# aliens, bullets)
+
+# Определению update_bullets() необходимы дополнительные параметры stats
+# и sb. Кроме того, вызов check_bullet_alien_collisions() должен включать аргу-
+# менты stats и sb.
+# Также необходимо изменить вызов update_bullets() в основном цикле while:
+
+# alien_invasion.py
+#
+# # Запуск основного цикла игры.
+#  while True:
+#     gf.check_events(ai_settings, screen, stats, play_button, ship,
+#                         aliens, bullets)
+#     if stats.game_active:
+#         ship.update()
+#         gf.update_bullets(ai_settings, screen, stats, sb, ship, aliens,
+#                       bullets)
+#     ...
+
+# При вызове update_bullets() должны передаваться аргументы stats и sb.
+# Теперь во время игры вы сможете набирать очки!
+
+# ---------------------------------------------------------------------------------------------------------------------
