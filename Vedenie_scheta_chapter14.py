@@ -804,3 +804,95 @@
 
 # --------------------------------------------------------------------------------------------------------------------
 
+# Рекорды
+
+# Каждый игрок желает превзойти предыдущий рекорд игры, поэтому мы будем от-
+# слеживать и выводить рекорды, чтобы у игрока была ясная цель. Рекорды будут
+# храниться в классе GameStats:
+
+# game_stats.py
+# def __init__(self, ai_settings):
+# ...
+# # Рекорд не должен сбрасываться.
+# self.high_score = 0
+
+# Так как рекорд не должен сбрасываться при повторном запуске, значение high_
+# score инициализируется в __init__(), а не в reset_stats().
+# Теперь изменим класс Scoreboard для отображения рекорда. Начнем с метода
+# __init__():
+
+# scoreboard.py
+
+# def __init__(self, ai_settings, screen, stats):
+# ...
+# # Подготовка изображений счетов.
+# self.prep_score()
+#  self.prep_high_score()
+
+# Рекорд должен отображаться отдельно от текущего счета, поэтому для подготовки
+# его изображения понадобится новый метод prep_high_score():
+
+# scoreboard.py
+
+# def prep_high_score(self):
+# """Преобразует рекордный счет в графическое изображение."""
+#  high_score = int(round(self.stats.high_score, -1))
+#  high_score_str = "{:,}".format(high_score)
+#  self.high_score_image = self.font.render(high_score_str,
+# True,
+# self.text_color, self.ai_settings.bg_color)
+# # Рекорд выравнивается по центру верхней стороны.
+# self.high_score_rect = self.high_score_image.get_rect()
+#  self.high_score_rect.centerx = self.screen_rect.centerx
+#  self.high_score_rect.top = self.score_rect.top
+
+# Рекорд округляется до десятков  и форматируется с запятыми . Затем для
+# рекорда строится графическое изображение , выполняется горизонтальное вы-
+# равнивание прямоугольника по центру экрана , а атрибут top прямоугольника
+# приводится в соответствие с верхней стороной изображения счета .
+# Теперь метод show_score() выводит текущий счет в правом верхнем углу, а ре-
+# корд — в центре верхней стороны:
+
+# scoreboard.py
+#
+# def show_score(self):
+# """Выводит счет на экран."""
+# self.screen.blit(self.score_image, self.score_rect)
+# self.screen.blit(self.high_score_image, self.high_score_rect)
+
+# Для обновления рекорда в файл game_functions.py добавляется новая функция
+# check_high_score():
+
+# game_functions.py
+# def check_high_score(stats, sb):
+# """Проверяет, появился ли новый рекорд."""
+#  if stats.score > stats.high_score:
+# stats.high_score = stats.score
+# sb.prep_high_score()
+
+# Функция check_high_score() получает два параметра, stats и sb. Параметр stats
+# используется для проверки текущего счета и рекорда, а параметр sb необходим
+# для изменения изображения рекорда при необходимости. В точке  программа
+# сравнивает текущий счет с рекордом. Если текущий счет выше, мы обновляем
+# значение high_score и вызываем prep_high_score() для обновления изображения
+# рекорда.
+# Функция check_high_score() должна вызываться при каждом попадании в при-
+# шельца после обновления счета в check_bullet_alien_collisions():
+
+# game_functions.py
+# def check_bullet_alien_collisions(ai_settings, screen, stats, sb, ship,
+# aliens, bullets):
+# ...
+# if collisions:
+# for aliens in collisions.values():
+# stats.score += ai_settings.alien_points * len(aliens)
+# sb.prep_score()
+# check_high_score(stats, sb)
+# ...
+
+# Когда вы впервые играете в Alien Invasion, текущий счет одновременно будет
+# наивысшим, поэтому он будет отображаться и как текущий счет, и как рекорд.
+# Но в начале второй игры ваш предыдущий рекорд должен отображаться в середине,
+# а текущий счет справа, как показано на рис. 14.4.
+
+# ---------------------------------------------------------------------------------------------------------------------
