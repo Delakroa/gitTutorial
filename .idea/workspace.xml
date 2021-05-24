@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="rounded_score = int(round(self.stats.score, -1))&#10;        score_str = &quot;{:,}&quot;.format(rounded_score)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Преобразует рекордный счет в графическое изображение.&quot;&quot;&quot;">
       <change beforePath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/game_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/scoreboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,20 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00099" summary="    def center_ship(self):&#10;       Размещение корабля в центре нижней стороны">
-      <created>1620732136540</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1620732136540</updated>
-    </task>
-    <task id="LOCAL-00100" summary="работает">
-      <created>1620732993737</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1620732993737</updated>
     </task>
     <task id="LOCAL-00101" summary="Достижение нижнего края экрана">
       <created>1620795153585</created>
@@ -509,7 +492,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621849528909</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="Рекорд не должен сбрасываться">
+      <created>1621851231718</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1621851231718</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Преобразует рекордный счет в графическое изображение.&quot;&quot;&quot;">
+      <created>1621851288025</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1621851288025</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -537,8 +534,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Изменение атрибутов" />
-    <MESSAGE value="Скрыть указатель мыши, повышение сложности, изменение скорости игры" />
     <MESSAGE value="Увеличение скорости игры" />
     <MESSAGE value="Изменения значений настроек скорости" />
     <MESSAGE value="Изменение настроек скорости" />
@@ -562,7 +557,9 @@
     <MESSAGE value="Установка стоимости пришельцев" />
     <MESSAGE value="Округление счета" />
     <MESSAGE value="rounded_score = int(round(self.stats.score, -1))&#10;        score_str = &quot;{:,}&quot;.format(rounded_score)" />
-    <option name="LAST_COMMIT_MESSAGE" value="rounded_score = int(round(self.stats.score, -1))&#10;        score_str = &quot;{:,}&quot;.format(rounded_score)" />
+    <MESSAGE value="Рекорд не должен сбрасываться" />
+    <MESSAGE value="Преобразует рекордный счет в графическое изображение.&quot;&quot;&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Преобразует рекордный счет в графическое изображение.&quot;&quot;&quot;" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
