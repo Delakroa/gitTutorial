@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Исправил ошибку">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="    if collisions:&#10;        stats.score += ai_settings.alien_piints&#10;        sb.prep_score()">
       <change beforePath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,27 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00090" summary="gf.update_aliens(ai_settings, ship, aliens)">
-      <created>1620724067473</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1620724067473</updated>
-    </task>
-    <task id="LOCAL-00091" summary="ai_settings.fleet_direction *= -1&#10;не должна была быть в цикле">
-      <created>1620724177576</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1620724177576</updated>
-    </task>
-    <task id="LOCAL-00092" summary="Отслеживание статистики">
-      <created>1620728002290</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1620728002290</updated>
     </task>
     <task id="LOCAL-00093" summary="update_aliens дописал атрибуты">
       <created>1620728029179</created>
@@ -508,7 +485,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621541089155</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Обновление счета при уничтожении пришельцев">
+      <created>1621848268133</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1621848268133</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Дописывание атрибутов">
+      <created>1621848287626</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1621848287626</updated>
+    </task>
+    <task id="LOCAL-00141" summary="    if collisions:&#10;        stats.score += ai_settings.alien_piints&#10;        sb.prep_score()">
+      <created>1621848301161</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1621848301161</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,9 +534,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Вывод кнопки на экран" />
-    <MESSAGE value="создаём кнопку прямо в файле alien_invasion" />
-    <MESSAGE value="Кнопка Play отображается в том случае, если игра неактивна." />
     <MESSAGE value="Игра Alien Invasion запускается в неактивном состоянии" />
     <MESSAGE value="Создали кнопку" />
     <MESSAGE value="Запуск игры" />
@@ -561,7 +556,10 @@
     <MESSAGE value="Вывод счета." />
     <MESSAGE value="Выводит счёт на экран." />
     <MESSAGE value="Исправил ошибку" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправил ошибку" />
+    <MESSAGE value="Обновление счета при уничтожении пришельцев" />
+    <MESSAGE value="Дописывание атрибутов" />
+    <MESSAGE value="    if collisions:&#10;        stats.score += ai_settings.alien_piints&#10;        sb.prep_score()" />
+    <option name="LAST_COMMIT_MESSAGE" value="    if collisions:&#10;        stats.score += ai_settings.alien_piints&#10;        sb.prep_score()" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
