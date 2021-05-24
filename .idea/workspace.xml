@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="    if collisions:&#10;        stats.score += ai_settings.alien_piints&#10;        sb.prep_score()">
-      <change beforePath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="        for aliens in collisions.values():&#10;            stats.score += ai_settings.alien_points * len(aliens)&#10;        sb.prep_score()">
+      <change beforePath="$PROJECT_DIR$/alien_invasion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,20 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00093" summary="update_aliens дописал атрибуты">
-      <created>1620728029179</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1620728029179</updated>
-    </task>
-    <task id="LOCAL-00094" summary="update_aliens дописал атрибуты">
-      <created>1620728061927</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1620728061927</updated>
     </task>
     <task id="LOCAL-00095" summary="добавил self.ship_limit = 3">
       <created>1620728091277</created>
@@ -506,7 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621848301161</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="Начисление очков за все попадания">
+      <created>1621848675392</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1621848675392</updated>
+    </task>
+    <task id="LOCAL-00143" summary="        for aliens in collisions.values():&#10;            stats.score += ai_settings.alien_points * len(aliens)&#10;        sb.prep_score()">
+      <created>1621848690013</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1621848690013</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -534,8 +533,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Игра Alien Invasion запускается в неактивном состоянии" />
-    <MESSAGE value="Создали кнопку" />
     <MESSAGE value="Запуск игры" />
     <MESSAGE value="Сброс игры" />
     <MESSAGE value="Запускает новую игру при нажатии кнопки Play" />
@@ -559,7 +556,9 @@
     <MESSAGE value="Обновление счета при уничтожении пришельцев" />
     <MESSAGE value="Дописывание атрибутов" />
     <MESSAGE value="    if collisions:&#10;        stats.score += ai_settings.alien_piints&#10;        sb.prep_score()" />
-    <option name="LAST_COMMIT_MESSAGE" value="    if collisions:&#10;        stats.score += ai_settings.alien_piints&#10;        sb.prep_score()" />
+    <MESSAGE value="Начисление очков за все попадания" />
+    <MESSAGE value="        for aliens in collisions.values():&#10;            stats.score += ai_settings.alien_points * len(aliens)&#10;        sb.prep_score()" />
+    <option name="LAST_COMMIT_MESSAGE" value="        for aliens in collisions.values():&#10;            stats.score += ai_settings.alien_points * len(aliens)&#10;        sb.prep_score()" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
