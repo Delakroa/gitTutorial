@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Преобразует рекордный счет в графическое изображение.&quot;&quot;&quot;">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Рекорды">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
     </list>
@@ -162,20 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Достижение нижнего края экрана">
-      <created>1620795153585</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1620795153585</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Изменил коментарии">
-      <created>1620795174412</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1620795174412</updated>
     </task>
     <task id="LOCAL-00103" summary="Добавил def check_aliens_bottom">
       <created>1620795203475</created>
@@ -506,7 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621851288025</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="Проверяет, появился ли новый рекорд.&quot;&quot;&quot;">
+      <created>1621851381702</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1621851381702</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Рекорды">
+      <created>1621851449433</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1621851449433</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -534,8 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Увеличение скорости игры" />
-    <MESSAGE value="Изменения значений настроек скорости" />
     <MESSAGE value="Изменение настроек скорости" />
     <MESSAGE value="Сброс скорости" />
     <MESSAGE value="Сброс игровых настроек" />
@@ -559,7 +558,9 @@
     <MESSAGE value="rounded_score = int(round(self.stats.score, -1))&#10;        score_str = &quot;{:,}&quot;.format(rounded_score)" />
     <MESSAGE value="Рекорд не должен сбрасываться" />
     <MESSAGE value="Преобразует рекордный счет в графическое изображение.&quot;&quot;&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Преобразует рекордный счет в графическое изображение.&quot;&quot;&quot;" />
+    <MESSAGE value="Проверяет, появился ли новый рекорд.&quot;&quot;&quot;" />
+    <MESSAGE value="Рекорды" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рекорды" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

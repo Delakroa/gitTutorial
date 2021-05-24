@@ -58,8 +58,8 @@ def check_play_button(ai_settings, screen, stats, play_button, ship, aliens, bul
         pygame.mouse.set_visible(False)
 
         # Сброс игровой статистики.
-        # stats.reset_stat()
-        # stats.game_active = True
+        stats.reset_stat()
+        stats.game_active = True
 
         # Очистка списков пришельцев и пуль.
         aliens.empty()
