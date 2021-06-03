@@ -1,25 +1,27 @@
 import pygame
 
+from pygame.sprite import Sprite
 
-class Ship:
+
+class Ship(Sprite):
     """Класс для управления кораблем."""
 
-    def __init__(self, ai_settings, screen):
+    def __init__(self, ai_game):
         """Инициализирует корабль и задает его начальную позицию."""
-        self.screen = screen
-        self.ai_settings = ai_settings
-        self.screen_rect = screen.get_rect()
+        super().__init__()
+        self.screen = ai_game.screen
+        self.settings = ai_game.settings
+        self.screen_rect = ai_game.screen.get_rect()
 
         # Загрузка изображения корабля и получение прямоугольника.
         self.image = pygame.image.load('images/ship.bmp')
         self.rect = self.image.get_rect()
 
         # Загрузите изображение корабля и получите его прямоугольник.
-        self.rect.centerx = self.screen_rect.centerx
-        self.rect.bottom = self.screen_rect.bottom
+        self.rect.midbottom = self.screen_rect.midbottom
 
         # Каждый новый корабль появляется в центре нижнего края экрана.
-        self.center = float(self.rect.centerx)
+        self.x = float(self.rect.x)
 
         # Флаг перемещения
         self.moving_right = False
@@ -29,12 +31,12 @@ class Ship:
         """Обновляет позицию корабля с учётом флага."""
         # Обновляется атрибуты center, не rect (обькты rect для хранения и манипулирования прямоугольными областями)
         if self.moving_right and self.rect.right < self.screen_rect.right:
-            self.center += self.ai_settings.ship_speed_factor
+            self.x += self.settings.ship_speed_factor
         if self.moving_left and self.rect.left > 0:
-            self.center -= self.ai_settings.ship_speed_factor
+            self.x -= self.settings.ship_speed_factor
 
         # Обновление обьекта rect на self.center.
-        self.rect.centerx = self.center
+        self.rect.x = self.x
 
     def blitme(self):
         """Рисует корабль в текущей позиции."""
@@ -42,4 +44,6 @@ class Ship:
 
     def center_ship(self):
         """Размещение корабля в центре нижней стороны """
-        self.center = self.screen_rect.centerx
+        self.rect.midbottom = self.screen_rect.midbottom
+        self.x = float(self.rect.x)
+
