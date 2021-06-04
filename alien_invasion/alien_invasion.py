@@ -103,7 +103,7 @@ class AlienInvasion:
             self._fire_bullet()
 
     def _check_keyup_events(self, event):
-        """Отвечайте на ключевые релизы."""
+        """Отвечает на ключевые релизы."""
         if event.key == pygame.K_RIGHT:
             self.ship.moving_right = False
         elif event.key == pygame.K_LEFT:
