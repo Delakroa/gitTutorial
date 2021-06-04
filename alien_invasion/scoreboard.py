@@ -9,7 +9,7 @@ class Scoreboard:
 
     def __init__(self, ai_game):
         """Инициализирует атрибуты подсчёта очков"""
-        self.ai_game = ai_game.screen
+        self.ai_game = ai_game
         self.screen = ai_game.screen
         self.screen_rect = self.screen.get_rect()
         self.settings = ai_game.settings
@@ -34,7 +34,7 @@ class Scoreboard:
 
         # Выводит счёт в правой верхней части экрана.
         self.score_rect = self.score_image.get_rect()
-        self.score_rect.right = self.score_rect.right - 20
+        self.score_rect.right = self.screen_rect.right - 20
         self.score_rect.top = 20
 
     def prep_high_score(self):
