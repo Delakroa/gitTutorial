@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Пошёл по другому пути">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Исправленна ошибка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/button.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,34 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00105" summary="Добавим в ship_hit() код, который сбрасывает флаг game_active в состояние False&#10;# при потере игроком последнего корабля:">
-      <created>1620798199509</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1620798199509</updated>
-    </task>
-    <task id="LOCAL-00106" summary="Игра Alien Invasion запускается в активном состоянии.">
-      <created>1620798217786</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1620798217786</updated>
-    </task>
-    <task id="LOCAL-00107" summary="Определение исполняемых частей игры">
-      <created>1620798984961</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1620798984961</updated>
-    </task>
-    <task id="LOCAL-00108" summary="Изменил цикл While">
-      <created>1620799004877</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1620799004877</updated>
     </task>
     <task id="LOCAL-00109" summary="Добавление кнопки Play">
       <created>1620799232873</created>
@@ -527,7 +496,35 @@
       <option name="project" value="LOCAL" />
       <updated>1622717443515</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="Исправленна ошибка положения рекорда">
+      <created>1622795452173</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1622795452173</updated>
+    </task>
+    <task id="LOCAL-00155" summary="Исправленна ошибка перемещения корабля">
+      <created>1622795467787</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1622795467787</updated>
+    </task>
+    <task id="LOCAL-00156" summary="Исправленна ошибка">
+      <created>1622795484533</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1622795484533</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Исправленна ошибка">
+      <created>1622795662723</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1622795662723</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,9 +552,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Сброс игровых настроек" />
-    <MESSAGE value="Подсчет очков" />
-    <MESSAGE value="Подсчет очков self.score = 0" />
     <MESSAGE value="Вывод счета" />
     <MESSAGE value="Класс для вывода игровой информации." />
     <MESSAGE value="Создание экземпляра Scoreboard" />
@@ -580,7 +574,10 @@
     <MESSAGE value="Рекорды" />
     <MESSAGE value="Вернул на место &quot;Сброс игровой статистики&quot;" />
     <MESSAGE value="Пошёл по другому пути" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пошёл по другому пути" />
+    <MESSAGE value="Исправленна ошибка положения рекорда" />
+    <MESSAGE value="Исправленна ошибка перемещения корабля" />
+    <MESSAGE value="Исправленна ошибка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправленна ошибка" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

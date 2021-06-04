@@ -205,7 +205,7 @@ class AlienInvasion:
         # Определите количество рядов пришельцев, которые умещаются на экране.
         ship_height = self.ship.rect.height
         available_space_y = (self.settings.screen_height -
-                             (3 * alien_height) - ship_height)
+                             (8 * alien_height) - ship_height)
         number_rows = available_space_y // (2 * alien_height)
 
         # Создайте полный флот инопланетян.
