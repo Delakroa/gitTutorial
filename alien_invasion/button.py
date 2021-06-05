@@ -4,11 +4,10 @@ import pygame.font
 class Button:
     """Создание кнопки"""
 
-    def __init__(self, ai_settings, screen, msg):
+    def __init__(self, ai_game,  msg):
         """Инициализирует атрибуты кнопки"""
-        self.screen = screen
-        self.screen_rect = screen.get_rect()
-        self.ai_settings = ai_settings
+        self.screen = ai_game.screen
+        self.screen_rect = self.screen.get_rect()
 
         # Назначение размеров и свойства кнопки.
         self.width, self.height = 200, 50
