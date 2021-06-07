@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Удаление контуров точек">
-      <change beforePath="$PROJECT_DIR$/matplotlib/scatter_squares.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/scatter_squares.py" afterDir="false" />
-    </list>
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Цветовые карты" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00126" summary="Изменение настроек скорости">
-      <created>1621270606569</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1621270606569</updated>
     </task>
     <task id="LOCAL-00127" summary="Сброс скорости">
       <created>1621277187474</created>
@@ -523,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623058212340</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="Цветовые карты">
+      <created>1623058621777</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1623058621777</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -596,7 +594,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Начисление очков за все попадания" />
     <MESSAGE value="        for aliens in collisions.values():&#10;            stats.score += ai_settings.alien_points * len(aliens)&#10;        sb.prep_score()" />
     <MESSAGE value="Увеличение стоимости пришельцев" />
     <MESSAGE value="Установка стоимости пришельцев" />
@@ -621,7 +618,8 @@
     <MESSAGE value="Вывод серии точек функцией scatter()" />
     <MESSAGE value="Автоматическое вычисление данных" />
     <MESSAGE value="Удаление контуров точек" />
-    <option name="LAST_COMMIT_MESSAGE" value="Удаление контуров точек" />
+    <MESSAGE value="Цветовые карты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Цветовые карты" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
