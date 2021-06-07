@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="пыльцевое зерно">
-      <change afterPath="$PROJECT_DIR$/matplotlib/random_walk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Создание класса RandomWalk()">
+      <change beforePath="$PROJECT_DIR$/Generirovanie_dannih_chapter15.py" beforeDir="false" afterPath="$PROJECT_DIR$/Generirovanie_dannih_chapter15.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00133" summary="Создание экземпляра Scoreboard">
-      <created>1621279564327</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1621279564327</updated>
     </task>
     <task id="LOCAL-00134" summary="from scoreboard import Scoreboard&#10;Создание экземпляров GameStats и Scoreboard.">
       <created>1621279598210</created>
@@ -524,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623063226325</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Создание класса RandomWalk()">
+      <created>1623064208128</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1623064208128</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,7 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rounded_score = int(round(self.stats.score, -1))&#10;        score_str = &quot;{:,}&quot;.format(rounded_score)" />
     <MESSAGE value="Рекорд не должен сбрасываться" />
     <MESSAGE value="Преобразует рекордный счет в графическое изображение.&quot;&quot;&quot;" />
     <MESSAGE value="Проверяет, появился ли новый рекорд.&quot;&quot;&quot;" />
@@ -622,7 +620,8 @@
     <MESSAGE value="Определение пользовательских цветов" />
     <MESSAGE value="Выполненно" />
     <MESSAGE value="пыльцевое зерно" />
-    <option name="LAST_COMMIT_MESSAGE" value="пыльцевое зерно" />
+    <MESSAGE value="Создание класса RandomWalk()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание класса RandomWalk()" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
