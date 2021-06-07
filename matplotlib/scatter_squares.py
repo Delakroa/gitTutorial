@@ -16,4 +16,4 @@ plt.axis([0, 1100, 0, 1100000])
 # Назначение размера шрифта на осях.
 plt.tick_params(axis='both', which='major', labelsize=14)
 
-plt.show()
+plt.savefig('тренировка.png', bbox_inches='tight')
