@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Корректировка графика">
-      <change beforePath="$PROJECT_DIR$/Generirovanie_dannih_chapter15.py" beforeDir="false" afterPath="$PROJECT_DIR$/Generirovanie_dannih_chapter15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/scatter_squares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager" selected="Python.mpl_squares">
+  <component name="RunManager" selected="Python.scatter_squares">
     <configuration name="alien_invasion (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scoreboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="scatter_squares" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/matplotlib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion/scoreboard.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/scatter_squares.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scatter_squares" />
         <item itemvalue="Python.mpl_squares" />
         <item itemvalue="Python.pizza" />
         <item itemvalue="Python.alien_invasion" />
         <item itemvalue="Python.alien_invasion (1)" />
-        <item itemvalue="Python.scoreboard" />
       </list>
     </recent_temporary>
   </component>
@@ -179,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00117" summary="Создали кнопку">
-      <created>1620803977977</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1620803977977</updated>
     </task>
     <task id="LOCAL-00118" summary="Запуск игры">
       <created>1620807966265</created>
@@ -523,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623048988929</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Корректировка графика">
+      <created>1623049054083</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1623049054083</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
