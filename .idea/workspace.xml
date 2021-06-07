@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Построение простого графика">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matplotlib/mpl_squares.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/mpl_squares.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Изменение типа надписей и толщины графика">
+      <change beforePath="$PROJECT_DIR$/Generirovanie_dannih_chapter15.py" beforeDir="false" afterPath="$PROJECT_DIR$/Generirovanie_dannih_chapter15.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,20 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00114" summary="создаём кнопку прямо в файле alien_invasion">
-      <created>1620803878917</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1620803878917</updated>
-    </task>
-    <task id="LOCAL-00115" summary="Кнопка Play отображается в том случае, если игра неактивна.">
-      <created>1620803906086</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1620803906086</updated>
     </task>
     <task id="LOCAL-00116" summary="Игра Alien Invasion запускается в неактивном состоянии">
       <created>1620803943716</created>
@@ -524,7 +509,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623047249505</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="Изменение типа надписей и толщины графика">
+      <created>1623048499756</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1623048499756</updated>
+    </task>
+    <task id="LOCAL-00164" summary="Изменение типа надписей и толщины графика">
+      <created>1623048560290</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1623048560290</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,7 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Вывод счета." />
     <MESSAGE value="Выводит счёт на экран." />
     <MESSAGE value="Исправил ошибку" />
     <MESSAGE value="Обновление счета при уничтожении пришельцев" />
@@ -622,7 +620,8 @@
     <MESSAGE value="Закончил, но по возможности нужно доделать" />
     <MESSAGE value="снял комент" />
     <MESSAGE value="Построение простого графика" />
-    <option name="LAST_COMMIT_MESSAGE" value="Построение простого графика" />
+    <MESSAGE value="Изменение типа надписей и толщины графика" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменение типа надписей и толщины графика" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
