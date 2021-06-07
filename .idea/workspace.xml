@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Выполненно">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="пыльцевое зерно">
+      <change afterPath="$PROJECT_DIR$/matplotlib/random_walk.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00132" summary="Класс для вывода игровой информации.">
-      <created>1621278731865</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1621278731865</updated>
     </task>
     <task id="LOCAL-00133" summary="Создание экземпляра Scoreboard">
       <created>1621279564327</created>
@@ -523,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623062787825</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="пыльцевое зерно">
+      <created>1623063226325</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1623063226325</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -596,7 +597,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Округление счета" />
     <MESSAGE value="rounded_score = int(round(self.stats.score, -1))&#10;        score_str = &quot;{:,}&quot;.format(rounded_score)" />
     <MESSAGE value="Рекорд не должен сбрасываться" />
     <MESSAGE value="Преобразует рекордный счет в графическое изображение.&quot;&quot;&quot;" />
@@ -621,7 +621,8 @@
     <MESSAGE value="Автоматическое сохранение диаграмм" />
     <MESSAGE value="Определение пользовательских цветов" />
     <MESSAGE value="Выполненно" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполненно" />
+    <MESSAGE value="пыльцевое зерно" />
+    <option name="LAST_COMMIT_MESSAGE" value="пыльцевое зерно" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
