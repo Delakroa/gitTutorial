@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Оформление случайного блуждания">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Назначение цветов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matplotlib/rw_visual.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/rw_visual.py" afterDir="false" />
     </list>
@@ -180,20 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00143" summary="        for aliens in collisions.values():&#10;            stats.score += ai_settings.alien_points * len(aliens)&#10;        sb.prep_score()">
-      <created>1621848690013</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1621848690013</updated>
-    </task>
-    <task id="LOCAL-00144" summary="Увеличение стоимости пришельцев">
-      <created>1621849224694</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1621849224694</updated>
     </task>
     <task id="LOCAL-00145" summary="Установка стоимости пришельцев">
       <created>1621849250841</created>
@@ -524,7 +510,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623132696736</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="Назначение цветов">
+      <created>1623135224548</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1623135224548</updated>
+    </task>
+    <task id="LOCAL-00193" summary="Назначение цветов">
+      <created>1623135300261</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1623135300261</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,7 +597,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Пошёл по другому пути" />
     <MESSAGE value="Исправленна ошибка положения рекорда" />
     <MESSAGE value="Исправленна ошибка перемещения корабля" />
     <MESSAGE value="Исправленна ошибка" />
@@ -622,7 +621,8 @@
     <MESSAGE value="Вывод случайного блуждания" />
     <MESSAGE value="Генерирование нескольких случайных блужданий" />
     <MESSAGE value="Оформление случайного блуждания" />
-    <option name="LAST_COMMIT_MESSAGE" value="Оформление случайного блуждания" />
+    <MESSAGE value="Назначение цветов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Назначение цветов" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
