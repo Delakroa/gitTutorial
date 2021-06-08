@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Изменение размера диаграммы для заполнения экрана">
-      <change afterPath="$PROJECT_DIR$/Pygal/die.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Создание класса кубика">
+      <change afterPath="$PROJECT_DIR$/Pygal/die_visual.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager" selected="Python.rw_visual">
+  <component name="RunManager" selected="Python.die_visual">
     <configuration name="Zadanie_15-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mpl_squares" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="die_visual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/matplotlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pygal" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/mpl_squares.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pygal/die_visual.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.die_visual" />
         <item itemvalue="Python.rw_visual" />
         <item itemvalue="Python.random_walk" />
         <item itemvalue="Python.Zadanie_15-1" />
         <item itemvalue="Python.scatter_squares" />
-        <item itemvalue="Python.mpl_squares" />
       </list>
     </recent_temporary>
   </component>
@@ -180,27 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00154" summary="Исправленна ошибка положения рекорда">
-      <created>1622795452173</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1622795452173</updated>
-    </task>
-    <task id="LOCAL-00155" summary="Исправленна ошибка перемещения корабля">
-      <created>1622795467787</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1622795467787</updated>
-    </task>
-    <task id="LOCAL-00156" summary="Исправленна ошибка">
-      <created>1622795484533</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1622795484533</updated>
     </task>
     <task id="LOCAL-00157" summary="Исправленна ошибка">
       <created>1622795662723</created>
@@ -524,7 +502,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623146396915</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="Создание класса кубика">
+      <created>1623146997910</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1623146997910</updated>
+    </task>
+    <task id="LOCAL-00204" summary="Моделирование бросков кубиков в Pygal">
+      <created>1623147190626</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1623147190626</updated>
+    </task>
+    <task id="LOCAL-00205" summary="Создание класса кубика">
+      <created>1623147252468</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1623147252468</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,8 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="снял комент" />
-    <MESSAGE value="Построение простого графика" />
     <MESSAGE value="Изменение типа надписей и толщины графика" />
     <MESSAGE value="Корректировка графика" />
     <MESSAGE value="Нанесение и оформление отдельных точек функцией scatter()" />
@@ -622,7 +619,9 @@
     <MESSAGE value="Удаление осей закоментированно. Выдаёт ошибку" />
     <MESSAGE value="Добавление точек" />
     <MESSAGE value="Изменение размера диаграммы для заполнения экрана" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменение размера диаграммы для заполнения экрана" />
+    <MESSAGE value="Моделирование бросков кубиков в Pygal" />
+    <MESSAGE value="Создание класса кубика" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание класса кубика" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
