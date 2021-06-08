@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Добавление точек">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Изменение размера диаграммы для заполнения экрана">
+      <change afterPath="$PROJECT_DIR$/Pygal/die.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matplotlib/rw_visual.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/rw_visual.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,20 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00152" summary="Вернул на место &quot;Сброс игровой статистики&quot;">
-      <created>1621852524338</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1621852524338</updated>
-    </task>
-    <task id="LOCAL-00153" summary="Пошёл по другому пути">
-      <created>1622717443515</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1622717443515</updated>
     </task>
     <task id="LOCAL-00154" summary="Исправленна ошибка положения рекорда">
       <created>1622795452173</created>
@@ -524,7 +510,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623143336236</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="Изменение размера диаграммы для заполнения экрана">
+      <created>1623146333647</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1623146333647</updated>
+    </task>
+    <task id="LOCAL-00202" summary="Изменение размера диаграммы для заполнения экрана">
+      <created>1623146396915</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1623146396915</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,7 +597,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Закончил, но по возможности нужно доделать" />
     <MESSAGE value="снял комент" />
     <MESSAGE value="Построение простого графика" />
     <MESSAGE value="Изменение типа надписей и толщины графика" />
@@ -622,7 +621,8 @@
     <MESSAGE value="Удаление осей" />
     <MESSAGE value="Удаление осей закоментированно. Выдаёт ошибку" />
     <MESSAGE value="Добавление точек" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление точек" />
+    <MESSAGE value="Изменение размера диаграммы для заполнения экрана" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменение размера диаграммы для заполнения экрана" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
