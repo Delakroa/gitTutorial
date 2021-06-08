@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Создание класса кубика">
-      <change afterPath="$PROJECT_DIR$/Pygal/die_visual.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Бросок кубика">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pygal/die_visual.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pygal/die_visual.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,20 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00157" summary="Исправленна ошибка">
-      <created>1622795662723</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1622795662723</updated>
-    </task>
-    <task id="LOCAL-00158" summary="Финал">
-      <created>1622803002743</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1622803002743</updated>
     </task>
     <task id="LOCAL-00159" summary="Закончил, но по возможности нужно доделать">
       <created>1623041022946</created>
@@ -523,7 +510,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623147252468</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="Бросок кубика">
+      <created>1623147558246</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1623147558246</updated>
+    </task>
+    <task id="LOCAL-00207" summary="Бросок кубика">
+      <created>1623147642635</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1623147642635</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -596,7 +597,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Изменение типа надписей и толщины графика" />
     <MESSAGE value="Корректировка графика" />
     <MESSAGE value="Нанесение и оформление отдельных точек функцией scatter()" />
     <MESSAGE value="Вывод серии точек функцией scatter()" />
@@ -621,7 +621,8 @@
     <MESSAGE value="Изменение размера диаграммы для заполнения экрана" />
     <MESSAGE value="Моделирование бросков кубиков в Pygal" />
     <MESSAGE value="Создание класса кубика" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание класса кубика" />
+    <MESSAGE value="Бросок кубика" />
+    <option name="LAST_COMMIT_MESSAGE" value="Бросок кубика" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
