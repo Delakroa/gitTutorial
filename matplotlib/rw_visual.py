@@ -5,10 +5,11 @@ from random_walk import RandomWalk
 # Новое блуждания строятся до тех пор, пока программа остается активной.
 while True:
     # Построение случайного блуждания и нанесение точек на диаграмму.
-    rw = RandomWalk()
+    rw = RandomWalk(50000)
     rw.fill_walk()
+    # Вывод точек и построение диаграммы
     point_number = list(range(rw.num_points))
-    plt.scatter(rw.x_value, rw.y_value, c=point_number, cmap=plt.cm.Blues, edgecolors='none', s=15)
+    plt.scatter(rw.x_value, rw.y_value, c=point_number, cmap=plt.cm.Blues, edgecolors='none', s=1)
     # Выделение первой и последней точки.
     plt.scatter(0, 0, c='green', edgecolors='none', s=100)
     plt.scatter(rw.x_value[-1], rw.y_value[-1], c='red', edgecolors='none', s=100)
