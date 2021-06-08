@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Вывод случайного блуждания">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Оформление случайного блуждания">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matplotlib/rw_visual.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/rw_visual.py" afterDir="false" />
     </list>
@@ -180,27 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00140" summary="Дописывание атрибутов">
-      <created>1621848287626</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1621848287626</updated>
-    </task>
-    <task id="LOCAL-00141" summary="    if collisions:&#10;        stats.score += ai_settings.alien_piints&#10;        sb.prep_score()">
-      <created>1621848301161</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1621848301161</updated>
-    </task>
-    <task id="LOCAL-00142" summary="Начисление очков за все попадания">
-      <created>1621848675392</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1621848675392</updated>
     </task>
     <task id="LOCAL-00143" summary="        for aliens in collisions.values():&#10;            stats.score += ai_settings.alien_points * len(aliens)&#10;        sb.prep_score()">
       <created>1621848690013</created>
@@ -524,7 +503,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623131972495</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="Генерирование нескольких случайных блужданий">
+      <created>1623132542207</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1623132542207</updated>
+    </task>
+    <task id="LOCAL-00190" summary="Генерирование нескольких случайных блужданий">
+      <created>1623132635873</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1623132635873</updated>
+    </task>
+    <task id="LOCAL-00191" summary="Оформление случайного блуждания">
+      <created>1623132696736</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1623132696736</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,8 +597,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Рекорды" />
-    <MESSAGE value="Вернул на место &quot;Сброс игровой статистики&quot;" />
     <MESSAGE value="Пошёл по другому пути" />
     <MESSAGE value="Исправленна ошибка положения рекорда" />
     <MESSAGE value="Исправленна ошибка перемещения корабля" />
@@ -622,7 +620,9 @@
     <MESSAGE value="нужно доделать" />
     <MESSAGE value="Выбор направления" />
     <MESSAGE value="Вывод случайного блуждания" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вывод случайного блуждания" />
+    <MESSAGE value="Генерирование нескольких случайных блужданий" />
+    <MESSAGE value="Оформление случайного блуждания" />
+    <option name="LAST_COMMIT_MESSAGE" value="Оформление случайного блуждания" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
