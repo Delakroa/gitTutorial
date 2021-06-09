@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="CSV считывание погоды">
-      <change afterPath="$PROJECT_DIR$/alien_invasion/ai_player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alien_invasion/sound_effects.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="написание искуственного интелекта">
       <change beforePath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
     </list>
@@ -59,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager" selected="Python.alien_invasion (1)">
+  <component name="RunManager" selected="Python.alien_invasion">
     <configuration name="alien_invasion (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.alien_invasion (1)" />
         <item itemvalue="Python.alien_invasion" />
+        <item itemvalue="Python.alien_invasion (1)" />
         <item itemvalue="Python.chess_game" />
         <item itemvalue="Python.chess_set" />
         <item itemvalue="Python.highs_lows" />
@@ -183,34 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00171" summary="Автоматическое вычисление данных">
-      <created>1623055364170</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1623055364170</updated>
-    </task>
-    <task id="LOCAL-00172" summary="Автоматическое вычисление данных">
-      <created>1623057315689</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1623057315689</updated>
-    </task>
-    <task id="LOCAL-00173" summary="Удаление контуров точек">
-      <created>1623058120292</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1623058120292</updated>
-    </task>
-    <task id="LOCAL-00174" summary="Удаление контуров точек">
-      <created>1623058212340</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1623058212340</updated>
     </task>
     <task id="LOCAL-00175" summary="Цветовые карты">
       <created>1623058621777</created>
@@ -527,7 +496,35 @@
       <option name="project" value="LOCAL" />
       <updated>1623233910932</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="добавление звуковых эффектов">
+      <created>1623235196814</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1623235196814</updated>
+    </task>
+    <task id="LOCAL-00221" summary="добавление импорта">
+      <created>1623235213228</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1623235213228</updated>
+    </task>
+    <task id="LOCAL-00222" summary="обучение обработки и визуализации данных">
+      <created>1623235239821</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1623235239821</updated>
+    </task>
+    <task id="LOCAL-00223" summary="написание искуственного интелекта">
+      <created>1623235254131</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1623235254131</updated>
+    </task>
+    <option name="localTasksCounter" value="224" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -600,10 +597,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Определение пользовательских цветов" />
-    <MESSAGE value="Выполненно" />
-    <MESSAGE value="пыльцевое зерно" />
-    <MESSAGE value="Создание класса RandomWalk()" />
     <MESSAGE value="нужно доделать" />
     <MESSAGE value="Выбор направления" />
     <MESSAGE value="Вывод случайного блуждания" />
@@ -625,7 +618,11 @@
     <MESSAGE value="дополнен игнор" />
     <MESSAGE value="Загрузка данных Формат CSV" />
     <MESSAGE value="CSV считывание погоды" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSV считывание погоды" />
+    <MESSAGE value="добавление звуковых эффектов" />
+    <MESSAGE value="добавление импорта" />
+    <MESSAGE value="обучение обработки и визуализации данных" />
+    <MESSAGE value="написание искуственного интелекта" />
+    <option name="LAST_COMMIT_MESSAGE" value="написание искуственного интелекта" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
