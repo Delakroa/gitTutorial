@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Исправленна ошибка">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="исправление">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/ai_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ai_player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager" selected="Python.alien_invasion">
+  <component name="RunManager" selected="Python.ai_player">
+    <configuration name="ai_player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gitTutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion/ai_player.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="alien_invasion (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,11 +86,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/chapter_14/scoring" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/ai_player/alien_invasion_sweeps_right_left" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/chapter_14/scoring/alien_invasion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/ai_player/alien_invasion_sweeps_right_left/alien_invasion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="button" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="chess_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion/button.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game/chess_game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="game_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="chess_set" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,32 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion/game_functions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="scoreboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="gitTutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion/scoreboard.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game/chess_set.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ai_player" />
         <item itemvalue="Python.alien_invasion" />
         <item itemvalue="Python.alien_invasion (1)" />
-        <item itemvalue="Python.scoreboard" />
-        <item itemvalue="Python.game_functions" />
-        <item itemvalue="Python.button" />
+        <item itemvalue="Python.chess_game" />
+        <item itemvalue="Python.chess_set" />
       </list>
     </recent_temporary>
   </component>
@@ -181,355 +181,377 @@
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
     </task>
-    <task id="LOCAL-00109" summary="Добавление кнопки Play">
-      <created>1620799232873</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
+    <task id="LOCAL-00180" summary="Выполненно">
+      <created>1623062787825</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
       <option name="project" value="LOCAL" />
-      <updated>1620799232873</updated>
+      <updated>1623062787825</updated>
     </task>
-    <task id="LOCAL-00110" summary="Изменили на неактивную игру">
-      <created>1620799251478</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
+    <task id="LOCAL-00181" summary="пыльцевое зерно">
+      <created>1623063226325</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
       <option name="project" value="LOCAL" />
-      <updated>1620799251478</updated>
+      <updated>1623063226325</updated>
     </task>
-    <task id="LOCAL-00111" summary="Создание кнопки">
-      <created>1620800752210</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
+    <task id="LOCAL-00182" summary="Создание класса RandomWalk()">
+      <created>1623064208128</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
       <option name="project" value="LOCAL" />
-      <updated>1620800752210</updated>
+      <updated>1623064208128</updated>
     </task>
-    <task id="LOCAL-00112" summary="Создание класса Button">
-      <created>1620800880759</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
+    <task id="LOCAL-00183" summary="Создание класса RandomWalk()">
+      <created>1623064421927</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
       <option name="project" value="LOCAL" />
-      <updated>1620800880759</updated>
+      <updated>1623064421927</updated>
     </task>
-    <task id="LOCAL-00113" summary="Вывод кнопки на экран">
-      <created>1620803847081</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
+    <task id="LOCAL-00184" summary="нужно доделать">
+      <created>1623066209341</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
       <option name="project" value="LOCAL" />
-      <updated>1620803847081</updated>
+      <updated>1623066209341</updated>
     </task>
-    <task id="LOCAL-00114" summary="создаём кнопку прямо в файле alien_invasion">
-      <created>1620803878917</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
+    <task id="LOCAL-00185" summary="Выбор направления">
+      <created>1623131691733</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
       <option name="project" value="LOCAL" />
-      <updated>1620803878917</updated>
+      <updated>1623131691733</updated>
     </task>
-    <task id="LOCAL-00115" summary="Кнопка Play отображается в том случае, если игра неактивна.">
-      <created>1620803906086</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
+    <task id="LOCAL-00186" summary="Вывод случайного блуждания">
+      <created>1623131723914</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
       <option name="project" value="LOCAL" />
-      <updated>1620803906086</updated>
+      <updated>1623131723914</updated>
     </task>
-    <task id="LOCAL-00116" summary="Игра Alien Invasion запускается в неактивном состоянии">
-      <created>1620803943716</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
+    <task id="LOCAL-00187" summary="Вывод случайного блуждания">
+      <created>1623131727712</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
       <option name="project" value="LOCAL" />
-      <updated>1620803943716</updated>
+      <updated>1623131727712</updated>
     </task>
-    <task id="LOCAL-00117" summary="Создали кнопку">
-      <created>1620803977977</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
+    <task id="LOCAL-00188" summary="Вывод случайного блуждания">
+      <created>1623131972495</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
       <option name="project" value="LOCAL" />
-      <updated>1620803977977</updated>
+      <updated>1623131972495</updated>
     </task>
-    <task id="LOCAL-00118" summary="Запуск игры">
-      <created>1620807966265</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
+    <task id="LOCAL-00189" summary="Генерирование нескольких случайных блужданий">
+      <created>1623132542207</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
       <option name="project" value="LOCAL" />
-      <updated>1620807966265</updated>
+      <updated>1623132542207</updated>
     </task>
-    <task id="LOCAL-00119" summary="Сброс игры">
-      <created>1620813908006</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
+    <task id="LOCAL-00190" summary="Генерирование нескольких случайных блужданий">
+      <created>1623132635873</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
       <option name="project" value="LOCAL" />
-      <updated>1620813908006</updated>
+      <updated>1623132635873</updated>
     </task>
-    <task id="LOCAL-00120" summary="Запускает новую игру при нажатии кнопки Play">
-      <created>1620813947748</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
+    <task id="LOCAL-00191" summary="Оформление случайного блуждания">
+      <created>1623132696736</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
       <option name="project" value="LOCAL" />
-      <updated>1620813947748</updated>
+      <updated>1623132696736</updated>
     </task>
-    <task id="LOCAL-00121" summary="Добавление атрибутов gf.update_aliens">
-      <created>1620813973279</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
+    <task id="LOCAL-00192" summary="Назначение цветов">
+      <created>1623135224548</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
       <option name="project" value="LOCAL" />
-      <updated>1620813973279</updated>
+      <updated>1623135224548</updated>
     </task>
-    <task id="LOCAL-00122" summary="Изменение атрибутов">
-      <created>1620904539487</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
+    <task id="LOCAL-00193" summary="Назначение цветов">
+      <created>1623135300261</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
       <option name="project" value="LOCAL" />
-      <updated>1620904539487</updated>
+      <updated>1623135300261</updated>
     </task>
-    <task id="LOCAL-00123" summary="Скрыть указатель мыши, повышение сложности, изменение скорости игры">
-      <created>1621270425260</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
+    <task id="LOCAL-00194" summary="Начальные и конечные точки">
+      <created>1623140902661</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
       <option name="project" value="LOCAL" />
-      <updated>1621270425260</updated>
+      <updated>1623140902661</updated>
     </task>
-    <task id="LOCAL-00124" summary="Увеличение скорости игры">
-      <created>1621270452318</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
+    <task id="LOCAL-00195" summary="Начальные и конечные точки">
+      <created>1623140991769</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
       <option name="project" value="LOCAL" />
-      <updated>1621270452318</updated>
+      <updated>1623140991769</updated>
     </task>
-    <task id="LOCAL-00125" summary="Изменения значений настроек скорости">
-      <created>1621270466378</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
+    <task id="LOCAL-00196" summary="Удаление осей">
+      <created>1623142969432</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
       <option name="project" value="LOCAL" />
-      <updated>1621270466378</updated>
+      <updated>1623142969432</updated>
     </task>
-    <task id="LOCAL-00126" summary="Изменение настроек скорости">
-      <created>1621270606569</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
+    <task id="LOCAL-00197" summary="Удаление осей закоментированно. Выдаёт ошибку">
+      <created>1623142995346</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
       <option name="project" value="LOCAL" />
-      <updated>1621270606569</updated>
+      <updated>1623142995346</updated>
     </task>
-    <task id="LOCAL-00127" summary="Сброс скорости">
-      <created>1621277187474</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
+    <task id="LOCAL-00198" summary="Удаление осей закоментированно. Выдаёт ошибку">
+      <created>1623143009911</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
       <option name="project" value="LOCAL" />
-      <updated>1621277187474</updated>
+      <updated>1623143009911</updated>
     </task>
-    <task id="LOCAL-00128" summary="Сброс игровых настроек">
-      <created>1621277205923</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
+    <task id="LOCAL-00199" summary="Добавление точек">
+      <created>1623143238865</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
       <option name="project" value="LOCAL" />
-      <updated>1621277205923</updated>
+      <updated>1623143238865</updated>
     </task>
-    <task id="LOCAL-00129" summary="Подсчет очков">
-      <created>1621277385499</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
+    <task id="LOCAL-00200" summary="Добавление точек">
+      <created>1623143336236</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
       <option name="project" value="LOCAL" />
-      <updated>1621277385499</updated>
+      <updated>1623143336236</updated>
     </task>
-    <task id="LOCAL-00130" summary="Подсчет очков self.score = 0">
-      <created>1621277399843</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
+    <task id="LOCAL-00201" summary="Изменение размера диаграммы для заполнения экрана">
+      <created>1623146333647</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
       <option name="project" value="LOCAL" />
-      <updated>1621277399843</updated>
+      <updated>1623146333647</updated>
     </task>
-    <task id="LOCAL-00131" summary="Вывод счета">
-      <created>1621278667908</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
+    <task id="LOCAL-00202" summary="Изменение размера диаграммы для заполнения экрана">
+      <created>1623146396915</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
       <option name="project" value="LOCAL" />
-      <updated>1621278667908</updated>
+      <updated>1623146396915</updated>
     </task>
-    <task id="LOCAL-00132" summary="Класс для вывода игровой информации.">
-      <created>1621278731865</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
+    <task id="LOCAL-00203" summary="Создание класса кубика">
+      <created>1623146997910</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
       <option name="project" value="LOCAL" />
-      <updated>1621278731865</updated>
+      <updated>1623146997910</updated>
     </task>
-    <task id="LOCAL-00133" summary="Создание экземпляра Scoreboard">
-      <created>1621279564327</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
+    <task id="LOCAL-00204" summary="Моделирование бросков кубиков в Pygal">
+      <created>1623147190626</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
       <option name="project" value="LOCAL" />
-      <updated>1621279564327</updated>
+      <updated>1623147190626</updated>
     </task>
-    <task id="LOCAL-00134" summary="from scoreboard import Scoreboard&#10;Создание экземпляров GameStats и Scoreboard.">
-      <created>1621279598210</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
+    <task id="LOCAL-00205" summary="Создание класса кубика">
+      <created>1623147252468</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
       <option name="project" value="LOCAL" />
-      <updated>1621279598210</updated>
+      <updated>1623147252468</updated>
     </task>
-    <task id="LOCAL-00135" summary="Вывод счета.">
-      <created>1621279612792</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
+    <task id="LOCAL-00206" summary="Бросок кубика">
+      <created>1623147558246</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
       <option name="project" value="LOCAL" />
-      <updated>1621279612792</updated>
+      <updated>1623147558246</updated>
     </task>
-    <task id="LOCAL-00136" summary="Выводит счёт на экран.">
-      <created>1621279626275</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
+    <task id="LOCAL-00207" summary="Бросок кубика">
+      <created>1623147642635</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
       <option name="project" value="LOCAL" />
-      <updated>1621279626275</updated>
+      <updated>1623147642635</updated>
     </task>
-    <task id="LOCAL-00137" summary="Исправил ошибку">
-      <created>1621281920194</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
+    <task id="LOCAL-00208" summary="Анализ результатов">
+      <created>1623148194906</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
       <option name="project" value="LOCAL" />
-      <updated>1621281920194</updated>
+      <updated>1623148194906</updated>
     </task>
-    <task id="LOCAL-00138" summary="Исправил ошибку">
-      <created>1621541089155</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
+    <task id="LOCAL-00209" summary="Анализ результатов">
+      <created>1623148262429</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
       <option name="project" value="LOCAL" />
-      <updated>1621541089155</updated>
+      <updated>1623148262429</updated>
     </task>
-    <task id="LOCAL-00139" summary="Обновление счета при уничтожении пришельцев">
-      <created>1621848268133</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
+    <task id="LOCAL-00210" summary="Построение гистограммы">
+      <created>1623150076970</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
       <option name="project" value="LOCAL" />
-      <updated>1621848268133</updated>
+      <updated>1623150076970</updated>
     </task>
-    <task id="LOCAL-00140" summary="Дописывание атрибутов">
-      <created>1621848287626</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
+    <task id="LOCAL-00211" summary="Построение гистограммы">
+      <created>1623150375285</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
       <option name="project" value="LOCAL" />
-      <updated>1621848287626</updated>
+      <updated>1623150375285</updated>
     </task>
-    <task id="LOCAL-00141" summary="    if collisions:&#10;        stats.score += ai_settings.alien_piints&#10;        sb.prep_score()">
-      <created>1621848301161</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
+    <task id="LOCAL-00212" summary="Бросок двух кубиков">
+      <created>1623214875344</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
       <option name="project" value="LOCAL" />
-      <updated>1621848301161</updated>
+      <updated>1623214875344</updated>
     </task>
-    <task id="LOCAL-00142" summary="Начисление очков за все попадания">
-      <created>1621848675392</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
+    <task id="LOCAL-00213" summary="Бросок двух кубиков">
+      <created>1623216571177</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
       <option name="project" value="LOCAL" />
-      <updated>1621848675392</updated>
+      <updated>1623216571177</updated>
     </task>
-    <task id="LOCAL-00143" summary="        for aliens in collisions.values():&#10;            stats.score += ai_settings.alien_points * len(aliens)&#10;        sb.prep_score()">
-      <created>1621848690013</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
+    <task id="LOCAL-00214" summary="Бросок двух кубиков">
+      <created>1623227609359</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
       <option name="project" value="LOCAL" />
-      <updated>1621848690013</updated>
+      <updated>1623227609359</updated>
     </task>
-    <task id="LOCAL-00144" summary="Увеличение стоимости пришельцев">
-      <created>1621849224694</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
+    <task id="LOCAL-00215" summary="задание 15-7">
+      <created>1623229472902</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
       <option name="project" value="LOCAL" />
-      <updated>1621849224694</updated>
+      <updated>1623229472902</updated>
     </task>
-    <task id="LOCAL-00145" summary="Установка стоимости пришельцев">
-      <created>1621849250841</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
+    <task id="LOCAL-00216" summary="задание 15-7">
+      <created>1623229851123</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
       <option name="project" value="LOCAL" />
-      <updated>1621849250841</updated>
+      <updated>1623229851123</updated>
     </task>
-    <task id="LOCAL-00146" summary="Округление счета">
-      <created>1621849514164</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
+    <task id="LOCAL-00217" summary="дополнен игнор">
+      <created>1623230372379</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
       <option name="project" value="LOCAL" />
-      <updated>1621849514164</updated>
+      <updated>1623230372379</updated>
     </task>
-    <task id="LOCAL-00147" summary="rounded_score = int(round(self.stats.score, -1))&#10;        score_str = &quot;{:,}&quot;.format(rounded_score)">
-      <created>1621849528909</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
+    <task id="LOCAL-00218" summary="Загрузка данных Формат CSV">
+      <created>1623230657088</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
       <option name="project" value="LOCAL" />
-      <updated>1621849528909</updated>
+      <updated>1623230657088</updated>
     </task>
-    <task id="LOCAL-00148" summary="Рекорд не должен сбрасываться">
-      <created>1621851231718</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
+    <task id="LOCAL-00219" summary="CSV считывание погоды">
+      <created>1623233910932</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
       <option name="project" value="LOCAL" />
-      <updated>1621851231718</updated>
+      <updated>1623233910932</updated>
     </task>
-    <task id="LOCAL-00149" summary="Преобразует рекордный счет в графическое изображение.&quot;&quot;&quot;">
-      <created>1621851288025</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
+    <task id="LOCAL-00220" summary="добавление звуковых эффектов">
+      <created>1623235196814</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
       <option name="project" value="LOCAL" />
-      <updated>1621851288025</updated>
+      <updated>1623235196814</updated>
     </task>
-    <task id="LOCAL-00150" summary="Проверяет, появился ли новый рекорд.&quot;&quot;&quot;">
-      <created>1621851381702</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
+    <task id="LOCAL-00221" summary="добавление импорта">
+      <created>1623235213228</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
       <option name="project" value="LOCAL" />
-      <updated>1621851381702</updated>
+      <updated>1623235213228</updated>
     </task>
-    <task id="LOCAL-00151" summary="Рекорды">
-      <created>1621851449433</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
+    <task id="LOCAL-00222" summary="обучение обработки и визуализации данных">
+      <created>1623235239821</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
       <option name="project" value="LOCAL" />
-      <updated>1621851449433</updated>
+      <updated>1623235239821</updated>
     </task>
-    <task id="LOCAL-00152" summary="Вернул на место &quot;Сброс игровой статистики&quot;">
-      <created>1621852524338</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
+    <task id="LOCAL-00223" summary="написание искуственного интелекта">
+      <created>1623235254131</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
       <option name="project" value="LOCAL" />
-      <updated>1621852524338</updated>
+      <updated>1623235254131</updated>
     </task>
-    <task id="LOCAL-00153" summary="Пошёл по другому пути">
-      <created>1622717443515</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
+    <task id="LOCAL-00224" summary="добавление звуковых эффектов">
+      <created>1623235742310</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
       <option name="project" value="LOCAL" />
-      <updated>1622717443515</updated>
+      <updated>1623235742310</updated>
     </task>
-    <task id="LOCAL-00154" summary="Исправленна ошибка положения рекорда">
-      <created>1622795452173</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
+    <task id="LOCAL-00225" summary="правка">
+      <created>1623235802833</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
       <option name="project" value="LOCAL" />
-      <updated>1622795452173</updated>
+      <updated>1623235802833</updated>
     </task>
-    <task id="LOCAL-00155" summary="Исправленна ошибка перемещения корабля">
-      <created>1622795467787</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
+    <task id="LOCAL-00226" summary="Доделать">
+      <created>1623235832735</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
       <option name="project" value="LOCAL" />
-      <updated>1622795467787</updated>
+      <updated>1623235832735</updated>
     </task>
-    <task id="LOCAL-00156" summary="Исправленна ошибка">
-      <created>1622795484533</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
+    <task id="LOCAL-00227" summary="звуки стрельбы и звуки взрывов">
+      <created>1623235865870</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
       <option name="project" value="LOCAL" />
-      <updated>1622795484533</updated>
+      <updated>1623235865870</updated>
     </task>
-    <task id="LOCAL-00157" summary="Исправленна ошибка">
-      <created>1622795662723</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
+    <task id="LOCAL-00228" summary="исправление">
+      <created>1623236652978</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
       <option name="project" value="LOCAL" />
-      <updated>1622795662723</updated>
+      <updated>1623236652978</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <option name="localTasksCounter" value="229" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="6913afb9-7ef9-4225-abc7-ae9b839343d8">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/proba" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -538,7 +560,24 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="origin/proba" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="b388622e-1e3b-481f-bcf0-9939cce8ffab">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/proba" />
                       </list>
                     </value>
                   </entry>
@@ -549,42 +588,48 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="6913afb9-7ef9-4225-abc7-ae9b839343d8" value="TOOL_WINDOW" />
+        <entry key="b388622e-1e3b-481f-bcf0-9939cce8ffab" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Вывод счета" />
-    <MESSAGE value="Класс для вывода игровой информации." />
-    <MESSAGE value="Создание экземпляра Scoreboard" />
-    <MESSAGE value="from scoreboard import Scoreboard&#10;Создание экземпляров GameStats и Scoreboard." />
-    <MESSAGE value="Вывод счета." />
-    <MESSAGE value="Выводит счёт на экран." />
-    <MESSAGE value="Исправил ошибку" />
-    <MESSAGE value="Обновление счета при уничтожении пришельцев" />
-    <MESSAGE value="Дописывание атрибутов" />
-    <MESSAGE value="    if collisions:&#10;        stats.score += ai_settings.alien_piints&#10;        sb.prep_score()" />
-    <MESSAGE value="Начисление очков за все попадания" />
-    <MESSAGE value="        for aliens in collisions.values():&#10;            stats.score += ai_settings.alien_points * len(aliens)&#10;        sb.prep_score()" />
-    <MESSAGE value="Увеличение стоимости пришельцев" />
-    <MESSAGE value="Установка стоимости пришельцев" />
-    <MESSAGE value="Округление счета" />
-    <MESSAGE value="rounded_score = int(round(self.stats.score, -1))&#10;        score_str = &quot;{:,}&quot;.format(rounded_score)" />
-    <MESSAGE value="Рекорд не должен сбрасываться" />
-    <MESSAGE value="Преобразует рекордный счет в графическое изображение.&quot;&quot;&quot;" />
-    <MESSAGE value="Проверяет, появился ли новый рекорд.&quot;&quot;&quot;" />
-    <MESSAGE value="Рекорды" />
-    <MESSAGE value="Вернул на место &quot;Сброс игровой статистики&quot;" />
-    <MESSAGE value="Пошёл по другому пути" />
-    <MESSAGE value="Исправленна ошибка положения рекорда" />
-    <MESSAGE value="Исправленна ошибка перемещения корабля" />
-    <MESSAGE value="Исправленна ошибка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправленна ошибка" />
+    <MESSAGE value="Оформление случайного блуждания" />
+    <MESSAGE value="Назначение цветов" />
+    <MESSAGE value="Начальные и конечные точки" />
+    <MESSAGE value="Удаление осей" />
+    <MESSAGE value="Удаление осей закоментированно. Выдаёт ошибку" />
+    <MESSAGE value="Добавление точек" />
+    <MESSAGE value="Изменение размера диаграммы для заполнения экрана" />
+    <MESSAGE value="Моделирование бросков кубиков в Pygal" />
+    <MESSAGE value="Создание класса кубика" />
+    <MESSAGE value="Бросок кубика" />
+    <MESSAGE value="Анализ результатов" />
+    <MESSAGE value="Построение гистограммы" />
+    <MESSAGE value="Бросок двух кубиков" />
+    <MESSAGE value="задание 15-7" />
+    <MESSAGE value="дополнен игнор" />
+    <MESSAGE value="Загрузка данных Формат CSV" />
+    <MESSAGE value="CSV считывание погоды" />
+    <MESSAGE value="добавление импорта" />
+    <MESSAGE value="обучение обработки и визуализации данных" />
+    <MESSAGE value="написание искуственного интелекта" />
+    <MESSAGE value="добавление звуковых эффектов" />
+    <MESSAGE value="правка" />
+    <MESSAGE value="Доделать" />
+    <MESSAGE value="звуки стрельбы и звуки взрывов" />
+    <MESSAGE value="исправление" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправление" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="ship" />
       </configuration>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/alien_invasion/alien_invasion.py" line="29">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/alien_invasion/alien_invasion.py" line="30">
         <watch expression="stats" language="Python" />
       </inline-watch>
     </watches-manager>

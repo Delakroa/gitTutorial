@@ -899,3 +899,320 @@
 
 # ---------------------------------------------------------------------------------------------------------------------
 
+# Вывод уровня
+
+# Чтобы в игре выводился текущий уровень, сначала в класс GameStats следует вклю-
+# чить атрибут для его представления. Чтобы уровень сбрасывался в начале каждой
+# игры, инициализируйте его в reset_stats():
+
+# game_stats.py
+#
+# def reset_stats(self):
+# """Инициализирует статистику, изменяющуюся в ходе игры."""
+# self.ships_left = self.ai_settings.ship_limit
+# self.score = 0
+# self.level = 1
+
+# Чтобы класс Scoreboard выводил текущий уровень (сразу же под текущим счетом),
+# мы вызываем новый метод prep_level() из __init__():
+
+# scoreboard.py
+#
+# def __init__(self, ai_settings, screen, stats):
+# ...
+# # Подготовка изображений счетов.
+# self.prep_score()
+# self.prep_high_score()
+# self.prep_level()
+
+# Метод prep_level() выглядит так:
+#
+# scoreboard.py
+# def prep_level(self):
+# """Преобразует уровень в графическое изображение."""
+#  self.level_image = self.font.render(str(self.stats.level),
+# True,
+# self.text_color, self.ai_settings.bg_color)
+# # Уровень выводится под текущим счетом.
+# self.level_rect = self.level_image.get_rect()
+
+#  self.level_rect.right = self.score_rect.right
+#  self.level_rect.top = self.score_rect.bottom + 10
+#
+# Метод prep_level() создает изображение на базе значения, хранящегося в stats.
+# level , и приводит атрибут right изображения в соответствие с атрибутом
+# right счета . Затем атрибут top сдвигается на 10 пикселов ниже нижнего края
+# изображения текущего счета, чтобы между счетом и уровнем оставался пустой
+# интервал .
+# В метод show_score() также необходимо внести изменения:
+#
+# scoreboard.py
+#
+# def show_score(self):
+# """Выводит текущий счет, рекорд и число оставшихся кораблей."""
+# self.screen.blit(self.score_image, self.score_rect)
+# self.screen.blit(self.high_score_image, self.high_score_rect)
+# self.screen.blit(self.level_image, self.level_rect)
+#
+# Добавленная строка выводит на экран изображение, представляющее уровень.
+# Увеличение stats.level и обновление изображения уровня выполняются в check_
+# bullet_alien_collisions():
+#
+# game_functions.py
+#
+# def check_bullet_alien_collisions(ai_settings, screen, stats, sb, ship,
+# aliens, bullets):
+# ...
+# if len(aliens) == 0:
+# # Если весь флот уничтожен, начинается следующий уровень.
+# bullets.empty()
+# ai_settings.increase_speed()
+# # Увеличение уровня.
+#  stats.level += 1
+#  sb.prep_level()
+# create_fleet(ai_settings, screen, ship, aliens)
+#
+# Если все пришельцы уничтожены, программа увеличивает значение stats.level 
+# и вызывает prep_level() для обновления уровня .
+# Чтобы убедиться в том, что изображения текущего счета и уровня правильно
+# обновляются в начале новой игры, инициируйте сброс при нажатии кнопки Play:
+#
+# game_functions.py
+#
+# def check_play_button(ai_settings, screen, stats, sb, play_button, ship,
+# aliens, bullets, mouse_x, mouse_y):
+# """Запускает новую игру при нажатии кнопки Play."""
+# button_clicked = play_button.rect.collidepoint(mouse_x, mouse_y)
+# if button_clicked and not stats.game_active:
+# ...
+# # Сброс игровой статистики.
+# stats.reset_stats()
+# stats.game_active = True
+# # Сброс изображений счетов и уровня.
+# sb.prep_score()
+# sb.prep_high_score()
+# sb.prep_level()
+#
+# # Очистка списков пришельцев и пуль.
+# aliens.empty()
+# bullets.empty()
+# ...
+
+# Определению check_play_button() необходим объект sb. Чтобы сбросить изобра-
+# жения на экране, после сброса игровых настроек следуют вызовы prep_score(),
+# prep_high_score() и prep_level().
+# Затем объект sb передается check_events(), чтобы объект Scoreboard был доступен
+# для check_play_button():
+
+# game_functions.py
+#
+# def check_events(ai_settings, screen, stats, sb, play_button, ship, aliens,
+# bullets):
+# """Обрабатывает нажатия клавиш и события мыши."""
+# for event in pygame.event.get():
+# if event.type == pygame.QUIT:
+# ...
+# elif event.type == pygame.MOUSEBUTTONDOWN:
+# mouse_x, mouse_y = pygame.mouse.get_pos()
+#  check_play_button(ai_settings, screen, stats, sb, play_
+# button,
+# ship, aliens, bullets, mouse_x, mouse_y)
+
+# Определение check_events() должно получать sb в параметре, чтобы при вызове
+# check_play_button() можно было передать sb в аргументе .
+# Остается обновить вызов check_events() в alien_invasion.py, чтобы в нем также
+# передавался объект sb:
+
+# alien_invasion.py
+#
+# # Запуск основного цикла игры.
+# while True:
+# gf.check_events(ai_settings, screen, stats, sb, play_button, ship,
+# aliens, bullets)
+# ...
+
+# Теперь количество пройденных уровней отображается на экране (рис. 14.5).
+
+# ПРИМЕЧАНИЕ
+# В некоторых классических играх выводимая информация снабжается текстовыми метками: «Уро-
+# вень», «Рекорд» и т.д. Мы эти метки опустили, потому что смысл каждого числа понятен каждому,
+# кто сыграл в Alien Invasion. Если вы включите эти метки, добавьте их в строки непосредственно
+# перед вызовами font.render() в Scoreboard.
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+# Вывод количества кораблей
+
+# Остается вывести количество кораблей, оставшихся у игрока, но на этот раз инфор-
+# мация будет выводиться в графическом виде. Как во многих классических аркад-
+# ных играх, в левом верхнем углу экрана программа рисует несколько изображений
+# корабля. Каждый корабль обозначает одну оставшуюся попытку.
+# Для начала нужно сделать так, чтобы класс Ship наследовал от Sprite, — это не-
+# обходимо для создания группы кораблей:
+
+# ship.py
+#
+# import pygame
+# from pygame.sprite import Sprite
+#  class Ship(Sprite):
+# def __init__(self, ai_settings, screen):
+# """Инициализирует корабль и задает его начальную позицию."""
+#  super(Ship, self).__init__()
+# ...
+
+# Здесь мы импортируем Sprite, объявляем о наследовании Ship от Sprite  и вы-
+# зываем super() в начале __init__() .
+# Далее необходимо изменить Scoreboard и создать группу кораблей для вывода
+# на экран. Команды import и метод __init__() выглядят так:
+
+# scoreboard.py
+#
+# import pygame.font
+# from pygame.sprite import Group
+# from ship import Ship
+
+# class Scoreboard():
+# """Класс для вывода игровой информации."""
+# def __init__(self, ai_settings, screen, stats):
+# ...
+# self.prep_level()
+# self.prep_ships()
+# ...
+
+# Так как мы собираемся создать группу кораблей, программа импортирует классы
+# Group и Ship. Метод prep_ships() будет вызываться после prep_level(). Он вы-
+# глядит так:
+
+# scoreboard.py
+#
+# def prep_ships(self):
+# """Сообщает количество оставшихся кораблей."""
+#  self.ships = Group()
+#  for ship_number in range(self.stats.ships_left):
+# ship = Ship(self.ai_settings, self.screen)
+#  ship.rect.x = 10 + ship_number * ship.rect.width
+#  ship.rect.y = 10
+#  self.ships.add(ship)
+
+# Метод prep_ships() создает пустую группу self.ships для хранения экземпляров
+# кораблей . В ходе заполнения этой группы цикл выполняется по одному разу
+# для каждого корабля, оставшегося у игрока . В цикле создается новый корабль,
+# а координата x этого корабля задается так, чтобы корабли размещались рядом друг
+# с другом, разделенные интервалами величиной 10 пикселов . Координата y за-
+# дается так, чтобы корабли были смещены на 10 пикселов от верхнего края экрана
+# и были выровнены по изображению текущего счета . Наконец, каждый корабль
+# добавляется в группу ships .
+#
+# Следующим шагом становится вывод кораблей на экран:
+
+# scoreboard.py
+#
+# def show_score(self):
+# ...
+# self.screen.blit(self.level_image, self.level_rect)
+# # Вывод кораблей.
+# self.ships.draw(self.screen)
+
+# При выводе кораблей на экран мы вызываем метод draw() для группы, а Pygame
+# рисует каждый отдельный корабль.
+# Чтобы игрок видел, сколько попыток у него в начале игры, мы вызываем prep_
+# ships() при запуске новой игры. Это происходит в функции check_play_button()
+# из файла game_functions.py:
+
+# game_functions.py
+#
+# def check_play_button(ai_settings, screen, stats, sb, play_button, ship,
+# Подсчет очков 305
+# aliens, bullets, mouse_x, mouse_y):
+# """Запускает новую игру при нажатии кнопки Play."""
+# button_clicked = play_button.rect.collidepoint(mouse_x, mouse_y)
+# if button_clicked and not stats.game_active:
+# ...
+# # Сброс изображений счетов и уровня.
+# sb.prep_score()
+# sb.prep_high_score()
+# sb.prep_level()
+# sb.prep_ships()
+# ...
+
+# Метод prep_ships() также вызывается при столкновении пришельца с кораблем,
+# чтобы изображение обновлялось при потере корабля:
+
+# game_functions.py
+#
+#  def update_aliens(ai_settings, screen, stats, sb, ship, aliens, bullets):
+# ...
+# # Проверка коллизий "пришелец-корабль".
+# if pygame.sprite.spritecollideany(ship, aliens):
+#  ship_hit(ai_settings, screen, stats, sb, ship, aliens,
+# bullets)
+# # Проверяет, добрались ли пришельцы до нижнего края экрана.
+#  check_aliens_bottom(ai_settings, screen, stats, sb, ship,
+# aliens, bullets)
+#  def ship_hit(ai_settings, screen, stats, sb, ship, aliens,
+# bullets):
+# """Обрабатывает столкновение корабля с пришельцем."""
+# if stats.ships_left > 0:
+# # Уменьшение ships_left.
+# stats.ships_left -= 1
+# # Обновление игровой информации.
+#  sb.prep_ships()
+# # Очистка списков пришельцев и пуль.
+# ...
+
+# Сначала параметр sb добавляется в определение update_aliens() . Затем про-
+# грамма передает sb функциям ship_hit()  и check_aliens_bottom(), чтобы эти
+# функции имели доступ к объекту Scoreboard .
+# Затем определение ship_hit() изменяется с включением sb . Метод prep_ships()
+# вызывается после уменьшения значения ships_left , так что при каждой потере
+# корабля выводится правильное количество изображений.
+# Вызов ship_hit() также включен в check_aliens_bottom(), так что эту функцию
+# тоже нужно обновить:
+
+# game_functions.py
+#
+# def check_aliens_bottom(ai_settings, screen, stats, sb, ship, aliens,
+# bullets):
+# """Проверяет, добрались ли пришельцы до нижнего края экрана."""
+# screen_rect = screen.get_rect()
+# for alien in aliens.sprites():
+# if alien.rect.bottom >= screen_rect.bottom:
+# # Происходит то же, что при столкновении с кораблем.
+# ship_hit(ai_settings, screen, stats, sb, ship, aliens, bullets)
+# break
+
+# Так как check_aliens_bottom() теперь получает параметр sb, мы добавляем аргу-
+# мент sb в вызов ship_hit().
+# Остается добавить sb в вызов update_aliens() в файле alien_invasion.py:
+
+# alien_invasion.py
+#
+# # Запуск основного цикла игры.
+# while True:
+# ...
+# if stats.game_active:
+# ship.update()
+# gf.update_bullets(ai_settings, screen, stats, sb, ship, aliens,
+# bullets)
+# gf.update_aliens(ai_settings, screen, stats, sb, ship, aliens,
+# bullets)
+# ...
+
+# -------------------------------------------------------------------------------------------------------------------
+
+# ПРИМЕЧАНИЕ
+
+# 14-4. Исторический рекорд: в текущей версии рекорд сбрасывается каждый раз, когда игрок
+# закрывает и перезапускает Alien Invasion. Чтобы этого не происходило, запишите рекорд
+# в файл перед вызовом sys.exit() и загрузите его при инициализации значения в GameStats.
+#
+# Прежде чем браться за рефакторинг проекта, обратитесь к приложению Г. В нем расска-
+# зано, как восстановить рабочее состояние проекта, если в ходе рефакторинга были до-
+# пущены ошибки.
+# 14-6. Расширение Alien Invasion: подумайте над возможными расширениями Alien Invasion.
+# Например, пришельцы тоже могут стрелять по кораблю, или же вы можете добавить укры-
+# тия, за которыми может скрываться корабль (укрытия могут разрушаться пулями с обеих
+# сторон). Или добавьте звуковые эффекты (например, взрывы или звуки выстрелов) сред-
+# ствами модуля pygame.mixer.
+#
+#  По возможности продолжу

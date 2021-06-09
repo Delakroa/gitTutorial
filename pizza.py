@@ -5,4 +5,4 @@ def make_pizza(size, *toppings):
         print("- " + topping)
 
 
-# make_pizza(46, 'колбаса')
+make_pizza(46, 'колбаса')
