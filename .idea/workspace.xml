@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Построение гистограммы">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pygal/die_visual.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pygal/die_visual.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Бросок двух кубиков">
+      <change beforePath="$PROJECT_DIR$/Generirovanie_dannih_chapter15.py" beforeDir="false" afterPath="$PROJECT_DIR$/Generirovanie_dannih_chapter15.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00163" summary="Изменение типа надписей и толщины графика">
-      <created>1623048499756</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1623048499756</updated>
     </task>
     <task id="LOCAL-00164" summary="Изменение типа надписей и толщины графика">
       <created>1623048560290</created>
@@ -524,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623150375285</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="Бросок двух кубиков">
+      <created>1623214875344</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1623214875344</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,7 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Вывод серии точек функцией scatter()" />
     <MESSAGE value="Автоматическое вычисление данных" />
     <MESSAGE value="Удаление контуров точек" />
     <MESSAGE value="Цветовые карты" />
@@ -622,7 +620,8 @@
     <MESSAGE value="Бросок кубика" />
     <MESSAGE value="Анализ результатов" />
     <MESSAGE value="Построение гистограммы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Построение гистограммы" />
+    <MESSAGE value="Бросок двух кубиков" />
+    <option name="LAST_COMMIT_MESSAGE" value="Бросок двух кубиков" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
