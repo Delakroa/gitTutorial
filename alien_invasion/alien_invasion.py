@@ -115,6 +115,7 @@ class AlienInvasion:
         if len(self.bullets) < self.settings.bullets_allowed:
             new_bullet = Bullet(self)
             self.bullets.add(new_bullet)
+            se.bullet_sound.play()
 
     def _update_bullets(self):
         """Обновите положение пуль и избавьтесь от старых пуль."""
@@ -138,6 +139,7 @@ class AlienInvasion:
                 self.stats.score += self.settings.alien_points * len(aliens)
             self.sb.prep_score()
             self.sb.check_high_score()
+            se.alien_sound.play()
 
         if not self.aliens:
             # Уничтожьте существующие патроны и создайте новый флот.
