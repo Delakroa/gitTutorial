@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="звуки стрельбы и звуки взрывов">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="исправление">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/ai_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ai_player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00179" summary="Определение пользовательских цветов">
-      <created>1623061173428</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1623061173428</updated>
     </task>
     <task id="LOCAL-00180" summary="Выполненно">
       <created>1623062787825</created>
@@ -523,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623235865870</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="исправление">
+      <created>1623236652978</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1623236652978</updated>
+    </task>
+    <option name="localTasksCounter" value="229" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -596,7 +597,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Генерирование нескольких случайных блужданий" />
     <MESSAGE value="Оформление случайного блуждания" />
     <MESSAGE value="Назначение цветов" />
     <MESSAGE value="Начальные и конечные точки" />
@@ -621,7 +621,8 @@
     <MESSAGE value="правка" />
     <MESSAGE value="Доделать" />
     <MESSAGE value="звуки стрельбы и звуки взрывов" />
-    <option name="LAST_COMMIT_MESSAGE" value="звуки стрельбы и звуки взрывов" />
+    <MESSAGE value="исправление" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправление" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
