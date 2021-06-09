@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="задание 15-7" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="дополнен игнор">
+      <change afterPath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00168" summary="Нанесение и оформление отдельных точек функцией scatter()">
-      <created>1623054216135</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1623054216135</updated>
     </task>
     <task id="LOCAL-00169" summary="Вывод серии точек функцией scatter()">
       <created>1623054532503</created>
@@ -521,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623229851123</updated>
     </task>
-    <option name="localTasksCounter" value="217" />
+    <task id="LOCAL-00217" summary="дополнен игнор">
+      <created>1623230372379</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1623230372379</updated>
+    </task>
+    <option name="localTasksCounter" value="218" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -594,7 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Удаление контуров точек" />
     <MESSAGE value="Цветовые карты" />
     <MESSAGE value="Автоматическое сохранение диаграмм" />
     <MESSAGE value="Определение пользовательских цветов" />
@@ -619,7 +620,8 @@
     <MESSAGE value="Построение гистограммы" />
     <MESSAGE value="Бросок двух кубиков" />
     <MESSAGE value="задание 15-7" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание 15-7" />
+    <MESSAGE value="дополнен игнор" />
+    <option name="LAST_COMMIT_MESSAGE" value="дополнен игнор" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
