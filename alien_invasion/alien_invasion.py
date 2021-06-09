@@ -10,6 +10,7 @@ from button import Button
 from ship import Ship
 from bullet import Bullet
 from alien import Alien
+import sound_effects as se
 
 
 class AlienInvasion:
