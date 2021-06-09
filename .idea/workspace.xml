@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="написание искуственного интелекта">
-      <change beforePath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="звуки стрельбы и звуки взрывов">
+      <change beforePath="$PROJECT_DIR$/alien_invasion/ai_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ai_player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager" selected="Python.alien_invasion">
+  <component name="RunManager" selected="Python.ai_player">
+    <configuration name="ai_player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gitTutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion/ai_player.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="alien_invasion (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,34 +161,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="highs_lows" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="gitTutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSV &amp; JSON" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ai_player" />
         <item itemvalue="Python.alien_invasion" />
         <item itemvalue="Python.alien_invasion (1)" />
         <item itemvalue="Python.chess_game" />
         <item itemvalue="Python.chess_set" />
-        <item itemvalue="Python.highs_lows" />
       </list>
     </recent_temporary>
   </component>
@@ -180,34 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00175" summary="Цветовые карты">
-      <created>1623058621777</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1623058621777</updated>
-    </task>
-    <task id="LOCAL-00176" summary="Цветовые карты">
-      <created>1623058734047</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1623058734047</updated>
-    </task>
-    <task id="LOCAL-00177" summary="Автоматическое сохранение диаграмм">
-      <created>1623059615277</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1623059615277</updated>
-    </task>
-    <task id="LOCAL-00178" summary="Автоматическое сохранение диаграмм">
-      <created>1623059657007</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1623059657007</updated>
     </task>
     <task id="LOCAL-00179" summary="Определение пользовательских цветов">
       <created>1623061173428</created>
@@ -524,7 +495,35 @@
       <option name="project" value="LOCAL" />
       <updated>1623235254131</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="добавление звуковых эффектов">
+      <created>1623235742310</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1623235742310</updated>
+    </task>
+    <task id="LOCAL-00225" summary="правка">
+      <created>1623235802833</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1623235802833</updated>
+    </task>
+    <task id="LOCAL-00226" summary="Доделать">
+      <created>1623235832735</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1623235832735</updated>
+    </task>
+    <task id="LOCAL-00227" summary="звуки стрельбы и звуки взрывов">
+      <created>1623235865870</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1623235865870</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,9 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="нужно доделать" />
-    <MESSAGE value="Выбор направления" />
-    <MESSAGE value="Вывод случайного блуждания" />
     <MESSAGE value="Генерирование нескольких случайных блужданий" />
     <MESSAGE value="Оформление случайного блуждания" />
     <MESSAGE value="Назначение цветов" />
@@ -618,11 +614,14 @@
     <MESSAGE value="дополнен игнор" />
     <MESSAGE value="Загрузка данных Формат CSV" />
     <MESSAGE value="CSV считывание погоды" />
-    <MESSAGE value="добавление звуковых эффектов" />
     <MESSAGE value="добавление импорта" />
     <MESSAGE value="обучение обработки и визуализации данных" />
     <MESSAGE value="написание искуственного интелекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="написание искуственного интелекта" />
+    <MESSAGE value="добавление звуковых эффектов" />
+    <MESSAGE value="правка" />
+    <MESSAGE value="Доделать" />
+    <MESSAGE value="звуки стрельбы и звуки взрывов" />
+    <option name="LAST_COMMIT_MESSAGE" value="звуки стрельбы и звуки взрывов" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

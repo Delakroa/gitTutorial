@@ -6,7 +6,7 @@ from alien_invasion import AlienInvasion
 class AIPlayer:
 
     def __init__(self, ai_game):
-        """Автоматический плеер для Alien Invasion."""
+        """Автоматический игрок для Alien Invasion."""
         # Нужна ссылка на игровой объект.
         self.ai_game = ai_game
 
@@ -14,7 +14,6 @@ class AIPlayer:
         """Заменяет исходный run_game (), поэтому мы можем вставлять наши собственные
         элементы управления.
         """
-
         # Начните в активном состоянии и скройте мышь.
         self.ai_game.stats.game_active = True
         pygame.mouse.set_visible(False)
