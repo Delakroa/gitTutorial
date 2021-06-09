@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="дополнен игнор">
-      <change afterPath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="CSV считывание погоды">
+      <change afterPath="$PROJECT_DIR$/alien_invasion/ai_player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alien_invasion/sound_effects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +59,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager" selected="Python.Zadanie_15-7">
-    <configuration name="Zadanie_15-7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.alien_invasion (1)">
+    <configuration name="alien_invasion (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +68,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pygal" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/ai_player/alien_invasion_sweeps_right_left" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pygal/Zadanie_15-7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/ai_player/alien_invasion_sweeps_right_left/alien_invasion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="die_visual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="alien_invasion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +89,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pygal" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pygal/die_visual.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion/alien_invasion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="different_dice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="chess_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,11 +110,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pygal" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pygal/different_dice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game/chess_game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_walk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="chess_set" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/matplotlib" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/random_walk.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game/chess_set.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rw_visual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="highs_lows" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +152,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/matplotlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSV &amp; JSON" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/rw_visual.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Zadanie_15-7" />
-        <item itemvalue="Python.different_dice" />
-        <item itemvalue="Python.die_visual" />
-        <item itemvalue="Python.rw_visual" />
-        <item itemvalue="Python.random_walk" />
+        <item itemvalue="Python.alien_invasion (1)" />
+        <item itemvalue="Python.alien_invasion" />
+        <item itemvalue="Python.chess_game" />
+        <item itemvalue="Python.chess_set" />
+        <item itemvalue="Python.highs_lows" />
       </list>
     </recent_temporary>
   </component>
@@ -179,20 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00169" summary="Вывод серии точек функцией scatter()">
-      <created>1623054532503</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1623054532503</updated>
-    </task>
-    <task id="LOCAL-00170" summary="Вывод серии точек функцией scatter()">
-      <created>1623054609914</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1623054609914</updated>
     </task>
     <task id="LOCAL-00171" summary="Автоматическое вычисление данных">
       <created>1623055364170</created>
@@ -523,7 +513,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623230372379</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="Загрузка данных Формат CSV">
+      <created>1623230657088</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1623230657088</updated>
+    </task>
+    <task id="LOCAL-00219" summary="CSV считывание погоды">
+      <created>1623233910932</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1623233910932</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -596,8 +600,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Цветовые карты" />
-    <MESSAGE value="Автоматическое сохранение диаграмм" />
     <MESSAGE value="Определение пользовательских цветов" />
     <MESSAGE value="Выполненно" />
     <MESSAGE value="пыльцевое зерно" />
@@ -621,14 +623,16 @@
     <MESSAGE value="Бросок двух кубиков" />
     <MESSAGE value="задание 15-7" />
     <MESSAGE value="дополнен игнор" />
-    <option name="LAST_COMMIT_MESSAGE" value="дополнен игнор" />
+    <MESSAGE value="Загрузка данных Формат CSV" />
+    <MESSAGE value="CSV считывание погоды" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSV считывание погоды" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="ship" />
       </configuration>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/alien_invasion/alien_invasion.py" line="29">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/alien_invasion/alien_invasion.py" line="30">
         <watch expression="stats" language="Python" />
       </inline-watch>
     </watches-manager>
