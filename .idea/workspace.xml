@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="переместил">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Печать заголовков и их позиций">
       <change beforePath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,34 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00186" summary="Вывод случайного блуждания">
-      <created>1623131723914</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1623131723914</updated>
-    </task>
-    <task id="LOCAL-00187" summary="Вывод случайного блуждания">
-      <created>1623131727712</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1623131727712</updated>
-    </task>
-    <task id="LOCAL-00188" summary="Вывод случайного блуждания">
-      <created>1623131972495</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1623131972495</updated>
-    </task>
-    <task id="LOCAL-00189" summary="Генерирование нескольких случайных блужданий">
-      <created>1623132542207</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1623132542207</updated>
     </task>
     <task id="LOCAL-00190" summary="Генерирование нескольких случайных блужданий">
       <created>1623132635873</created>
@@ -518,7 +488,35 @@
       <option name="project" value="LOCAL" />
       <updated>1623315528800</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="Разбор заголовка файлов CSV">
+      <created>1623317958230</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1623317958230</updated>
+    </task>
+    <task id="LOCAL-00236" summary="Разбор заголовка файлов CSV">
+      <created>1623317963417</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1623317963417</updated>
+    </task>
+    <task id="LOCAL-00237" summary="Разбор заголовка файлов CSV">
+      <created>1623318007923</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1623318007923</updated>
+    </task>
+    <task id="LOCAL-00238" summary="Печать заголовков и их позиций">
+      <created>1623318241558</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1623318241558</updated>
+    </task>
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,8 +589,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Удаление осей" />
-    <MESSAGE value="Удаление осей закоментированно. Выдаёт ошибку" />
     <MESSAGE value="Добавление точек" />
     <MESSAGE value="Изменение размера диаграммы для заполнения экрана" />
     <MESSAGE value="Моделирование бросков кубиков в Pygal" />
@@ -616,7 +612,9 @@
     <MESSAGE value="доработка аи" />
     <MESSAGE value="правка" />
     <MESSAGE value="переместил" />
-    <option name="LAST_COMMIT_MESSAGE" value="переместил" />
+    <MESSAGE value="Разбор заголовка файлов CSV" />
+    <MESSAGE value="Печать заголовков и их позиций" />
+    <option name="LAST_COMMIT_MESSAGE" value="Печать заголовков и их позиций" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
