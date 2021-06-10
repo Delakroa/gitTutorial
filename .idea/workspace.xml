@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="исправление" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Исправил коментарии">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/ai_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ai_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00181" summary="пыльцевое зерно">
-      <created>1623063226325</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1623063226325</updated>
     </task>
     <task id="LOCAL-00182" summary="Создание класса RandomWalk()">
       <created>1623064208128</created>
@@ -521,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623238918737</updated>
     </task>
-    <option name="localTasksCounter" value="230" />
+    <task id="LOCAL-00230" summary="Исправил коментарии">
+      <created>1623298520799</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1623298520799</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -594,7 +598,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Оформление случайного блуждания" />
     <MESSAGE value="Назначение цветов" />
     <MESSAGE value="Начальные и конечные точки" />
     <MESSAGE value="Удаление осей" />
@@ -619,7 +622,8 @@
     <MESSAGE value="Доделать" />
     <MESSAGE value="звуки стрельбы и звуки взрывов" />
     <MESSAGE value="исправление" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправление" />
+    <MESSAGE value="Исправил коментарии" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил коментарии" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
