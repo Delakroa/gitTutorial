@@ -1,6 +1,6 @@
 import csv
 
-filename = 'https://www.gismeteo.ru/weather-tver-4327/'
+filename = 'D:\Python library\gitTutorial\CSV & JSON\data\death_valley_2018_full.csv'
 with open(filename) as f:
     reader = csv.reader(f)
     header_row = next(reader)
