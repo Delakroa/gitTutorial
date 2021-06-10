@@ -1,10 +1,14 @@
 import csv
 
+# Чтение максимальных температур из файла.
 filename = 'D:\Python library\gitTutorial\CSV & JSON\data\death_valley_2018_full.csv'
-with open(filename) as f:
+with open(filename, 'r') as f:
     reader = csv.reader(f)
     header_row = next(reader)
 
+    highs = []
+    for row in reader:
+        high = int(row[6])
+        highs.append(high)
 
-for index, column_header in enumerate(header_row):
-    print(index, column_header)
+print(highs)
