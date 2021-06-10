@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Извлечение и чтение данных">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Модуль datetime">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,27 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00192" summary="Назначение цветов">
-      <created>1623135224548</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1623135224548</updated>
-    </task>
-    <task id="LOCAL-00193" summary="Назначение цветов">
-      <created>1623135300261</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1623135300261</updated>
-    </task>
-    <task id="LOCAL-00194" summary="Начальные и конечные точки">
-      <created>1623140902661</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1623140902661</updated>
     </task>
     <task id="LOCAL-00195" summary="Начальные и конечные точки">
       <created>1623140991769</created>
@@ -518,7 +496,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623322245384</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="Нанесение данных на диаграмму">
+      <created>1623322959584</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1623322959584</updated>
+    </task>
+    <task id="LOCAL-00242" summary="Нанесение данных на диаграмму">
+      <created>1623323015700</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1623323015700</updated>
+    </task>
+    <task id="LOCAL-00243" summary="Модуль datetime">
+      <created>1623323182529</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1623323182529</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,8 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Изменение размера диаграммы для заполнения экрана" />
-    <MESSAGE value="Моделирование бросков кубиков в Pygal" />
     <MESSAGE value="Создание класса кубика" />
     <MESSAGE value="Бросок кубика" />
     <MESSAGE value="Анализ результатов" />
@@ -616,7 +613,9 @@
     <MESSAGE value="Разбор заголовка файлов CSV" />
     <MESSAGE value="Печать заголовков и их позиций" />
     <MESSAGE value="Извлечение и чтение данных" />
-    <option name="LAST_COMMIT_MESSAGE" value="Извлечение и чтение данных" />
+    <MESSAGE value="Нанесение данных на диаграмму" />
+    <MESSAGE value="Модуль datetime" />
+    <option name="LAST_COMMIT_MESSAGE" value="Модуль datetime" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
