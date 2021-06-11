@@ -244,3 +244,48 @@
 
 # ---------------------------------------------------------------------------------------------------------------------
 
+# Представление дат на диаграмме
+#
+# Научившись обрабатывать данные в файлах CSV, вы сможете улучшить диаграмму
+# температурных данных. Для этого мы извлечем из файла даты ежедневных макси-
+# мумов и передадим даты и максимумы функции plot():
+#
+# highs_lows.py
+#
+# import csv
+#
+# from datetime import datetime
+#
+# from matplotlib import pyplot as plt
+#
+# # Чтение дат и температурных максимумов из файла.
+# filename = 'sitka_weather_07-2014.csv'
+# with open(filename) as f:
+# reader = csv.reader(f)
+# header_row = next(reader)
+#  dates, highs = [], []
+# for row in reader:
+#  current_date = datetime.strptime(row[0], "%Y-%m-%d")
+# dates.append(current_date)
+# high = int(row[1])
+# highs.append(high)
+# # Нанесение данных на диаграмму.
+# fig = plt.figure(dpi=128, figsize=(10, 6))
+#  plt.plot(dates, highs, c='red')
+# # Форматирование диаграммы.
+# plt.title("Daily high temperatures, July 2014", fontsize=24)
+# plt.xlabel('', fontsize=16)
+#  fig.autofmt_xdate()
+# plt.ylabel("Temperature (F)", fontsize=16)
+# plt.tick_params(axis='both', which='major', labelsize=16)
+# plt.show()
+
+# Мы создаем два пустых списка для хранения дат и температурных максимумов
+# из файла . Затем программа преобразует данные, содержащие информацию даты
+# (row[0]), в объект datetime , который присоединяется к dates. Значения дат
+# и температурных максимумов передаются plot() в точке . Вызов fig.autofmt_
+# xdate() в точке  выводит метки дат по диагонали, чтобы они не перекрывались.
+# На рис. 16.2 изображена новая версия графика.
+
+# ---------------------------------------------------------------------------------------------------------------------
+
