@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Представление дат на диаграмме">
-      <change beforePath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,13 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00197" summary="Удаление осей закоментированно. Выдаёт ошибку">
-      <created>1623142995346</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1623142995346</updated>
     </task>
     <task id="LOCAL-00198" summary="Удаление осей закоментированно. Выдаёт ошибку">
       <created>1623143009911</created>
@@ -516,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623400827462</updated>
     </task>
-    <option name="localTasksCounter" value="246" />
+    <task id="LOCAL-00246" summary="Представление дат на диаграмме">
+      <created>1623400910907</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1623400910907</updated>
+    </task>
+    <option name="localTasksCounter" value="247" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
