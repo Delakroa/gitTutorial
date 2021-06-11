@@ -5,29 +5,29 @@ import matplotlib.pyplot as plt
 from matplotlib import pyplot as pl
 
 # Чтение дат и температурных максимумов из файла.
-filename = 'D:\Python library\gitTutorial\CSV & JSON\data\death_valley_2018_full.csv'
+filename = 'data\death_valley_2018_full.csv'
 with open(filename, 'r') as f:
     reader = csv.reader(f)
     header_row = next(reader)
 
+    # Получите даты и высокие температуры из этого файла.
     dates, highs = [], []
     for row in reader:
         current_date = datetime.strptime(row[2], "%Y-%m-%d")
         dates.append(current_date)
-
-    high = int(row[6])
-    highs.append(high)
+        high = int(row[6])
+        highs.append(high)
 
 # Нанесение данных на диаграмму.
 fig = plt.figure(dpi=128, figsize=(10, 6))
 plt.plot(dates, highs, c='red')
 
 # Фоматирование диаграммы.
-plt.title("Ежедневная температура, 2018-01-06")
-plt.xlabel('')
+plt.title("Ежедневная температура, 2018-01-06", fontsize=24)
+plt.xlabel('', fontsize=16)
 
 fig.autofmt_xdate()
-plt.ylabel("Температура (F)")
+plt.ylabel("Температура (F)", fontsize=16)
 plt.tick_params(axis='both', which='major')
 
 plt.show()

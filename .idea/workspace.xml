@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Модуль datetime">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="current_date = datetime.strptime(row[2], &quot;%Y-%m-%d&quot;) ошибка тут">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" afterDir="false" />
     </list>
@@ -57,7 +57,7 @@
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
   <component name="RunManager" selected="Python.highs_lows">
-    <configuration name="alien_invasion (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ai_player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,11 +65,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/ai_player/alien_invasion_sweeps_right_left" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/ai_player/alien_invasion_sweeps_right_left/alien_invasion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion/ai_player.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.highs_lows" />
+        <item itemvalue="Python.ai_player" />
+        <item itemvalue="Python.alien_invasion" />
         <item itemvalue="Python tests.Unittests for test_cities.CityCountryTestCase" />
         <item itemvalue="Python.chess_game" />
-        <item itemvalue="Python.alien_invasion (1)" />
-        <item itemvalue="Python.alien_invasion" />
       </list>
     </recent_temporary>
   </component>
@@ -173,13 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00195" summary="Начальные и конечные точки">
-      <created>1623140991769</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1623140991769</updated>
     </task>
     <task id="LOCAL-00196" summary="Удаление осей">
       <created>1623142969432</created>
@@ -517,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623323182529</updated>
     </task>
-    <option name="localTasksCounter" value="244" />
+    <task id="LOCAL-00244" summary="current_date = datetime.strptime(row[2], &quot;%Y-%m-%d&quot;) ошибка тут">
+      <created>1623323748517</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1623323748517</updated>
+    </task>
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,7 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создание класса кубика" />
     <MESSAGE value="Бросок кубика" />
     <MESSAGE value="Анализ результатов" />
     <MESSAGE value="Построение гистограммы" />
@@ -615,7 +614,8 @@
     <MESSAGE value="Извлечение и чтение данных" />
     <MESSAGE value="Нанесение данных на диаграмму" />
     <MESSAGE value="Модуль datetime" />
-    <option name="LAST_COMMIT_MESSAGE" value="Модуль datetime" />
+    <MESSAGE value="current_date = datetime.strptime(row[2], &quot;%Y-%m-%d&quot;) ошибка тут" />
+    <option name="LAST_COMMIT_MESSAGE" value="current_date = datetime.strptime(row[2], &quot;%Y-%m-%d&quot;) ошибка тут" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
