@@ -174,20 +174,6 @@
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
     </task>
-    <task id="LOCAL-00198" summary="Удаление осей закоментированно. Выдаёт ошибку">
-      <created>1623143009911</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1623143009911</updated>
-    </task>
-    <task id="LOCAL-00199" summary="Добавление точек">
-      <created>1623143238865</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1623143238865</updated>
-    </task>
     <task id="LOCAL-00200" summary="Добавление точек">
       <created>1623143336236</created>
       <option name="number" value="00200" />
@@ -517,7 +503,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623400910907</updated>
     </task>
-    <option name="localTasksCounter" value="247" />
+    <task id="LOCAL-00247" summary="Представление дат на диаграмме">
+      <created>1623407740497</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1623407740497</updated>
+    </task>
+    <task id="LOCAL-00248" summary="Представление дат на диаграмме">
+      <created>1623407798411</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1623407798411</updated>
+    </task>
+    <option name="localTasksCounter" value="249" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
