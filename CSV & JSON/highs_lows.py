@@ -20,7 +20,7 @@ with open(filename, 'r') as f:
 
 # Нанесение данных на диаграмму.
 fig = plt.figure(dpi=128, figsize=(10, 6))
-plt.plot(dates, highs, c='red')
+plt.plot(dates, highs,  c='red')
 
 # Фоматирование диаграммы.
 plt.title("Ежедневная температура, 06-01-2018", fontsize=24)
