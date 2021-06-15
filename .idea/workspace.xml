@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Представление дат на диаграмме">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Расширение временного диапазона">
       <change beforePath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,20 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00200" summary="Добавление точек">
-      <created>1623143336236</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1623143336236</updated>
-    </task>
-    <task id="LOCAL-00201" summary="Изменение размера диаграммы для заполнения экрана">
-      <created>1623146333647</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1623146333647</updated>
     </task>
     <task id="LOCAL-00202" summary="Изменение размера диаграммы для заполнения экрана">
       <created>1623146396915</created>
@@ -517,7 +503,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623407798411</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="Расширение временного диапазона">
+      <created>1623788121455</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1623788121455</updated>
+    </task>
+    <task id="LOCAL-00250" summary="Расширение временного диапазона">
+      <created>1623788125142</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1623788125142</updated>
+    </task>
+    <option name="localTasksCounter" value="251" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,7 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Анализ результатов" />
     <MESSAGE value="Построение гистограммы" />
     <MESSAGE value="Бросок двух кубиков" />
     <MESSAGE value="задание 15-7" />
@@ -615,7 +614,8 @@
     <MESSAGE value="Модуль datetime" />
     <MESSAGE value="current_date = datetime.strptime(row[2], &quot;%Y-%m-%d&quot;) ошибка тут" />
     <MESSAGE value="Представление дат на диаграмме" />
-    <option name="LAST_COMMIT_MESSAGE" value="Представление дат на диаграмме" />
+    <MESSAGE value="Расширение временного диапазона" />
+    <option name="LAST_COMMIT_MESSAGE" value="Расширение временного диапазона" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
