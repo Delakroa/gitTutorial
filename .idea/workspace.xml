@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Расширение временного диапазона">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Цветовое выделение части диаграммы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,20 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00204" summary="Моделирование бросков кубиков в Pygal">
-      <created>1623147190626</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1623147190626</updated>
-    </task>
-    <task id="LOCAL-00205" summary="Создание класса кубика">
-      <created>1623147252468</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1623147252468</updated>
     </task>
     <task id="LOCAL-00206" summary="Бросок кубика">
       <created>1623147558246</created>
@@ -516,7 +504,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623788514359</updated>
     </task>
-    <option name="localTasksCounter" value="253" />
+    <task id="LOCAL-00253" summary="Нанесение на диаграмму второй серии данных">
+      <created>1623850035580</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1623850035580</updated>
+    </task>
+    <task id="LOCAL-00254" summary="Цветовое выделение части диаграммы">
+      <created>1623850148150</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1623850148150</updated>
+    </task>
+    <option name="localTasksCounter" value="255" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -589,8 +591,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Построение гистограммы" />
-    <MESSAGE value="Бросок двух кубиков" />
     <MESSAGE value="задание 15-7" />
     <MESSAGE value="дополнен игнор" />
     <MESSAGE value="Загрузка данных Формат CSV" />
@@ -614,7 +614,9 @@
     <MESSAGE value="current_date = datetime.strptime(row[2], &quot;%Y-%m-%d&quot;) ошибка тут" />
     <MESSAGE value="Представление дат на диаграмме" />
     <MESSAGE value="Расширение временного диапазона" />
-    <option name="LAST_COMMIT_MESSAGE" value="Расширение временного диапазона" />
+    <MESSAGE value="Нанесение на диаграмму второй серии данных" />
+    <MESSAGE value="Цветовое выделение части диаграммы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Цветовое выделение части диаграммы" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
