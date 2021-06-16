@@ -13,14 +13,17 @@ with open(filename, 'r') as f:
     # Получите даты и высокие температуры из этого файла.
     dates, highs, lows = [], [], []
     for row in reader:
-        current_date = datetime.strptime(row[2], "%d-%m-%Y")
-        dates.append(current_date)
+        try:
+            current_date = datetime.strptime(row[2], "%d-%m-%Y")
+            high = int(row[6])
+            low = int(row[7])
+        except ValueError:
+            print(current_date, 'отсутствует информация')
+        else:
+            dates.append(current_date)
+            highs.append(high)
+            lows.append(low)
 
-        high = int(row[6])
-        highs.append(high)
-
-        low = int(row[7])
-        lows.append(low)
 
 # Нанесение данных на диаграмму.
 fig = plt.figure(dpi=128, figsize=(10, 6))
@@ -28,8 +31,9 @@ plt.plot(dates, highs,  c='red')
 plt.plot(dates, lows, c='blue')
 
 # Фоматирование диаграммы.
+title = "Ежедневные высокие и низкие температуры - death_valley_2018_full, CA"
 plt.title("Ежедневные высокие и низкие температуры, 2018", fontsize=24)
-plt.xlabel('', fontsize=16)
+plt.xlabel(title, fontsize=16)
 
 fig.autofmt_xdate()
 plt.ylabel("Температура (F)", fontsize=16)
