@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Расширение временного диапазона">
-      <change beforePath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,20 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00202" summary="Изменение размера диаграммы для заполнения экрана">
-      <created>1623146396915</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1623146396915</updated>
-    </task>
-    <task id="LOCAL-00203" summary="Создание класса кубика">
-      <created>1623146997910</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1623146997910</updated>
     </task>
     <task id="LOCAL-00204" summary="Моделирование бросков кубиков в Pygal">
       <created>1623147190626</created>
@@ -517,7 +502,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623788125142</updated>
     </task>
-    <option name="localTasksCounter" value="251" />
+    <task id="LOCAL-00251" summary="Расширение временного диапазона">
+      <created>1623788508611</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1623788508611</updated>
+    </task>
+    <task id="LOCAL-00252" summary="Расширение временного диапазона">
+      <created>1623788514359</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1623788514359</updated>
+    </task>
+    <option name="localTasksCounter" value="253" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
