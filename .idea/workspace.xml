@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Цветовое выделение части диаграммы">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Проверка ошибок">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,20 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00206" summary="Бросок кубика">
-      <created>1623147558246</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1623147558246</updated>
-    </task>
-    <task id="LOCAL-00207" summary="Бросок кубика">
-      <created>1623147642635</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1623147642635</updated>
     </task>
     <task id="LOCAL-00208" summary="Анализ результатов">
       <created>1623148194906</created>
@@ -518,7 +503,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623850148150</updated>
     </task>
-    <option name="localTasksCounter" value="255" />
+    <task id="LOCAL-00255" summary="Проверка ошибок">
+      <created>1623851840217</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1623851840217</updated>
+    </task>
+    <task id="LOCAL-00256" summary="Проверка ошибок">
+      <created>1623851844279</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1623851844279</updated>
+    </task>
+    <option name="localTasksCounter" value="257" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,7 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="задание 15-7" />
     <MESSAGE value="дополнен игнор" />
     <MESSAGE value="Загрузка данных Формат CSV" />
     <MESSAGE value="CSV считывание погоды" />
@@ -616,7 +614,8 @@
     <MESSAGE value="Расширение временного диапазона" />
     <MESSAGE value="Нанесение на диаграмму второй серии данных" />
     <MESSAGE value="Цветовое выделение части диаграммы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Цветовое выделение части диаграммы" />
+    <MESSAGE value="Проверка ошибок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проверка ошибок" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
