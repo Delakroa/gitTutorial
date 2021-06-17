@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Создание виртуальной среды" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Установка Django" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,27 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00212" summary="Бросок двух кубиков">
-      <created>1623214875344</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1623214875344</updated>
-    </task>
-    <task id="LOCAL-00213" summary="Бросок двух кубиков">
-      <created>1623216571177</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1623216571177</updated>
-    </task>
-    <task id="LOCAL-00214" summary="Бросок двух кубиков">
-      <created>1623227609359</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1623227609359</updated>
     </task>
     <task id="LOCAL-00215" summary="задание 15-7">
       <created>1623229472902</created>
@@ -514,7 +493,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623960374507</updated>
     </task>
-    <option name="localTasksCounter" value="261" />
+    <task id="LOCAL-00261" summary="Установка virtualenv">
+      <created>1623960716010</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960716010</updated>
+    </task>
+    <task id="LOCAL-00262" summary="Активизация виртуальной среды">
+      <created>1623960799148</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960799148</updated>
+    </task>
+    <task id="LOCAL-00263" summary="Установка Django">
+      <created>1623960838937</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960838937</updated>
+    </task>
+    <option name="localTasksCounter" value="264" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -587,9 +587,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="добавление импорта" />
-    <MESSAGE value="обучение обработки и визуализации данных" />
-    <MESSAGE value="написание искуственного интелекта" />
     <MESSAGE value="добавление звуковых эффектов" />
     <MESSAGE value="Доделать" />
     <MESSAGE value="звуки стрельбы и звуки взрывов" />
@@ -612,7 +609,10 @@
     <MESSAGE value="Возможно когда нибудь займусь" />
     <MESSAGE value="Потом вернусь к этой главе" />
     <MESSAGE value="Создание виртуальной среды" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание виртуальной среды" />
+    <MESSAGE value="Установка virtualenv" />
+    <MESSAGE value="Активизация виртуальной среды" />
+    <MESSAGE value="Установка Django" />
+    <option name="LAST_COMMIT_MESSAGE" value="Установка Django" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
