@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Потом вернусь к этой главе">
-      <change afterPath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Создание виртуальной среды">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager" selected="Python.highs_lows">
+  <component name="RunManager" selected="Python.django-admin">
     <configuration name="ai_player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chess_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="django-admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learning_log/ll_env/Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game/chess_game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learning_log/ll_env/Scripts/django-admin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.django-admin" />
         <item itemvalue="Python.highs_lows" />
         <item itemvalue="Python.ai_player" />
         <item itemvalue="Python.alien_invasion" />
         <item itemvalue="Python tests.Unittests for test_cities.CityCountryTestCase" />
-        <item itemvalue="Python.chess_game" />
       </list>
     </recent_temporary>
   </component>
@@ -172,13 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00210" summary="Построение гистограммы">
-      <created>1623150076970</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1623150076970</updated>
     </task>
     <task id="LOCAL-00211" summary="Построение гистограммы">
       <created>1623150375285</created>
@@ -516,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623957153699</updated>
     </task>
-    <option name="localTasksCounter" value="259" />
+    <task id="LOCAL-00259" summary="Создание виртуальной среды">
+      <created>1623957693411</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1623957693411</updated>
+    </task>
+    <option name="localTasksCounter" value="260" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -589,7 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CSV считывание погоды" />
     <MESSAGE value="добавление импорта" />
     <MESSAGE value="обучение обработки и визуализации данных" />
     <MESSAGE value="написание искуственного интелекта" />
@@ -614,7 +614,8 @@
     <MESSAGE value="Проверка ошибок" />
     <MESSAGE value="Возможно когда нибудь займусь" />
     <MESSAGE value="Потом вернусь к этой главе" />
-    <option name="LAST_COMMIT_MESSAGE" value="Потом вернусь к этой главе" />
+    <MESSAGE value="Создание виртуальной среды" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание виртуальной среды" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
