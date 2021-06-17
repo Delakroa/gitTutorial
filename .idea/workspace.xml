@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Возможно когда нибудь займусь" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Потом вернусь к этой главе">
+      <change afterPath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,13 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00209" summary="Анализ результатов">
-      <created>1623148262429</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1623148262429</updated>
     </task>
     <task id="LOCAL-00210" summary="Построение гистограммы">
       <created>1623150076970</created>
@@ -514,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623957016298</updated>
     </task>
-    <option name="localTasksCounter" value="258" />
+    <task id="LOCAL-00258" summary="Потом вернусь к этой главе">
+      <created>1623957153699</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1623957153699</updated>
+    </task>
+    <option name="localTasksCounter" value="259" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -587,7 +589,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Загрузка данных Формат CSV" />
     <MESSAGE value="CSV считывание погоды" />
     <MESSAGE value="добавление импорта" />
     <MESSAGE value="обучение обработки и визуализации данных" />
@@ -612,7 +613,8 @@
     <MESSAGE value="Цветовое выделение части диаграммы" />
     <MESSAGE value="Проверка ошибок" />
     <MESSAGE value="Возможно когда нибудь займусь" />
-    <option name="LAST_COMMIT_MESSAGE" value="Возможно когда нибудь займусь" />
+    <MESSAGE value="Потом вернусь к этой главе" />
+    <option name="LAST_COMMIT_MESSAGE" value="Потом вернусь к этой главе" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
