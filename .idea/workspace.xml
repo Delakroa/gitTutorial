@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Просмотр проекта">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Начало работы над приложением">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,13 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00220" summary="добавление звуковых эффектов">
-      <created>1623235196814</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1623235196814</updated>
     </task>
     <task id="LOCAL-00221" summary="добавление импорта">
       <created>1623235213228</created>
@@ -516,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624038909624</updated>
     </task>
-    <option name="localTasksCounter" value="269" />
+    <task id="LOCAL-00269" summary="Начало работы над приложением">
+      <created>1624040038845</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1624040038845</updated>
+    </task>
+    <option name="localTasksCounter" value="270" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -589,7 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="исправление" />
     <MESSAGE value="Исправил коментарии" />
     <MESSAGE value="доработка аи" />
     <MESSAGE value="правка" />
@@ -614,7 +614,8 @@
     <MESSAGE value="Создание проекта в Django" />
     <MESSAGE value="Создание базы данных" />
     <MESSAGE value="Просмотр проекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Просмотр проекта" />
+    <MESSAGE value="Начало работы над приложением" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начало работы над приложением" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
