@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Начало работы над приложением">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Определение моделей">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" afterDir="false" />
     </list>
@@ -173,13 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00221" summary="добавление импорта">
-      <created>1623235213228</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1623235213228</updated>
     </task>
     <task id="LOCAL-00222" summary="обучение обработки и визуализации данных">
       <created>1623235239821</created>
@@ -517,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624040038845</updated>
     </task>
-    <option name="localTasksCounter" value="270" />
+    <task id="LOCAL-00270" summary="Определение моделей">
+      <created>1624040885403</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1624040885403</updated>
+    </task>
+    <option name="localTasksCounter" value="271" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,7 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Исправил коментарии" />
     <MESSAGE value="доработка аи" />
     <MESSAGE value="правка" />
     <MESSAGE value="переместил" />
@@ -615,7 +614,8 @@
     <MESSAGE value="Создание базы данных" />
     <MESSAGE value="Просмотр проекта" />
     <MESSAGE value="Начало работы над приложением" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начало работы над приложением" />
+    <MESSAGE value="Определение моделей" />
+    <option name="LAST_COMMIT_MESSAGE" value="Определение моделей" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
