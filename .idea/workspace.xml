@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Создание базы данных">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Просмотр проекта">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_log/learning_log/learning_log/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_log/learning_log/learning_log/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_log/learning_log/learning_log/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_log/learning_log/learning_log/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_log/learning_log/learning_log/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_log/learning_log/manage.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,27 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00217" summary="дополнен игнор">
-      <created>1623230372379</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1623230372379</updated>
-    </task>
-    <task id="LOCAL-00218" summary="Загрузка данных Формат CSV">
-      <created>1623230657088</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1623230657088</updated>
-    </task>
-    <task id="LOCAL-00219" summary="CSV считывание погоды">
-      <created>1623233910932</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1623233910932</updated>
     </task>
     <task id="LOCAL-00220" summary="добавление звуковых эффектов">
       <created>1623235196814</created>
@@ -522,7 +495,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623960932671</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="Создание базы данных">
+      <created>1624038821440</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1624038821440</updated>
+    </task>
+    <task id="LOCAL-00267" summary="Создание базы данных">
+      <created>1624038827392</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1624038827392</updated>
+    </task>
+    <task id="LOCAL-00268" summary="Просмотр проекта">
+      <created>1624038909624</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1624038909624</updated>
+    </task>
+    <option name="localTasksCounter" value="269" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -595,7 +589,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="звуки стрельбы и звуки взрывов" />
     <MESSAGE value="исправление" />
     <MESSAGE value="Исправил коментарии" />
     <MESSAGE value="доработка аи" />
@@ -620,7 +613,8 @@
     <MESSAGE value="Установка Django" />
     <MESSAGE value="Создание проекта в Django" />
     <MESSAGE value="Создание базы данных" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание базы данных" />
+    <MESSAGE value="Просмотр проекта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Просмотр проекта" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
