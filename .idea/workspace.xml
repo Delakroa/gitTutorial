@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Исправил ошибку">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Администрирование сайта">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00224" summary="добавление звуковых эффектов">
-      <created>1623235742310</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1623235742310</updated>
     </task>
     <task id="LOCAL-00225" summary="правка">
       <created>1623235802833</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624268927376</updated>
     </task>
-    <option name="localTasksCounter" value="273" />
+    <task id="LOCAL-00273" summary="Администрирование сайта">
+      <created>1624271021207</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1624271021207</updated>
+    </task>
+    <option name="localTasksCounter" value="274" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -596,7 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="переместил" />
     <MESSAGE value="Разбор заголовка файлов CSV" />
     <MESSAGE value="Печать заголовков и их позиций" />
     <MESSAGE value="Извлечение и чтение данных" />
@@ -621,7 +620,8 @@
     <MESSAGE value="Определение моделей" />
     <MESSAGE value="Активизация моделей" />
     <MESSAGE value="Исправил ошибку" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправил ошибку" />
+    <MESSAGE value="Администрирование сайта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Администрирование сайта" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
