@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="правка">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Администрирование сайта">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager" selected="Python.alien_invasion">
+  <component name="RunManager" selected="Python.admin">
+    <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gitTutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/ll_env/learning_log/learning_logs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/ll_env/learning_log/learning_logs/admin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ai_player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="alien_invasion (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="django-admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,32 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/ai_player/alien_invasion_sweeps_right_left" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/ai_player/alien_invasion_sweeps_right_left/alien_invasion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="alien_invasion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="gitTutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learning_log/ll_env/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion/alien_invasion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learning_log/ll_env/Scripts/django-admin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chess_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="highs_lows" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSV &amp; JSON" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game/chess_game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSV &amp; JSON/highs_lows.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chess_set" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/ll_env/learning_log/learning_logs" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Eric Matthes/ehmatthes-pcc_2e-078318e/beyond_pcc/chess_game/chess_set.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/ll_env/learning_log/learning_logs/models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.alien_invasion" />
+        <item itemvalue="Python.admin" />
+        <item itemvalue="Python.models" />
+        <item itemvalue="Python.django-admin" />
+        <item itemvalue="Python.highs_lows" />
         <item itemvalue="Python.ai_player" />
-        <item itemvalue="Python.alien_invasion (1)" />
-        <item itemvalue="Python.chess_game" />
-        <item itemvalue="Python.chess_set" />
       </list>
     </recent_temporary>
   </component>
@@ -179,293 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00184" summary="нужно доделать">
-      <created>1623066209341</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1623066209341</updated>
-    </task>
-    <task id="LOCAL-00185" summary="Выбор направления">
-      <created>1623131691733</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1623131691733</updated>
-    </task>
-    <task id="LOCAL-00186" summary="Вывод случайного блуждания">
-      <created>1623131723914</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1623131723914</updated>
-    </task>
-    <task id="LOCAL-00187" summary="Вывод случайного блуждания">
-      <created>1623131727712</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1623131727712</updated>
-    </task>
-    <task id="LOCAL-00188" summary="Вывод случайного блуждания">
-      <created>1623131972495</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1623131972495</updated>
-    </task>
-    <task id="LOCAL-00189" summary="Генерирование нескольких случайных блужданий">
-      <created>1623132542207</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1623132542207</updated>
-    </task>
-    <task id="LOCAL-00190" summary="Генерирование нескольких случайных блужданий">
-      <created>1623132635873</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1623132635873</updated>
-    </task>
-    <task id="LOCAL-00191" summary="Оформление случайного блуждания">
-      <created>1623132696736</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1623132696736</updated>
-    </task>
-    <task id="LOCAL-00192" summary="Назначение цветов">
-      <created>1623135224548</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1623135224548</updated>
-    </task>
-    <task id="LOCAL-00193" summary="Назначение цветов">
-      <created>1623135300261</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1623135300261</updated>
-    </task>
-    <task id="LOCAL-00194" summary="Начальные и конечные точки">
-      <created>1623140902661</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1623140902661</updated>
-    </task>
-    <task id="LOCAL-00195" summary="Начальные и конечные точки">
-      <created>1623140991769</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1623140991769</updated>
-    </task>
-    <task id="LOCAL-00196" summary="Удаление осей">
-      <created>1623142969432</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1623142969432</updated>
-    </task>
-    <task id="LOCAL-00197" summary="Удаление осей закоментированно. Выдаёт ошибку">
-      <created>1623142995346</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1623142995346</updated>
-    </task>
-    <task id="LOCAL-00198" summary="Удаление осей закоментированно. Выдаёт ошибку">
-      <created>1623143009911</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1623143009911</updated>
-    </task>
-    <task id="LOCAL-00199" summary="Добавление точек">
-      <created>1623143238865</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1623143238865</updated>
-    </task>
-    <task id="LOCAL-00200" summary="Добавление точек">
-      <created>1623143336236</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1623143336236</updated>
-    </task>
-    <task id="LOCAL-00201" summary="Изменение размера диаграммы для заполнения экрана">
-      <created>1623146333647</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1623146333647</updated>
-    </task>
-    <task id="LOCAL-00202" summary="Изменение размера диаграммы для заполнения экрана">
-      <created>1623146396915</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1623146396915</updated>
-    </task>
-    <task id="LOCAL-00203" summary="Создание класса кубика">
-      <created>1623146997910</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1623146997910</updated>
-    </task>
-    <task id="LOCAL-00204" summary="Моделирование бросков кубиков в Pygal">
-      <created>1623147190626</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1623147190626</updated>
-    </task>
-    <task id="LOCAL-00205" summary="Создание класса кубика">
-      <created>1623147252468</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1623147252468</updated>
-    </task>
-    <task id="LOCAL-00206" summary="Бросок кубика">
-      <created>1623147558246</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1623147558246</updated>
-    </task>
-    <task id="LOCAL-00207" summary="Бросок кубика">
-      <created>1623147642635</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1623147642635</updated>
-    </task>
-    <task id="LOCAL-00208" summary="Анализ результатов">
-      <created>1623148194906</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1623148194906</updated>
-    </task>
-    <task id="LOCAL-00209" summary="Анализ результатов">
-      <created>1623148262429</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1623148262429</updated>
-    </task>
-    <task id="LOCAL-00210" summary="Построение гистограммы">
-      <created>1623150076970</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1623150076970</updated>
-    </task>
-    <task id="LOCAL-00211" summary="Построение гистограммы">
-      <created>1623150375285</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1623150375285</updated>
-    </task>
-    <task id="LOCAL-00212" summary="Бросок двух кубиков">
-      <created>1623214875344</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1623214875344</updated>
-    </task>
-    <task id="LOCAL-00213" summary="Бросок двух кубиков">
-      <created>1623216571177</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1623216571177</updated>
-    </task>
-    <task id="LOCAL-00214" summary="Бросок двух кубиков">
-      <created>1623227609359</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1623227609359</updated>
-    </task>
-    <task id="LOCAL-00215" summary="задание 15-7">
-      <created>1623229472902</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1623229472902</updated>
-    </task>
-    <task id="LOCAL-00216" summary="задание 15-7">
-      <created>1623229851123</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1623229851123</updated>
-    </task>
-    <task id="LOCAL-00217" summary="дополнен игнор">
-      <created>1623230372379</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1623230372379</updated>
-    </task>
-    <task id="LOCAL-00218" summary="Загрузка данных Формат CSV">
-      <created>1623230657088</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1623230657088</updated>
-    </task>
-    <task id="LOCAL-00219" summary="CSV считывание погоды">
-      <created>1623233910932</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1623233910932</updated>
-    </task>
-    <task id="LOCAL-00220" summary="добавление звуковых эффектов">
-      <created>1623235196814</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1623235196814</updated>
-    </task>
-    <task id="LOCAL-00221" summary="добавление импорта">
-      <created>1623235213228</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1623235213228</updated>
-    </task>
-    <task id="LOCAL-00222" summary="обучение обработки и визуализации данных">
-      <created>1623235239821</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1623235239821</updated>
-    </task>
-    <task id="LOCAL-00223" summary="написание искуственного интелекта">
-      <created>1623235254131</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1623235254131</updated>
-    </task>
-    <task id="LOCAL-00224" summary="добавление звуковых эффектов">
-      <created>1623235742310</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1623235742310</updated>
     </task>
     <task id="LOCAL-00225" summary="правка">
       <created>1623235802833</created>
@@ -523,7 +236,294 @@
       <option name="project" value="LOCAL" />
       <updated>1623305746158</updated>
     </task>
-    <option name="localTasksCounter" value="233" />
+    <task id="LOCAL-00233" summary="переместил">
+      <created>1623315517332</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1623315517332</updated>
+    </task>
+    <task id="LOCAL-00234" summary="переместил">
+      <created>1623315528800</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1623315528800</updated>
+    </task>
+    <task id="LOCAL-00235" summary="Разбор заголовка файлов CSV">
+      <created>1623317958230</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1623317958230</updated>
+    </task>
+    <task id="LOCAL-00236" summary="Разбор заголовка файлов CSV">
+      <created>1623317963417</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1623317963417</updated>
+    </task>
+    <task id="LOCAL-00237" summary="Разбор заголовка файлов CSV">
+      <created>1623318007923</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1623318007923</updated>
+    </task>
+    <task id="LOCAL-00238" summary="Печать заголовков и их позиций">
+      <created>1623318241558</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1623318241558</updated>
+    </task>
+    <task id="LOCAL-00239" summary="Печать заголовков и их позиций">
+      <created>1623318338066</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1623318338066</updated>
+    </task>
+    <task id="LOCAL-00240" summary="Извлечение и чтение данных">
+      <created>1623322245384</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1623322245384</updated>
+    </task>
+    <task id="LOCAL-00241" summary="Нанесение данных на диаграмму">
+      <created>1623322959584</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1623322959584</updated>
+    </task>
+    <task id="LOCAL-00242" summary="Нанесение данных на диаграмму">
+      <created>1623323015700</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1623323015700</updated>
+    </task>
+    <task id="LOCAL-00243" summary="Модуль datetime">
+      <created>1623323182529</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1623323182529</updated>
+    </task>
+    <task id="LOCAL-00244" summary="current_date = datetime.strptime(row[2], &quot;%Y-%m-%d&quot;) ошибка тут">
+      <created>1623323748517</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1623323748517</updated>
+    </task>
+    <task id="LOCAL-00245" summary="Представление дат на диаграмме">
+      <created>1623400827462</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1623400827462</updated>
+    </task>
+    <task id="LOCAL-00246" summary="Представление дат на диаграмме">
+      <created>1623400910907</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1623400910907</updated>
+    </task>
+    <task id="LOCAL-00247" summary="Представление дат на диаграмме">
+      <created>1623407740497</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1623407740497</updated>
+    </task>
+    <task id="LOCAL-00248" summary="Представление дат на диаграмме">
+      <created>1623407798411</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1623407798411</updated>
+    </task>
+    <task id="LOCAL-00249" summary="Расширение временного диапазона">
+      <created>1623788121455</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1623788121455</updated>
+    </task>
+    <task id="LOCAL-00250" summary="Расширение временного диапазона">
+      <created>1623788125142</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1623788125142</updated>
+    </task>
+    <task id="LOCAL-00251" summary="Расширение временного диапазона">
+      <created>1623788508611</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1623788508611</updated>
+    </task>
+    <task id="LOCAL-00252" summary="Расширение временного диапазона">
+      <created>1623788514359</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1623788514359</updated>
+    </task>
+    <task id="LOCAL-00253" summary="Нанесение на диаграмму второй серии данных">
+      <created>1623850035580</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1623850035580</updated>
+    </task>
+    <task id="LOCAL-00254" summary="Цветовое выделение части диаграммы">
+      <created>1623850148150</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1623850148150</updated>
+    </task>
+    <task id="LOCAL-00255" summary="Проверка ошибок">
+      <created>1623851840217</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1623851840217</updated>
+    </task>
+    <task id="LOCAL-00256" summary="Проверка ошибок">
+      <created>1623851844279</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1623851844279</updated>
+    </task>
+    <task id="LOCAL-00257" summary="Возможно когда нибудь займусь">
+      <created>1623957016298</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1623957016298</updated>
+    </task>
+    <task id="LOCAL-00258" summary="Потом вернусь к этой главе">
+      <created>1623957153699</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1623957153699</updated>
+    </task>
+    <task id="LOCAL-00259" summary="Создание виртуальной среды">
+      <created>1623957693411</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1623957693411</updated>
+    </task>
+    <task id="LOCAL-00260" summary="Создание виртуальной среды">
+      <created>1623960374507</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960374507</updated>
+    </task>
+    <task id="LOCAL-00261" summary="Установка virtualenv">
+      <created>1623960716010</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960716010</updated>
+    </task>
+    <task id="LOCAL-00262" summary="Активизация виртуальной среды">
+      <created>1623960799148</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960799148</updated>
+    </task>
+    <task id="LOCAL-00263" summary="Установка Django">
+      <created>1623960838937</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960838937</updated>
+    </task>
+    <task id="LOCAL-00264" summary="Создание проекта в Django">
+      <created>1623960898573</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960898573</updated>
+    </task>
+    <task id="LOCAL-00265" summary="Создание базы данных">
+      <created>1623960932671</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960932671</updated>
+    </task>
+    <task id="LOCAL-00266" summary="Создание базы данных">
+      <created>1624038821440</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1624038821440</updated>
+    </task>
+    <task id="LOCAL-00267" summary="Создание базы данных">
+      <created>1624038827392</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1624038827392</updated>
+    </task>
+    <task id="LOCAL-00268" summary="Просмотр проекта">
+      <created>1624038909624</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1624038909624</updated>
+    </task>
+    <task id="LOCAL-00269" summary="Начало работы над приложением">
+      <created>1624040038845</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1624040038845</updated>
+    </task>
+    <task id="LOCAL-00270" summary="Определение моделей">
+      <created>1624040885403</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1624040885403</updated>
+    </task>
+    <task id="LOCAL-00271" summary="Активизация моделей">
+      <created>1624041686916</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1624041686916</updated>
+    </task>
+    <task id="LOCAL-00272" summary="Исправил ошибку">
+      <created>1624268927376</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1624268927376</updated>
+    </task>
+    <task id="LOCAL-00273" summary="Администрирование сайта">
+      <created>1624271021207</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1624271021207</updated>
+    </task>
+    <option name="localTasksCounter" value="274" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -565,6 +565,12 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="80" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="89" />
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -587,41 +593,35 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="6913afb9-7ef9-4225-abc7-ae9b839343d8" value="TOOL_WINDOW" />
-        <entry key="b388622e-1e3b-481f-bcf0-9939cce8ffab" value="TOOL_WINDOW" />
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Начальные и конечные точки" />
-    <MESSAGE value="Удаление осей" />
-    <MESSAGE value="Удаление осей закоментированно. Выдаёт ошибку" />
-    <MESSAGE value="Добавление точек" />
-    <MESSAGE value="Изменение размера диаграммы для заполнения экрана" />
-    <MESSAGE value="Моделирование бросков кубиков в Pygal" />
-    <MESSAGE value="Создание класса кубика" />
-    <MESSAGE value="Бросок кубика" />
-    <MESSAGE value="Анализ результатов" />
-    <MESSAGE value="Построение гистограммы" />
-    <MESSAGE value="Бросок двух кубиков" />
-    <MESSAGE value="задание 15-7" />
-    <MESSAGE value="дополнен игнор" />
-    <MESSAGE value="Загрузка данных Формат CSV" />
-    <MESSAGE value="CSV считывание погоды" />
-    <MESSAGE value="добавление импорта" />
-    <MESSAGE value="обучение обработки и визуализации данных" />
-    <MESSAGE value="написание искуственного интелекта" />
-    <MESSAGE value="добавление звуковых эффектов" />
-    <MESSAGE value="Доделать" />
-    <MESSAGE value="звуки стрельбы и звуки взрывов" />
-    <MESSAGE value="исправление" />
-    <MESSAGE value="Исправил коментарии" />
-    <MESSAGE value="доработка аи" />
-    <MESSAGE value="правка" />
-    <option name="LAST_COMMIT_MESSAGE" value="правка" />
+    <MESSAGE value="Разбор заголовка файлов CSV" />
+    <MESSAGE value="Печать заголовков и их позиций" />
+    <MESSAGE value="Извлечение и чтение данных" />
+    <MESSAGE value="Нанесение данных на диаграмму" />
+    <MESSAGE value="Модуль datetime" />
+    <MESSAGE value="current_date = datetime.strptime(row[2], &quot;%Y-%m-%d&quot;) ошибка тут" />
+    <MESSAGE value="Представление дат на диаграмме" />
+    <MESSAGE value="Расширение временного диапазона" />
+    <MESSAGE value="Нанесение на диаграмму второй серии данных" />
+    <MESSAGE value="Цветовое выделение части диаграммы" />
+    <MESSAGE value="Проверка ошибок" />
+    <MESSAGE value="Возможно когда нибудь займусь" />
+    <MESSAGE value="Потом вернусь к этой главе" />
+    <MESSAGE value="Создание виртуальной среды" />
+    <MESSAGE value="Установка virtualenv" />
+    <MESSAGE value="Активизация виртуальной среды" />
+    <MESSAGE value="Установка Django" />
+    <MESSAGE value="Создание проекта в Django" />
+    <MESSAGE value="Создание базы данных" />
+    <MESSAGE value="Просмотр проекта" />
+    <MESSAGE value="Начало работы над приложением" />
+    <MESSAGE value="Определение моделей" />
+    <MESSAGE value="Активизация моделей" />
+    <MESSAGE value="Исправил ошибку" />
+    <MESSAGE value="Администрирование сайта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Администрирование сайта" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
