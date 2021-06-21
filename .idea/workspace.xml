@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="исправление">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="правка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/ai_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/ai_player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager" selected="Python.ai_player">
+  <component name="RunManager" selected="Python.alien_invasion">
     <configuration name="ai_player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,8 +163,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ai_player" />
         <item itemvalue="Python.alien_invasion" />
+        <item itemvalue="Python.ai_player" />
         <item itemvalue="Python.alien_invasion (1)" />
         <item itemvalue="Python.chess_game" />
         <item itemvalue="Python.chess_set" />
@@ -180,34 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00180" summary="Выполненно">
-      <created>1623062787825</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1623062787825</updated>
-    </task>
-    <task id="LOCAL-00181" summary="пыльцевое зерно">
-      <created>1623063226325</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1623063226325</updated>
-    </task>
-    <task id="LOCAL-00182" summary="Создание класса RandomWalk()">
-      <created>1623064208128</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1623064208128</updated>
-    </task>
-    <task id="LOCAL-00183" summary="Создание класса RandomWalk()">
-      <created>1623064421927</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1623064421927</updated>
     </task>
     <task id="LOCAL-00184" summary="нужно доделать">
       <created>1623066209341</created>
@@ -524,7 +495,35 @@
       <option name="project" value="LOCAL" />
       <updated>1623236652978</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="исправление">
+      <created>1623238918737</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1623238918737</updated>
+    </task>
+    <task id="LOCAL-00230" summary="Исправил коментарии">
+      <created>1623298520799</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1623298520799</updated>
+    </task>
+    <task id="LOCAL-00231" summary="доработка аи">
+      <created>1623305731713</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1623305731713</updated>
+    </task>
+    <task id="LOCAL-00232" summary="правка">
+      <created>1623305746158</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1623305746158</updated>
+    </task>
+    <option name="localTasksCounter" value="233" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,8 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Оформление случайного блуждания" />
-    <MESSAGE value="Назначение цветов" />
     <MESSAGE value="Начальные и конечные точки" />
     <MESSAGE value="Удаление осей" />
     <MESSAGE value="Удаление осей закоментированно. Выдаёт ошибку" />
@@ -618,11 +615,13 @@
     <MESSAGE value="обучение обработки и визуализации данных" />
     <MESSAGE value="написание искуственного интелекта" />
     <MESSAGE value="добавление звуковых эффектов" />
-    <MESSAGE value="правка" />
     <MESSAGE value="Доделать" />
     <MESSAGE value="звуки стрельбы и звуки взрывов" />
     <MESSAGE value="исправление" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправление" />
+    <MESSAGE value="Исправил коментарии" />
+    <MESSAGE value="доработка аи" />
+    <MESSAGE value="правка" />
+    <option name="LAST_COMMIT_MESSAGE" value="правка" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

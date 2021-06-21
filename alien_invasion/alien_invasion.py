@@ -260,3 +260,4 @@ if __name__ == '__main__':
     # Создайте экземпляр игры и запустите игру.
     ai = AlienInvasion()
     ai.run_game()
+

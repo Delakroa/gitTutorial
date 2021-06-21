@@ -2,18 +2,18 @@ import pygal
 
 from die import Die
 
-# Create two D6 dice.
+# Создайте два кубика D6.
 die_1 = Die()
 die_2 = Die()
 
-# Make some rolls, and store results in a list.
+# Сделайте несколько бросков и сохраните результаты в списке.
 results = [die_1.roll() + die_2.roll() for roll_num in range(1000)]
 
-# Analyze the results.
+# Анализируйте результаты.
 max_result = die_1.num_sides + die_2.num_sides
 frequencies = [results.count(value) for value in range(2, max_result + 1)]
 
-# Visualize the results.
+# Визуализируйте результаты.
 hist = pygal.Bar()
 
 hist.title = "Результаты броска двух кубиков D6 1000 раз."
