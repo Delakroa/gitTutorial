@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Администрирование сайта">
-      <change afterPath="$PROJECT_DIR$/update_pip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Обновление pip" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00225" summary="правка">
-      <created>1623235802833</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1623235802833</updated>
     </task>
     <task id="LOCAL-00226" summary="Доделать">
       <created>1623235832735</created>
@@ -524,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624271021207</updated>
     </task>
-    <option name="localTasksCounter" value="274" />
+    <task id="LOCAL-00274" summary="Обновление pip">
+      <created>1624338324178</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1624338324178</updated>
+    </task>
+    <option name="localTasksCounter" value="275" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,7 +594,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Разбор заголовка файлов CSV" />
     <MESSAGE value="Печать заголовков и их позиций" />
     <MESSAGE value="Извлечение и чтение данных" />
     <MESSAGE value="Нанесение данных на диаграмму" />
@@ -622,7 +618,8 @@
     <MESSAGE value="Активизация моделей" />
     <MESSAGE value="Исправил ошибку" />
     <MESSAGE value="Администрирование сайта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Администрирование сайта" />
+    <MESSAGE value="Обновление pip" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление pip" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
