@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="устранение ошибок">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" afterDir="false" />
-    </list>
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Регистрация Entry на административном сайте&#10;Интерактивная оболочка Django" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,20 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00229" summary="исправление">
-      <created>1623238918737</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1623238918737</updated>
-    </task>
-    <task id="LOCAL-00230" summary="Исправил коментарии">
-      <created>1623298520799</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
-      <option name="project" value="LOCAL" />
-      <updated>1623298520799</updated>
     </task>
     <task id="LOCAL-00231" summary="доработка аи">
       <created>1623305731713</created>
@@ -524,7 +507,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624360787352</updated>
     </task>
-    <option name="localTasksCounter" value="278" />
+    <task id="LOCAL-00278" summary="Миграция модели Entry">
+      <created>1624446409149</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1624446409149</updated>
+    </task>
+    <task id="LOCAL-00279" summary="Регистрация Entry на административном сайте&#10;Интерактивная оболочка Django">
+      <created>1624446638179</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1624446638179</updated>
+    </task>
+    <option name="localTasksCounter" value="280" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,8 +594,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Извлечение и чтение данных" />
-    <MESSAGE value="Нанесение данных на диаграмму" />
     <MESSAGE value="Модуль datetime" />
     <MESSAGE value="current_date = datetime.strptime(row[2], &quot;%Y-%m-%d&quot;) ошибка тут" />
     <MESSAGE value="Представление дат на диаграмме" />
@@ -622,7 +617,9 @@
     <MESSAGE value="Администрирование сайта" />
     <MESSAGE value="Обновление pip" />
     <MESSAGE value="устранение ошибок" />
-    <option name="LAST_COMMIT_MESSAGE" value="устранение ошибок" />
+    <MESSAGE value="Миграция модели Entry" />
+    <MESSAGE value="Регистрация Entry на административном сайте&#10;Интерактивная оболочка Django" />
+    <option name="LAST_COMMIT_MESSAGE" value="Регистрация Entry на административном сайте&#10;Интерактивная оболочка Django" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
