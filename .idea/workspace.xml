@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Родительский шаблон">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Дочерний шаблон">
       <change beforePath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00237" summary="Разбор заголовка файлов CSV">
-      <created>1623318007923</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
-      <option name="project" value="LOCAL" />
-      <updated>1623318007923</updated>
     </task>
     <task id="LOCAL-00238" summary="Печать заголовков и их позиций">
       <created>1623318241558</created>
@@ -525,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624513079631</updated>
     </task>
-    <option name="localTasksCounter" value="286" />
+    <task id="LOCAL-00286" summary="Дочерний шаблон">
+      <created>1624513483202</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1624513483202</updated>
+    </task>
+    <option name="localTasksCounter" value="287" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -598,7 +598,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Цветовое выделение части диаграммы" />
     <MESSAGE value="Проверка ошибок" />
     <MESSAGE value="Возможно когда нибудь займусь" />
     <MESSAGE value="Потом вернусь к этой главе" />
@@ -623,7 +622,8 @@
     <MESSAGE value="Написание представления" />
     <MESSAGE value="Написание шаблона" />
     <MESSAGE value="Родительский шаблон" />
-    <option name="LAST_COMMIT_MESSAGE" value="Родительский шаблон" />
+    <MESSAGE value="Дочерний шаблон" />
+    <option name="LAST_COMMIT_MESSAGE" value="Дочерний шаблон" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
