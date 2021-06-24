@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Написание шаблона">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Родительский шаблон">
       <change beforePath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00236" summary="Разбор заголовка файлов CSV">
-      <created>1623317963417</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1623317963417</updated>
     </task>
     <task id="LOCAL-00237" summary="Разбор заголовка файлов CSV">
       <created>1623318007923</created>
@@ -526,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624512201550</updated>
     </task>
-    <option name="localTasksCounter" value="285" />
+    <task id="LOCAL-00285" summary="Родительский шаблон">
+      <created>1624513079631</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1624513079631</updated>
+    </task>
+    <option name="localTasksCounter" value="286" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -599,7 +598,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Нанесение на диаграмму второй серии данных" />
     <MESSAGE value="Цветовое выделение части диаграммы" />
     <MESSAGE value="Проверка ошибок" />
     <MESSAGE value="Возможно когда нибудь займусь" />
@@ -624,7 +622,8 @@
     <MESSAGE value="Сопоставление URL" />
     <MESSAGE value="Написание представления" />
     <MESSAGE value="Написание шаблона" />
-    <option name="LAST_COMMIT_MESSAGE" value="Написание шаблона" />
+    <MESSAGE value="Родительский шаблон" />
+    <option name="LAST_COMMIT_MESSAGE" value="Родительский шаблон" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
