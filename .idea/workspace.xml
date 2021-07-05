@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Страница со списком тем">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Представление topics">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,13 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00239" summary="Печать заголовков и их позиций">
-      <created>1623318338066</created>
-      <option name="number" value="00239" />
-      <option name="presentableId" value="LOCAL-00239" />
-      <option name="project" value="LOCAL" />
-      <updated>1623318338066</updated>
     </task>
     <task id="LOCAL-00240" summary="Извлечение и чтение данных">
       <created>1623322245384</created>
@@ -525,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624513720016</updated>
     </task>
-    <option name="localTasksCounter" value="288" />
+    <task id="LOCAL-00288" summary="Представление topics">
+      <created>1624514002728</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1624514002728</updated>
+    </task>
+    <option name="localTasksCounter" value="289" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -598,7 +599,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Возможно когда нибудь займусь" />
     <MESSAGE value="Потом вернусь к этой главе" />
     <MESSAGE value="Создание виртуальной среды" />
     <MESSAGE value="Установка virtualenv" />
@@ -623,7 +623,8 @@
     <MESSAGE value="Родительский шаблон" />
     <MESSAGE value="Дочерний шаблон" />
     <MESSAGE value="Страница со списком тем" />
-    <option name="LAST_COMMIT_MESSAGE" value="Страница со списком тем" />
+    <MESSAGE value="Представление topics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Представление topics" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
