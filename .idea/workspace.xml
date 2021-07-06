@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Шаблон отдельной темы">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Ссылки на странице">
+      <change afterPath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00244" summary="current_date = datetime.strptime(row[2], &quot;%Y-%m-%d&quot;) ошибка тут">
-      <created>1623323748517</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
-      <option name="project" value="LOCAL" />
-      <updated>1623323748517</updated>
     </task>
     <task id="LOCAL-00245" summary="Представление дат на диаграмме">
       <created>1623400827462</created>
@@ -526,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625562028639</updated>
     </task>
-    <option name="localTasksCounter" value="293" />
+    <task id="LOCAL-00293" summary="Ссылки на странице">
+      <created>1625563325026</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1625563325026</updated>
+    </task>
+    <option name="localTasksCounter" value="294" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -599,7 +598,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Установка Django" />
     <MESSAGE value="Создание проекта в Django" />
     <MESSAGE value="Создание базы данных" />
     <MESSAGE value="Просмотр проекта" />
@@ -624,7 +622,8 @@
     <MESSAGE value="Страницы отдельных тем" />
     <MESSAGE value="Представление отдельной темы" />
     <MESSAGE value="Шаблон отдельной темы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Шаблон отдельной темы" />
+    <MESSAGE value="Ссылки на странице" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ссылки на странице" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
