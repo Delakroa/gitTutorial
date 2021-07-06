@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Страницы отдельных тем">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Представление отдельной темы" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00242" summary="Нанесение данных на диаграмму">
-      <created>1623323015700</created>
-      <option name="number" value="00242" />
-      <option name="presentableId" value="LOCAL-00242" />
-      <option name="project" value="LOCAL" />
-      <updated>1623323015700</updated>
     </task>
     <task id="LOCAL-00243" summary="Модуль datetime">
       <created>1623323182529</created>
@@ -525,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625475071746</updated>
     </task>
-    <option name="localTasksCounter" value="291" />
+    <task id="LOCAL-00291" summary="Представление отдельной темы">
+      <created>1625561556927</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1625561556927</updated>
+    </task>
+    <option name="localTasksCounter" value="292" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -598,7 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Установка virtualenv" />
     <MESSAGE value="Активизация виртуальной среды" />
     <MESSAGE value="Установка Django" />
     <MESSAGE value="Создание проекта в Django" />
@@ -623,7 +620,8 @@
     <MESSAGE value="Представление topics" />
     <MESSAGE value="Шаблон topics" />
     <MESSAGE value="Страницы отдельных тем" />
-    <option name="LAST_COMMIT_MESSAGE" value="Страницы отдельных тем" />
+    <MESSAGE value="Представление отдельной темы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Представление отдельной темы" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
