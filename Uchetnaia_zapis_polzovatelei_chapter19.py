@@ -90,3 +90,40 @@
 
 # --------------------------------------------------------------------------------------------------------------------
 
+# Функция представления new_topic()
+
+# Функция new_topic() должна обрабатывать две разные ситуации: исходные за-
+# просы страницы new_topic (в этом случае должна отображаться пустая форма)
+# и обработка данных, отправленных через форму. Затем она должна перенаправить
+# пользователя обратно на страницу topics:
+
+# views.py
+#
+# from django.shortcuts import render
+# from django.http import HttpResponseRedirect
+# from django.core.urlresolvers import reverse
+# from .models import Topic
+# from .forms import TopicForm
+# ...
+# def new_topic(request):
+# """Определяет новую тему."""
+#  if request.method != 'POST':
+# # Данные не отправлялись; создается пустая форма.
+#  form = TopicForm()
+# else:
+# # Отправлены данные POST; обработать данные.
+#  form = TopicForm(request.POST)
+#  if form.is_valid():
+#  form.save()
+#  return HttpResponseRedirect(reverse('learning_logs:topics'))
+#  context = {'form': form}
+# return render(request, 'learning_logs/new_topic.html', context)
+
+# Мы импортируем класс HttpResponseRedirect, который будет использоваться
+# для перенаправления пользователя к странице topics после отправки введенной
+# темы. Функция reverse() определяет URL по заданной схеме URL (то есть Django
+# сгенерирует URL при запросе страницы). Также импортируется только что напи-
+# санная форма TopicForm.
+
+# --------------------------------------------------------------------------------------------------------------------
+
