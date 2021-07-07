@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="URL-адрес для new_topic" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Функция представления new_topic()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,13 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00248" summary="Представление дат на диаграмме">
-      <created>1623407798411</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1623407798411</updated>
     </task>
     <task id="LOCAL-00249" summary="Расширение временного диапазона">
       <created>1623788121455</created>
@@ -523,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625642718556</updated>
     </task>
-    <option name="localTasksCounter" value="297" />
+    <task id="LOCAL-00297" summary="Функция представления new_topic()">
+      <created>1625642771778</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1625642771778</updated>
+    </task>
+    <option name="localTasksCounter" value="298" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -596,7 +599,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Начало работы над приложением" />
     <MESSAGE value="Определение моделей" />
     <MESSAGE value="Активизация моделей" />
     <MESSAGE value="Исправил ошибку" />
@@ -621,7 +623,8 @@
     <MESSAGE value="Редактирование данных" />
     <MESSAGE value="Объект ModelForm" />
     <MESSAGE value="URL-адрес для new_topic" />
-    <option name="LAST_COMMIT_MESSAGE" value="URL-адрес для new_topic" />
+    <MESSAGE value="Функция представления new_topic()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Функция представления new_topic()" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
