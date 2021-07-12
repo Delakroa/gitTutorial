@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Добавление новых записей&#10;Класс EntryForm">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="URL-адрес для new_entry">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" afterDir="false" />
     </list>
@@ -184,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00255" summary="Проверка ошибок">
-      <created>1623851840217</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
-      <option name="project" value="LOCAL" />
-      <updated>1623851840217</updated>
     </task>
     <task id="LOCAL-00256" summary="Проверка ошибок">
       <created>1623851844279</created>
@@ -528,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626092985175</updated>
     </task>
-    <option name="localTasksCounter" value="304" />
+    <task id="LOCAL-00304" summary="URL-адрес для new_entry">
+      <created>1626094864327</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1626094864327</updated>
+    </task>
+    <option name="localTasksCounter" value="305" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -601,7 +601,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Миграция модели Entry" />
     <MESSAGE value="Регистрация Entry на административном сайте&#10;Интерактивная оболочка Django" />
     <MESSAGE value="Создание страниц: домашняя страница Learning Log" />
     <MESSAGE value="Сопоставление URL" />
@@ -626,7 +625,8 @@
     <MESSAGE value="испрравил" />
     <MESSAGE value="Шаблон new_topic" />
     <MESSAGE value="Добавление новых записей&#10;Класс EntryForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление новых записей&#10;Класс EntryForm" />
+    <MESSAGE value="URL-адрес для new_entry" />
+    <option name="LAST_COMMIT_MESSAGE" value="URL-адрес для new_entry" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
