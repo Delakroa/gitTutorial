@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="доделать new_topic">
-      <change beforePath="$PROJECT_DIR$/.idea/gitTutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gitTutorial.iml" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="доделал new_topic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,13 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00251" summary="Расширение временного диапазона">
-      <created>1623788508611</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1623788508611</updated>
     </task>
     <task id="LOCAL-00252" summary="Расширение временного диапазона">
       <created>1623788514359</created>
@@ -528,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625656991027</updated>
     </task>
-    <option name="localTasksCounter" value="300" />
+    <task id="LOCAL-00300" summary="доделал new_topic">
+      <created>1625829371116</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1625829371116</updated>
+    </task>
+    <option name="localTasksCounter" value="301" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -601,7 +600,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Исправил ошибку" />
     <MESSAGE value="Администрирование сайта" />
     <MESSAGE value="Обновление pip" />
     <MESSAGE value="устранение ошибок" />
@@ -626,7 +624,8 @@
     <MESSAGE value="Функция представления new_topic()" />
     <MESSAGE value="Запросы GET и POST" />
     <MESSAGE value="доделать new_topic" />
-    <option name="LAST_COMMIT_MESSAGE" value="доделать new_topic" />
+    <MESSAGE value="доделал new_topic" />
+    <option name="LAST_COMMIT_MESSAGE" value="доделал new_topic" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
