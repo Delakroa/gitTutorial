@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="испрравил">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Шаблон new_topic">
       <change beforePath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,13 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00253" summary="Нанесение на диаграмму второй серии данных">
-      <created>1623850035580</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
-      <option name="project" value="LOCAL" />
-      <updated>1623850035580</updated>
     </task>
     <task id="LOCAL-00254" summary="Цветовое выделение части диаграммы">
       <created>1623850148150</created>
@@ -528,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626091621709</updated>
     </task>
-    <option name="localTasksCounter" value="302" />
+    <task id="LOCAL-00302" summary="Шаблон new_topic">
+      <created>1626092312553</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1626092312553</updated>
+    </task>
+    <option name="localTasksCounter" value="303" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -601,7 +600,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Обновление pip" />
     <MESSAGE value="устранение ошибок" />
     <MESSAGE value="Миграция модели Entry" />
     <MESSAGE value="Регистрация Entry на административном сайте&#10;Интерактивная оболочка Django" />
@@ -626,7 +624,8 @@
     <MESSAGE value="доделать new_topic" />
     <MESSAGE value="доделал new_topic" />
     <MESSAGE value="испрравил" />
-    <option name="LAST_COMMIT_MESSAGE" value="испрравил" />
+    <MESSAGE value="Шаблон new_topic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Шаблон new_topic" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
