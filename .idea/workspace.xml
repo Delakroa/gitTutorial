@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="доделать new_topic">
-      <change beforePath="$PROJECT_DIR$/.idea/gitTutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gitTutorial.iml" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Шаблон new_entry">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Python.views">
     <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -169,8 +169,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.views" />
-        <item itemvalue="Python.update_pip" />
         <item itemvalue="Python.urls" />
+        <item itemvalue="Python.update_pip" />
         <item itemvalue="Python.models (1)" />
         <item itemvalue="Python.admin" />
       </list>
@@ -184,55 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00251" summary="Расширение временного диапазона">
-      <created>1623788508611</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1623788508611</updated>
-    </task>
-    <task id="LOCAL-00252" summary="Расширение временного диапазона">
-      <created>1623788514359</created>
-      <option name="number" value="00252" />
-      <option name="presentableId" value="LOCAL-00252" />
-      <option name="project" value="LOCAL" />
-      <updated>1623788514359</updated>
-    </task>
-    <task id="LOCAL-00253" summary="Нанесение на диаграмму второй серии данных">
-      <created>1623850035580</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
-      <option name="project" value="LOCAL" />
-      <updated>1623850035580</updated>
-    </task>
-    <task id="LOCAL-00254" summary="Цветовое выделение части диаграммы">
-      <created>1623850148150</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
-      <option name="project" value="LOCAL" />
-      <updated>1623850148150</updated>
-    </task>
-    <task id="LOCAL-00255" summary="Проверка ошибок">
-      <created>1623851840217</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
-      <option name="project" value="LOCAL" />
-      <updated>1623851840217</updated>
-    </task>
-    <task id="LOCAL-00256" summary="Проверка ошибок">
-      <created>1623851844279</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
-      <option name="project" value="LOCAL" />
-      <updated>1623851844279</updated>
-    </task>
-    <task id="LOCAL-00257" summary="Возможно когда нибудь займусь">
-      <created>1623957016298</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1623957016298</updated>
     </task>
     <task id="LOCAL-00258" summary="Потом вернусь к этой главе">
       <created>1623957153699</created>
@@ -528,7 +479,56 @@
       <option name="project" value="LOCAL" />
       <updated>1625656991027</updated>
     </task>
-    <option name="localTasksCounter" value="300" />
+    <task id="LOCAL-00300" summary="доделал new_topic">
+      <created>1625829371116</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1625829371116</updated>
+    </task>
+    <task id="LOCAL-00301" summary="испрравил">
+      <created>1626091621709</created>
+      <option name="number" value="00301" />
+      <option name="presentableId" value="LOCAL-00301" />
+      <option name="project" value="LOCAL" />
+      <updated>1626091621709</updated>
+    </task>
+    <task id="LOCAL-00302" summary="Шаблон new_topic">
+      <created>1626092312553</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1626092312553</updated>
+    </task>
+    <task id="LOCAL-00303" summary="Добавление новых записей&#10;Класс EntryForm">
+      <created>1626092985175</created>
+      <option name="number" value="00303" />
+      <option name="presentableId" value="LOCAL-00303" />
+      <option name="project" value="LOCAL" />
+      <updated>1626092985175</updated>
+    </task>
+    <task id="LOCAL-00304" summary="URL-адрес для new_entry">
+      <created>1626094864327</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1626094864327</updated>
+    </task>
+    <task id="LOCAL-00305" summary="Функция представления new_entry()">
+      <created>1626104306931</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1626104306931</updated>
+    </task>
+    <task id="LOCAL-00306" summary="Шаблон new_entry">
+      <created>1626105777884</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1626105777884</updated>
+    </task>
+    <option name="localTasksCounter" value="307" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -601,13 +601,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Исправил ошибку" />
-    <MESSAGE value="Администрирование сайта" />
-    <MESSAGE value="Обновление pip" />
-    <MESSAGE value="устранение ошибок" />
-    <MESSAGE value="Миграция модели Entry" />
-    <MESSAGE value="Регистрация Entry на административном сайте&#10;Интерактивная оболочка Django" />
-    <MESSAGE value="Создание страниц: домашняя страница Learning Log" />
     <MESSAGE value="Сопоставление URL" />
     <MESSAGE value="Написание представления" />
     <MESSAGE value="Написание шаблона" />
@@ -626,7 +619,14 @@
     <MESSAGE value="Функция представления new_topic()" />
     <MESSAGE value="Запросы GET и POST" />
     <MESSAGE value="доделать new_topic" />
-    <option name="LAST_COMMIT_MESSAGE" value="доделать new_topic" />
+    <MESSAGE value="доделал new_topic" />
+    <MESSAGE value="испрравил" />
+    <MESSAGE value="Шаблон new_topic" />
+    <MESSAGE value="Добавление новых записей&#10;Класс EntryForm" />
+    <MESSAGE value="URL-адрес для new_entry" />
+    <MESSAGE value="Функция представления new_entry()" />
+    <MESSAGE value="Шаблон new_entry" />
+    <option name="LAST_COMMIT_MESSAGE" value="Шаблон new_entry" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
