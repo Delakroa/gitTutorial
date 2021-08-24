@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Включение URL-адресов из users">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Шаблон login">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,20 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00265" summary="Создание базы данных">
-      <created>1623960932671</created>
-      <option name="number" value="00265" />
-      <option name="presentableId" value="LOCAL-00265" />
-      <option name="project" value="LOCAL" />
-      <updated>1623960932671</updated>
-    </task>
-    <task id="LOCAL-00266" summary="Создание базы данных">
-      <created>1624038821440</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1624038821440</updated>
     </task>
     <task id="LOCAL-00267" summary="Создание базы данных">
       <created>1624038827392</created>
@@ -528,7 +515,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629817257199</updated>
     </task>
-    <option name="localTasksCounter" value="314" />
+    <task id="LOCAL-00314" summary="Страница входа">
+      <created>1629817395776</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1629817395776</updated>
+    </task>
+    <task id="LOCAL-00315" summary="Шаблон login">
+      <created>1629817503189</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1629817503189</updated>
+    </task>
+    <option name="localTasksCounter" value="316" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -601,8 +602,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Шаблон topics" />
-    <MESSAGE value="Страницы отдельных тем" />
     <MESSAGE value="Представление отдельной темы" />
     <MESSAGE value="Шаблон отдельной темы" />
     <MESSAGE value="Ссылки на странице" />
@@ -626,7 +625,9 @@
     <MESSAGE value="Создание ссылки на страницу edit_entry" />
     <MESSAGE value="Приложение users" />
     <MESSAGE value="Включение URL-адресов из users" />
-    <option name="LAST_COMMIT_MESSAGE" value="Включение URL-адресов из users" />
+    <MESSAGE value="Страница входа" />
+    <MESSAGE value="Шаблон login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Шаблон login" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
