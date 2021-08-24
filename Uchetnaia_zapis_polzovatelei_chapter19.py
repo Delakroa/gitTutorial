@@ -468,3 +468,24 @@
 
 # -------------------------------------------------------------------------------------------------------------------
 
+# Шаблон edit_entry
+
+# Шаблон edit_entry.html очень похож на new_entry.html:
+
+# edit_entry.html
+#
+# {% extends "learning_logs/base.html" %}
+# {% block content %}
+
+# <p><a href="{% url 'learning_logs:topic' topic.id %}">{{ topic }}</a></p>
+# <p>Edit entry:</p>
+# ❶ <form action="{% url 'learning_logs:edit_entry' entry.id %}" method='post'>
+# {% csrf_token %}
+# {{ form.as_p }}
+# ❷ <button name="submit">save changes</button>
+# </form>
+# {% endblock content %}
+
+# В точке  аргумент action отправляет форму функции edit_entry() для обработки. Идентификатор записи включается
+# как аргумент в тег {% url %} , чтобы функция представления могла изменить правильный объект записи. Кнопка отправки
+# данных создается с текстом, который напоминает пользователю, что он сохраняет изменения, а не создает новую запись .

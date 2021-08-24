@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Шаблон new_entry">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Функция представления edit_entry()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager" selected="Python.views">
     <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -184,27 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00258" summary="Потом вернусь к этой главе">
-      <created>1623957153699</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1623957153699</updated>
-    </task>
-    <task id="LOCAL-00259" summary="Создание виртуальной среды">
-      <created>1623957693411</created>
-      <option name="number" value="00259" />
-      <option name="presentableId" value="LOCAL-00259" />
-      <option name="project" value="LOCAL" />
-      <updated>1623957693411</updated>
-    </task>
-    <task id="LOCAL-00260" summary="Создание виртуальной среды">
-      <created>1623960374507</created>
-      <option name="number" value="00260" />
-      <option name="presentableId" value="LOCAL-00260" />
-      <option name="project" value="LOCAL" />
-      <updated>1623960374507</updated>
     </task>
     <task id="LOCAL-00261" summary="Установка virtualenv">
       <created>1623960716010</created>
@@ -528,7 +508,28 @@
       <option name="project" value="LOCAL" />
       <updated>1626105777884</updated>
     </task>
-    <option name="localTasksCounter" value="307" />
+    <task id="LOCAL-00307" summary="Создание ссылки на страницу new_entry">
+      <created>1626284856959</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1626284856959</updated>
+    </task>
+    <task id="LOCAL-00308" summary="Добавление записей">
+      <created>1626284924580</created>
+      <option name="number" value="00308" />
+      <option name="presentableId" value="LOCAL-00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1626284924580</updated>
+    </task>
+    <task id="LOCAL-00309" summary="Функция представления edit_entry()">
+      <created>1626284983677</created>
+      <option name="number" value="00309" />
+      <option name="presentableId" value="LOCAL-00309" />
+      <option name="project" value="LOCAL" />
+      <updated>1626284983677</updated>
+    </task>
+    <option name="localTasksCounter" value="310" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -601,9 +602,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Сопоставление URL" />
-    <MESSAGE value="Написание представления" />
-    <MESSAGE value="Написание шаблона" />
     <MESSAGE value="Родительский шаблон" />
     <MESSAGE value="Дочерний шаблон" />
     <MESSAGE value="Страница со списком тем" />
@@ -626,7 +624,10 @@
     <MESSAGE value="URL-адрес для new_entry" />
     <MESSAGE value="Функция представления new_entry()" />
     <MESSAGE value="Шаблон new_entry" />
-    <option name="LAST_COMMIT_MESSAGE" value="Шаблон new_entry" />
+    <MESSAGE value="Создание ссылки на страницу new_entry" />
+    <MESSAGE value="Добавление записей" />
+    <MESSAGE value="Функция представления edit_entry()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Функция представления edit_entry()" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
