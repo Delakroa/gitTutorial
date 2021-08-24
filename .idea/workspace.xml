@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Функция представления edit_entry()">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Шаблон edit_entry">
       <change beforePath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,13 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00261" summary="Установка virtualenv">
-      <created>1623960716010</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
-      <option name="project" value="LOCAL" />
-      <updated>1623960716010</updated>
     </task>
     <task id="LOCAL-00262" summary="Активизация виртуальной среды">
       <created>1623960799148</created>
@@ -529,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626284983677</updated>
     </task>
-    <option name="localTasksCounter" value="310" />
+    <task id="LOCAL-00310" summary="Шаблон edit_entry">
+      <created>1629814828917</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1629814828917</updated>
+    </task>
+    <option name="localTasksCounter" value="311" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -602,7 +600,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Родительский шаблон" />
     <MESSAGE value="Дочерний шаблон" />
     <MESSAGE value="Страница со списком тем" />
     <MESSAGE value="Представление topics" />
@@ -627,7 +624,8 @@
     <MESSAGE value="Создание ссылки на страницу new_entry" />
     <MESSAGE value="Добавление записей" />
     <MESSAGE value="Функция представления edit_entry()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Функция представления edit_entry()" />
+    <MESSAGE value="Шаблон edit_entry" />
+    <option name="LAST_COMMIT_MESSAGE" value="Шаблон edit_entry" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
