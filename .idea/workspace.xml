@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="549453b1-fdad-4d27-ac81-05889ec5fb38" name="Default Changelist" comment="глава 19">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" afterDir="false" />
-    </list>
+    <list default="true" id="549453b1-fdad-4d27-ac81-05889ec5fb38" name="Default Changelist" comment="глава 19" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00258" summary="Потом вернусь к этой главе">
-      <created>1623957153699</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1623957153699</updated>
     </task>
     <task id="LOCAL-00259" summary="Создание виртуальной среды">
       <created>1623957693411</created>
@@ -531,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626105777884</updated>
     </task>
-    <option name="localTasksCounter" value="307" />
+    <task id="LOCAL-00307" summary="глава 19">
+      <created>1630167578140</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1630167578141</updated>
+    </task>
+    <option name="localTasksCounter" value="308" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,7 +601,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Сопоставление URL" />
     <MESSAGE value="Написание представления" />
     <MESSAGE value="Написание шаблона" />
     <MESSAGE value="Родительский шаблон" />
@@ -629,7 +625,8 @@
     <MESSAGE value="URL-адрес для new_entry" />
     <MESSAGE value="Функция представления new_entry()" />
     <MESSAGE value="Шаблон new_entry" />
-    <option name="LAST_COMMIT_MESSAGE" value="Шаблон new_entry" />
+    <MESSAGE value="глава 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="глава 19" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
