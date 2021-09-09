@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="549453b1-fdad-4d27-ac81-05889ec5fb38" name="Default Changelist" comment="добавил игнорируемые файлы">
-      <change afterPath="$PROJECT_DIR$/autoclicer.py" afterDir="false" />
+    <list default="true" id="549453b1-fdad-4d27-ac81-05889ec5fb38" name="Default Changelist" comment="Автокликер">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoclicer.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoclicer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,20 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00261" summary="Установка virtualenv">
-      <created>1623960716010</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
-      <option name="project" value="LOCAL" />
-      <updated>1623960716010</updated>
-    </task>
-    <task id="LOCAL-00262" summary="Активизация виртуальной среды">
-      <created>1623960799148</created>
-      <option name="number" value="00262" />
-      <option name="presentableId" value="LOCAL-00262" />
-      <option name="project" value="LOCAL" />
-      <updated>1623960799148</updated>
     </task>
     <task id="LOCAL-00263" summary="Установка Django">
       <created>1623960838937</created>
@@ -531,7 +517,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631203653505</updated>
     </task>
-    <option name="localTasksCounter" value="310" />
+    <task id="LOCAL-00310" summary="Автокликер">
+      <created>1631207127954</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1631207127954</updated>
+    </task>
+    <task id="LOCAL-00311" summary="Автокликер">
+      <created>1631207155764</created>
+      <option name="number" value="00311" />
+      <option name="presentableId" value="LOCAL-00311" />
+      <option name="project" value="LOCAL" />
+      <updated>1631207155764</updated>
+    </task>
+    <option name="localTasksCounter" value="312" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,7 +604,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Написание шаблона" />
     <MESSAGE value="Родительский шаблон" />
     <MESSAGE value="Дочерний шаблон" />
     <MESSAGE value="Страница со списком тем" />
@@ -629,7 +628,8 @@
     <MESSAGE value="Шаблон new_entry" />
     <MESSAGE value="глава 19" />
     <MESSAGE value="добавил игнорируемые файлы" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил игнорируемые файлы" />
+    <MESSAGE value="Автокликер" />
+    <option name="LAST_COMMIT_MESSAGE" value="Автокликер" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
