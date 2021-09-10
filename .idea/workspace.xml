@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Шаблон регистрации">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Шаблон new_entry">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" afterDir="false" />
     </list>
@@ -32,12 +32,6 @@
         </map>
       </branch-storage>
     </favorite-branches>
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -59,15 +53,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.views (1)">
+  <component name="RunManager" selected="Python.views">
+    <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gitTutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/ll_env/learning_log/learning_logs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/ll_env/learning_log/learning_logs/admin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="models (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,27 +145,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="views (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="gitTutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/ll_env/users" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/ll_env/users/views.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.views (1)" />
         <item itemvalue="Python.views" />
         <item itemvalue="Python.urls" />
         <item itemvalue="Python.update_pip" />
         <item itemvalue="Python.models (1)" />
+        <item itemvalue="Python.admin" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +184,125 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
+    </task>
+    <task id="LOCAL-00258" summary="Потом вернусь к этой главе">
+      <created>1623957153699</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1623957153699</updated>
+    </task>
+    <task id="LOCAL-00259" summary="Создание виртуальной среды">
+      <created>1623957693411</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1623957693411</updated>
+    </task>
+    <task id="LOCAL-00260" summary="Создание виртуальной среды">
+      <created>1623960374507</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960374507</updated>
+    </task>
+    <task id="LOCAL-00261" summary="Установка virtualenv">
+      <created>1623960716010</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960716010</updated>
+    </task>
+    <task id="LOCAL-00262" summary="Активизация виртуальной среды">
+      <created>1623960799148</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960799148</updated>
+    </task>
+    <task id="LOCAL-00263" summary="Установка Django">
+      <created>1623960838937</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960838937</updated>
+    </task>
+    <task id="LOCAL-00264" summary="Создание проекта в Django">
+      <created>1623960898573</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960898573</updated>
+    </task>
+    <task id="LOCAL-00265" summary="Создание базы данных">
+      <created>1623960932671</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1623960932671</updated>
+    </task>
+    <task id="LOCAL-00266" summary="Создание базы данных">
+      <created>1624038821440</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1624038821440</updated>
+    </task>
+    <task id="LOCAL-00267" summary="Создание базы данных">
+      <created>1624038827392</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1624038827392</updated>
+    </task>
+    <task id="LOCAL-00268" summary="Просмотр проекта">
+      <created>1624038909624</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1624038909624</updated>
+    </task>
+    <task id="LOCAL-00269" summary="Начало работы над приложением">
+      <created>1624040038845</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1624040038845</updated>
+    </task>
+    <task id="LOCAL-00270" summary="Определение моделей">
+      <created>1624040885403</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1624040885403</updated>
+    </task>
+    <task id="LOCAL-00271" summary="Активизация моделей">
+      <created>1624041686916</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1624041686916</updated>
+    </task>
+    <task id="LOCAL-00272" summary="Исправил ошибку">
+      <created>1624268927376</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1624268927376</updated>
+    </task>
+    <task id="LOCAL-00273" summary="Администрирование сайта">
+      <created>1624271021207</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1624271021207</updated>
+    </task>
+    <task id="LOCAL-00274" summary="Обновление pip">
+      <created>1624338324178</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1624338324178</updated>
     </task>
     <task id="LOCAL-00275" summary="Обновление pip">
       <created>1624339134479</created>
@@ -416,126 +528,7 @@
       <option name="project" value="LOCAL" />
       <updated>1626105777884</updated>
     </task>
-    <task id="LOCAL-00307" summary="Создание ссылки на страницу new_entry">
-      <created>1626284856959</created>
-      <option name="number" value="00307" />
-      <option name="presentableId" value="LOCAL-00307" />
-      <option name="project" value="LOCAL" />
-      <updated>1626284856959</updated>
-    </task>
-    <task id="LOCAL-00308" summary="Добавление записей">
-      <created>1626284924580</created>
-      <option name="number" value="00308" />
-      <option name="presentableId" value="LOCAL-00308" />
-      <option name="project" value="LOCAL" />
-      <updated>1626284924580</updated>
-    </task>
-    <task id="LOCAL-00309" summary="Функция представления edit_entry()">
-      <created>1626284983677</created>
-      <option name="number" value="00309" />
-      <option name="presentableId" value="LOCAL-00309" />
-      <option name="project" value="LOCAL" />
-      <updated>1626284983677</updated>
-    </task>
-    <task id="LOCAL-00310" summary="Шаблон edit_entry">
-      <created>1629814828917</created>
-      <option name="number" value="00310" />
-      <option name="presentableId" value="LOCAL-00310" />
-      <option name="project" value="LOCAL" />
-      <updated>1629814828917</updated>
-    </task>
-    <task id="LOCAL-00311" summary="Создание ссылки на страницу edit_entry">
-      <created>1629815080924</created>
-      <option name="number" value="00311" />
-      <option name="presentableId" value="LOCAL-00311" />
-      <option name="project" value="LOCAL" />
-      <updated>1629815080924</updated>
-    </task>
-    <task id="LOCAL-00312" summary="Приложение users">
-      <created>1629817148908</created>
-      <option name="number" value="00312" />
-      <option name="presentableId" value="LOCAL-00312" />
-      <option name="project" value="LOCAL" />
-      <updated>1629817148908</updated>
-    </task>
-    <task id="LOCAL-00313" summary="Включение URL-адресов из users">
-      <created>1629817257199</created>
-      <option name="number" value="00313" />
-      <option name="presentableId" value="LOCAL-00313" />
-      <option name="project" value="LOCAL" />
-      <updated>1629817257199</updated>
-    </task>
-    <task id="LOCAL-00314" summary="Страница входа">
-      <created>1629817395776</created>
-      <option name="number" value="00314" />
-      <option name="presentableId" value="LOCAL-00314" />
-      <option name="project" value="LOCAL" />
-      <updated>1629817395776</updated>
-    </task>
-    <task id="LOCAL-00315" summary="Шаблон login">
-      <created>1629817503189</created>
-      <option name="number" value="00315" />
-      <option name="presentableId" value="LOCAL-00315" />
-      <option name="project" value="LOCAL" />
-      <updated>1629817503189</updated>
-    </task>
-    <task id="LOCAL-00316" summary="Создание ссылки на страницу входа">
-      <created>1629828396031</created>
-      <option name="number" value="00316" />
-      <option name="presentableId" value="LOCAL-00316" />
-      <option name="project" value="LOCAL" />
-      <updated>1629828396031</updated>
-    </task>
-    <task id="LOCAL-00317" summary="Использование страницы входа">
-      <created>1629828428586</created>
-      <option name="number" value="00317" />
-      <option name="presentableId" value="LOCAL-00317" />
-      <option name="project" value="LOCAL" />
-      <updated>1629828428586</updated>
-    </task>
-    <task id="LOCAL-00318" summary="Использование страницы входа">
-      <created>1629902182431</created>
-      <option name="number" value="00318" />
-      <option name="presentableId" value="LOCAL-00318" />
-      <option name="project" value="LOCAL" />
-      <updated>1629902182431</updated>
-    </task>
-    <task id="LOCAL-00319" summary="Выход - Добавление ссылки для выхода">
-      <created>1629902375710</created>
-      <option name="number" value="00319" />
-      <option name="presentableId" value="LOCAL-00319" />
-      <option name="project" value="LOCAL" />
-      <updated>1629902375710</updated>
-    </task>
-    <task id="LOCAL-00320" summary="Страница подтверждения выхода">
-      <created>1629902494488</created>
-      <option name="number" value="00320" />
-      <option name="presentableId" value="LOCAL-00320" />
-      <option name="project" value="LOCAL" />
-      <updated>1629902494488</updated>
-    </task>
-    <task id="LOCAL-00321" summary="Страница регистрации">
-      <created>1629903078423</created>
-      <option name="number" value="00321" />
-      <option name="presentableId" value="LOCAL-00321" />
-      <option name="project" value="LOCAL" />
-      <updated>1629903078423</updated>
-    </task>
-    <task id="LOCAL-00322" summary="Функция представления register()">
-      <created>1629903466076</created>
-      <option name="number" value="00322" />
-      <option name="presentableId" value="LOCAL-00322" />
-      <option name="project" value="LOCAL" />
-      <updated>1629903466076</updated>
-    </task>
-    <task id="LOCAL-00323" summary="Шаблон регистрации">
-      <created>1629903642543</created>
-      <option name="number" value="00323" />
-      <option name="presentableId" value="LOCAL-00323" />
-      <option name="project" value="LOCAL" />
-      <updated>1629903642543</updated>
-    </task>
-    <option name="localTasksCounter" value="324" />
+    <option name="localTasksCounter" value="307" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -608,6 +601,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Сопоставление URL" />
+    <MESSAGE value="Написание представления" />
+    <MESSAGE value="Написание шаблона" />
+    <MESSAGE value="Родительский шаблон" />
+    <MESSAGE value="Дочерний шаблон" />
+    <MESSAGE value="Страница со списком тем" />
+    <MESSAGE value="Представление topics" />
+    <MESSAGE value="Шаблон topics" />
+    <MESSAGE value="Страницы отдельных тем" />
+    <MESSAGE value="Представление отдельной темы" />
+    <MESSAGE value="Шаблон отдельной темы" />
+    <MESSAGE value="Ссылки на странице" />
+    <MESSAGE value="Редактирование данных" />
+    <MESSAGE value="Объект ModelForm" />
+    <MESSAGE value="URL-адрес для new_topic" />
+    <MESSAGE value="Функция представления new_topic()" />
     <MESSAGE value="Запросы GET и POST" />
     <MESSAGE value="доделать new_topic" />
     <MESSAGE value="доделал new_topic" />
@@ -617,23 +626,7 @@
     <MESSAGE value="URL-адрес для new_entry" />
     <MESSAGE value="Функция представления new_entry()" />
     <MESSAGE value="Шаблон new_entry" />
-    <MESSAGE value="Создание ссылки на страницу new_entry" />
-    <MESSAGE value="Добавление записей" />
-    <MESSAGE value="Функция представления edit_entry()" />
-    <MESSAGE value="Шаблон edit_entry" />
-    <MESSAGE value="Создание ссылки на страницу edit_entry" />
-    <MESSAGE value="Приложение users" />
-    <MESSAGE value="Включение URL-адресов из users" />
-    <MESSAGE value="Страница входа" />
-    <MESSAGE value="Шаблон login" />
-    <MESSAGE value="Создание ссылки на страницу входа" />
-    <MESSAGE value="Использование страницы входа" />
-    <MESSAGE value="Выход - Добавление ссылки для выхода" />
-    <MESSAGE value="Страница подтверждения выхода" />
-    <MESSAGE value="Страница регистрации" />
-    <MESSAGE value="Функция представления register()" />
-    <MESSAGE value="Шаблон регистрации" />
-    <option name="LAST_COMMIT_MESSAGE" value="Шаблон регистрации" />
+    <option name="LAST_COMMIT_MESSAGE" value="Шаблон new_entry" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
