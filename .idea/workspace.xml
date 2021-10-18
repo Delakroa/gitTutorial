@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="directions.html исправил название" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="исправил мили">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00275" summary="Обновление pip">
-      <created>1624339134479</created>
-      <option name="number" value="00275" />
-      <option name="presentableId" value="LOCAL-00275" />
-      <option name="project" value="LOCAL" />
-      <updated>1624339134479</updated>
     </task>
     <task id="LOCAL-00276" summary="Обновление pip">
       <created>1624339356194</created>
@@ -531,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634573532170</updated>
     </task>
-    <option name="localTasksCounter" value="324" />
+    <task id="LOCAL-00324" summary="исправил мили">
+      <created>1634573587184</created>
+      <option name="number" value="00324" />
+      <option name="presentableId" value="LOCAL-00324" />
+      <option name="project" value="LOCAL" />
+      <updated>1634573587184</updated>
+    </task>
+    <option name="localTasksCounter" value="325" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,7 +606,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Функция представления new_topic()" />
     <MESSAGE value="Запросы GET и POST" />
     <MESSAGE value="доделать new_topic" />
     <MESSAGE value="доделал new_topic" />
@@ -629,7 +630,8 @@
     <MESSAGE value="Зал ожидания Head First" />
     <MESSAGE value="усовершенствованную гостевую Head First" />
     <MESSAGE value="directions.html исправил название" />
-    <option name="LAST_COMMIT_MESSAGE" value="directions.html исправил название" />
+    <MESSAGE value="исправил мили" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправил мили" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
