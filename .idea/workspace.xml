@@ -197,13 +197,6 @@
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
     </task>
-    <task id="LOCAL-00286" summary="Дочерний шаблон">
-      <created>1624513483202</created>
-      <option name="number" value="00286" />
-      <option name="presentableId" value="LOCAL-00286" />
-      <option name="project" value="LOCAL" />
-      <updated>1624513483202</updated>
-    </task>
     <task id="LOCAL-00287" summary="Страница со списком тем">
       <created>1624513720016</created>
       <option name="number" value="00287" />
@@ -540,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634587765475</updated>
     </task>
-    <option name="localTasksCounter" value="335" />
+    <task id="LOCAL-00335" summary="Исправил">
+      <created>1634588227038</created>
+      <option name="number" value="00335" />
+      <option name="presentableId" value="LOCAL-00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1634588227038</updated>
+    </task>
+    <option name="localTasksCounter" value="336" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
