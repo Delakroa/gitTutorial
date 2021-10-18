@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Придание определенного стиля">
-      <change afterPath="$PROJECT_DIR$/HTML/directions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/elixir.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Эликсиры" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,20 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00266" summary="Создание базы данных">
-      <created>1624038821440</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1624038821440</updated>
-    </task>
-    <task id="LOCAL-00267" summary="Создание базы данных">
-      <created>1624038827392</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
-      <option name="project" value="LOCAL" />
-      <updated>1624038827392</updated>
     </task>
     <task id="LOCAL-00268" summary="Просмотр проекта">
       <created>1624038909624</created>
@@ -535,7 +517,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634567879863</updated>
     </task>
-    <option name="localTasksCounter" value="315" />
+    <task id="LOCAL-00315" summary="Направляйтесь в зал ожидания">
+      <created>1634571766217</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1634571766217</updated>
+    </task>
+    <task id="LOCAL-00316" summary="Эликсиры">
+      <created>1634572013756</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1634572013756</updated>
+    </task>
+    <option name="localTasksCounter" value="317" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -608,8 +604,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Представление topics" />
-    <MESSAGE value="Шаблон topics" />
     <MESSAGE value="Страницы отдельных тем" />
     <MESSAGE value="Представление отдельной темы" />
     <MESSAGE value="Шаблон отдельной темы" />
@@ -633,7 +627,9 @@
     <MESSAGE value="rename" />
     <MESSAGE value="Придание определенного стиля страницы Starbuzz" />
     <MESSAGE value="Придание определенного стиля" />
-    <option name="LAST_COMMIT_MESSAGE" value="Придание определенного стиля" />
+    <MESSAGE value="Направляйтесь в зал ожидания" />
+    <MESSAGE value="Эликсиры" />
+    <option name="LAST_COMMIT_MESSAGE" value="Эликсиры" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
