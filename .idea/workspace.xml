@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="image">
-      <change beforePath="$PROJECT_DIR$/HTML/elixir.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/beverages/elixir.html" afterDir="false" />
-    </list>
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="about" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +60,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python library\gitTutorial\HTML\about" />
+      <recent name="D:\Python library\gitTutorial\HTML\beverages" />
+      <recent name="D:\Python library\gitTutorial\HTML\image" />
       <recent name="D:\Python library\gitTutorial\HTML" />
     </key>
   </component>
@@ -189,20 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00280" summary="Создание страниц: домашняя страница Learning Log">
-      <created>1624446773413</created>
-      <option name="number" value="00280" />
-      <option name="presentableId" value="LOCAL-00280" />
-      <option name="project" value="LOCAL" />
-      <updated>1624446773413</updated>
-    </task>
-    <task id="LOCAL-00281" summary="Сопоставление URL">
-      <created>1624447694842</created>
-      <option name="number" value="00281" />
-      <option name="presentableId" value="LOCAL-00281" />
-      <option name="project" value="LOCAL" />
-      <updated>1624447694842</updated>
     </task>
     <task id="LOCAL-00282" summary="Сопоставление URL">
       <created>1624511410238</created>
@@ -533,7 +520,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634579907882</updated>
     </task>
-    <option name="localTasksCounter" value="329" />
+    <task id="LOCAL-00329" summary="beverages">
+      <created>1634579957901</created>
+      <option name="number" value="00329" />
+      <option name="presentableId" value="LOCAL-00329" />
+      <option name="project" value="LOCAL" />
+      <updated>1634579957901</updated>
+    </task>
+    <task id="LOCAL-00330" summary="about">
+      <created>1634580018043</created>
+      <option name="number" value="00330" />
+      <option name="presentableId" value="LOCAL-00330" />
+      <option name="project" value="LOCAL" />
+      <updated>1634580018043</updated>
+    </task>
+    <option name="localTasksCounter" value="331" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,8 +607,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="доделал new_topic" />
-    <MESSAGE value="испрравил" />
     <MESSAGE value="Шаблон new_topic" />
     <MESSAGE value="Добавление новых записей&#10;Класс EntryForm" />
     <MESSAGE value="URL-адрес для new_entry" />
@@ -631,7 +630,9 @@
     <MESSAGE value="исправил" />
     <MESSAGE value="Назад в гостевую" />
     <MESSAGE value="image" />
-    <option name="LAST_COMMIT_MESSAGE" value="image" />
+    <MESSAGE value="beverages" />
+    <MESSAGE value="about" />
+    <option name="LAST_COMMIT_MESSAGE" value="about" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
