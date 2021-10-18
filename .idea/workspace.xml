@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="549453b1-fdad-4d27-ac81-05889ec5fb38" name="Default Changelist" comment="Страница входа" />
+    <list default="true" id="549453b1-fdad-4d27-ac81-05889ec5fb38" name="Default Changelist" comment="Исправил" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +46,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showToolbar" value="false" />
   </component>
   <component name="ProjectId" id="1rR14r5sMkF8N9PIlDN30CtOtQN" />
   <component name="ProjectViewState">
@@ -190,20 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00284" summary="Написание шаблона">
-      <created>1624512201550</created>
-      <option name="number" value="00284" />
-      <option name="presentableId" value="LOCAL-00284" />
-      <option name="project" value="LOCAL" />
-      <updated>1624512201550</updated>
-    </task>
-    <task id="LOCAL-00285" summary="Родительский шаблон">
-      <created>1624513079631</created>
-      <option name="number" value="00285" />
-      <option name="presentableId" value="LOCAL-00285" />
-      <option name="project" value="LOCAL" />
-      <updated>1624513079631</updated>
     </task>
     <task id="LOCAL-00286" summary="Дочерний шаблон">
       <created>1624513483202</created>
@@ -534,7 +526,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634587017229</updated>
     </task>
-    <option name="localTasksCounter" value="333" />
+    <task id="LOCAL-00333" summary="Добавил новые файлы в майн">
+      <created>1634587711435</created>
+      <option name="number" value="00333" />
+      <option name="presentableId" value="LOCAL-00333" />
+      <option name="project" value="LOCAL" />
+      <updated>1634587711435</updated>
+    </task>
+    <task id="LOCAL-00334" summary="Исправил">
+      <created>1634587765475</created>
+      <option name="number" value="00334" />
+      <option name="presentableId" value="LOCAL-00334" />
+      <option name="project" value="LOCAL" />
+      <updated>1634587765475</updated>
+    </task>
+    <option name="localTasksCounter" value="335" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,8 +613,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="URL-адрес для new_entry" />
-    <MESSAGE value="Функция представления new_entry()" />
     <MESSAGE value="Шаблон new_entry" />
     <MESSAGE value="Изучение HTML" />
     <MESSAGE value="Основная задача" />
@@ -632,7 +636,9 @@
     <MESSAGE value="about" />
     <MESSAGE value="сменил пути" />
     <MESSAGE value="Страница входа" />
-    <option name="LAST_COMMIT_MESSAGE" value="Страница входа" />
+    <MESSAGE value="Добавил новые файлы в майн" />
+    <MESSAGE value="Исправил" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
