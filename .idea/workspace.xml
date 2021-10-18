@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="about" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="сменил пути">
+      <change beforePath="$PROJECT_DIR$/HTML/about/directions.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/about/directions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/lounge.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/lounge.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,13 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00282" summary="Сопоставление URL">
-      <created>1624511410238</created>
-      <option name="number" value="00282" />
-      <option name="presentableId" value="LOCAL-00282" />
-      <option name="project" value="LOCAL" />
-      <updated>1624511410238</updated>
     </task>
     <task id="LOCAL-00283" summary="Написание представления">
       <created>1624511755091</created>
@@ -534,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634580018043</updated>
     </task>
-    <option name="localTasksCounter" value="331" />
+    <task id="LOCAL-00331" summary="сменил пути">
+      <created>1634580481418</created>
+      <option name="number" value="00331" />
+      <option name="presentableId" value="LOCAL-00331" />
+      <option name="project" value="LOCAL" />
+      <updated>1634580481418</updated>
+    </task>
+    <option name="localTasksCounter" value="332" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,7 +610,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Шаблон new_topic" />
     <MESSAGE value="Добавление новых записей&#10;Класс EntryForm" />
     <MESSAGE value="URL-адрес для new_entry" />
     <MESSAGE value="Функция представления new_entry()" />
@@ -632,7 +634,8 @@
     <MESSAGE value="image" />
     <MESSAGE value="beverages" />
     <MESSAGE value="about" />
-    <option name="LAST_COMMIT_MESSAGE" value="about" />
+    <MESSAGE value="сменил пути" />
+    <option name="LAST_COMMIT_MESSAGE" value="сменил пути" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
