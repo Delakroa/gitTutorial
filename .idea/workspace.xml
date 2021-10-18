@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="сменил пути">
-      <change beforePath="$PROJECT_DIR$/HTML/about/directions.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/about/directions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/lounge.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/lounge.html" afterDir="false" />
-    </list>
+    <list default="true" id="549453b1-fdad-4d27-ac81-05889ec5fb38" name="Default Changelist" comment="Страница входа" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +31,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="proba" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -193,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00283" summary="Написание представления">
-      <created>1624511755091</created>
-      <option name="number" value="00283" />
-      <option name="presentableId" value="LOCAL-00283" />
-      <option name="project" value="LOCAL" />
-      <updated>1624511755091</updated>
     </task>
     <task id="LOCAL-00284" summary="Написание шаблона">
       <created>1624512201550</created>
@@ -537,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634580481418</updated>
     </task>
-    <option name="localTasksCounter" value="332" />
+    <task id="LOCAL-00332" summary="Страница входа">
+      <created>1634587017229</created>
+      <option name="number" value="00332" />
+      <option name="presentableId" value="LOCAL-00332" />
+      <option name="project" value="LOCAL" />
+      <updated>1634587017229</updated>
+    </task>
+    <option name="localTasksCounter" value="333" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -610,7 +607,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавление новых записей&#10;Класс EntryForm" />
     <MESSAGE value="URL-адрес для new_entry" />
     <MESSAGE value="Функция представления new_entry()" />
     <MESSAGE value="Шаблон new_entry" />
@@ -635,7 +631,8 @@
     <MESSAGE value="beverages" />
     <MESSAGE value="about" />
     <MESSAGE value="сменил пути" />
-    <option name="LAST_COMMIT_MESSAGE" value="сменил пути" />
+    <MESSAGE value="Страница входа" />
+    <option name="LAST_COMMIT_MESSAGE" value="Страница входа" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
