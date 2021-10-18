@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="исправил мили">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="исправил" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00276" summary="Обновление pip">
-      <created>1624339356194</created>
-      <option name="number" value="00276" />
-      <option name="presentableId" value="LOCAL-00276" />
-      <option name="project" value="LOCAL" />
-      <updated>1624339356194</updated>
     </task>
     <task id="LOCAL-00277" summary="устранение ошибок">
       <created>1624360787352</created>
@@ -533,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634573587184</updated>
     </task>
-    <option name="localTasksCounter" value="325" />
+    <task id="LOCAL-00325" summary="исправил">
+      <created>1634575438524</created>
+      <option name="number" value="00325" />
+      <option name="presentableId" value="LOCAL-00325" />
+      <option name="project" value="LOCAL" />
+      <updated>1634575438524</updated>
+    </task>
+    <option name="localTasksCounter" value="326" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -626,12 +624,12 @@
     <MESSAGE value="Направления" />
     <MESSAGE value="&lt;meta charset=&quot;UTF-8&quot;&gt;" />
     <MESSAGE value="&lt;meta charset=&quot;UTF-8&quot;&gt; исправил" />
-    <MESSAGE value="исправил" />
     <MESSAGE value="Зал ожидания Head First" />
     <MESSAGE value="усовершенствованную гостевую Head First" />
     <MESSAGE value="directions.html исправил название" />
     <MESSAGE value="исправил мили" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправил мили" />
+    <MESSAGE value="исправил" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправил" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
