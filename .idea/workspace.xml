@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Добавил &lt;br&gt; возврат коретки">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="&lt;ol&gt;и&lt;ul&gt;и&lt;li&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/chapter3/journal.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapter3/journal.html" afterDir="false" />
     </list>
@@ -192,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00272" summary="Исправил ошибку">
-      <created>1624268927376</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1624268927376</updated>
     </task>
     <task id="LOCAL-00273" summary="Администрирование сайта">
       <created>1624271021207</created>
@@ -536,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634657627347</updated>
     </task>
-    <option name="localTasksCounter" value="321" />
+    <task id="LOCAL-00321" summary="&lt;ol&gt;и&lt;ul&gt;и&lt;li&gt;">
+      <created>1634659490223</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1634659490223</updated>
+    </task>
+    <option name="localTasksCounter" value="322" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,7 +609,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Представление отдельной темы" />
     <MESSAGE value="Шаблон отдельной темы" />
     <MESSAGE value="Ссылки на странице" />
     <MESSAGE value="Редактирование данных" />
@@ -634,7 +633,8 @@
     <MESSAGE value="переименовка файлов под задание" />
     <MESSAGE value="Добавил &lt;blockquote&gt;" />
     <MESSAGE value="Добавил &lt;br&gt; возврат коретки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил &lt;br&gt; возврат коретки" />
+    <MESSAGE value="&lt;ol&gt;и&lt;ul&gt;и&lt;li&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;ol&gt;и&lt;ul&gt;и&lt;li&gt;" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
