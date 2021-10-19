@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Поездка Тони" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="переименовка файлов под задание">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/chapter3/journal.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapter3/journal.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00268" summary="Просмотр проекта">
-      <created>1624038909624</created>
-      <option name="number" value="00268" />
-      <option name="presentableId" value="LOCAL-00268" />
-      <option name="project" value="LOCAL" />
-      <updated>1624038909624</updated>
     </task>
     <task id="LOCAL-00269" summary="Начало работы над приложением">
       <created>1624040038845</created>
@@ -533,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634649905340</updated>
     </task>
-    <option name="localTasksCounter" value="317" />
+    <task id="LOCAL-00317" summary="переименовка файлов под задание">
+      <created>1634650647874</created>
+      <option name="number" value="00317" />
+      <option name="presentableId" value="LOCAL-00317" />
+      <option name="project" value="LOCAL" />
+      <updated>1634650647874</updated>
+    </task>
+    <option name="localTasksCounter" value="318" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,7 +609,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Представление topics" />
     <MESSAGE value="Шаблон topics" />
     <MESSAGE value="Страницы отдельных тем" />
     <MESSAGE value="Представление отдельной темы" />
@@ -631,7 +633,8 @@
     <MESSAGE value="сменил пути" />
     <MESSAGE value="изображение 2" />
     <MESSAGE value="Поездка Тони" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поездка Тони" />
+    <MESSAGE value="переименовка файлов под задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="переименовка файлов под задание" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
