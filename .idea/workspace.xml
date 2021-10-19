@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="сменил пути">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -62,6 +61,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python library\gitTutorial\HTML\Ride" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.views">
     <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -187,13 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00263" summary="Установка Django">
-      <created>1623960838937</created>
-      <option name="number" value="00263" />
-      <option name="presentableId" value="LOCAL-00263" />
-      <option name="project" value="LOCAL" />
-      <updated>1623960838937</updated>
     </task>
     <task id="LOCAL-00264" summary="Создание проекта в Django">
       <created>1623960898573</created>
@@ -531,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631207155764</updated>
     </task>
-    <option name="localTasksCounter" value="312" />
+    <task id="LOCAL-00312" summary="сменил пути">
+      <created>1634647724561</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1634647724561</updated>
+    </task>
+    <option name="localTasksCounter" value="313" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -567,7 +571,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="proba" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -604,7 +608,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Родительский шаблон" />
     <MESSAGE value="Дочерний шаблон" />
     <MESSAGE value="Страница со списком тем" />
     <MESSAGE value="Представление topics" />
@@ -629,7 +632,8 @@
     <MESSAGE value="глава 19" />
     <MESSAGE value="добавил игнорируемые файлы" />
     <MESSAGE value="Автокликер" />
-    <option name="LAST_COMMIT_MESSAGE" value="Автокликер" />
+    <MESSAGE value="сменил пути" />
+    <option name="LAST_COMMIT_MESSAGE" value="сменил пути" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
