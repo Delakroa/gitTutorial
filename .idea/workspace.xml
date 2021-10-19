@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="549453b1-fdad-4d27-ac81-05889ec5fb38" name="Default Changelist" comment="Исправил">
+    <list default="true" id="549453b1-fdad-4d27-ac81-05889ec5fb38" name="Default Changelist" comment="Доделал задание">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/beverages/elixir.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/beverages/elixir.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/lounge.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/lounge.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,18 +193,10 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="нужно закончить задание" />
       <created>1618923934700</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00288" summary="Представление topics">
-      <created>1624514002728</created>
-      <option name="number" value="00288" />
-      <option name="presentableId" value="LOCAL-00288" />
-      <option name="project" value="LOCAL" />
-      <updated>1624514002728</updated>
     </task>
     <task id="LOCAL-00289" summary="Шаблон topics">
       <created>1625474878533</created>
@@ -544,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634588771089</updated>
     </task>
-    <option name="localTasksCounter" value="337" />
+    <task id="LOCAL-00337" summary="Доделал задание">
+      <created>1634589569241</created>
+      <option name="number" value="00337" />
+      <option name="presentableId" value="LOCAL-00337" />
+      <option name="project" value="LOCAL" />
+      <updated>1634589569242</updated>
+    </task>
+    <option name="localTasksCounter" value="338" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -617,7 +614,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Шаблон new_entry" />
     <MESSAGE value="Изучение HTML" />
     <MESSAGE value="Основная задача" />
     <MESSAGE value="id=&quot;houseblend&quot;&gt;" />
@@ -642,7 +638,8 @@
     <MESSAGE value="Страница входа" />
     <MESSAGE value="Добавил новые файлы в майн" />
     <MESSAGE value="Исправил" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправил" />
+    <MESSAGE value="Доделал задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доделал задание" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
