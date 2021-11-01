@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="добавил в ссылке title">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="убрал коментарий">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/Starbuzz/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Starbuzz/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/chapter3/journal.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapter3/journal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,20 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00282" summary="Сопоставление URL">
-      <created>1624511410238</created>
-      <option name="number" value="00282" />
-      <option name="presentableId" value="LOCAL-00282" />
-      <option name="project" value="LOCAL" />
-      <updated>1624511410238</updated>
-    </task>
-    <task id="LOCAL-00283" summary="Написание представления">
-      <created>1624511755091</created>
-      <option name="number" value="00283" />
-      <option name="presentableId" value="LOCAL-00283" />
-      <option name="project" value="LOCAL" />
-      <updated>1624511755091</updated>
     </task>
     <task id="LOCAL-00284" summary="Написание шаблона">
       <created>1624512201550</created>
@@ -538,7 +523,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635435967964</updated>
     </task>
-    <option name="localTasksCounter" value="331" />
+    <task id="LOCAL-00331" summary="Добавил title на чай">
+      <created>1635778634029</created>
+      <option name="number" value="00331" />
+      <option name="presentableId" value="LOCAL-00331" />
+      <option name="project" value="LOCAL" />
+      <updated>1635778634029</updated>
+    </task>
+    <task id="LOCAL-00332" summary="убрал коментарий">
+      <created>1635778669747</created>
+      <option name="number" value="00332" />
+      <option name="presentableId" value="LOCAL-00332" />
+      <option name="project" value="LOCAL" />
+      <updated>1635778669747</updated>
+    </task>
+    <option name="localTasksCounter" value="333" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -611,8 +610,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="URL-адрес для new_topic" />
-    <MESSAGE value="Функция представления new_topic()" />
     <MESSAGE value="Запросы GET и POST" />
     <MESSAGE value="доделать new_topic" />
     <MESSAGE value="доделал new_topic" />
@@ -636,7 +633,9 @@
     <MESSAGE value="переместил в папку" />
     <MESSAGE value="добавил ссылки на страницы" />
     <MESSAGE value="добавил в ссылке title" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил в ссылке title" />
+    <MESSAGE value="Добавил title на чай" />
+    <MESSAGE value="убрал коментарий" />
+    <option name="LAST_COMMIT_MESSAGE" value="убрал коментарий" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
