@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Исправил">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="target=&quot;_blank&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Starbuzz/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Starbuzz/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00286" summary="Дочерний шаблон">
-      <created>1624513483202</created>
-      <option name="number" value="00286" />
-      <option name="presentableId" value="LOCAL-00286" />
-      <option name="project" value="LOCAL" />
-      <updated>1624513483202</updated>
     </task>
     <task id="LOCAL-00287" summary="Страница со списком тем">
       <created>1624513720016</created>
@@ -537,8 +529,26 @@
       <option name="project" value="LOCAL" />
       <updated>1635781050208</updated>
     </task>
-    <option name="localTasksCounter" value="335" />
+    <task id="LOCAL-00335" summary="target=&quot;_blank&quot;">
+      <created>1635789308995</created>
+      <option name="number" value="00335" />
+      <option name="presentableId" value="LOCAL-00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1635789308995</updated>
+    </task>
+    <option name="localTasksCounter" value="336" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -610,7 +620,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="доделал new_topic" />
     <MESSAGE value="испрравил" />
     <MESSAGE value="Шаблон new_topic" />
     <MESSAGE value="Добавление новых записей&#10;Класс EntryForm" />
@@ -635,7 +644,8 @@
     <MESSAGE value="убрал коментарий" />
     <MESSAGE value="Изменил ссылки, добавил якоря." />
     <MESSAGE value="Исправил" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправил" />
+    <MESSAGE value="target=&quot;_blank&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="target=&quot;_blank&quot;" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
