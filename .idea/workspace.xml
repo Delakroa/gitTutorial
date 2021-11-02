@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="target=&quot;_blank&quot;">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Рефакторинг по заданию.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/beverages/elixir.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/beverages/elixir.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,13 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00287" summary="Страница со списком тем">
-      <created>1624513720016</created>
-      <option name="number" value="00287" />
-      <option name="presentableId" value="LOCAL-00287" />
-      <option name="project" value="LOCAL" />
-      <updated>1624513720016</updated>
     </task>
     <task id="LOCAL-00288" summary="Представление topics">
       <created>1624514002728</created>
@@ -536,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635789308995</updated>
     </task>
-    <option name="localTasksCounter" value="336" />
+    <task id="LOCAL-00336" summary="Рефакторинг по заданию.">
+      <created>1635858538652</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1635858538652</updated>
+    </task>
+    <option name="localTasksCounter" value="337" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -620,7 +621,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="испрравил" />
     <MESSAGE value="Шаблон new_topic" />
     <MESSAGE value="Добавление новых записей&#10;Класс EntryForm" />
     <MESSAGE value="URL-адрес для new_entry" />
@@ -645,7 +645,8 @@
     <MESSAGE value="Изменил ссылки, добавил якоря." />
     <MESSAGE value="Исправил" />
     <MESSAGE value="target=&quot;_blank&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="target=&quot;_blank&quot;" />
+    <MESSAGE value="Рефакторинг по заданию." />
+    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг по заданию." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
