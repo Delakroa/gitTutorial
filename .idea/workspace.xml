@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Перенёс в папку с главой 2">
-      <change beforePath="$PROJECT_DIR$/HTML/chapetr2/image/blue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/images/blue.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/chapetr2/image/drinks.gif" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/images/drinks.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/chapetr2/image/green.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/images/green.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/chapetr2/image/lightblue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/images/lightblue.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/chapetr2/image/red.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/images/red.jpg" afterDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="изменил название пути на images">
+      <change beforePath="$PROJECT_DIR$/HTML/chapter5/mypod/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,20 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00293" summary="Ссылки на странице">
-      <created>1625563325026</created>
-      <option name="number" value="00293" />
-      <option name="presentableId" value="LOCAL-00293" />
-      <option name="project" value="LOCAL" />
-      <updated>1625563325026</updated>
-    </task>
-    <task id="LOCAL-00294" summary="Редактирование данных">
-      <created>1625563573690</created>
-      <option name="number" value="00294" />
-      <option name="presentableId" value="LOCAL-00294" />
-      <option name="project" value="LOCAL" />
-      <updated>1625563573690</updated>
     </task>
     <task id="LOCAL-00295" summary="Объект ModelForm">
       <created>1625640134802</created>
@@ -543,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635943311146</updated>
     </task>
-    <option name="localTasksCounter" value="342" />
+    <task id="LOCAL-00342" summary="изменил название папки с image на images">
+      <created>1635943599632</created>
+      <option name="number" value="00342" />
+      <option name="presentableId" value="LOCAL-00342" />
+      <option name="project" value="LOCAL" />
+      <updated>1635943599632</updated>
+    </task>
+    <task id="LOCAL-00343" summary="изменил название пути на images">
+      <created>1635943665185</created>
+      <option name="number" value="00343" />
+      <option name="presentableId" value="LOCAL-00343" />
+      <option name="project" value="LOCAL" />
+      <updated>1635943665185</updated>
+    </task>
+    <option name="localTasksCounter" value="344" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -627,8 +623,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="глава 19" />
-    <MESSAGE value="добавил игнорируемые файлы" />
     <MESSAGE value="Автокликер" />
     <MESSAGE value="сменил пути" />
     <MESSAGE value="изображение 2" />
@@ -652,7 +646,9 @@
     <MESSAGE value="Создал папку и перенёс файл" />
     <MESSAGE value="Перенёс Старбуз в главу 4ири" />
     <MESSAGE value="Перенёс в папку с главой 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Перенёс в папку с главой 2" />
+    <MESSAGE value="изменил название папки с image на images" />
+    <MESSAGE value="изменил название пути на images" />
+    <option name="LAST_COMMIT_MESSAGE" value="изменил название пути на images" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
