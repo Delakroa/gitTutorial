@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Добавил атрибут alt" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Создал папку и перенёс файл">
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/html/applestore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/html/britain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/html/seattle_classic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/html/seattle_shuffle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/html/seattle_video_med.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/logo/mypod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/logo/mypod.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/photos/applestore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/photos/britain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/photos/seattle_classic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/photos/seattle_classic_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/photos/seattle_downtown.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/photos/seattle_medium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/photos/seattle_shuffle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/photos/seattle_video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/photos/seattle_video_med.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/thumbnails/applestore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/thumbnails/britain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/thumbnails/seattle_classic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/thumbnails/seattle_downtown.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/thumbnails/seattle_shuffle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/thumbnails/seattle_video_med.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +88,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python library\gitTutorial\HTML\chapter5\pencil" />
       <recent name="E:\python library\gitTutorial\HTML" />
       <recent name="D:\Python library\gitTutorial\HTML\Starbuzz" />
       <recent name="D:\Python library\gitTutorial\HTML\Ride" />
@@ -191,13 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00290" summary="Страницы отдельных тем">
-      <created>1625475071746</created>
-      <option name="number" value="00290" />
-      <option name="presentableId" value="LOCAL-00290" />
-      <option name="project" value="LOCAL" />
-      <updated>1625475071746</updated>
     </task>
     <task id="LOCAL-00291" summary="Представление отдельной темы">
       <created>1625561556927</created>
@@ -535,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635941445519</updated>
     </task>
-    <option name="localTasksCounter" value="339" />
+    <task id="LOCAL-00339" summary="Создал папку и перенёс файл">
+      <created>1635941862290</created>
+      <option name="number" value="00339" />
+      <option name="presentableId" value="LOCAL-00339" />
+      <option name="project" value="LOCAL" />
+      <updated>1635941862290</updated>
+    </task>
+    <option name="localTasksCounter" value="340" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -619,7 +645,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="URL-адрес для new_entry" />
     <MESSAGE value="Функция представления new_entry()" />
     <MESSAGE value="Шаблон new_entry" />
     <MESSAGE value="глава 19" />
@@ -644,7 +669,8 @@
     <MESSAGE value="Рефакторинг по заданию." />
     <MESSAGE value="Исправил форматирование" />
     <MESSAGE value="Добавил атрибут alt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил атрибут alt" />
+    <MESSAGE value="Создал папку и перенёс файл" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал папку и перенёс файл" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
