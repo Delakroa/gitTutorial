@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="изменил название пути на images">
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="добавил фото">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/chapter5/mypod/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapter5/mypod/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,13 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00295" summary="Объект ModelForm">
-      <created>1625640134802</created>
-      <option name="number" value="00295" />
-      <option name="presentableId" value="LOCAL-00295" />
-      <option name="project" value="LOCAL" />
-      <updated>1625640134802</updated>
     </task>
     <task id="LOCAL-00296" summary="URL-адрес для new_topic">
       <created>1625642718556</created>
@@ -539,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635943665185</updated>
     </task>
-    <option name="localTasksCounter" value="344" />
+    <task id="LOCAL-00344" summary="добавил фото">
+      <created>1635944393983</created>
+      <option name="number" value="00344" />
+      <option name="presentableId" value="LOCAL-00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1635944393983</updated>
+    </task>
+    <option name="localTasksCounter" value="345" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -623,7 +624,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Автокликер" />
     <MESSAGE value="сменил пути" />
     <MESSAGE value="изображение 2" />
     <MESSAGE value="Поездка Тони" />
@@ -648,7 +648,8 @@
     <MESSAGE value="Перенёс в папку с главой 2" />
     <MESSAGE value="изменил название папки с image на images" />
     <MESSAGE value="изменил название пути на images" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменил название пути на images" />
+    <MESSAGE value="добавил фото" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил фото" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
