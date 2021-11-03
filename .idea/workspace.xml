@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Перенёс Старбуз в главу 4ири">
-      <change afterPath="$PROJECT_DIR$/HTML/chapetr2/beverages/elixir.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/about/directions.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/about/directions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/beverages/elixir.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/image/blue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/image/blue.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/image/drinks.gif" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/image/drinks.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/image/green.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/image/green.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/image/lightblue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/image/lightblue.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/image/red.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/image/red.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/lounge.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/lounge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/reclama.html" beforeDir="false" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Перенёс в папку с главой 2">
+      <change beforePath="$PROJECT_DIR$/HTML/chapetr2/image/blue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/images/blue.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/chapetr2/image/drinks.gif" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/images/drinks.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/chapetr2/image/green.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/images/green.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/chapetr2/image/lightblue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/images/lightblue.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/chapetr2/image/red.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/chapetr2/images/red.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,13 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00292" summary="Шаблон отдельной темы">
-      <created>1625562028639</created>
-      <option name="number" value="00292" />
-      <option name="presentableId" value="LOCAL-00292" />
-      <option name="project" value="LOCAL" />
-      <updated>1625562028639</updated>
     </task>
     <task id="LOCAL-00293" summary="Ссылки на странице">
       <created>1625563325026</created>
@@ -549,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635942794627</updated>
     </task>
-    <option name="localTasksCounter" value="341" />
+    <task id="LOCAL-00341" summary="Перенёс в папку с главой 2">
+      <created>1635943311146</created>
+      <option name="number" value="00341" />
+      <option name="presentableId" value="LOCAL-00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1635943311146</updated>
+    </task>
+    <option name="localTasksCounter" value="342" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -633,7 +627,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Шаблон new_entry" />
     <MESSAGE value="глава 19" />
     <MESSAGE value="добавил игнорируемые файлы" />
     <MESSAGE value="Автокликер" />
@@ -658,7 +651,8 @@
     <MESSAGE value="Добавил атрибут alt" />
     <MESSAGE value="Создал папку и перенёс файл" />
     <MESSAGE value="Перенёс Старбуз в главу 4ири" />
-    <option name="LAST_COMMIT_MESSAGE" value="Перенёс Старбуз в главу 4ири" />
+    <MESSAGE value="Перенёс в папку с главой 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перенёс в папку с главой 2" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
