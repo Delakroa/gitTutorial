@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="добавил фото">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cepochki_if_elif_else_chapter5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Funkcii_chapter8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generirovanie_dannih_chapter15.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kortegi_chapter4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rabota_API_chapter_17.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rabota_s_chastiu_spiska_chapter4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIzdanie_prishelcev_chapter13.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Slovari_chapter6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sozdanie_igri_chapter12.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testirovanie_chapter11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uchetnaia_zapis_polzovatelei_chapter19.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vedenie_scheta_chapter14.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vvod_dannih_v_spisok_while_chapter7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zagruska_dannih_chapter16.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Znakomstvo_s_Django_chapter18.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes_chapter9.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faili_i_iskluchenia_chapter10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/komanda_IF_chapter5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slovari.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pip.py" beforeDir="false" />
-    </list>
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="добавил фото" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
