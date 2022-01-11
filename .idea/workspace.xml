@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="добавил фото" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment=":D" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,20 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00298" summary="Запросы GET и POST">
-      <created>1625655800365</created>
-      <option name="number" value="00298" />
-      <option name="presentableId" value="LOCAL-00298" />
-      <option name="project" value="LOCAL" />
-      <updated>1625655800365</updated>
-    </task>
-    <task id="LOCAL-00299" summary="доделать new_topic">
-      <created>1625656991027</created>
-      <option name="number" value="00299" />
-      <option name="presentableId" value="LOCAL-00299" />
-      <option name="project" value="LOCAL" />
-      <updated>1625656991027</updated>
     </task>
     <task id="LOCAL-00300" summary="доделал new_topic">
       <created>1625829371116</created>
@@ -540,7 +526,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641876701696</updated>
     </task>
-    <option name="localTasksCounter" value="347" />
+    <task id="LOCAL-00347" summary="структурировал">
+      <created>1641885539347</created>
+      <option name="number" value="00347" />
+      <option name="presentableId" value="LOCAL-00347" />
+      <option name="project" value="LOCAL" />
+      <updated>1641885539347</updated>
+    </task>
+    <task id="LOCAL-00348" summary=":D">
+      <created>1641885675908</created>
+      <option name="number" value="00348" />
+      <option name="presentableId" value="LOCAL-00348" />
+      <option name="project" value="LOCAL" />
+      <updated>1641885675908</updated>
+    </task>
+    <option name="localTasksCounter" value="349" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -623,8 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="сменил пути" />
-    <MESSAGE value="изображение 2" />
     <MESSAGE value="Поездка Тони" />
     <MESSAGE value="переименовка файлов под задание" />
     <MESSAGE value="Добавил &lt;blockquote&gt;" />
@@ -648,7 +646,9 @@
     <MESSAGE value="изменил название папки с image на images" />
     <MESSAGE value="изменил название пути на images" />
     <MESSAGE value="добавил фото" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил фото" />
+    <MESSAGE value="структурировал" />
+    <MESSAGE value=":D" />
+    <option name="LAST_COMMIT_MESSAGE" value=":D" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
