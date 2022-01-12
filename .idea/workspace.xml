@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Новое задание" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Удалил лишнее" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,13 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618923934700</updated>
-    </task>
-    <task id="LOCAL-00300" summary="доделал new_topic">
-      <created>1625829371116</created>
-      <option name="number" value="00300" />
-      <option name="presentableId" value="LOCAL-00300" />
-      <option name="project" value="LOCAL" />
-      <updated>1625829371116</updated>
     </task>
     <task id="LOCAL-00301" summary="испрравил">
       <created>1626091621709</created>
@@ -540,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641885675908</updated>
     </task>
-    <option name="localTasksCounter" value="349" />
+    <task id="LOCAL-00349" summary="Удалил лишнее">
+      <created>1642000150638</created>
+      <option name="number" value="00349" />
+      <option name="presentableId" value="LOCAL-00349" />
+      <option name="project" value="LOCAL" />
+      <updated>1642000150638</updated>
+    </task>
+    <option name="localTasksCounter" value="350" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -623,7 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Поездка Тони" />
     <MESSAGE value="переименовка файлов под задание" />
     <MESSAGE value="Добавил &lt;blockquote&gt;" />
     <MESSAGE value="Добавил &lt;br&gt; возврат коретки" />
@@ -648,7 +647,8 @@
     <MESSAGE value="добавил фото" />
     <MESSAGE value="структурировал" />
     <MESSAGE value=":D" />
-    <option name="LAST_COMMIT_MESSAGE" value=":D" />
+    <MESSAGE value="Удалил лишнее" />
+    <option name="LAST_COMMIT_MESSAGE" value="Удалил лишнее" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
