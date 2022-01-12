@@ -31,11 +31,3 @@ nota = Label(root, text="Час        минуты        секунды", font
 nota.grid(row=3, column=2)
 
 root.mainloop()
-
-
-
-# def flash(button):
-#     current_color = button.cget("background")
-#     next_color = "green" if current_color == "red" else "red"
-#     button.config(background=next_color)
-#     root.after(1000, flash, button)
