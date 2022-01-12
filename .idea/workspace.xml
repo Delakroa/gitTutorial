@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment=":D" />
+    <list default="true" id="a757004f-86a4-4766-9849-8967b79948d8" name="Default Changelist" comment="Электронные часы" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -623,7 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Поездка Тони" />
     <MESSAGE value="переименовка файлов под задание" />
     <MESSAGE value="Добавил &lt;blockquote&gt;" />
     <MESSAGE value="Добавил &lt;br&gt; возврат коретки" />
@@ -648,7 +647,8 @@
     <MESSAGE value="добавил фото" />
     <MESSAGE value="структурировал" />
     <MESSAGE value=":D" />
-    <option name="LAST_COMMIT_MESSAGE" value=":D" />
+    <MESSAGE value="Электронные часы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Электронные часы" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
