@@ -13,5 +13,5 @@ pg.move(192, 793, 0.4)
 
 # pg.PAUSE = 3.5
 
-# pg.typewrite('Volodia zavtra lomaem pentagon!\n')
-# pg.typewrite('effectivnost nasha))\n')
+# pg.typewrite('name!\n')
+# pg.typewrite('lastname))\n')
