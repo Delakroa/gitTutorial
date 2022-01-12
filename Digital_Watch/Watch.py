@@ -24,7 +24,7 @@ clock.grid(row=2, column=2, pady=25, padx=100)
 timing()
 
 # создать переменную для цифровых часов
-digital = Label(root, text="Цифровые часы для А.Н. Камызина", font="times 24 bold")
+digital = Label(root, text="Часы электронные", font="times 24 bold")
 digital.grid(row=0, column=2)
 
 nota = Label(root, text="Час        минуты        секунды", font="times 15 bold")
